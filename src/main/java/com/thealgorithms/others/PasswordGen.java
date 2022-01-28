@@ -12,6 +12,7 @@ import java.util.Random;
  * @date 2017.10.25
  */
 class PasswordGen {
+    private static Random random = null;
 
     public static void main(String args[]) {
         String password = generatePassword(8, 16);
@@ -19,7 +20,7 @@ class PasswordGen {
     }
 
     static String generatePassword(int min_length, int max_length) {
-        Random random = new Random();
+        random = new Random();
 
         String upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         String lower = "abcdefghijklmnopqrstuvwxyz";
