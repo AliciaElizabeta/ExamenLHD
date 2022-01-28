@@ -5,12 +5,28 @@ for better understanding
 package com.thealgorithms.datastructures.graphs;
 import java.util.Random;
 
+/*! \brief Clase DIJSKSTRAS_ALGORITHM
+ * Esta clase se encarga de realizar el algoritmo de dijkstra
+ * dado un grafo
+ */
+
 public class DIJSKSTRAS_ALGORITHM {
     private static Random r;
     int k = 9;
 
+    //! Metodo getK().
+    /*!
+      Retorna el valor de K que esta inicializado a 9
+      pero esto cambia segun el grafo
+    */
     public int getK(){ return k; }
 
+    //! Metodo minDist().
+    /*!
+      A partir de un array de distancias y un conjunto de
+      booleanos asociadas a las posiciones del array
+      devuelve el indice del array con distancia minima
+    */
     public int minDist(int dist[], Boolean Set[]) {
         int min = Integer.MAX_VALUE, min_index = -1;
 
@@ -24,6 +40,12 @@ public class DIJSKSTRAS_ALGORITHM {
         return min_index;
     }
 
+    //! Metodo print().
+    /*!
+      Recibe un array de distancias y muestra
+      una salida formateada, además retorna en
+      este caso un String con dicha salida
+    */
     public String print(int dist[]) {
         System.out.println("Vertex \t\t Distance");
         String toReturn = "Vertex \t\t Distance";
@@ -33,7 +55,12 @@ public class DIJSKSTRAS_ALGORITHM {
         }
         return toReturn;
     }
-	
+
+    //! Metodo aleatorySelectionRCL.
+    /*!
+      Se indica un valor maximo y se seleciona una posicion
+      calculada aleatoriamente entre el maximo y 0
+    */
     public int aleatorySelectionRCL(int maxTRCL) {
        r = new Random();
        int low = 0;
@@ -41,7 +68,12 @@ public class DIJSKSTRAS_ALGORITHM {
        int posSelected = r.nextInt(high-low) + low;
        return posSelected;
     }
-	
+
+    //! Metodo dijkstra.
+    /*!
+      A partir de un grafo realiza el algoritmo
+      de dijkstra
+    */
     void dijkstra(int graph[][], int src) {
         int dist[] = new int[k];
         Boolean Set[] = new Boolean[k];
