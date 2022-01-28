@@ -11,7 +11,7 @@ public class DIJSKSTRAS_ALGORITHMTest {
     @Test
     void testFor1(){
         DIJSKSTRAS_ALGORITHM a = new DIJSKSTRAS_ALGORITHM();
-        assertTrue(a.aleatorySelectionRCL(10)>0);}
+        assertTrue(a.aleatorySelectionRCL(10)<11);}
 
     @Test
     void testFor2(){
