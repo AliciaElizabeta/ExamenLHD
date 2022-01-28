@@ -6,7 +6,7 @@ package com.thealgorithms.datastructures.graphs;
 import java.util.Random;
 
 class dijkstras {
-
+    Random r = null;
     int k = 9;
 
     int minDist(int dist[], Boolean Set[]) {
@@ -30,7 +30,7 @@ class dijkstras {
     }
 	
     int aleatorySelectionRCL(int maxTRCL) {
-       Random r = new Random();
+       r = new Random();
        int low = 0;
        int high = maxTRCL;
        int posSelected = r.nextInt(high-low) + low;
