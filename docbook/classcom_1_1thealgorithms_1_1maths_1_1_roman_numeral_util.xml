@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_roman_numeral_util" xml:lang="en-US">
+<title>com.thealgorithms.maths.RomanNumeralUtil Class Reference</title>
+<indexterm><primary>com.thealgorithms.maths.RomanNumeralUtil</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_roman_numeral_util_1a49e8f6b42af9ba160681cb69839243c4"/>static String <emphasis role="strong">generate</emphasis> (int number)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Translates numbers into the Roman Numeral System.</para>
+
+<para><formalpara><title>See also</title>
+
+<para><link xlink:href="https://en.wikipedia.org/wiki/Roman_numerals">Roman numerals</link> </para>
+</formalpara>
+<formalpara><title>Author</title>
+
+<para>Sokratis Fotkatzikis </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+</para>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/maths/RomanNumeralUtil.java</section>
+</section>

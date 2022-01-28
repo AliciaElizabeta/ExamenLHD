@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_perfect_number" xml:lang="en-US">
+<title>com.thealgorithms.maths.PerfectNumber Class Reference</title>
+<indexterm><primary>com.thealgorithms.maths.PerfectNumber</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_perfect_number_1a41531ea86509790dc1f9d79c44456bd3"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+            <listitem><para>static boolean <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_perfect_number_1aca069d3f4fe5e5023f5d13c4e928fc6e">isPerfectNumber</link> (int number)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>In number theory, a perfect number is a positive integer that is equal to the sum of its positive divisors, excluding the number itself. For instance, 6 has divisors 1, 2 and 3 (excluding itself), and 1 + 2 + 3 = 6, so 6 is a perfect number.</para>
+
+<para>link:https://en.wikipedia.org/wiki/Perfect_number </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_perfect_number_1aca069d3f4fe5e5023f5d13c4e928fc6e"/><section>
+    <title>isPerfectNumber()</title>
+<indexterm><primary>isPerfectNumber</primary><secondary>com.thealgorithms.maths.PerfectNumber</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.PerfectNumber</primary><secondary>isPerfectNumber</secondary></indexterm>
+<para><computeroutput>static boolean com.thealgorithms.maths.PerfectNumber.isPerfectNumber (int number)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Check if <literallayout><computeroutput>number&#32;
+</computeroutput></literallayout> is perfect number or not</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>number</entry><entry>
+<para>the number </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para><literallayout><computeroutput><emphasis role="keyword">true</emphasis>&#32;
+</computeroutput></literallayout> if <literallayout><computeroutput>number&#32;
+</computeroutput></literallayout> is perfect number, otherwise false </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/maths/PerfectNumber.java</section>
+</section>

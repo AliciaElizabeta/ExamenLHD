@@ -1,0 +1,49 @@
+.TH "com.thealgorithms.maths.FFTBluestein" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.maths.FFTBluestein
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBfftBluestein\fP (ArrayList< FFT\&.Complex > x, boolean inverse)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Class for calculating the Fast Fourier Transform (\fBFFT\fP) of a discrete signal using the Bluestein's algorithm\&.
+.PP
+\fBAuthor\fP
+.RS 4
+Ioannis Karavitsis 
+.RE
+.PP
+\fBVersion\fP
+.RS 4
+1\&.0 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "static void com\&.thealgorithms\&.maths\&.FFTBluestein\&.fftBluestein (ArrayList< FFT\&.Complex > x, boolean inverse)\fC [static]\fP"
+Bluestein's \fBFFT\fP Algorithm\&.
+.PP
+More info: https://en.wikipedia.org/wiki/Chirp_Z-transform#Bluestein.27s_algorithm http://tka4.org/materials/lib/Articles-Books/Numerical%20Algorithms/Hartley_Trasform/Bluestein%27s%20FFT%20algorithm%20-%20Wikipedia,%20the%20free%20encyclopedia.htm
+.PP
+\fBParameters\fP
+.RS 4
+\fIx\fP The discrete signal which is then converted to the \fBFFT\fP or the IFFT of signal x\&. 
+.br
+\fIinverse\fP True if you want to find the inverse \fBFFT\fP\&. 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

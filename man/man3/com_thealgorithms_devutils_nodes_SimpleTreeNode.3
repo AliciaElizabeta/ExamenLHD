@@ -1,0 +1,127 @@
+.TH "com.thealgorithms.devutils.nodes.SimpleTreeNode< E >" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.devutils.nodes.SimpleTreeNode< E >
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBcom\&.thealgorithms\&.devutils\&.nodes\&.TreeNode< E >\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBSimpleTreeNode\fP ()"
+.br
+.ti -1c
+.RI "\fBSimpleTreeNode\fP (E data)"
+.br
+.ti -1c
+.RI "\fBSimpleTreeNode\fP (E data, \fBSimpleTreeNode\fP< E > parentNode)"
+.br
+.ti -1c
+.RI "\fBSimpleTreeNode\fP (E data, \fBSimpleTreeNode\fP< E > parentNode, \fBSimpleTreeNode\fP< E > leftNode, \fBSimpleTreeNode\fP< E > rightNode)"
+.br
+.ti -1c
+.RI "boolean \fBisLeafNode\fP ()"
+.br
+.ti -1c
+.RI "\fBSimpleTreeNode\fP< E > \fBgetLeftNode\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetLeftNode\fP (\fBSimpleTreeNode\fP< E > leftNode)"
+.br
+.ti -1c
+.RI "\fBSimpleTreeNode\fP< E > \fBgetRightNode\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetRightNode\fP (\fBSimpleTreeNode\fP< E > rightNode)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Simple \fBTreeNode\fP extension that holds references to two child Nodes (left and right)\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fI<E>\fP The type of the data held in the \fBNode\fP\&.
+.RE
+.PP
+\fBAuthor\fP
+.RS 4
+\fCaitorfi\fP 
+.RE
+.PP
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "\fBcom\&.thealgorithms\&.devutils\&.nodes\&.SimpleTreeNode\fP< E >\&.\fBSimpleTreeNode\fP ()"
+Empty contructor\&. 
+.SS "\fBcom\&.thealgorithms\&.devutils\&.nodes\&.SimpleTreeNode\fP< E >\&.\fBSimpleTreeNode\fP (E data)"
+Initializes the Nodes' data\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIdata\fP Value to which data will be initialized\&. 
+.RE
+.PP
+\fBSee also\fP
+.RS 4
+TreeNode::TreeNode(Object) 
+.RE
+.PP
+
+.SS "\fBcom\&.thealgorithms\&.devutils\&.nodes\&.SimpleTreeNode\fP< E >\&.\fBSimpleTreeNode\fP (E data, \fBSimpleTreeNode\fP< E > parentNode)"
+Initializes the Nodes' data and parent node reference\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIdata\fP Value to which data will be initialized\&. 
+.br
+\fIparentNode\fP Value to which the nodes' parent reference will be set\&. 
+.RE
+.PP
+\fBSee also\fP
+.RS 4
+TreeNode::TreeNode(Object, Node) 
+.RE
+.PP
+
+.SS "\fBcom\&.thealgorithms\&.devutils\&.nodes\&.SimpleTreeNode\fP< E >\&.\fBSimpleTreeNode\fP (E data, \fBSimpleTreeNode\fP< E > parentNode, \fBSimpleTreeNode\fP< E > leftNode, \fBSimpleTreeNode\fP< E > rightNode)"
+Initializes the Nodes' data and parent and child nodes references\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIdata\fP Value to which data will be initialized\&. 
+.br
+\fIparentNode\fP Value to which the nodes' parent reference will be set\&. 
+.br
+\fIleftNode\fP Value to which the nodes' left child reference will be set\&. 
+.br
+\fIrightNode\fP Value to which the nodes' right child reference will be set\&. 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "boolean \fBcom\&.thealgorithms\&.devutils\&.nodes\&.SimpleTreeNode\fP< E >\&.isLeafNode ()"
+
+.PP
+\fBReturns\fP
+.RS 4
+True if the node is a leaf node, otherwise false\&. 
+.RE
+.PP
+\fBSee also\fP
+.RS 4
+\fBTreeNode::isLeafNode()\fP 
+.RE
+.PP
+
+.PP
+Reimplemented from \fBcom\&.thealgorithms\&.devutils\&.nodes\&.TreeNode< E >\fP\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

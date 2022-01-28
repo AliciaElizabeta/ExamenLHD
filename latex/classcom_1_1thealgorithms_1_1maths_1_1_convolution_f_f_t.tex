@@ -1,0 +1,46 @@
+\hypertarget{classcom_1_1thealgorithms_1_1maths_1_1_convolution_f_f_t}{}\doxysection{com.\+thealgorithms.\+maths.\+Convolution\+FFT Class Reference}
+\label{classcom_1_1thealgorithms_1_1maths_1_1_convolution_f_f_t}\index{com.thealgorithms.maths.ConvolutionFFT@{com.thealgorithms.maths.ConvolutionFFT}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Array\+List$<$ FFT.\+Complex $>$ \mbox{\hyperlink{classcom_1_1thealgorithms_1_1maths_1_1_convolution_f_f_t_a35f2435be411c13170e58f86ee9c0af5}{convolution\+FFT}} (Array\+List$<$ FFT.\+Complex $>$ a, Array\+List$<$ FFT.\+Complex $>$ b)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class for linear convolution of two discrete signals using the convolution theorem.
+
+\begin{DoxyAuthor}{Author}
+Ioannis Karavitsis 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1maths_1_1_convolution_f_f_t_a35f2435be411c13170e58f86ee9c0af5}\label{classcom_1_1thealgorithms_1_1maths_1_1_convolution_f_f_t_a35f2435be411c13170e58f86ee9c0af5}} 
+\index{com.thealgorithms.maths.ConvolutionFFT@{com.thealgorithms.maths.ConvolutionFFT}!convolutionFFT@{convolutionFFT}}
+\index{convolutionFFT@{convolutionFFT}!com.thealgorithms.maths.ConvolutionFFT@{com.thealgorithms.maths.ConvolutionFFT}}
+\doxysubsubsection{\texorpdfstring{convolutionFFT()}{convolutionFFT()}}
+{\footnotesize\ttfamily static Array\+List$<$ FFT.\+Complex $>$ com.\+thealgorithms.\+maths.\+Convolution\+FFT.\+convolution\+FFT (\begin{DoxyParamCaption}\item[{Array\+List$<$ FFT.\+Complex $>$}]{a,  }\item[{Array\+List$<$ FFT.\+Complex $>$}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Discrete linear convolution function. It uses the convolution theorem for discrete signals convolved\+: = IDFT(DFT(a)$\ast$\+DFT(b)). This is true for circular convolution. In order to get the linear convolution of the two signals we first pad the two signals to have the same size equal to the convolved signal (a.\+size() + b.\+size() -\/ 1). Then we use the \mbox{\hyperlink{classcom_1_1thealgorithms_1_1maths_1_1_f_f_t}{FFT}} algorithm for faster calculations of the two DFTs and the final IDFT.
+
+More info\+: \href{https://en.wikipedia.org/wiki/Convolution_theorem}{\texttt{ https\+://en.\+wikipedia.\+org/wiki/\+Convolution\+\_\+theorem}} \href{https://ccrma.stanford.edu/~jos/ReviewFourier/FFT_Convolution.html}{\texttt{ https\+://ccrma.\+stanford.\+edu/$\sim$jos/\+Review\+Fourier/\+FFT\+\_\+\+Convolution.\+html}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & The first signal. \\
+\hline
+{\em b} & The other signal. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The convolved signal. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/thealgorithms/maths/Convolution\+FFT.\+java\end{DoxyCompactItemize}

@@ -1,0 +1,74 @@
+\hypertarget{classcom_1_1thealgorithms_1_1maths_1_1_euler_method}{}\doxysection{com.\+thealgorithms.\+maths.\+Euler\+Method Class Reference}
+\label{classcom_1_1thealgorithms_1_1maths_1_1_euler_method}\index{com.thealgorithms.maths.EulerMethod@{com.thealgorithms.maths.EulerMethod}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1maths_1_1_euler_method_aef171d0b1cdbb1de1ced01d9225f1765}{main}} (String\mbox{[}$\,$\mbox{]} args)
+\item 
+static double \mbox{\hyperlink{classcom_1_1thealgorithms_1_1maths_1_1_euler_method_a8d3e1c039c3ca9af6985bd7eb027ffbe}{euler\+Step}} (double x\+Current, double step\+Size, double y\+Current, Bi\+Function$<$ Double, Double, Double $>$ differential\+Equation)
+\item 
+static Array\+List$<$ double\mbox{[}$\,$\mbox{]}$>$ \mbox{\hyperlink{classcom_1_1thealgorithms_1_1maths_1_1_euler_method_a367ff7a58793611be5770edfa52855e9}{euler\+Full}} (double x\+Start, double x\+End, double step\+Size, double y\+Start, Bi\+Function$<$ Double, Double, Double $>$ differential\+Equation)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+In mathematics and computational science, the Euler method (also called forward Euler method) is a first-\/order numerical procedure for solving ordinary differential equations (ODEs) with a given initial value. It is the most basic explicit method for numerical integration of ordinary differential equations. The method proceeds in a series of steps. At each step the y-\/value is calculated by evaluating the differential equation at the previous step, multiplying the result with the step-\/size and adding it to the last y-\/value\+: y\+\_\+n+1 = y\+\_\+n + step\+Size $\ast$ f(x\+\_\+n, y\+\_\+n). (description adapted from \href{https://en.wikipedia.org/wiki/Euler_method}{\texttt{ https\+://en.\+wikipedia.\+org/wiki/\+Euler\+\_\+method}} ) (see also\+: \href{https://www.geeksforgeeks.org/euler-method-solving-differential-equation/}{\texttt{ https\+://www.\+geeksforgeeks.\+org/euler-\/method-\/solving-\/differential-\/equation/}} ) 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1maths_1_1_euler_method_a367ff7a58793611be5770edfa52855e9}\label{classcom_1_1thealgorithms_1_1maths_1_1_euler_method_a367ff7a58793611be5770edfa52855e9}} 
+\index{com.thealgorithms.maths.EulerMethod@{com.thealgorithms.maths.EulerMethod}!eulerFull@{eulerFull}}
+\index{eulerFull@{eulerFull}!com.thealgorithms.maths.EulerMethod@{com.thealgorithms.maths.EulerMethod}}
+\doxysubsubsection{\texorpdfstring{eulerFull()}{eulerFull()}}
+{\footnotesize\ttfamily static Array\+List$<$ double\mbox{[}$\,$\mbox{]}$>$ com.\+thealgorithms.\+maths.\+Euler\+Method.\+euler\+Full (\begin{DoxyParamCaption}\item[{double}]{x\+Start,  }\item[{double}]{x\+End,  }\item[{double}]{step\+Size,  }\item[{double}]{y\+Start,  }\item[{Bi\+Function$<$ Double, Double, Double $>$}]{differential\+Equation }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Loops through all the steps until x\+End is reached, adds a point for each step and then returns all the points
+
+
+\begin{DoxyParams}{Parameters}
+{\em x\+Start} & First x-\/value. \\
+\hline
+{\em x\+End} & Last x-\/value. \\
+\hline
+{\em step\+Size} & Step-\/size on the x-\/axis. \\
+\hline
+{\em y\+Start} & First y-\/value. \\
+\hline
+{\em differential\+Equation} & The differential equation to be solved. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The points constituting the solution of the differential equation. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1maths_1_1_euler_method_a8d3e1c039c3ca9af6985bd7eb027ffbe}\label{classcom_1_1thealgorithms_1_1maths_1_1_euler_method_a8d3e1c039c3ca9af6985bd7eb027ffbe}} 
+\index{com.thealgorithms.maths.EulerMethod@{com.thealgorithms.maths.EulerMethod}!eulerStep@{eulerStep}}
+\index{eulerStep@{eulerStep}!com.thealgorithms.maths.EulerMethod@{com.thealgorithms.maths.EulerMethod}}
+\doxysubsubsection{\texorpdfstring{eulerStep()}{eulerStep()}}
+{\footnotesize\ttfamily static double com.\+thealgorithms.\+maths.\+Euler\+Method.\+euler\+Step (\begin{DoxyParamCaption}\item[{double}]{x\+Current,  }\item[{double}]{step\+Size,  }\item[{double}]{y\+Current,  }\item[{Bi\+Function$<$ Double, Double, Double $>$}]{differential\+Equation }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+calculates the next y-\/value based on the current value of x, y and the step\+Size the console.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x\+Current} & Current x-\/value. \\
+\hline
+{\em step\+Size} & Step-\/size on the x-\/axis. \\
+\hline
+{\em y\+Current} & Current y-\/value. \\
+\hline
+{\em differential\+Equation} & The differential equation to be solved. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The next y-\/value. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1maths_1_1_euler_method_aef171d0b1cdbb1de1ced01d9225f1765}\label{classcom_1_1thealgorithms_1_1maths_1_1_euler_method_aef171d0b1cdbb1de1ced01d9225f1765}} 
+\index{com.thealgorithms.maths.EulerMethod@{com.thealgorithms.maths.EulerMethod}!main@{main}}
+\index{main@{main}!com.thealgorithms.maths.EulerMethod@{com.thealgorithms.maths.EulerMethod}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily static void com.\+thealgorithms.\+maths.\+Euler\+Method.\+main (\begin{DoxyParamCaption}\item[{String\mbox{[}$\,$\mbox{]}}]{args }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Illustrates how the algorithm is used in 3 examples and prints the results to the console. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/thealgorithms/maths/Euler\+Method.\+java\end{DoxyCompactItemize}

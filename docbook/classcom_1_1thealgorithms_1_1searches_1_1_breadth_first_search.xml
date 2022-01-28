@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1searches_1_1_breadth_first_search" xml:lang="en-US">
+<title>com.thealgorithms.searches.BreadthFirstSearch Class Reference</title>
+<indexterm><primary>com.thealgorithms.searches.BreadthFirstSearch</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1searches_1_1_breadth_first_search_1aae769e81a5b84e0fa4fa58d8635b6972"/>static Optional&lt; Node &gt; <emphasis role="strong">search</emphasis> (final Node node, final String name)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1searches_1_1_breadth_first_search_1a2d66f65d91824b21a787e003c687e62a"/>static void <emphasis role="strong">assertThat</emphasis> (final Object actual, final Object expected)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1searches_1_1_breadth_first_search_1a427e48f763c75243d6f3f34f69c208bd"/>static void <emphasis role="strong">main</emphasis> (final String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><formalpara><title>Author</title>
+
+<para>: caos321 </para>
+</formalpara>
+<formalpara><title>Date</title>
+
+<para>: 31 October 2021 (Sunday) </para>
+</formalpara>
+</para>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/searches/BreadthFirstSearch.java</section>
+</section>

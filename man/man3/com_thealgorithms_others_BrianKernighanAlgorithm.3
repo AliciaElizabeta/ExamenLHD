@@ -1,0 +1,48 @@
+.TH "com.thealgorithms.others.BrianKernighanAlgorithm" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.others.BrianKernighanAlgorithm
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBmain\fP (String args[])"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.PP
+\fBAuthor\fP
+.RS 4
+Nishita Aggarwal 
+.RE
+.PP
+Brian Kernighan’s Algorithm 
+.PP
+algorithm to count the number of set bits in a given number 
+.PP
+Subtraction of 1 from a number toggles all the bits (from right to left) till the rightmost set bit(including the rightmost set bit)\&. So if we subtract a number by 1 and do bitwise & with itself i\&.e\&. (n & (n-1)), we unset the rightmost set bit\&. 
+.PP
+If we do n & (n-1) in a loop and count the no of times loop executes we get the set bit count\&. 
+.PP
+Time Complexity: O(logn) 
+.SH "Member Function Documentation"
+.PP 
+.SS "static void com\&.thealgorithms\&.others\&.BrianKernighanAlgorithm\&.main (String args[])\fC [static]\fP"
+
+.PP
+\fBParameters\fP
+.RS 4
+\fIargs\fP : command line arguments 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

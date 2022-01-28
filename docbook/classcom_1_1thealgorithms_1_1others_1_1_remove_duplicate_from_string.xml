@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1others_1_1_remove_duplicate_from_string" xml:lang="en-US">
+<title>com.thealgorithms.others.RemoveDuplicateFromString Class Reference</title>
+<indexterm><primary>com.thealgorithms.others.RemoveDuplicateFromString</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_remove_duplicate_from_string_1a0f991cb783a7133f7da6274feae3e912"/>static void <emphasis role="strong">main</emphasis> (String[] args)  throws Exception </para>
+</listitem>
+            <listitem><para>static String <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_remove_duplicate_from_string_1aba5a373eb85d8e6437655b069a8c4683">removeDuplicate</link> (String s)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><formalpara><title>Author</title>
+
+<para>Varun Upadhyay (<link xlink:href="https://github.com/varunu28">https://github.com/varunu28</link>) </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_remove_duplicate_from_string_1aba5a373eb85d8e6437655b069a8c4683"/><section>
+    <title>removeDuplicate()</title>
+<indexterm><primary>removeDuplicate</primary><secondary>com.thealgorithms.others.RemoveDuplicateFromString</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.others.RemoveDuplicateFromString</primary><secondary>removeDuplicate</secondary></indexterm>
+<para><computeroutput>static String com.thealgorithms.others.RemoveDuplicateFromString.removeDuplicate (String s)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>This method produces a string after removing all the duplicate characters from input string and returns it Example: Input String - &quot;aabbbccccddddd&quot; Output String - &quot;abcd&quot;</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>s</entry><entry>
+<para>String from which duplicate characters have to be removed </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>string with only unique characters </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/others/RemoveDuplicateFromString.java</section>
+</section>

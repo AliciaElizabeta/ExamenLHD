@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1misc_1_1_word_boggle" xml:lang="en-US">
+<title>com.thealgorithms.misc.WordBoggle Class Reference</title>
+<indexterm><primary>com.thealgorithms.misc.WordBoggle</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static List&lt; String &gt; <link linkend="_classcom_1_1thealgorithms_1_1misc_1_1_word_boggle_1a517d97aab1a0c19ac221a0746ae8c791">boggleBoard</link> (char[][] board, String[] words)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1misc_1_1_word_boggle_1a64fa6445945a576a54907cd866b2e206"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1misc_1_1_word_boggle_1adc1df37e2b36d14120e5ac552bb532b5"/>static void <emphasis role="strong">explore</emphasis> (int i, int j, char[][] board, TrieNode trieNode, boolean[][] visited, Set&lt; String &gt; finalWords)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1misc_1_1_word_boggle_1a0bda46e8adaf4a6bd9abacb32268c246"/>static List&lt; Integer[]&gt; <emphasis role="strong">getNeighbors</emphasis> (int i, int j, char[][] board)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1misc_1_1_word_boggle_1a517d97aab1a0c19ac221a0746ae8c791"/><section>
+    <title>boggleBoard()</title>
+<indexterm><primary>boggleBoard</primary><secondary>com.thealgorithms.misc.WordBoggle</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.misc.WordBoggle</primary><secondary>boggleBoard</secondary></indexterm>
+<para><computeroutput>static List&lt; String &gt; com.thealgorithms.misc.WordBoggle.boggleBoard (char board[][], String[] words)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>O(nm * 8^s + ws) time where n = width of boggle board, m = height of boggle board, s = length of longest word in string array, w = length of string array, 8 is due to 8 explorable neighbours O(nm + ws) space. </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/misc/WordBoggle.java</section>
+</section>

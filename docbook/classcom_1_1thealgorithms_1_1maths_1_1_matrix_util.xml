@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_matrix_util" xml:lang="en-US">
+<title>com.thealgorithms.maths.MatrixUtil Class Reference</title>
+<indexterm><primary>com.thealgorithms.maths.MatrixUtil</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_matrix_util_1aa3c10ba38539d73f79623953eaa1a084"/>static boolean <emphasis role="strong">isValid</emphasis> (final BigDecimal[][] matrix)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_matrix_util_1adca962ce6f85db2d492fc511e9d0ca2c"/>static boolean <emphasis role="strong">hasEqualSizes</emphasis> (final BigDecimal[][] matrix1, final BigDecimal[][] matrix2)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_matrix_util_1a5a34ae9eb142443e2a139b897eac49f8"/>static boolean <emphasis role="strong">canMultiply</emphasis> (final BigDecimal[][] matrix1, final BigDecimal[][] matrix2)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_matrix_util_1aa0a523843933e16032497d5b9ab694e4"/>static Optional&lt; BigDecimal[][]&gt; <emphasis role="strong">operate</emphasis> (final BigDecimal[][] matrix1, final BigDecimal[][] matrix2, final BiFunction&lt; BigDecimal, BigDecimal, BigDecimal &gt; operation)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_matrix_util_1a63131cccb0aaa60ab3081c8a428fadd0"/>static Optional&lt; BigDecimal[][]&gt; <emphasis role="strong">add</emphasis> (final BigDecimal[][] matrix1, final BigDecimal[][] matrix2)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_matrix_util_1abdefbf35f989beff152b3c53b1ca59a2"/>static Optional&lt; BigDecimal[][]&gt; <emphasis role="strong">subtract</emphasis> (final BigDecimal[][] matrix1, final BigDecimal[][] matrix2)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_matrix_util_1a6e7e2c462cf2dbe9a8d4b8de5da1f7d5"/>static Optional&lt; BigDecimal[][]&gt; <emphasis role="strong">multiply</emphasis> (final BigDecimal[][] matrix1, final BigDecimal[][] matrix2)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_matrix_util_1ae01a70e35ebb54b8bcec002c1b829dca"/>static void <emphasis role="strong">assertThat</emphasis> (final BigDecimal[][] actual, final BigDecimal[][] expected)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_matrix_util_1a5e79822df92819ab00f8f9163dcef9ef"/>static void <emphasis role="strong">main</emphasis> (final String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><formalpara><title>Author</title>
+
+<para>: caos321 </para>
+</formalpara>
+<formalpara><title>Date</title>
+
+<para>: 31 October 2021 (Sunday) </para>
+</formalpara>
+</para>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/maths/MatrixUtil.java</section>
+</section>

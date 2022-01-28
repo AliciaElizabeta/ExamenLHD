@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.hashmap.hashing.HashMap Class Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.hashmap.hashing.HashMap</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <emphasis role="strong">LinkedList</emphasis></para>
+</listitem>
+            <listitem><para>class <emphasis role="strong">Node</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_1a4decfa6e5016eb8882022690a5a03a07"/><emphasis role="strong">HashMap</emphasis> (int hsize)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_1ad6a22175bf349fb432747bac4a2a832e"/>int <emphasis role="strong">hashing</emphasis> (int key)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_1ae045e37670e737203f1566f53c3e1490"/>void <emphasis role="strong">insertHash</emphasis> (int key)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_1af34bf7c7630f1eaa9d58f301f4d5670d"/>void <emphasis role="strong">deleteHash</emphasis> (int key)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_1ae9a87f243daee4d45f4fcf75b1b0c208"/>void <emphasis role="strong">displayHashtable</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/hashmap/hashing/HashMap.java</section>

@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_fibonacci_number" xml:lang="en-US">
+<title>com.thealgorithms.maths.FibonacciNumber Class Reference</title>
+<indexterm><primary>com.thealgorithms.maths.FibonacciNumber</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_fibonacci_number_1ab9ad8012c7226734a787189a872057f5"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+            <listitem><para>static boolean <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_fibonacci_number_1a63d57f7e26c1a66b44e10ebcfaeb2227">isPerfectSquare</link> (int number)</para>
+</listitem>
+            <listitem><para>static boolean <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_fibonacci_number_1ae1533f7c5b84295812c65dbaae5fc207">isFibonacciNumber</link> (int number)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Fibonacci: 0 1 1 2 3 5 8 13 21 ... </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_fibonacci_number_1ae1533f7c5b84295812c65dbaae5fc207"/><section>
+    <title>isFibonacciNumber()</title>
+<indexterm><primary>isFibonacciNumber</primary><secondary>com.thealgorithms.maths.FibonacciNumber</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.FibonacciNumber</primary><secondary>isFibonacciNumber</secondary></indexterm>
+<para><computeroutput>static boolean com.thealgorithms.maths.FibonacciNumber.isFibonacciNumber (int number)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Check if a number is fibonacci number This is true if and only if at least one of 5x^2+4 or 5x^2-4 is a perfect square</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>number</entry><entry>
+<para>the number </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para><computeroutput>true</computeroutput> if <literallayout><computeroutput>number&#32;
+</computeroutput></literallayout> is fibonacci number, otherwise <computeroutput>false</computeroutput> <link linkend="_">https://en.wikipedia.org/wiki/Fibonacci_number#Identification</link></para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_fibonacci_number_1a63d57f7e26c1a66b44e10ebcfaeb2227"/><section>
+    <title>isPerfectSquare()</title>
+<indexterm><primary>isPerfectSquare</primary><secondary>com.thealgorithms.maths.FibonacciNumber</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.FibonacciNumber</primary><secondary>isPerfectSquare</secondary></indexterm>
+<para><computeroutput>static boolean com.thealgorithms.maths.FibonacciNumber.isPerfectSquare (int number)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Check if a number is perfect square number</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>number</entry><entry>
+<para>the number to be checked </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para><computeroutput>true</computeroutput> if <literallayout><computeroutput>number&#32;
+</computeroutput></literallayout> is perfect square, otherwise <computeroutput>false</computeroutput> </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/maths/FibonacciNumber.java</section>
+</section>

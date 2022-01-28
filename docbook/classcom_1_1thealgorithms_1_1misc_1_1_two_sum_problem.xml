@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1misc_1_1_two_sum_problem" xml:lang="en-US">
+<title>com.thealgorithms.misc.TwoSumProblem Class Reference</title>
+<indexterm><primary>com.thealgorithms.misc.TwoSumProblem</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1misc_1_1_two_sum_problem_1ab7463dcc290b5b5f39acf54f178a6d7a"/>int[] <emphasis role="strong">BruteForce</emphasis> (int[] nums, int target)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1misc_1_1_two_sum_problem_1a011fd538be4e014886bd8dd1e8837171"/>int[] <emphasis role="strong">TwoPointer</emphasis> (int[] nums, int target)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1misc_1_1_two_sum_problem_1af7d354b062b4455e4e0e9c12b5f3dbf8"/>int[] <emphasis role="strong">HashMap</emphasis> (int[] nums, int target)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1misc_1_1_two_sum_problem_1a8e9e2bd227c49db535f526ecc6b6aa4a"/>static void <emphasis role="strong">main</emphasis> (String args[])</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/misc/TwoSumProblem.java</section>

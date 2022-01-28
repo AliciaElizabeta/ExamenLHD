@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1others_1_1_b_f_p_r_t" xml:lang="en-US">
+<title>com.thealgorithms.others.BFPRT Class Reference</title>
+<indexterm><primary>com.thealgorithms.others.BFPRT</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_b_f_p_r_t_1a0a158a4f9ea9cee20b14449be1696956"/>static int[] <emphasis role="strong">getMinKNumsByBFPRT</emphasis> (int[] arr, int k)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_b_f_p_r_t_1a4c5cb0a7c31644532449696789bebb2a"/>static int <emphasis role="strong">getMinKthByBFPRT</emphasis> (int[] arr, int k)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_b_f_p_r_t_1ad780280184009177233a00966774576e"/>static int[] <emphasis role="strong">copyArray</emphasis> (int[] arr)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_b_f_p_r_t_1a9b98fc3082137854ebe5b257f1a03659"/>static int <emphasis role="strong">bfprt</emphasis> (int[] arr, int begin, int end, int i)</para>
+</listitem>
+            <listitem><para>static int <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_b_f_p_r_t_1ae0c7a812e1c387cd53b1bd50339e4c99">medianOfMedians</link> (int[] arr, int begin, int end)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_b_f_p_r_t_1a9eb16b09724e133f601976aadd2f2366"/>static void <emphasis role="strong">swap</emphasis> (int[] arr, int i, int j)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_b_f_p_r_t_1a8330df46ef40b808ffb4437107492567"/>static int[] <emphasis role="strong">partition</emphasis> (int[] arr, int begin, int end, int num)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_b_f_p_r_t_1a5290e4edaa78fdabdddda23d0ddf1e15"/>static int <emphasis role="strong">getMedian</emphasis> (int[] arr, int begin, int end)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_b_f_p_r_t_1a1bafd49364eb4923472bc7f84d8e4c45"/>static void <emphasis role="strong">insertionSort</emphasis> (int[] arr, int begin, int end)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_b_f_p_r_t_1a3df593e40101c93f39be0a235f3652ea"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_classcom_1_1thealgorithms_1_1others_1_1_b_f_p_r_t">BFPRT</link> algorithm. </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_b_f_p_r_t_1ae0c7a812e1c387cd53b1bd50339e4c99"/><section>
+    <title>medianOfMedians()</title>
+<indexterm><primary>medianOfMedians</primary><secondary>com.thealgorithms.others.BFPRT</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.others.BFPRT</primary><secondary>medianOfMedians</secondary></indexterm>
+<para><computeroutput>static int com.thealgorithms.others.BFPRT.medianOfMedians (int[] arr, int begin, int end)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>wikipedia: <link xlink:href="https://en.wikipedia.org/wiki/Median_of_medians">https://en.wikipedia.org/wiki/Median_of_medians</link> .</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>arr</entry><entry>
+<para>an array. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>begin</entry><entry>
+<para>begin num. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>end</entry><entry>
+<para>end num. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>median of medians. </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/others/BFPRT.java</section>
+</section>

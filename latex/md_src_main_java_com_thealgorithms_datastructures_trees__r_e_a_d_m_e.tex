@@ -1,0 +1,29 @@
+\hypertarget{md_src_main_java_com_thealgorithms_datastructures_trees__r_e_a_d_m_e_autotoc_md29}{}\doxysubsection{Description}\label{md_src_main_java_com_thealgorithms_datastructures_trees__r_e_a_d_m_e_autotoc_md29}
+Tree is a data structure where the data is organized in a hierarchial structure. There should be one root node (which does not have any parent) and all subsequent nodes are represented as children of the root node and its children. If a node has at least one child, it is called {\ttfamily internal} node and nodes with no children are called {\ttfamily leaf} nodes.\hypertarget{md_src_main_java_com_thealgorithms_datastructures_trees__r_e_a_d_m_e_autotoc_md30}{}\doxysubsection{Basic Structure}\label{md_src_main_java_com_thealgorithms_datastructures_trees__r_e_a_d_m_e_autotoc_md30}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{class Tree<E>\{}
+\DoxyCodeLine{    E value;}
+\DoxyCodeLine{    Tree left;}
+\DoxyCodeLine{    Tree right;}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+
+
+This basic structure is for a binary tree where each internal tree has at least one and at most two children. {\ttfamily left} and {\ttfamily right} represent the two children and {\ttfamily value} is the placeholder for data.\hypertarget{md_src_main_java_com_thealgorithms_datastructures_trees__r_e_a_d_m_e_autotoc_md31}{}\doxysubsection{Properties}\label{md_src_main_java_com_thealgorithms_datastructures_trees__r_e_a_d_m_e_autotoc_md31}
+
+\begin{DoxyEnumerate}
+\item Tree data structure gives the facility to organize data in a hierarchial structure
+\item Tree nodes can be inserted in a sorted order which can be used for searching and inserting data in O(log\+N) time where N is the number of nodes.
+\end{DoxyEnumerate}\hypertarget{md_src_main_java_com_thealgorithms_datastructures_trees__r_e_a_d_m_e_autotoc_md32}{}\doxysubsection{Types of Trees}\label{md_src_main_java_com_thealgorithms_datastructures_trees__r_e_a_d_m_e_autotoc_md32}
+
+\begin{DoxyEnumerate}
+\item {\bfseries{Binary Search Tree\+:}} A binary tree where the elements are inserted in asorted order. Here the searching can be done in O(log\+N) time in (depending on the structure)
+\item {\bfseries{AVL Tree and Red-\/\+Black Tree\+:}} Binary search trees where the height is balanced. Here, searching is guaranteed to be in O(log\+N) time.
+\item {\bfseries{Traversal algorithms\+:}} ~\newline
+ a. {\bfseries{BFS\+:}} Breadth-\/first-\/search where all the children at each level are traversed at once. ~\newline
+ b. {\bfseries{DFS\+:}} Depth-\/first-\/search where the first discovered child is traversed first.
+\item {\bfseries{Multi\+Way Search Tree\+:}} Tree in sorted order, but more than two children in each internal node.
+\item {\bfseries{Trie\+:}} A character based multiway search tree where words can be retrieved based on their prefix. Useful for implementing prefix based search algorithm. 
+\end{DoxyEnumerate}

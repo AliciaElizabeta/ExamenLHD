@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_md_src_main_java_com_thealgorithms_datastructures_queues__r_e_a_d_m_e" xml:lang="en-US">
+
+<para><itemizedlist>
+<listitem>
+<para>The Queue interface is present in the <computeroutput>java.util</computeroutput> package.</para>
+</listitem><listitem>
+<para>It is an ordered list of objects that follows the <emphasis role="bold">FIFO</emphasis> (First-In-First-Out) principle.</para>
+</listitem></itemizedlist>
+</para>
+<section xml:id="_md_src_main_java_com_thealgorithms_datastructures_queues__r_e_a_d_m_e_1autotoc_md21">
+<title>Characteristics of a Queue</title>
+
+<para><itemizedlist>
+<listitem>
+<para>The Queue is used to insert elements at the end of the queue and removes elements from the beginning of the queue.</para>
+</listitem><listitem>
+<para>It supports all methods of Collection interface including insertion, deletion etc.</para>
+</listitem><listitem>
+<para>LinkedList, ArrayBlockingQueue and PriorityQueue are the most commonly used implementations.</para>
+</listitem></itemizedlist>
+</para>
+</section>
+<section xml:id="_md_src_main_java_com_thealgorithms_datastructures_queues__r_e_a_d_m_e_1autotoc_md22">
+<title>Declaration</title>
+
+<para><computeroutput>Queue&lt;Obj&gt; queue = new PriorityQueue&lt;Obj&gt; ();</computeroutput></para>
+</section>
+<section xml:id="_md_src_main_java_com_thealgorithms_datastructures_queues__r_e_a_d_m_e_1autotoc_md23">
+<title>Important operations</title>
+
+<para><informaltable frame="all">
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<thead>
+      <row  class='markdownTableHead'>
+<entry>
+<para>Operations   </para>
+</entry><entry>
+<para>Description    </para>
+</entry></row>
+</thead><tbody>
+      <row  class='markdownTableRowOdd'>
+<entry>
+<para>Enqueue   </para>
+</entry><entry>
+<para>Adds an item to the queue    </para>
+</entry></row>
+      <row  class='markdownTableRowEven'>
+<entry>
+<para>Dequeue   </para>
+</entry><entry>
+<para>Removes an item from the queue    </para>
+</entry></row>
+      <row  class='markdownTableRowOdd'>
+<entry>
+<para>Front   </para>
+</entry><entry>
+<para>Gets the front item from the queue    </para>
+</entry></row>
+      <row  class='markdownTableRowEven'>
+<entry>
+<para>Rear   </para>
+</entry><entry>
+<para>Gets the last item from the queue   </para>
+</entry></row>
+    </tbody>
+    </tgroup>
+</informaltable>
+</para>
+</section>
+</section>

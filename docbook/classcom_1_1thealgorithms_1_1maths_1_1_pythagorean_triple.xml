@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_pythagorean_triple" xml:lang="en-US">
+<title>com.thealgorithms.maths.PythagoreanTriple Class Reference</title>
+<indexterm><primary>com.thealgorithms.maths.PythagoreanTriple</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_pythagorean_triple_1a03837fcfc91e795c118fa9a6f5bad526"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+            <listitem><para>static boolean <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_pythagorean_triple_1a648308e7593f8e604e8ba95df40a008d">isPythagTriple</link> (int a, int b, int c)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link xlink:href="https://en.wikipedia.org/wiki/Pythagorean_triple">https://en.wikipedia.org/wiki/Pythagorean_triple</link> </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_pythagorean_triple_1a648308e7593f8e604e8ba95df40a008d"/><section>
+    <title>isPythagTriple()</title>
+<indexterm><primary>isPythagTriple</primary><secondary>com.thealgorithms.maths.PythagoreanTriple</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.PythagoreanTriple</primary><secondary>isPythagTriple</secondary></indexterm>
+<para><computeroutput>static boolean com.thealgorithms.maths.PythagoreanTriple.isPythagTriple (int a, int b, int c)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Check if a,b,c are a Pythagorean Triple</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>a</entry><entry>
+<para>x/y component length of a right triangle </para>
+</entry>
+                            </row>
+                            <row>
+<entry>b</entry><entry>
+<para>y/x component length of a right triangle </para>
+</entry>
+                            </row>
+                            <row>
+<entry>c</entry><entry>
+<para>hypotenuse length of a right triangle </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>boolean <computeroutput>true</computeroutput> if a, b, c satisfy the Pythagorean theorem, otherwise <computeroutput>false</computeroutput> </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/maths/PythagoreanTriple.java</section>
+</section>

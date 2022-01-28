@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1conversions_1_1_any_base_to_decimal" xml:lang="en-US">
+<title>com.thealgorithms.conversions.AnyBaseToDecimal Class Reference</title>
+<indexterm><primary>com.thealgorithms.conversions.AnyBaseToDecimal</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1conversions_1_1_any_base_to_decimal_1ae8efc948b2f857bf6d4675f022257b9d"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+            <listitem><para>static int <link linkend="_classcom_1_1thealgorithms_1_1conversions_1_1_any_base_to_decimal_1a00c2aea289c57beecf3061dd1fee01cb">convertToDecimal</link> (String s, int radix)</para>
+</listitem>
+            <listitem><para>static int <link linkend="_classcom_1_1thealgorithms_1_1conversions_1_1_any_base_to_decimal_1ac6d3d3ba2991dc2f78956f7f2d88a89f">valOfChar</link> (char c)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><formalpara><title>Author</title>
+
+<para>Varun Upadhyay (<link xlink:href="https://github.com/varunu28">https://github.com/varunu28</link>) </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1conversions_1_1_any_base_to_decimal_1a00c2aea289c57beecf3061dd1fee01cb"/><section>
+    <title>convertToDecimal()</title>
+<indexterm><primary>convertToDecimal</primary><secondary>com.thealgorithms.conversions.AnyBaseToDecimal</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.conversions.AnyBaseToDecimal</primary><secondary>convertToDecimal</secondary></indexterm>
+<para><computeroutput>static int com.thealgorithms.conversions.AnyBaseToDecimal.convertToDecimal (String s, int radix)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Convert any radix to decimal number</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>s</entry><entry>
+<para>the string to be convert </para>
+</entry>
+                            </row>
+                            <row>
+<entry>radix</entry><entry>
+<para>the radix </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>decimal of bits </para>
+</formalpara>
+
+                <formalpara>
+                    <title>
+Exceptions</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>NumberFormatException</entry><entry>
+<para>if <literallayout><computeroutput>bits&#32;
+</computeroutput></literallayout> or <literallayout><computeroutput>radix&#32;
+</computeroutput></literallayout> is invalid </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1conversions_1_1_any_base_to_decimal_1ac6d3d3ba2991dc2f78956f7f2d88a89f"/><section>
+    <title>valOfChar()</title>
+<indexterm><primary>valOfChar</primary><secondary>com.thealgorithms.conversions.AnyBaseToDecimal</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.conversions.AnyBaseToDecimal</primary><secondary>valOfChar</secondary></indexterm>
+<para><computeroutput>static int com.thealgorithms.conversions.AnyBaseToDecimal.valOfChar (char c)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Convert character to integer</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>c</entry><entry>
+<para>the character </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>represented digit of given character </para>
+</formalpara>
+
+                <formalpara>
+                    <title>
+Exceptions</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>NumberFormatException</entry><entry>
+<para>if <literallayout><computeroutput>ch&#32;
+</computeroutput></literallayout> is not UpperCase or Digit character. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/conversions/AnyBaseToDecimal.java</section>
+</section>

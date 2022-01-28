@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interfacecom_1_1thealgorithms_1_1sorts_1_1_sort_algorithm" xml:lang="en-US">
+<title>com.thealgorithms.sorts.SortAlgorithm Interface Reference</title>
+<indexterm><primary>com.thealgorithms.sorts.SortAlgorithm</primary></indexterm>
+<para>Inheritance diagram for com.thealgorithms.sorts.SortAlgorithm:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interfacecom_1_1thealgorithms_1_1sorts_1_1_sort_algorithm.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>&lt; T extends Comparable&lt; T &gt; T[] <link linkend="_interfacecom_1_1thealgorithms_1_1sorts_1_1_sort_algorithm_1a840c9bcafa5ee6fc0e67d73956aa518c">sort</link> (T[] unsorted)</para>
+</listitem>
+            <listitem><para>default&lt; T extends Comparable&lt; T &gt; &gt; List&lt; T &gt; <link linkend="_interfacecom_1_1thealgorithms_1_1sorts_1_1_sort_algorithm_1a92de9cf0f2b3c44ee15b8b71c9347497">sort</link> (List&lt; T &gt; unsorted)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>The common interface of most sorting algorithms</para>
+
+<para><formalpara><title>Author</title>
+
+<para>Podshivalov Nikita (<link xlink:href="https://github.com/nikitap492">https://github.com/nikitap492</link>) </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_interfacecom_1_1thealgorithms_1_1sorts_1_1_sort_algorithm_1a92de9cf0f2b3c44ee15b8b71c9347497"/><section>
+    <title>sort()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>sort</primary><secondary>com.thealgorithms.sorts.SortAlgorithm</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.sorts.SortAlgorithm</primary><secondary>sort</secondary></indexterm>
+<para><computeroutput>default&lt; T extends Comparable&lt; T &gt; &gt; List&lt; T &gt; com.thealgorithms.sorts.SortAlgorithm.sort (List&lt; T &gt; unsorted)</computeroutput></para>
+<para>Auxiliary method for algorithms what wanted to work with lists from JCF</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>unsorted</entry><entry>
+<para>- a list should be sorted </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>a sorted list </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_interfacecom_1_1thealgorithms_1_1sorts_1_1_sort_algorithm_1a840c9bcafa5ee6fc0e67d73956aa518c"/><section>
+    <title>sort()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>sort</primary><secondary>com.thealgorithms.sorts.SortAlgorithm</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.sorts.SortAlgorithm</primary><secondary>sort</secondary></indexterm>
+<para><computeroutput>&lt; T extends Comparable&lt; T &gt; T[] com.thealgorithms.sorts.SortAlgorithm.sort (T[] unsorted)</computeroutput></para>
+<para>Main method arrays sorting algorithms</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>unsorted</entry><entry>
+<para>- an array should be sorted </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>a sorted array </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this interface was generated from the following file:</para>
+src/main/java/com/thealgorithms/sorts/SortAlgorithm.java</section>
+</section>

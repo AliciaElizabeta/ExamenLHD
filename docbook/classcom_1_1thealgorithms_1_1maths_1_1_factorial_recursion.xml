@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_factorial_recursion" xml:lang="en-US">
+<title>com.thealgorithms.maths.FactorialRecursion Class Reference</title>
+<indexterm><primary>com.thealgorithms.maths.FactorialRecursion</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_factorial_recursion_1a2bd78e69c7ada57e5fbbdec0dc9aca45"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+            <listitem><para>static long <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_factorial_recursion_1a14d88ac3cd254a333c424aa7dc8b5e12">factorial</link> (int n)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_factorial_recursion_1a14d88ac3cd254a333c424aa7dc8b5e12"/><section>
+    <title>factorial()</title>
+<indexterm><primary>factorial</primary><secondary>com.thealgorithms.maths.FactorialRecursion</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.FactorialRecursion</primary><secondary>factorial</secondary></indexterm>
+<para><computeroutput>static long com.thealgorithms.maths.FactorialRecursion.factorial (int n)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Recursive <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_factorial_recursion">FactorialRecursion</link> Method</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>n</entry><entry>
+<para>The number to factorial </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>The factorial of the number </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/maths/FactorialRecursion.java</section>
+</section>

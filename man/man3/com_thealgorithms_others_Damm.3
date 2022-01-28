@@ -1,0 +1,79 @@
+.TH "com.thealgorithms.others.Damm" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.others.Damm
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static boolean \fBdammCheck\fP (String digits)"
+.br
+.ti -1c
+.RI "static String \fBaddDammChecksum\fP (String initialDigits)"
+.br
+.ti -1c
+.RI "static void \fBmain\fP (String[] args)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+\fBDamm\fP algorithm is a check digit algorithm that detects all single-digit errors and all adjacent transposition errors\&. It was presented by H\&. Michael \fBDamm\fP in 2004\&. Essential part of the algorithm is a quasigroup of order 10 (i\&.e\&. having a 10 × 10 Latin square as the body of its operation table) with the special feature of being weakly totally anti-symmetric\&. \fBDamm\fP revealed several methods to create totally anti-symmetric quasigroups of order 10 and gave some examples in his doctoral dissertation\&.
+.PP
+\fBSee also\fP
+.RS 4
+\fCWiki\&. Damm algorithm\fP 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "static String com\&.thealgorithms\&.others\&.Damm\&.addDammChecksum (String initialDigits)\fC [static]\fP"
+Calculate check digit for initial digits and add it tho the last position\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIinitialDigits\fP initial value 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+digits with the checksum in the last position 
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIIllegalArgumentException\fP if input parameter contains not only digits 
+.br
+\fINullPointerException\fP if input is null 
+.RE
+.PP
+
+.SS "static boolean com\&.thealgorithms\&.others\&.Damm\&.dammCheck (String digits)\fC [static]\fP"
+Check input digits by \fBDamm\fP algorithm\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIdigits\fP input to check 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true if check was successful, false otherwise 
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIIllegalArgumentException\fP if input parameter contains not only digits 
+.br
+\fINullPointerException\fP if input is null 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

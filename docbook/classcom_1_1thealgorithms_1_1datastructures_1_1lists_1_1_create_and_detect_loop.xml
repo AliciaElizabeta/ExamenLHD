@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_create_and_detect_loop" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.lists.CreateAndDetectLoop Class Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.lists.CreateAndDetectLoop</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_create_and_detect_loop_1a1d94d2264d35719089fad16e09f7a89d"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/lists/CreateAndDetectLoop.java</section>

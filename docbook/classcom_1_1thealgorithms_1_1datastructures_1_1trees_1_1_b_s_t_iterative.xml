@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_iterative" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.trees.BSTIterative Class Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.trees.BSTIterative</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_iterative_1aa313d7f325467ee361248ac81902bd5a">add</link> (int data)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_iterative_1a5050b67212b46673ce6df7d691f0bd9b">remove</link> (int data)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_iterative_1a2a964b510453fc69722bdf309e8bfe0c">inorder</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_iterative_1a6494a01b1ff07e2e468e943f6b122892">postorder</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_iterative_1a846fbbaad41c4c9a73c7c6ba47629a01">preorder</link> ()</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_iterative_1a2e88441d62fc9437d87b54a00b8537fb">find</link> (int data)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_iterative_1a70f34a1942414a0222d2e23752b7b8a5">main</link> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_iterative_1aa313d7f325467ee361248ac81902bd5a"/><section>
+    <title>add()</title>
+<indexterm><primary>add</primary><secondary>com.thealgorithms.datastructures.trees.BSTIterative</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.trees.BSTIterative</primary><secondary>add</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.trees.BSTIterative.add (int data)</computeroutput></para>
+<para>A method to insert a new value in BST. If the given value is already present in BST the insertion is ignored.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>data</entry><entry>
+<para>the value to be inserted </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_iterative_1a2e88441d62fc9437d87b54a00b8537fb"/><section>
+    <title>find()</title>
+<indexterm><primary>find</primary><secondary>com.thealgorithms.datastructures.trees.BSTIterative</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.trees.BSTIterative</primary><secondary>find</secondary></indexterm>
+<para><computeroutput>boolean com.thealgorithms.datastructures.trees.BSTIterative.find (int data)</computeroutput></para>
+<para>A method to check if given data exists in out Binary Search Tree.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>data</entry><entry>
+<para>the value that needs to be searched for </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>boolean representing if the value was find </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_iterative_1a2a964b510453fc69722bdf309e8bfe0c"/><section>
+    <title>inorder()</title>
+<indexterm><primary>inorder</primary><secondary>com.thealgorithms.datastructures.trees.BSTIterative</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.trees.BSTIterative</primary><secondary>inorder</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.trees.BSTIterative.inorder ( )</computeroutput></para>
+<para>A method for inorder traversal of BST. </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_iterative_1a70f34a1942414a0222d2e23752b7b8a5"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>com.thealgorithms.datastructures.trees.BSTIterative</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.trees.BSTIterative</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void com.thealgorithms.datastructures.trees.BSTIterative.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>main function for tests </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_iterative_1a6494a01b1ff07e2e468e943f6b122892"/><section>
+    <title>postorder()</title>
+<indexterm><primary>postorder</primary><secondary>com.thealgorithms.datastructures.trees.BSTIterative</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.trees.BSTIterative</primary><secondary>postorder</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.trees.BSTIterative.postorder ( )</computeroutput></para>
+<para>A method used to print postorder traversal of BST. </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_iterative_1a846fbbaad41c4c9a73c7c6ba47629a01"/><section>
+    <title>preorder()</title>
+<indexterm><primary>preorder</primary><secondary>com.thealgorithms.datastructures.trees.BSTIterative</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.trees.BSTIterative</primary><secondary>preorder</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.trees.BSTIterative.preorder ( )</computeroutput></para>
+<para>Method used to display preorder traversal of BST. </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_iterative_1a5050b67212b46673ce6df7d691f0bd9b"/><section>
+    <title>remove()</title>
+<indexterm><primary>remove</primary><secondary>com.thealgorithms.datastructures.trees.BSTIterative</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.trees.BSTIterative</primary><secondary>remove</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.trees.BSTIterative.remove (int data)</computeroutput></para>
+<para>A method to delete the node in BST. If node is present it will be deleted</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>data</entry><entry>
+<para>the value that needs to be deleted </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/trees/BSTIterative.java</section>
+</section>

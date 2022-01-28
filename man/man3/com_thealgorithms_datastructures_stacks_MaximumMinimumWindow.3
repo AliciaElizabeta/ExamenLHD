@@ -1,0 +1,58 @@
+.TH "com.thealgorithms.datastructures.stacks.MaximumMinimumWindow" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.datastructures.stacks.MaximumMinimumWindow
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static int[] \fBcalculateMaxOfMin\fP (int[] arr, int n)"
+.br
+.ti -1c
+.RI "static void \fBmain\fP (String args[])"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Given an integer array\&. The task is to find the maximum of the minimum of every window size in the array\&. Note: Window size varies from 1 to the size of the Array\&. 
+.PP
+For example, 
+.PP
+N = 7 arr[] = {10,20,30,50,10,70,30} 
+.PP
+So the answer for the above would be : 70 30 20 10 10 10 10 
+.PP
+We need to consider window sizes from 1 to length of array in each iteration\&. So in the iteration 1 the windows would be [10], [20], [30], [50], [10], [70], [30]\&. Now we need to check the minimum value in each window\&. Since the window size is 1 here the minimum element would be the number itself\&. Now the maximum out of these is the result in iteration 1\&. In the second iteration we need to consider window size 2, so there would be [10,20], [20,30], [30,50], [50,10], [10,70], [70,30]\&. Now the minimum of each window size would be [10,20,30,10,10] and the maximum out of these is 30\&. Similarly we solve for other window sizes\&.
+.PP
+\fBAuthor\fP
+.RS 4
+sahil 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "static int[] com\&.thealgorithms\&.datastructures\&.stacks\&.MaximumMinimumWindow\&.calculateMaxOfMin (int[] arr, int n)\fC [static]\fP"
+This function contains the logic of finding maximum of minimum for every window size using Stack Data Structure\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIarr\fP Array containing the numbers 
+.br
+\fIn\fP Length of the array 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+result array 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

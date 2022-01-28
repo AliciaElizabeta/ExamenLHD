@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing Class Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_1acba23ac35bf651f15258dced29f6dff8">HashMapLinearProbing</link> (int hsize)</para>
+</listitem>
+            <listitem><para>int <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_1acb5a9f2efc558ee746f4997cfe20ef21">hashing</link> (int key)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_1a7fc0c60ec61031cb574ad7da32d383e2">insertHash</link> (int key)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_1aa2cf741f10aaaec21f69f71b0a936291">deleteHash</link> (int key)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_1a52eb6f530b50993a7a68226e8b940be8">displayHashtable</link> ()</para>
+</listitem>
+            <listitem><para>int <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_1a969dffc5a57f5a91d044e4c9d4a1a19b">findHash</link> (int key)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_1a056d0184d265ac871b9044f07ebff949">checkLoadFactor</link> ()</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_1ab482695eb990df445438387e2e2f3ee8">isFull</link> ()</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_1aceeeb494a144d5bd2a0919c6d729c2b5">isEmpty</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>This class is an implementation of a hash table using linear probing It uses a dynamic array to lengthen the size of the hash table when load factor &gt; .7 </para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_1acba23ac35bf651f15258dced29f6dff8"/><section>
+    <title>HashMapLinearProbing()</title>
+<indexterm><primary>HashMapLinearProbing</primary><secondary>com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing</primary><secondary>HashMapLinearProbing</secondary></indexterm>
+<para><computeroutput>com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing.HashMapLinearProbing (int hsize)</computeroutput></para>
+<para>Constructor initializes buckets array, hsize, and creates dummy object for AVAILABLE</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>hsize</entry><entry>
+<para>the desired size of the hash map </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_1a056d0184d265ac871b9044f07ebff949"/><section>
+    <title>checkLoadFactor()</title>
+<indexterm><primary>checkLoadFactor</primary><secondary>com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing</primary><secondary>checkLoadFactor</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing.checkLoadFactor ( )</computeroutput></para>
+<para>Checks the load factor of the hash table if greater than .7, automatically lengthens table to prevent further collisions </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_1aa2cf741f10aaaec21f69f71b0a936291"/><section>
+    <title>deleteHash()</title>
+<indexterm><primary>deleteHash</primary><secondary>com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing</primary><secondary>deleteHash</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing.deleteHash (int key)</computeroutput></para>
+<para>deletes a key from the hash map and adds an available placeholder</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>key</entry><entry>
+<para>the desired key to be deleted </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_1a52eb6f530b50993a7a68226e8b940be8"/><section>
+    <title>displayHashtable()</title>
+<indexterm><primary>displayHashtable</primary><secondary>com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing</primary><secondary>displayHashtable</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing.displayHashtable ( )</computeroutput></para>
+<para>Displays the hash table line by line </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_1a969dffc5a57f5a91d044e4c9d4a1a19b"/><section>
+    <title>findHash()</title>
+<indexterm><primary>findHash</primary><secondary>com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing</primary><secondary>findHash</secondary></indexterm>
+<para><computeroutput>int com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing.findHash (int key)</computeroutput></para>
+<para>Finds the index of location based on an inputed key</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>key</entry><entry>
+<para>the desired key to be found </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>int the index where the key is located </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_1acb5a9f2efc558ee746f4997cfe20ef21"/><section>
+    <title>hashing()</title>
+<indexterm><primary>hashing</primary><secondary>com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing</primary><secondary>hashing</secondary></indexterm>
+<para><computeroutput>int com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing.hashing (int key)</computeroutput></para>
+<para>The Hash Function takes a given key and finds an index based on its data</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>key</entry><entry>
+<para>the desired key to be converted </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>int an index corresponding to the key </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_1a7fc0c60ec61031cb574ad7da32d383e2"/><section>
+    <title>insertHash()</title>
+<indexterm><primary>insertHash</primary><secondary>com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing</primary><secondary>insertHash</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing.insertHash (int key)</computeroutput></para>
+<para>inserts the key into the hash map by wrapping it as an Integer object</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>key</entry><entry>
+<para>the desired key to be inserted in the hash map </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_1aceeeb494a144d5bd2a0919c6d729c2b5"/><section>
+    <title>isEmpty()</title>
+<indexterm><primary>isEmpty</primary><secondary>com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing</primary><secondary>isEmpty</secondary></indexterm>
+<para><computeroutput>boolean com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing.isEmpty ( )</computeroutput></para>
+<para>isEmpty returns true if the hash map is empty and false if not empty</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>boolean is Empty </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_1ab482695eb990df445438387e2e2f3ee8"/><section>
+    <title>isFull()</title>
+<indexterm><primary>isFull</primary><secondary>com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing</primary><secondary>isFull</secondary></indexterm>
+<para><computeroutput>boolean com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing.isFull ( )</computeroutput></para>
+<para>isFull returns true if the hash map is full and false if not full</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>boolean is Empty </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/hashmap/hashing/HashMapLinearProbing.java</section>
+</section>

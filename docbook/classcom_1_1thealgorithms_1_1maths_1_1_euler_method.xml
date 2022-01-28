@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_euler_method" xml:lang="en-US">
+<title>com.thealgorithms.maths.EulerMethod Class Reference</title>
+<indexterm><primary>com.thealgorithms.maths.EulerMethod</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_euler_method_1aef171d0b1cdbb1de1ced01d9225f1765">main</link> (String[] args)</para>
+</listitem>
+            <listitem><para>static double <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_euler_method_1a8d3e1c039c3ca9af6985bd7eb027ffbe">eulerStep</link> (double xCurrent, double stepSize, double yCurrent, BiFunction&lt; Double, Double, Double &gt; differentialEquation)</para>
+</listitem>
+            <listitem><para>static ArrayList&lt; double[]&gt; <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_euler_method_1a367ff7a58793611be5770edfa52855e9">eulerFull</link> (double xStart, double xEnd, double stepSize, double yStart, BiFunction&lt; Double, Double, Double &gt; differentialEquation)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>In mathematics and computational science, the Euler method (also called forward Euler method) is a first-order numerical procedure for solving ordinary differential equations (ODEs) with a given initial value. It is the most basic explicit method for numerical integration of ordinary differential equations. The method proceeds in a series of steps. At each step the y-value is calculated by evaluating the differential equation at the previous step, multiplying the result with the step-size and adding it to the last y-value: y_n+1 = y_n + stepSize * f(x_n, y_n). (description adapted from <link xlink:href="https://en.wikipedia.org/wiki/Euler_method">https://en.wikipedia.org/wiki/Euler_method</link> ) (see also: <link xlink:href="https://www.geeksforgeeks.org/euler-method-solving-differential-equation/">https://www.geeksforgeeks.org/euler-method-solving-differential-equation/</link> ) </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_euler_method_1a367ff7a58793611be5770edfa52855e9"/><section>
+    <title>eulerFull()</title>
+<indexterm><primary>eulerFull</primary><secondary>com.thealgorithms.maths.EulerMethod</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.EulerMethod</primary><secondary>eulerFull</secondary></indexterm>
+<para><computeroutput>static ArrayList&lt; double[]&gt; com.thealgorithms.maths.EulerMethod.eulerFull (double xStart, double xEnd, double stepSize, double yStart, BiFunction&lt; Double, Double, Double &gt; differentialEquation)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Loops through all the steps until xEnd is reached, adds a point for each step and then returns all the points</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>xStart</entry><entry>
+<para>First x-value. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>xEnd</entry><entry>
+<para>Last x-value. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>stepSize</entry><entry>
+<para>Step-size on the x-axis. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>yStart</entry><entry>
+<para>First y-value. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>differentialEquation</entry><entry>
+<para>The differential equation to be solved. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>The points constituting the solution of the differential equation. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_euler_method_1a8d3e1c039c3ca9af6985bd7eb027ffbe"/><section>
+    <title>eulerStep()</title>
+<indexterm><primary>eulerStep</primary><secondary>com.thealgorithms.maths.EulerMethod</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.EulerMethod</primary><secondary>eulerStep</secondary></indexterm>
+<para><computeroutput>static double com.thealgorithms.maths.EulerMethod.eulerStep (double xCurrent, double stepSize, double yCurrent, BiFunction&lt; Double, Double, Double &gt; differentialEquation)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>calculates the next y-value based on the current value of x, y and the stepSize the console.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>xCurrent</entry><entry>
+<para>Current x-value. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>stepSize</entry><entry>
+<para>Step-size on the x-axis. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>yCurrent</entry><entry>
+<para>Current y-value. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>differentialEquation</entry><entry>
+<para>The differential equation to be solved. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>The next y-value. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_euler_method_1aef171d0b1cdbb1de1ced01d9225f1765"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>com.thealgorithms.maths.EulerMethod</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.EulerMethod</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void com.thealgorithms.maths.EulerMethod.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Illustrates how the algorithm is used in 3 examples and prints the results to the console. </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/maths/EulerMethod.java</section>
+</section>

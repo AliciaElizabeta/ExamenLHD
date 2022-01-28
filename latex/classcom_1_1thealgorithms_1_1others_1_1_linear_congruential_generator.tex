@@ -1,0 +1,95 @@
+\hypertarget{classcom_1_1thealgorithms_1_1others_1_1_linear_congruential_generator}{}\doxysection{com.\+thealgorithms.\+others.\+Linear\+Congruential\+Generator Class Reference}
+\label{classcom_1_1thealgorithms_1_1others_1_1_linear_congruential_generator}\index{com.thealgorithms.others.LinearCongruentialGenerator@{com.thealgorithms.others.LinearCongruentialGenerator}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1thealgorithms_1_1others_1_1_linear_congruential_generator_a0ef4123fa345fe09b33cb9f773d7d9cf}{Linear\+Congruential\+Generator}} (double multiplier, double increment, double modulo)
+\item 
+\mbox{\hyperlink{classcom_1_1thealgorithms_1_1others_1_1_linear_congruential_generator_a4fe09200877e85e435dd9331fe2993cd}{Linear\+Congruential\+Generator}} (double seed, double multiplier, double increment, double modulo)
+\item 
+double \mbox{\hyperlink{classcom_1_1thealgorithms_1_1others_1_1_linear_congruential_generator_ab3b9388c575dc42989977c54eb3e6690}{next\+Number}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1others_1_1_linear_congruential_generator_a89cdd147c32b60cfbeddcef6e4846751}\label{classcom_1_1thealgorithms_1_1others_1_1_linear_congruential_generator_a89cdd147c32b60cfbeddcef6e4846751}} 
+static void {\bfseries main} (String\mbox{[}$\,$\mbox{]} args)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+\begin{DoxyItemize}
+\item A pseudorandom number generator.
+\end{DoxyItemize}
+
+\begin{DoxyAuthor}{Author}
+Tobias Carryer 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+October 10, 2017 
+\end{DoxyDate}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1others_1_1_linear_congruential_generator_a0ef4123fa345fe09b33cb9f773d7d9cf}\label{classcom_1_1thealgorithms_1_1others_1_1_linear_congruential_generator_a0ef4123fa345fe09b33cb9f773d7d9cf}} 
+\index{com.thealgorithms.others.LinearCongruentialGenerator@{com.thealgorithms.others.LinearCongruentialGenerator}!LinearCongruentialGenerator@{LinearCongruentialGenerator}}
+\index{LinearCongruentialGenerator@{LinearCongruentialGenerator}!com.thealgorithms.others.LinearCongruentialGenerator@{com.thealgorithms.others.LinearCongruentialGenerator}}
+\doxysubsubsection{\texorpdfstring{LinearCongruentialGenerator()}{LinearCongruentialGenerator()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily com.\+thealgorithms.\+others.\+Linear\+Congruential\+Generator.\+Linear\+Congruential\+Generator (\begin{DoxyParamCaption}\item[{double}]{multiplier,  }\item[{double}]{increment,  }\item[{double}]{modulo }\end{DoxyParamCaption})}
+
+
+\begin{DoxyItemize}
+\item These parameters are saved and used when \mbox{\hyperlink{classcom_1_1thealgorithms_1_1others_1_1_linear_congruential_generator_ab3b9388c575dc42989977c54eb3e6690}{next\+Number()}} is called. The current timestamp in milliseconds is used as the seed.
+\end{DoxyItemize}
+
+
+\begin{DoxyParams}{Parameters}
+{\em multiplier} & \\
+\hline
+{\em increment} & \\
+\hline
+{\em modulo} & The maximum number that can be generated (exclusive). A common value is 2$^\wedge$32. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1others_1_1_linear_congruential_generator_a4fe09200877e85e435dd9331fe2993cd}\label{classcom_1_1thealgorithms_1_1others_1_1_linear_congruential_generator_a4fe09200877e85e435dd9331fe2993cd}} 
+\index{com.thealgorithms.others.LinearCongruentialGenerator@{com.thealgorithms.others.LinearCongruentialGenerator}!LinearCongruentialGenerator@{LinearCongruentialGenerator}}
+\index{LinearCongruentialGenerator@{LinearCongruentialGenerator}!com.thealgorithms.others.LinearCongruentialGenerator@{com.thealgorithms.others.LinearCongruentialGenerator}}
+\doxysubsubsection{\texorpdfstring{LinearCongruentialGenerator()}{LinearCongruentialGenerator()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily com.\+thealgorithms.\+others.\+Linear\+Congruential\+Generator.\+Linear\+Congruential\+Generator (\begin{DoxyParamCaption}\item[{double}]{seed,  }\item[{double}]{multiplier,  }\item[{double}]{increment,  }\item[{double}]{modulo }\end{DoxyParamCaption})}
+
+
+\begin{DoxyItemize}
+\item These parameters are saved and used when \mbox{\hyperlink{classcom_1_1thealgorithms_1_1others_1_1_linear_congruential_generator_ab3b9388c575dc42989977c54eb3e6690}{next\+Number()}} is called.
+\end{DoxyItemize}
+
+
+\begin{DoxyParams}{Parameters}
+{\em seed} & \\
+\hline
+{\em multiplier} & \\
+\hline
+{\em increment} & \\
+\hline
+{\em modulo} & The maximum number that can be generated (exclusive). A common value is 2$^\wedge$32. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1others_1_1_linear_congruential_generator_ab3b9388c575dc42989977c54eb3e6690}\label{classcom_1_1thealgorithms_1_1others_1_1_linear_congruential_generator_ab3b9388c575dc42989977c54eb3e6690}} 
+\index{com.thealgorithms.others.LinearCongruentialGenerator@{com.thealgorithms.others.LinearCongruentialGenerator}!nextNumber@{nextNumber}}
+\index{nextNumber@{nextNumber}!com.thealgorithms.others.LinearCongruentialGenerator@{com.thealgorithms.others.LinearCongruentialGenerator}}
+\doxysubsubsection{\texorpdfstring{nextNumber()}{nextNumber()}}
+{\footnotesize\ttfamily double com.\+thealgorithms.\+others.\+Linear\+Congruential\+Generator.\+next\+Number (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+The smallest number that can be generated is zero. The largest number that can be generated is modulo-\/1. modulo is set in the constructor.
+
+\begin{DoxyReturn}{Returns}
+a pseudorandom number. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/thealgorithms/others/Linear\+Congruential\+Generator.\+java\end{DoxyCompactItemize}

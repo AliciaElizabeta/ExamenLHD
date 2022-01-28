@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1sorts_1_1_bubble_sort_recursion" xml:lang="en-US">
+<title>com.thealgorithms.sorts.BubbleSortRecursion Class Reference</title>
+<indexterm><primary>com.thealgorithms.sorts.BubbleSortRecursion</primary></indexterm>
+<para>Inheritance diagram for com.thealgorithms.sorts.BubbleSortRecursion:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcom_1_1thealgorithms_1_1sorts_1_1_bubble_sort_recursion.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1sorts_1_1_bubble_sort_recursion_1a1f12dd2ab91209c1f79b78ddf1044b8a"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>BubbleSort algorithm implements using recursion </para>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/sorts/BubbleSortRecursion.java</section>
+</section>

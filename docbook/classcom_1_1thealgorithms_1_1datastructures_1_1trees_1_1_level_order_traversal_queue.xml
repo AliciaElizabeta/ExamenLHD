@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_level_order_traversal_queue" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.trees.LevelOrderTraversalQueue Class Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.trees.LevelOrderTraversalQueue</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <emphasis role="strong">Node</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/trees/LevelOrderTraversalQueue.java</section>

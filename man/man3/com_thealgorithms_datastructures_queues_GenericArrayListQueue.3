@@ -1,0 +1,80 @@
+.TH "com.thealgorithms.datastructures.queues.GenericArrayListQueue< T >" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.datastructures.queues.GenericArrayListQueue< T >
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "T \fBpeek\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBadd\fP (T element)"
+.br
+.ti -1c
+.RI "T \fBpull\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBmain\fP (String[] args)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+This class implements a \fBGenericArrayListQueue\fP\&.
+.PP
+A \fBGenericArrayListQueue\fP data structure functions the same as any specific-typed queue\&. The \fBGenericArrayListQueue\fP holds elements of types to-be-specified at runtime\&. The elements that are added first are the first to be removed (FIFO)\&. New elements are added to the back/rear of the queue\&. 
+.SH "Member Function Documentation"
+.PP 
+.SS "boolean \fBcom\&.thealgorithms\&.datastructures\&.queues\&.GenericArrayListQueue\fP< T >\&.add (T element)"
+Inserts an element of type T to the queue\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIelement\fP of type T to be added 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+True if the element was added successfully 
+.RE
+.PP
+
+.SS "static void \fBcom\&.thealgorithms\&.datastructures\&.queues\&.GenericArrayListQueue\fP< T >\&.main (String[] args)\fC [static]\fP"
+Main method
+.PP
+\fBParameters\fP
+.RS 4
+\fIargs\fP Command line arguments 
+.RE
+.PP
+
+.SS "T \fBcom\&.thealgorithms\&.datastructures\&.queues\&.GenericArrayListQueue\fP< T >\&.peek ()"
+Checks what's at the front of the queue\&.
+.PP
+\fBReturns\fP
+.RS 4
+If queue is not empty, element at the front of the queue\&. Otherwise, null 
+.RE
+.PP
+
+.SS "T \fBcom\&.thealgorithms\&.datastructures\&.queues\&.GenericArrayListQueue\fP< T >\&.pull ()"
+Retrieve what's at the front of the queue
+.PP
+\fBReturns\fP
+.RS 4
+If queue is not empty, element retrieved\&. Otherwise, null 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

@@ -1,0 +1,118 @@
+.TH "com.thealgorithms.datastructures.stacks.StackArrayList" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.datastructures.stacks.StackArrayList
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBStackArrayList\fP ()"
+.br
+.ti -1c
+.RI "void \fBpush\fP (int value)"
+.br
+.ti -1c
+.RI "int \fBpop\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBisEmpty\fP ()"
+.br
+.ti -1c
+.RI "int \fBpeek\fP ()"
+.br
+.ti -1c
+.RI "int \fBsize\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBmain\fP (String[] args)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+This class implements a Stack using an ArrayList\&.
+.PP
+A stack is exactly what it sounds like\&. An element gets added to the top of the stack and only the element on the top may be removed\&.
+.PP
+This is an ArrayList Implementation of a stack, where size is not a problem we can extend the stack as much as we want\&. 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "com\&.thealgorithms\&.datastructures\&.stacks\&.StackArrayList\&.StackArrayList ()"
+Constructor 
+.SH "Member Function Documentation"
+.PP 
+.SS "boolean com\&.thealgorithms\&.datastructures\&.stacks\&.StackArrayList\&.isEmpty ()"
+Test if the stack is empty\&.
+.PP
+\fBReturns\fP
+.RS 4
+.PP
+.nf
+true 
+.fi
+.PP
+ if this stack is empty, 
+.PP
+.nf
+false 
+
+.fi
+.PP
+ otherwise\&. 
+.RE
+.PP
+
+.SS "static void com\&.thealgorithms\&.datastructures\&.stacks\&.StackArrayList\&.main (String[] args)\fC [static]\fP"
+Driver Code 
+.SS "int com\&.thealgorithms\&.datastructures\&.stacks\&.StackArrayList\&.peek ()"
+Return the element at the top of this stack without removing it from the stack\&.
+.PP
+\fBReturns\fP
+.RS 4
+the element at the top of this stack\&. 
+.RE
+.PP
+
+.SS "int com\&.thealgorithms\&.datastructures\&.stacks\&.StackArrayList\&.pop ()"
+Removes the element at the top of this stack and returns
+.PP
+\fBReturns\fP
+.RS 4
+Element popped 
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIEmptyStackException\fP if the stack is empty\&. 
+.RE
+.PP
+
+.SS "void com\&.thealgorithms\&.datastructures\&.stacks\&.StackArrayList\&.push (int value)"
+Adds value to the end of list which is the top for stack
+.PP
+\fBParameters\fP
+.RS 4
+\fIvalue\fP value to be added 
+.RE
+.PP
+
+.SS "int com\&.thealgorithms\&.datastructures\&.stacks\&.StackArrayList\&.size ()"
+Return size of this stack\&.
+.PP
+\fBReturns\fP
+.RS 4
+size of this stack\&. 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

@@ -1,0 +1,278 @@
+.TH "com.thealgorithms.datastructures.lists.SinglyLinkedList" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.datastructures.lists.SinglyLinkedList
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by \fBcom\&.thealgorithms\&.datastructures\&.lists\&.CountSinglyLinkedListRecursion\fP, \fBcom\&.thealgorithms\&.datastructures\&.lists\&.MergeSortedSinglyLinkedList\fP, and \fBcom\&.thealgorithms\&.datastructures\&.lists\&.SearchSinglyLinkedListRecursion\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBSinglyLinkedList\fP ()"
+.br
+.ti -1c
+.RI "\fBSinglyLinkedList\fP (Node head, int size)"
+.br
+.ti -1c
+.RI "void \fBinsertHead\fP (int x)"
+.br
+.ti -1c
+.RI "void \fBinsert\fP (int data)"
+.br
+.ti -1c
+.RI "void \fBinsertNth\fP (int data, int position)"
+.br
+.ti -1c
+.RI "boolean \fBdetectLoop\fP ()"
+.br
+.ti -1c
+.RI "void \fBswapNodes\fP (int a, int b)"
+.br
+.ti -1c
+.RI "void \fBdeleteHead\fP ()"
+.br
+.ti -1c
+.RI "void \fBdelete\fP ()"
+.br
+.ti -1c
+.RI "void \fBdeleteNth\fP (int position)"
+.br
+.ti -1c
+.RI "void \fBcheckBounds\fP (int position, int low, int high)"
+.br
+.ti -1c
+.RI "void \fBclear\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBisEmpty\fP ()"
+.br
+.ti -1c
+.RI "int \fBsize\fP ()"
+.br
+.ti -1c
+.RI "Node \fBgetHead\fP ()"
+.br
+.ti -1c
+.RI "int \fBcount\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBsearch\fP (int key)"
+.br
+.ti -1c
+.RI "int \fBgetNth\fP (int index)"
+.br
+.ti -1c
+.RI "String \fBtoString\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBmain\fP (String[] arg)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+https://en.wikipedia.org/wiki/Linked_list 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "com\&.thealgorithms\&.datastructures\&.lists\&.SinglyLinkedList\&.SinglyLinkedList ()"
+Init \fBSinglyLinkedList\fP 
+.SS "com\&.thealgorithms\&.datastructures\&.lists\&.SinglyLinkedList\&.SinglyLinkedList (Node head, int size)"
+Init \fBSinglyLinkedList\fP with specified head node and size
+.PP
+\fBParameters\fP
+.RS 4
+\fIhead\fP the head node of list 
+.br
+\fIsize\fP the size of list 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "void com\&.thealgorithms\&.datastructures\&.lists\&.SinglyLinkedList\&.checkBounds (int position, int low, int high)"
+
+.PP
+\fBParameters\fP
+.RS 4
+\fIposition\fP to check position 
+.br
+\fIlow\fP low index 
+.br
+\fIhigh\fP high index 
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIIndexOutOfBoundsException\fP if 
+.PP
+.nf
+position 
+
+.fi
+.PP
+ not in range 
+.PP
+.nf
+low 
+
+.fi
+.PP
+ to 
+.PP
+.nf
+high 
+
+.fi
+.PP
+ 
+.RE
+.PP
+
+.SS "void com\&.thealgorithms\&.datastructures\&.lists\&.SinglyLinkedList\&.clear ()"
+Clear all nodes in the list 
+.SS "int com\&.thealgorithms\&.datastructures\&.lists\&.SinglyLinkedList\&.count ()"
+Calculate the count of the list manually
+.PP
+\fBReturns\fP
+.RS 4
+count of the list 
+.RE
+.PP
+
+.PP
+Reimplemented in \fBcom\&.thealgorithms\&.datastructures\&.lists\&.CountSinglyLinkedListRecursion\fP\&.
+.SS "void com\&.thealgorithms\&.datastructures\&.lists\&.SinglyLinkedList\&.delete ()"
+Deletes an element at the tail 
+.SS "void com\&.thealgorithms\&.datastructures\&.lists\&.SinglyLinkedList\&.deleteHead ()"
+Deletes a node at the head 
+.SS "void com\&.thealgorithms\&.datastructures\&.lists\&.SinglyLinkedList\&.deleteNth (int position)"
+Deletes an element at Nth position 
+.SS "boolean com\&.thealgorithms\&.datastructures\&.lists\&.SinglyLinkedList\&.detectLoop ()"
+Detects if there is a loop in the singly linked list using floy'd turtle and hare algorithm\&. 
+.SS "Node com\&.thealgorithms\&.datastructures\&.lists\&.SinglyLinkedList\&.getHead ()"
+Get head of the list\&.
+.PP
+\fBReturns\fP
+.RS 4
+head of the list\&. 
+.RE
+.PP
+
+.SS "int com\&.thealgorithms\&.datastructures\&.lists\&.SinglyLinkedList\&.getNth (int index)"
+Return element at special index\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIindex\fP given index of element 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+element at special index\&. 
+.RE
+.PP
+
+.SS "void com\&.thealgorithms\&.datastructures\&.lists\&.SinglyLinkedList\&.insert (int data)"
+Insert an element at the tail of the list
+.PP
+\fBParameters\fP
+.RS 4
+\fIdata\fP element to be added 
+.RE
+.PP
+
+.SS "void com\&.thealgorithms\&.datastructures\&.lists\&.SinglyLinkedList\&.insertHead (int x)"
+Inserts an element at the head of the list
+.PP
+\fBParameters\fP
+.RS 4
+\fIx\fP element to be added 
+.RE
+.PP
+
+.SS "void com\&.thealgorithms\&.datastructures\&.lists\&.SinglyLinkedList\&.insertNth (int data, int position)"
+Inserts a new node at a specified position of the list
+.PP
+\fBParameters\fP
+.RS 4
+\fIdata\fP data to be stored in a new node 
+.br
+\fIposition\fP position at which a new node is to be inserted 
+.RE
+.PP
+
+.SS "boolean com\&.thealgorithms\&.datastructures\&.lists\&.SinglyLinkedList\&.isEmpty ()"
+Checks if the list is empty
+.PP
+\fBReturns\fP
+.RS 4
+.PP
+.nf
+true 
+.fi
+.PP
+ if list is empty, otherwise 
+.PP
+.nf
+false 
+
+.fi
+.PP
+ \&. 
+.RE
+.PP
+
+.SS "static void com\&.thealgorithms\&.datastructures\&.lists\&.SinglyLinkedList\&.main (String[] arg)\fC [static]\fP"
+Driver Code 
+.PP
+Reimplemented in \fBcom\&.thealgorithms\&.datastructures\&.lists\&.CountSinglyLinkedListRecursion\fP, \fBcom\&.thealgorithms\&.datastructures\&.lists\&.MergeSortedSinglyLinkedList\fP, and \fBcom\&.thealgorithms\&.datastructures\&.lists\&.SearchSinglyLinkedListRecursion\fP\&.
+.SS "boolean com\&.thealgorithms\&.datastructures\&.lists\&.SinglyLinkedList\&.search (int key)"
+Test if the value key is present in the list\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIkey\fP the value to be searched\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+.PP
+.nf
+true 
+.fi
+.PP
+ if key is present in the list, otherwise 
+.PP
+.nf
+false 
+
+.fi
+.PP
+ \&. 
+.RE
+.PP
+
+.PP
+Reimplemented in \fBcom\&.thealgorithms\&.datastructures\&.lists\&.SearchSinglyLinkedListRecursion\fP\&.
+.SS "int com\&.thealgorithms\&.datastructures\&.lists\&.SinglyLinkedList\&.size ()"
+Returns the size of the linked list\&.
+.PP
+\fBReturns\fP
+.RS 4
+the size of the list\&. 
+.RE
+.PP
+
+.SS "void com\&.thealgorithms\&.datastructures\&.lists\&.SinglyLinkedList\&.swapNodes (int a, int b)"
+Swaps nodes of two given values a and b\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

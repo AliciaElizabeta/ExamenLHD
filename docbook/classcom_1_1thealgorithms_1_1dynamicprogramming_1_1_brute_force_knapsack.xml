@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_brute_force_knapsack" xml:lang="en-US">
+<title>com.thealgorithms.dynamicprogramming.BruteForceKnapsack Class Reference</title>
+<indexterm><primary>com.thealgorithms.dynamicprogramming.BruteForceKnapsack</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_brute_force_knapsack_1a7336e567bc139cf8b8b33f5b2871a97e"/>static void <emphasis role="strong">main</emphasis> (String args[])</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/dynamicprogramming/BruteForceKnapsack.java</section>

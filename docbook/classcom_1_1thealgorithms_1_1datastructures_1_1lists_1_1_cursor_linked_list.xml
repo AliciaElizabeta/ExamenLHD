@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_cursor_linked_list" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.lists.CursorLinkedList&lt; T &gt; Class Template Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.lists.CursorLinkedList&lt; T &gt;</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_cursor_linked_list_1a603bafb8d9135afbb705bb4c4391b772"/>void <emphasis role="strong">printList</emphasis> ()</para>
+</listitem>
+            <listitem><para>int <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_cursor_linked_list_1ad634d6ad736edabcb1a3250b24dfe9b9">indexOf</link> (T element)</para>
+</listitem>
+            <listitem><para>T <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_cursor_linked_list_1ac0021128ab00399390192b7e133566dc">get</link> (int position)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_cursor_linked_list_1af965df90517994b3187944fc9408a56d"/>void <emphasis role="strong">removeByIndex</emphasis> (int index)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_cursor_linked_list_1a8591214212b1752d6347b44dbc229145"/>void <emphasis role="strong">remove</emphasis> (T element)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_cursor_linked_list_1ade7928001ed2d43319defd902e132f45"/>void <emphasis role="strong">append</emphasis> (T element)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>This class implements a Cursor Linked List.</para>
+
+<para>A <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_cursor_linked_list">CursorLinkedList</link> is an array version of a Linked List. Essentially you have an array of list nodes but instead of each node containing a pointer to the next item in the linked list, each node element in the array contains the index for the next node element. </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_cursor_linked_list_1ac0021128ab00399390192b7e133566dc"/><section>
+    <title>get()</title>
+<indexterm><primary>get</primary><secondary>com.thealgorithms.datastructures.lists.CursorLinkedList&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.CursorLinkedList&lt; T &gt;</primary><secondary>get</secondary></indexterm>
+<para><computeroutput>T <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_cursor_linked_list">com.thealgorithms.datastructures.lists.CursorLinkedList</link>&lt; T &gt;.get (int position)</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>position, the</entry><entry>
+<para>logical index of the element , not the actual one within the [cursorSpace] array . this method should be used to get the index give by <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_cursor_linked_list_1ad634d6ad736edabcb1a3250b24dfe9b9">indexOf()</link> method. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para></para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_cursor_linked_list_1ad634d6ad736edabcb1a3250b24dfe9b9"/><section>
+    <title>indexOf()</title>
+<indexterm><primary>indexOf</primary><secondary>com.thealgorithms.datastructures.lists.CursorLinkedList&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.CursorLinkedList&lt; T &gt;</primary><secondary>indexOf</secondary></indexterm>
+<para><computeroutput>int <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_cursor_linked_list">com.thealgorithms.datastructures.lists.CursorLinkedList</link>&lt; T &gt;.indexOf (T element)</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>the logical index of the element within the list , not the actual index of the [cursorSpace] array </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/lists/CursorLinkedList.java</section>
+</section>

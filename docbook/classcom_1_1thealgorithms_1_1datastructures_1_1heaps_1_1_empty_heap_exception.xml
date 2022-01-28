@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_empty_heap_exception" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.heaps.EmptyHeapException Class Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.heaps.EmptyHeapException</primary></indexterm>
+<para>Inheritance diagram for com.thealgorithms.datastructures.heaps.EmptyHeapException:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_empty_heap_exception.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_empty_heap_exception_1a55990f4a057efef5ef3fa691c9645a85"/><emphasis role="strong">EmptyHeapException</emphasis> (String message)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><formalpara><title>Author</title>
+
+<para>Nicolas Renard Exception to be thrown if the getElement method is used on an empty heap. </para>
+</formalpara>
+</para>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/heaps/EmptyHeapException.java</section>
+</section>

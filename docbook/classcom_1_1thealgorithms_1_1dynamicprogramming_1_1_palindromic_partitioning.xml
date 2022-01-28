@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_palindromic_partitioning" xml:lang="en-US">
+<title>com.thealgorithms.dynamicprogramming.PalindromicPartitioning Class Reference</title>
+<indexterm><primary>com.thealgorithms.dynamicprogramming.PalindromicPartitioning</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_palindromic_partitioning_1a038eaeb354032443731db929251bc3d9"/>static int <emphasis role="strong">minimalpartitions</emphasis> (String word)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_palindromic_partitioning_1add94d2c3c2163132446ee575f36f2400"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/dynamicprogramming/PalindromicPartitioning.java</section>

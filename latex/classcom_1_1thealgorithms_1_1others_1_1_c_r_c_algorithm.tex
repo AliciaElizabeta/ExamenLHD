@@ -1,0 +1,132 @@
+\hypertarget{classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm}{}\doxysection{com.\+thealgorithms.\+others.\+CRCAlgorithm Class Reference}
+\label{classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm}\index{com.thealgorithms.others.CRCAlgorithm@{com.thealgorithms.others.CRCAlgorithm}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_a3e3a5dbe306cf619d71f1daf5481efc8}{CRCAlgorithm}} (String str, int size, double ber)
+\item 
+int \mbox{\hyperlink{classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_a04f6618a8ebf79d9a6f2bafc2431c981}{get\+Wrong\+Mess}} ()
+\item 
+int \mbox{\hyperlink{classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_a54b0b1e4cce2939d88589c414b0215e0}{get\+Wrong\+Mess\+Caught}} ()
+\item 
+int \mbox{\hyperlink{classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_a5a46cc8b84761af03889375c77980919}{get\+Wrong\+Mess\+Not\+Caught}} ()
+\item 
+int \mbox{\hyperlink{classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_a55146ddc15b9583035bb20184df9241c}{get\+Correct\+Mess}} ()
+\item 
+void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_afaaab3058ca5eac782c77440c13b7584}{refactor}} ()
+\item 
+void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_ad44f0ae5283fe860bc2244152ae61abb}{generate\+Random\+Mess}} ()
+\item 
+void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_a188d8333fd97b1b6e28dada9c8543005}{divide\+Message\+WithP}} (boolean check)
+\item 
+void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_aa9a38bdbc69a39de9a11b35aa294b540}{change\+Mess}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+dimgrichr 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_a3e3a5dbe306cf619d71f1daf5481efc8}\label{classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_a3e3a5dbe306cf619d71f1daf5481efc8}} 
+\index{com.thealgorithms.others.CRCAlgorithm@{com.thealgorithms.others.CRCAlgorithm}!CRCAlgorithm@{CRCAlgorithm}}
+\index{CRCAlgorithm@{CRCAlgorithm}!com.thealgorithms.others.CRCAlgorithm@{com.thealgorithms.others.CRCAlgorithm}}
+\doxysubsubsection{\texorpdfstring{CRCAlgorithm()}{CRCAlgorithm()}}
+{\footnotesize\ttfamily com.\+thealgorithms.\+others.\+CRCAlgorithm.\+CRCAlgorithm (\begin{DoxyParamCaption}\item[{String}]{str,  }\item[{int}]{size,  }\item[{double}]{ber }\end{DoxyParamCaption})}
+
+The algorithm\textquotesingle{}s main constructor. The most significant variables, used in the algorithm, are set in their initial values.
+
+
+\begin{DoxyParams}{Parameters}
+{\em str} & The binary number P, in a string form, which is used by the CRC algorithm \\
+\hline
+{\em size} & The size of every transmitted message \\
+\hline
+{\em ber} & The Bit Error Rate \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_aa9a38bdbc69a39de9a11b35aa294b540}\label{classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_aa9a38bdbc69a39de9a11b35aa294b540}} 
+\index{com.thealgorithms.others.CRCAlgorithm@{com.thealgorithms.others.CRCAlgorithm}!changeMess@{changeMess}}
+\index{changeMess@{changeMess}!com.thealgorithms.others.CRCAlgorithm@{com.thealgorithms.others.CRCAlgorithm}}
+\doxysubsubsection{\texorpdfstring{changeMess()}{changeMess()}}
+{\footnotesize\ttfamily void com.\+thealgorithms.\+others.\+CRCAlgorithm.\+change\+Mess (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Once the message is transmitted, some of it\textquotesingle{}s elements, is possible to change from 1 to 0, or from 0 to 1, because of the Bit Error Rate (ber). For every element of the message, a random double number is created. If that number is smaller than ber, then the spesific element changes. On the other hand, if it\textquotesingle{}s bigger than ber, it does not. Based on these changes. the boolean variable message\+Changed, gets the value\+: true, or false. \mbox{\Hypertarget{classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_a188d8333fd97b1b6e28dada9c8543005}\label{classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_a188d8333fd97b1b6e28dada9c8543005}} 
+\index{com.thealgorithms.others.CRCAlgorithm@{com.thealgorithms.others.CRCAlgorithm}!divideMessageWithP@{divideMessageWithP}}
+\index{divideMessageWithP@{divideMessageWithP}!com.thealgorithms.others.CRCAlgorithm@{com.thealgorithms.others.CRCAlgorithm}}
+\doxysubsubsection{\texorpdfstring{divideMessageWithP()}{divideMessageWithP()}}
+{\footnotesize\ttfamily void com.\+thealgorithms.\+others.\+CRCAlgorithm.\+divide\+Message\+WithP (\begin{DoxyParamCaption}\item[{boolean}]{check }\end{DoxyParamCaption})}
+
+The most significant part of the CRC algorithm. The message is divided by P, so the divided\+Message Array\+List$<$\+Integer$>$ is created. If check == true, the divided\+Messaage is examined, in order to see if it contains any 1\textquotesingle{}s. If it does, the message is considered to be wrong by the receiver,so the variable wrong\+Mess\+Caught changes. If it does not, it is accepted, so one of the variables correct\+Mess, wrong\+Mess\+Not\+Caught, changes. If check == false, the diviided Message is added at the end of the Array\+List$<$integer$>$ message.
+
+
+\begin{DoxyParams}{Parameters}
+{\em check} & the variable used to determine, if the message is going to be checked from the receiver if true, it is checked otherwise, it is not \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_ad44f0ae5283fe860bc2244152ae61abb}\label{classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_ad44f0ae5283fe860bc2244152ae61abb}} 
+\index{com.thealgorithms.others.CRCAlgorithm@{com.thealgorithms.others.CRCAlgorithm}!generateRandomMess@{generateRandomMess}}
+\index{generateRandomMess@{generateRandomMess}!com.thealgorithms.others.CRCAlgorithm@{com.thealgorithms.others.CRCAlgorithm}}
+\doxysubsubsection{\texorpdfstring{generateRandomMess()}{generateRandomMess()}}
+{\footnotesize\ttfamily void com.\+thealgorithms.\+others.\+CRCAlgorithm.\+generate\+Random\+Mess (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Random messages, consisted of 0\textquotesingle{}s and 1\textquotesingle{}s, are generated, so that they can later be transmitted \mbox{\Hypertarget{classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_a55146ddc15b9583035bb20184df9241c}\label{classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_a55146ddc15b9583035bb20184df9241c}} 
+\index{com.thealgorithms.others.CRCAlgorithm@{com.thealgorithms.others.CRCAlgorithm}!getCorrectMess@{getCorrectMess}}
+\index{getCorrectMess@{getCorrectMess}!com.thealgorithms.others.CRCAlgorithm@{com.thealgorithms.others.CRCAlgorithm}}
+\doxysubsubsection{\texorpdfstring{getCorrectMess()}{getCorrectMess()}}
+{\footnotesize\ttfamily int com.\+thealgorithms.\+others.\+CRCAlgorithm.\+get\+Correct\+Mess (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the counter correct\+Mess
+
+\begin{DoxyReturn}{Returns}
+correct\+Mess, the number of the Correct Messages 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_a04f6618a8ebf79d9a6f2bafc2431c981}\label{classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_a04f6618a8ebf79d9a6f2bafc2431c981}} 
+\index{com.thealgorithms.others.CRCAlgorithm@{com.thealgorithms.others.CRCAlgorithm}!getWrongMess@{getWrongMess}}
+\index{getWrongMess@{getWrongMess}!com.thealgorithms.others.CRCAlgorithm@{com.thealgorithms.others.CRCAlgorithm}}
+\doxysubsubsection{\texorpdfstring{getWrongMess()}{getWrongMess()}}
+{\footnotesize\ttfamily int com.\+thealgorithms.\+others.\+CRCAlgorithm.\+get\+Wrong\+Mess (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the counter wrong\+Mess
+
+\begin{DoxyReturn}{Returns}
+wrong\+Mess, the number of Wrong Messages 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_a54b0b1e4cce2939d88589c414b0215e0}\label{classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_a54b0b1e4cce2939d88589c414b0215e0}} 
+\index{com.thealgorithms.others.CRCAlgorithm@{com.thealgorithms.others.CRCAlgorithm}!getWrongMessCaught@{getWrongMessCaught}}
+\index{getWrongMessCaught@{getWrongMessCaught}!com.thealgorithms.others.CRCAlgorithm@{com.thealgorithms.others.CRCAlgorithm}}
+\doxysubsubsection{\texorpdfstring{getWrongMessCaught()}{getWrongMessCaught()}}
+{\footnotesize\ttfamily int com.\+thealgorithms.\+others.\+CRCAlgorithm.\+get\+Wrong\+Mess\+Caught (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the counter wrong\+Mess\+Caught
+
+\begin{DoxyReturn}{Returns}
+wrong\+Mess\+Caught, the number of wrong messages, which are caught by the CRC algoriithm 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_a5a46cc8b84761af03889375c77980919}\label{classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_a5a46cc8b84761af03889375c77980919}} 
+\index{com.thealgorithms.others.CRCAlgorithm@{com.thealgorithms.others.CRCAlgorithm}!getWrongMessNotCaught@{getWrongMessNotCaught}}
+\index{getWrongMessNotCaught@{getWrongMessNotCaught}!com.thealgorithms.others.CRCAlgorithm@{com.thealgorithms.others.CRCAlgorithm}}
+\doxysubsubsection{\texorpdfstring{getWrongMessNotCaught()}{getWrongMessNotCaught()}}
+{\footnotesize\ttfamily int com.\+thealgorithms.\+others.\+CRCAlgorithm.\+get\+Wrong\+Mess\+Not\+Caught (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the counter wrong\+Mess\+Not\+Caught
+
+\begin{DoxyReturn}{Returns}
+wrong\+Mess\+Not\+Caught, the number of wrong messages, which are not caught by the CRC algorithm 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_afaaab3058ca5eac782c77440c13b7584}\label{classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_afaaab3058ca5eac782c77440c13b7584}} 
+\index{com.thealgorithms.others.CRCAlgorithm@{com.thealgorithms.others.CRCAlgorithm}!refactor@{refactor}}
+\index{refactor@{refactor}!com.thealgorithms.others.CRCAlgorithm@{com.thealgorithms.others.CRCAlgorithm}}
+\doxysubsubsection{\texorpdfstring{refactor()}{refactor()}}
+{\footnotesize\ttfamily void com.\+thealgorithms.\+others.\+CRCAlgorithm.\+refactor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Resets some of the object\textquotesingle{}s values, used on the main function, so that it can be re-\/used, in order not to waste too much memory and time, by creating new objects. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/thealgorithms/others/CRCAlgorithm.\+java\end{DoxyCompactItemize}

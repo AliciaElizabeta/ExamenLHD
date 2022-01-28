@@ -1,0 +1,97 @@
+.TH "com.thealgorithms.datastructures.heaps.MaxHeap" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.datastructures.heaps.MaxHeap
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBcom\&.thealgorithms\&.datastructures\&.heaps\&.Heap\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBMaxHeap\fP (List< \fBHeapElement\fP > listElements)"
+.br
+.ti -1c
+.RI "\fBHeapElement\fP \fBgetElement\fP (int elementIndex)"
+.br
+.ti -1c
+.RI "void \fBinsertElement\fP (\fBHeapElement\fP element)"
+.br
+.ti -1c
+.RI "void \fBdeleteElement\fP (int elementIndex)"
+.br
+.ti -1c
+.RI "\fBHeapElement\fP \fBgetElement\fP ()  throws EmptyHeapException "
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+\fBHeap\fP tree where a node's key is higher than or equal to its parent's and lower than or equal to its children's\&.
+.PP
+\fBAuthor\fP
+.RS 4
+Nicolas Renard 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "void com\&.thealgorithms\&.datastructures\&.heaps\&.MaxHeap\&.deleteElement (int elementIndex)"
+Delete an element in the heap\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIelementIndex\fP int containing the position in the heap of the element to be deleted\&. 
+.RE
+.PP
+
+.PP
+Implements \fBcom\&.thealgorithms\&.datastructures\&.heaps\&.Heap\fP\&.
+.SS "\fBHeapElement\fP com\&.thealgorithms\&.datastructures\&.heaps\&.MaxHeap\&.getElement () throws \fBEmptyHeapException\fP"
+
+.PP
+\fBReturns\fP
+.RS 4
+the top element in the heap, the one with lowest key for min-heap or with the highest key for max-heap 
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fI\fBEmptyHeapException\fP\fP if heap is empty 
+.RE
+.PP
+
+.PP
+Implements \fBcom\&.thealgorithms\&.datastructures\&.heaps\&.Heap\fP\&.
+.SS "\fBHeapElement\fP com\&.thealgorithms\&.datastructures\&.heaps\&.MaxHeap\&.getElement (int elementIndex)"
+Get the element at a given index\&. The key for the list is equal to index value - 1
+.PP
+\fBParameters\fP
+.RS 4
+\fIelementIndex\fP index 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+heapElement 
+.RE
+.PP
+
+.SS "void com\&.thealgorithms\&.datastructures\&.heaps\&.MaxHeap\&.insertElement (\fBHeapElement\fP element)"
+Inserts an element in the heap\&. Adds it to then end and toggle it until it finds its right position\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIelement\fP an instance of the \fBHeapElement\fP class\&. 
+.RE
+.PP
+
+.PP
+Implements \fBcom\&.thealgorithms\&.datastructures\&.heaps\&.Heap\fP\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

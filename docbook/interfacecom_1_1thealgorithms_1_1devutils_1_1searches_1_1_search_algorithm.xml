@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interfacecom_1_1thealgorithms_1_1devutils_1_1searches_1_1_search_algorithm" xml:lang="en-US">
+<title>com.thealgorithms.devutils.searches.SearchAlgorithm Interface Reference</title>
+<indexterm><primary>com.thealgorithms.devutils.searches.SearchAlgorithm</primary></indexterm>
+<para>Inheritance diagram for com.thealgorithms.devutils.searches.SearchAlgorithm:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interfacecom_1_1thealgorithms_1_1devutils_1_1searches_1_1_search_algorithm.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>&lt; T extends Comparable&lt; T &gt; int <link linkend="_interfacecom_1_1thealgorithms_1_1devutils_1_1searches_1_1_search_algorithm_1a8e6cf62a225ee9c2a3c4a5b8ef62b4bd">find</link> (T array[], T key)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>The common interface of most searching algorithms</para>
+
+<para><formalpara><title>Author</title>
+
+<para>Podshivalov Nikita (<link xlink:href="https://github.com/nikitap492">https://github.com/nikitap492</link>) </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_interfacecom_1_1thealgorithms_1_1devutils_1_1searches_1_1_search_algorithm_1a8e6cf62a225ee9c2a3c4a5b8ef62b4bd"/><section>
+    <title>find()</title>
+<indexterm><primary>find</primary><secondary>com.thealgorithms.devutils.searches.SearchAlgorithm</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.devutils.searches.SearchAlgorithm</primary><secondary>find</secondary></indexterm>
+<para><computeroutput>&lt; T extends Comparable&lt; T &gt; int com.thealgorithms.devutils.searches.SearchAlgorithm.find (T array[], T key)</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>key</entry><entry>
+<para>is an element which should be found </para>
+</entry>
+                            </row>
+                            <row>
+<entry>array</entry><entry>
+<para>is an array where the element should be found </para>
+</entry>
+                            </row>
+                            <row>
+<entry>&lt;T&gt;</entry><entry>
+<para>Comparable type </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>first found index of the element </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this interface was generated from the following file:</para>
+src/main/java/com/thealgorithms/devutils/searches/SearchAlgorithm.java</section>
+</section>

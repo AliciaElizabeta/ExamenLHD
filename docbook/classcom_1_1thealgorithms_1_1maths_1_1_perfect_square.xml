@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_perfect_square" xml:lang="en-US">
+<title>com.thealgorithms.maths.PerfectSquare Class Reference</title>
+<indexterm><primary>com.thealgorithms.maths.PerfectSquare</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_perfect_square_1acfb4265066e256b7b32a8ccad24a398b"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+            <listitem><para>static boolean <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_perfect_square_1ad708b46acab4d8b980b3088366e8a3e4">isPerfectSquare</link> (int number)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link xlink:href="https://en.wikipedia.org/wiki/Perfect_square">https://en.wikipedia.org/wiki/Perfect_square</link> </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_perfect_square_1ad708b46acab4d8b980b3088366e8a3e4"/><section>
+    <title>isPerfectSquare()</title>
+<indexterm><primary>isPerfectSquare</primary><secondary>com.thealgorithms.maths.PerfectSquare</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.PerfectSquare</primary><secondary>isPerfectSquare</secondary></indexterm>
+<para><computeroutput>static boolean com.thealgorithms.maths.PerfectSquare.isPerfectSquare (int number)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Check if a number is perfect square number</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>number</entry><entry>
+<para>the number to be checked </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para><computeroutput>true</computeroutput> if <literallayout><computeroutput>number&#32;
+</computeroutput></literallayout> is perfect square, otherwise <computeroutput>false</computeroutput> </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/maths/PerfectSquare.java</section>
+</section>

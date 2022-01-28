@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacecom_1_1thealgorithms_1_1datastructures_1_1lists" xml:lang="en-US">
+<title>Package com.thealgorithms.datastructures.lists</title>
+<indexterm><primary>com.thealgorithms.datastructures.lists</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_circle_linked_list">CircleLinkedList</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_count_singly_linked_list_recursion">CountSinglyLinkedListRecursion</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_create_and_detect_loop">CreateAndDetectLoop</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_cursor_linked_list">CursorLinkedList</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list">DoublyLinkedList</link></para>
+</listitem>
+            <listitem><para>class <emphasis role="strong">Link</emphasis></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_merge___k___sorted_linkedlist">Merge_K_SortedLinkedlist</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_merge_sorted_array_list">MergeSortedArrayList</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_merge_sorted_singly_linked_list">MergeSortedSinglyLinkedList</link></para>
+</listitem>
+            <listitem><para>class <emphasis role="strong">Node</emphasis></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_random_node">RandomNode</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_remove_duplicate_nodes">RemoveDuplicateNodes</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_search_singly_linked_list_recursion">SearchSinglyLinkedListRecursion</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list">SinglyLinkedList</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Author : Suraj Kumar Github : <link xlink:href="https://github.com/skmodi649">https://github.com/skmodi649</link> PROBLEM DESCRIPTION : There is a single linked list and we are supposed to find a random node in the given linked list ALGORITHM : Step 1 : START Step 2 : Create an arraylist of type integer Step 3 : Declare an integer type variable for size and linked list type for head Step 4 : We will use two methods, one for traversing through the linked list using while loop and also increase the size by 1</para>
+
+<para>(a) RandomNode(head) (b) run a while loop till null; (c) add the value to arraylist; (d) increase the size;</para>
+
+<para>Step 5 : Now use another method for getting random values using Math.random() and return the value present in arraylist for the calculated index Step 6 : Now in main() method we will simply insert nodes in the linked list and then call the appropriate method and then print the random node generated Step 7 : STOP </para>
+</section>
+</section>

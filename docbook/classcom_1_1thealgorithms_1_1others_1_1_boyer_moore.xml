@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1others_1_1_boyer_moore" xml:lang="en-US">
+<title>com.thealgorithms.others.BoyerMoore Class Reference</title>
+<indexterm><primary>com.thealgorithms.others.BoyerMoore</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_boyer_moore_1ac631e2cc349fbd8a65dea3b00edca4f9"/>static int <emphasis role="strong">findmajor</emphasis> (int[] a)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_boyer_moore_1a15457ea50bd3bbed858e0e59a9f00f8e"/>static void <emphasis role="strong">main</emphasis> (String args[])</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/others/BoyerMoore.java</section>

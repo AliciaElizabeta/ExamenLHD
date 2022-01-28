@@ -1,0 +1,94 @@
+.TH "com.thealgorithms.datastructures.trees.BSTRecursive" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.datastructures.trees.BSTRecursive
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBadd\fP (int data)"
+.br
+.ti -1c
+.RI "void \fBremove\fP (int data)"
+.br
+.ti -1c
+.RI "void \fBinorder\fP ()"
+.br
+.ti -1c
+.RI "void \fBpostorder\fP ()"
+.br
+.ti -1c
+.RI "void \fBpreorder\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBfind\fP (int data)"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBmain\fP (String[] args)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.SH "Binary Search Tree (Recursive)"
+.PP
+.PP
+An implementation of BST recursively\&. In recursive implementation the checks are down the tree First root is checked if not found then its childs are checked Binary Search Tree is a binary tree which satisfies three properties: left child is less than root node, right child is grater than root node, both left and right childs must themselves be a BST\&.
+.PP
+I have made public functions as methods and to actually implement recursive approach I have used private methods
+.PP
+\fBAuthor\fP
+.RS 4
+\fCLakhan Nad\fP 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "void com\&.thealgorithms\&.datastructures\&.trees\&.BSTRecursive\&.add (int data)"
+add in BST\&. if the value is not already present it is inserted or else no change takes place\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIdata\fP the value to be inserted 
+.RE
+.PP
+
+.SS "boolean com\&.thealgorithms\&.datastructures\&.trees\&.BSTRecursive\&.find (int data)"
+To check if given value is present in tree or not\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIdata\fP the data to be found for 
+.RE
+.PP
+
+.SS "void com\&.thealgorithms\&.datastructures\&.trees\&.BSTRecursive\&.inorder ()"
+To call inorder traversal on tree 
+.SS "static void com\&.thealgorithms\&.datastructures\&.trees\&.BSTRecursive\&.main (String[] args)\fC [static]\fP"
+main function for tests 
+.SS "void com\&.thealgorithms\&.datastructures\&.trees\&.BSTRecursive\&.postorder ()"
+To call postorder traversal on tree 
+.SS "void com\&.thealgorithms\&.datastructures\&.trees\&.BSTRecursive\&.preorder ()"
+To call preorder traversal on tree\&. 
+.SS "void com\&.thealgorithms\&.datastructures\&.trees\&.BSTRecursive\&.remove (int data)"
+If data is present in BST delete it else do nothing\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIdata\fP the value to be removed 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

@@ -1,0 +1,46 @@
+\hypertarget{classcom_1_1thealgorithms_1_1maths_1_1_circular_convolution_f_f_t}{}\doxysection{com.\+thealgorithms.\+maths.\+Circular\+Convolution\+FFT Class Reference}
+\label{classcom_1_1thealgorithms_1_1maths_1_1_circular_convolution_f_f_t}\index{com.thealgorithms.maths.CircularConvolutionFFT@{com.thealgorithms.maths.CircularConvolutionFFT}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Array\+List$<$ FFT.\+Complex $>$ \mbox{\hyperlink{classcom_1_1thealgorithms_1_1maths_1_1_circular_convolution_f_f_t_a5bc6b27cb4b8b1a1647f95dfc9849fc3}{fft\+Circular\+Convolution}} (Array\+List$<$ FFT.\+Complex $>$ a, Array\+List$<$ FFT.\+Complex $>$ b)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class for circular convolution of two discrete signals using the convolution theorem.
+
+\begin{DoxyAuthor}{Author}
+Ioannis Karavitsis 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1maths_1_1_circular_convolution_f_f_t_a5bc6b27cb4b8b1a1647f95dfc9849fc3}\label{classcom_1_1thealgorithms_1_1maths_1_1_circular_convolution_f_f_t_a5bc6b27cb4b8b1a1647f95dfc9849fc3}} 
+\index{com.thealgorithms.maths.CircularConvolutionFFT@{com.thealgorithms.maths.CircularConvolutionFFT}!fftCircularConvolution@{fftCircularConvolution}}
+\index{fftCircularConvolution@{fftCircularConvolution}!com.thealgorithms.maths.CircularConvolutionFFT@{com.thealgorithms.maths.CircularConvolutionFFT}}
+\doxysubsubsection{\texorpdfstring{fftCircularConvolution()}{fftCircularConvolution()}}
+{\footnotesize\ttfamily static Array\+List$<$ FFT.\+Complex $>$ com.\+thealgorithms.\+maths.\+Circular\+Convolution\+FFT.\+fft\+Circular\+Convolution (\begin{DoxyParamCaption}\item[{Array\+List$<$ FFT.\+Complex $>$}]{a,  }\item[{Array\+List$<$ FFT.\+Complex $>$}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Discrete circular convolution function. It uses the convolution theorem for discrete signals\+: convolved = IDFT(DFT(a)$\ast$\+DFT(b)). Then we use the \mbox{\hyperlink{classcom_1_1thealgorithms_1_1maths_1_1_f_f_t}{FFT}} algorithm for faster calculations of the two DFTs and the final IDFT.
+
+More info\+: \href{https://en.wikipedia.org/wiki/Convolution_theorem}{\texttt{ https\+://en.\+wikipedia.\+org/wiki/\+Convolution\+\_\+theorem}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & The first signal. \\
+\hline
+{\em b} & The other signal. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The convolved signal. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/thealgorithms/maths/Circular\+Convolution\+FFT.\+java\end{DoxyCompactItemize}

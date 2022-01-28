@@ -1,0 +1,53 @@
+.TH "com.thealgorithms.datastructures.caches.LRUCache< K, V >" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.datastructures.caches.LRUCache< K, V >
+.SH SYNOPSIS
+.br
+.PP
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "class \fBEntry\fP"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBLRUCache\fP (int cap)"
+.br
+.ti -1c
+.RI "V \fBget\fP (K key)"
+.br
+.ti -1c
+.RI "void \fBput\fP (K key, V value)"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBmain\fP (String[] args)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Least recently used (LRU) 
+.PP
+Discards the least recently used items first\&. This algorithm requires keeping track of what was used when, which is expensive if one wants to make sure the algorithm always discards the least recently used item\&. https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_recently_used_(LRU)
+.PP
+\fBParameters\fP
+.RS 4
+\fI<K>\fP key type 
+.br
+\fI<V>\fP value type 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

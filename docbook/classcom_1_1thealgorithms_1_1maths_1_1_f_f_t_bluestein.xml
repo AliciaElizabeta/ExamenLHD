@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_f_f_t_bluestein" xml:lang="en-US">
+<title>com.thealgorithms.maths.FFTBluestein Class Reference</title>
+<indexterm><primary>com.thealgorithms.maths.FFTBluestein</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_f_f_t_bluestein_1a1c6e1b958d291c563ada7bf05dcb9d49">fftBluestein</link> (ArrayList&lt; FFT.Complex &gt; x, boolean inverse)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Class for calculating the Fast Fourier Transform (<link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_f_f_t">FFT</link>) of a discrete signal using the Bluestein&apos;s algorithm.</para>
+
+<para><formalpara><title>Author</title>
+
+<para>Ioannis Karavitsis </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_f_f_t_bluestein_1a1c6e1b958d291c563ada7bf05dcb9d49"/><section>
+    <title>fftBluestein()</title>
+<indexterm><primary>fftBluestein</primary><secondary>com.thealgorithms.maths.FFTBluestein</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.FFTBluestein</primary><secondary>fftBluestein</secondary></indexterm>
+<para><computeroutput>static void com.thealgorithms.maths.FFTBluestein.fftBluestein (ArrayList&lt; FFT.Complex &gt; x, boolean inverse)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Bluestein&apos;s <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_f_f_t">FFT</link> Algorithm.</para>
+
+<para>More info: <link xlink:href="https://en.wikipedia.org/wiki/Chirp_Z-transform#Bluestein.27s_algorithm">https://en.wikipedia.org/wiki/Chirp_Z-transform#Bluestein.27s_algorithm</link> <link xlink:href="http://tka4.org/materials/lib/Articles-Books/Numerical%20Algorithms/Hartley_Trasform/Bluestein%27s%20FFT%20algorithm%20-%20Wikipedia,%20the%20free%20encyclopedia.htm">http://tka4.org/materials/lib/Articles-Books/Numerical%20Algorithms/Hartley_Trasform/Bluestein%27s%20FFT%20algorithm%20-%20Wikipedia,%20the%20free%20encyclopedia.htm</link></para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>x</entry><entry>
+<para>The discrete signal which is then converted to the <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_f_f_t">FFT</link> or the IFFT of signal x. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>inverse</entry><entry>
+<para>True if you want to find the inverse <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_f_f_t">FFT</link>. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/maths/FFTBluestein.java</section>
+</section>

@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_generic_tree" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.trees.GenericTree Class Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.trees.GenericTree</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_generic_tree_1acad6955425114779b3c02ca522d03f33">display</link> ()</para>
+</listitem>
+            <listitem><para>int <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_generic_tree_1a56d6f85a4f945dc480ce43bdc19bf3b5">size2call</link> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_generic_tree_1a9d9dd9fbe6692a7cf1ca506c0fbf7942"/>int <emphasis role="strong">size2</emphasis> (Node roott)</para>
+</listitem>
+            <listitem><para>int <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_generic_tree_1a1b75780f3ed71f8fc40e3330bf2e2c45">maxcall</link> ()</para>
+</listitem>
+            <listitem><para>int <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_generic_tree_1a0133d2d608b4066836d2349634e41ebb">heightcall</link> ()</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_generic_tree_1a2ba76997d8f1600a28068f7a757fba4c">findcall</link> (int info)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_generic_tree_1a456ea1d85fe4ec2a356510fce40068e4">depthcaller</link> (int dep)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_generic_tree_1afa916e2c45a278d62427d73e9a710377"/>void <emphasis role="strong">depth</emphasis> (Node node, int dep)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_generic_tree_1afee45292da676b4db7d918d58e85ece7">preordercall</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_generic_tree_1af866615aded6088ab08ecdba99272aba">postordercall</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_generic_tree_1a23f4c0e470b6363cfb596253c00d0e8f">levelorder</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_generic_tree_1a7b93c971e8696b4efee3c797e30064bb">removeleavescall</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>A generic tree is a tree which can have as many children as it can be It might be possible that every node present is directly connected to root node.</para>
+
+<para>In this code Every function has two copies: one function is helper function which can be called from main and from that function a private function is called which will do the actual work. I have done this, while calling from main one have to give minimum parameters. </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_generic_tree_1a456ea1d85fe4ec2a356510fce40068e4"/><section>
+    <title>depthcaller()</title>
+<indexterm><primary>depthcaller</primary><secondary>com.thealgorithms.datastructures.trees.GenericTree</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.trees.GenericTree</primary><secondary>depthcaller</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.trees.GenericTree.depthcaller (int dep)</computeroutput></para>
+<para>Function to calculate depth of generic tree</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>dep</entry><entry>
+<para>depth </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_generic_tree_1acad6955425114779b3c02ca522d03f33"/><section>
+    <title>display()</title>
+<indexterm><primary>display</primary><secondary>com.thealgorithms.datastructures.trees.GenericTree</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.trees.GenericTree</primary><secondary>display</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.trees.GenericTree.display ( )</computeroutput></para>
+<para>Function to display the generic tree </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_generic_tree_1a2ba76997d8f1600a28068f7a757fba4c"/><section>
+    <title>findcall()</title>
+<indexterm><primary>findcall</primary><secondary>com.thealgorithms.datastructures.trees.GenericTree</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.trees.GenericTree</primary><secondary>findcall</secondary></indexterm>
+<para><computeroutput>boolean com.thealgorithms.datastructures.trees.GenericTree.findcall (int info)</computeroutput></para>
+<para>Function to find whether a number is present in the generic tree or not</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>info</entry><entry>
+<para>number </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>present or not </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_generic_tree_1a0133d2d608b4066836d2349634e41ebb"/><section>
+    <title>heightcall()</title>
+<indexterm><primary>heightcall</primary><secondary>com.thealgorithms.datastructures.trees.GenericTree</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.trees.GenericTree</primary><secondary>heightcall</secondary></indexterm>
+<para><computeroutput>int com.thealgorithms.datastructures.trees.GenericTree.heightcall ( )</computeroutput></para>
+<para>Function to compute HEIGHT of the generic tree</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>height </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_generic_tree_1a23f4c0e470b6363cfb596253c00d0e8f"/><section>
+    <title>levelorder()</title>
+<indexterm><primary>levelorder</primary><secondary>com.thealgorithms.datastructures.trees.GenericTree</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.trees.GenericTree</primary><secondary>levelorder</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.trees.GenericTree.levelorder ( )</computeroutput></para>
+<para>Function to print generic tree in level-order </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_generic_tree_1a1b75780f3ed71f8fc40e3330bf2e2c45"/><section>
+    <title>maxcall()</title>
+<indexterm><primary>maxcall</primary><secondary>com.thealgorithms.datastructures.trees.GenericTree</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.trees.GenericTree</primary><secondary>maxcall</secondary></indexterm>
+<para><computeroutput>int com.thealgorithms.datastructures.trees.GenericTree.maxcall ( )</computeroutput></para>
+<para>Function to compute maximum value in the generic tree</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>maximum value </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_generic_tree_1af866615aded6088ab08ecdba99272aba"/><section>
+    <title>postordercall()</title>
+<indexterm><primary>postordercall</primary><secondary>com.thealgorithms.datastructures.trees.GenericTree</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.trees.GenericTree</primary><secondary>postordercall</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.trees.GenericTree.postordercall ( )</computeroutput></para>
+<para>Function to print generic tree in post-order </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_generic_tree_1afee45292da676b4db7d918d58e85ece7"/><section>
+    <title>preordercall()</title>
+<indexterm><primary>preordercall</primary><secondary>com.thealgorithms.datastructures.trees.GenericTree</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.trees.GenericTree</primary><secondary>preordercall</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.trees.GenericTree.preordercall ( )</computeroutput></para>
+<para>Function to print generic tree in pre-order </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_generic_tree_1a7b93c971e8696b4efee3c797e30064bb"/><section>
+    <title>removeleavescall()</title>
+<indexterm><primary>removeleavescall</primary><secondary>com.thealgorithms.datastructures.trees.GenericTree</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.trees.GenericTree</primary><secondary>removeleavescall</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.trees.GenericTree.removeleavescall ( )</computeroutput></para>
+<para>Function to remove all leaves of generic tree </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_generic_tree_1a56d6f85a4f945dc480ce43bdc19bf3b5"/><section>
+    <title>size2call()</title>
+<indexterm><primary>size2call</primary><secondary>com.thealgorithms.datastructures.trees.GenericTree</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.trees.GenericTree</primary><secondary>size2call</secondary></indexterm>
+<para><computeroutput>int com.thealgorithms.datastructures.trees.GenericTree.size2call ( )</computeroutput></para>
+<para>One call store the size directly but if you are asked compute size this function to calculate size goes as follows</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>size </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/trees/GenericTree.java</section>
+</section>

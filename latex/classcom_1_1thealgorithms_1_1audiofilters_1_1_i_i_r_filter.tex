@@ -1,0 +1,101 @@
+\hypertarget{classcom_1_1thealgorithms_1_1audiofilters_1_1_i_i_r_filter}{}\doxysection{com.\+thealgorithms.\+audiofilters.\+IIRFilter Class Reference}
+\label{classcom_1_1thealgorithms_1_1audiofilters_1_1_i_i_r_filter}\index{com.thealgorithms.audiofilters.IIRFilter@{com.thealgorithms.audiofilters.IIRFilter}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1thealgorithms_1_1audiofilters_1_1_i_i_r_filter_a7f94e0c8b091791bb412c060ed259aad}{IIRFilter}} (int order)  throws Illegal\+Argument\+Exception 
+\item 
+void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1audiofilters_1_1_i_i_r_filter_ae01dbdb1a8ca107d2bc4946b020e165f}{set\+Coeffs}} (double\mbox{[}$\,$\mbox{]} a\+Coeffs, double\mbox{[}$\,$\mbox{]} b\+Coeffs)  throws Illegal\+Argument\+Exception 
+\item 
+double \mbox{\hyperlink{classcom_1_1thealgorithms_1_1audiofilters_1_1_i_i_r_filter_ad2804090f204bba0eb56e10a525f66c4}{process}} (double sample)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+N-\/\+Order IIR Filter Assumes inputs are normalized to \mbox{[}-\/1, 1\mbox{]}
+
+Based on the difference equation from \href{https://en.wikipedia.org/wiki/Infinite_impulse_response}{\texttt{ https\+://en.\+wikipedia.\+org/wiki/\+Infinite\+\_\+impulse\+\_\+response}} 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1audiofilters_1_1_i_i_r_filter_a7f94e0c8b091791bb412c060ed259aad}\label{classcom_1_1thealgorithms_1_1audiofilters_1_1_i_i_r_filter_a7f94e0c8b091791bb412c060ed259aad}} 
+\index{com.thealgorithms.audiofilters.IIRFilter@{com.thealgorithms.audiofilters.IIRFilter}!IIRFilter@{IIRFilter}}
+\index{IIRFilter@{IIRFilter}!com.thealgorithms.audiofilters.IIRFilter@{com.thealgorithms.audiofilters.IIRFilter}}
+\doxysubsubsection{\texorpdfstring{IIRFilter()}{IIRFilter()}}
+{\footnotesize\ttfamily com.\+thealgorithms.\+audiofilters.\+IIRFilter.\+IIRFilter (\begin{DoxyParamCaption}\item[{int}]{order }\end{DoxyParamCaption}) throws Illegal\+Argument\+Exception}
+
+Construct an IIR Filter
+
+
+\begin{DoxyParams}{Parameters}
+{\em order} & the filter\textquotesingle{}s order \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Illegal\+Argument\+Exception} & if order is zero or less \\
+\hline
+\end{DoxyExceptions}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1audiofilters_1_1_i_i_r_filter_ad2804090f204bba0eb56e10a525f66c4}\label{classcom_1_1thealgorithms_1_1audiofilters_1_1_i_i_r_filter_ad2804090f204bba0eb56e10a525f66c4}} 
+\index{com.thealgorithms.audiofilters.IIRFilter@{com.thealgorithms.audiofilters.IIRFilter}!process@{process}}
+\index{process@{process}!com.thealgorithms.audiofilters.IIRFilter@{com.thealgorithms.audiofilters.IIRFilter}}
+\doxysubsubsection{\texorpdfstring{process()}{process()}}
+{\footnotesize\ttfamily double com.\+thealgorithms.\+audiofilters.\+IIRFilter.\+process (\begin{DoxyParamCaption}\item[{double}]{sample }\end{DoxyParamCaption})}
+
+Process a single sample
+
+
+\begin{DoxyParams}{Parameters}
+{\em sample} & the sample to process \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the processed sample 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1audiofilters_1_1_i_i_r_filter_ae01dbdb1a8ca107d2bc4946b020e165f}\label{classcom_1_1thealgorithms_1_1audiofilters_1_1_i_i_r_filter_ae01dbdb1a8ca107d2bc4946b020e165f}} 
+\index{com.thealgorithms.audiofilters.IIRFilter@{com.thealgorithms.audiofilters.IIRFilter}!setCoeffs@{setCoeffs}}
+\index{setCoeffs@{setCoeffs}!com.thealgorithms.audiofilters.IIRFilter@{com.thealgorithms.audiofilters.IIRFilter}}
+\doxysubsubsection{\texorpdfstring{setCoeffs()}{setCoeffs()}}
+{\footnotesize\ttfamily void com.\+thealgorithms.\+audiofilters.\+IIRFilter.\+set\+Coeffs (\begin{DoxyParamCaption}\item[{double\mbox{[}$\,$\mbox{]}}]{a\+Coeffs,  }\item[{double\mbox{[}$\,$\mbox{]}}]{b\+Coeffs }\end{DoxyParamCaption}) throws Illegal\+Argument\+Exception}
+
+Set coefficients
+
+
+\begin{DoxyParams}{Parameters}
+{\em a\+Coeffs} & Denominator coefficients \\
+\hline
+{\em b\+Coeffs} & Numerator coefficients \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Illegal\+Argument\+Exception} & if 
+\begin{DoxyCode}{1}
+\DoxyCodeLine{aCoeffs }
+
+\end{DoxyCode}
+ or 
+\begin{DoxyCode}{1}
+\DoxyCodeLine{bCoeffs }
+
+\end{DoxyCode}
+ is not of size 
+\begin{DoxyCode}{1}
+\DoxyCodeLine{order }
+
+\end{DoxyCode}
+ , or if 
+\begin{DoxyCode}{1}
+\DoxyCodeLine{aCoeffs[0] }
+
+\end{DoxyCode}
+ is 0.\+0 \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/thealgorithms/audiofilters/IIRFilter.\+java\end{DoxyCompactItemize}

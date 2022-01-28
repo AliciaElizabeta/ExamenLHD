@@ -1,0 +1,152 @@
+.TH "com.thealgorithms.datastructures.queues.Deques< T >" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.datastructures.queues.Deques< T >
+.SH SYNOPSIS
+.br
+.PP
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "class \fBDequeNode\fP"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBaddFirst\fP (T val)"
+.br
+.ti -1c
+.RI "void \fBaddLast\fP (T val)"
+.br
+.ti -1c
+.RI "T \fBpollFirst\fP ()"
+.br
+.ti -1c
+.RI "T \fBpollLast\fP ()"
+.br
+.ti -1c
+.RI "T \fBpeekFirst\fP ()"
+.br
+.ti -1c
+.RI "T \fBpeekLast\fP ()"
+.br
+.ti -1c
+.RI "int \fBsize\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBisEmpty\fP ()"
+.br
+.ti -1c
+.RI "String \fBtoString\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBmain\fP (String[] args)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+A \fCdeque\fP is short for a double ended queue pronounced 'deck' and sometimes referred to as a head-tail linked list\&. A deque is a data structure based on a doubly linked list, but only supports adding and removal of nodes from the beginning and the end of the list\&.
+.PP
+\fBAuthor\fP
+.RS 4
+\fCIan Cowan\fP 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "void \fBcom\&.thealgorithms\&.datastructures\&.queues\&.Deques\fP< T >\&.addFirst (T val)"
+Adds the specified value to the head of the deque
+.PP
+\fBParameters\fP
+.RS 4
+\fIval\fP Value to add to the deque 
+.RE
+.PP
+
+.SS "void \fBcom\&.thealgorithms\&.datastructures\&.queues\&.Deques\fP< T >\&.addLast (T val)"
+Adds the specified value to the tail of the deque
+.PP
+\fBParameters\fP
+.RS 4
+\fIval\fP Value to add to the deque 
+.RE
+.PP
+
+.SS "boolean \fBcom\&.thealgorithms\&.datastructures\&.queues\&.Deques\fP< T >\&.isEmpty ()"
+Returns whether or not the deque is empty
+.PP
+\fBReturns\fP
+.RS 4
+whether or not the deque is empty 
+.RE
+.PP
+
+.SS "T \fBcom\&.thealgorithms\&.datastructures\&.queues\&.Deques\fP< T >\&.peekFirst ()"
+Returns the first (head) value of the deque WITHOUT removing
+.PP
+\fBReturns\fP
+.RS 4
+the value of the head of the deque 
+.RE
+.PP
+
+.SS "T \fBcom\&.thealgorithms\&.datastructures\&.queues\&.Deques\fP< T >\&.peekLast ()"
+Returns the last (tail) value of the deque WITHOUT removing
+.PP
+\fBReturns\fP
+.RS 4
+the value of the tail of the deque 
+.RE
+.PP
+
+.SS "T \fBcom\&.thealgorithms\&.datastructures\&.queues\&.Deques\fP< T >\&.pollFirst ()"
+Removes and returns the first (head) value in the deque
+.PP
+\fBReturns\fP
+.RS 4
+the value of the head of the deque 
+.RE
+.PP
+
+.SS "T \fBcom\&.thealgorithms\&.datastructures\&.queues\&.Deques\fP< T >\&.pollLast ()"
+Removes and returns the last (tail) value in the deque
+.PP
+\fBReturns\fP
+.RS 4
+the value of the tail of the deque 
+.RE
+.PP
+
+.SS "int \fBcom\&.thealgorithms\&.datastructures\&.queues\&.Deques\fP< T >\&.size ()"
+Returns the size of the deque
+.PP
+\fBReturns\fP
+.RS 4
+the size of the deque 
+.RE
+.PP
+
+.SS "String \fBcom\&.thealgorithms\&.datastructures\&.queues\&.Deques\fP< T >\&.toString ()"
+Returns a stringified deque in a pretty form:
+.PP
+Head -> 1 <-> 2 <-> 3 <- Tail
+.PP
+\fBReturns\fP
+.RS 4
+the stringified deque 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

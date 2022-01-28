@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1graphs_1_1_bipartite_grapf_d_f_s" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.graphs.BipartiteGrapfDFS Class Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.graphs.BipartiteGrapfDFS</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1graphs_1_1_bipartite_grapf_d_f_s_1a95fc4cd2b77aaa8af761dc7d93deb028"/>static boolean <emphasis role="strong">isBipartite</emphasis> (int V, ArrayList&lt; ArrayList&lt; Integer &gt; &gt; adj)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1graphs_1_1_bipartite_grapf_d_f_s_1aed4493ad0ca00e98a84c7f98aa59410f"/>static void <emphasis role="strong">main</emphasis> (String[] args)  throws IOException </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Given an adjacency list of a graph adj of V no. of vertices having 0 based index. Check whether the graph is bipartite or not.</para>
+
+<para>Input : {{0, 1, 0, 1}, {1, 0, 1, 0}, {0, 1, 0, 1}, {1, 0, 1, 0}}</para>
+
+<para>Output : YES </para>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/graphs/BipartiteGrapfDFS.java</section>
+</section>

@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_f_f_t" xml:lang="en-US">
+<title>com.thealgorithms.maths.FFT Class Reference</title>
+<indexterm><primary>com.thealgorithms.maths.FFT</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <emphasis role="strong">Complex</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_f_f_t_1ab405bb7c7ddf13041b783df1b0c8a2ec">fft</link> (ArrayList&lt; Complex &gt; x, boolean inverse)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Class for calculating the Fast Fourier Transform (<link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_f_f_t">FFT</link>) of a discrete signal using the Cooley-Tukey algorithm.</para>
+
+<para><formalpara><title>Author</title>
+
+<para>Ioannis Karavitsis </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_f_f_t_1ab405bb7c7ddf13041b783df1b0c8a2ec"/><section>
+    <title>fft()</title>
+<indexterm><primary>fft</primary><secondary>com.thealgorithms.maths.FFT</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.FFT</primary><secondary>fft</secondary></indexterm>
+<para><computeroutput>static void com.thealgorithms.maths.FFT.fft (ArrayList&lt; Complex &gt; x, boolean inverse)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Iterative In-Place Radix-2 Cooley-Tukey Fast Fourier Transform Algorithm with Bit-Reversal. The size of the input signal must be a power of 2. If it isn&apos;t then it is padded with zeros and the output <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_f_f_t">FFT</link> will be bigger than the input signal.</para>
+
+<para>More info: <link xlink:href="https://www.algorithm-archive.org/contents/cooley_tukey/cooley_tukey.html">https://www.algorithm-archive.org/contents/cooley_tukey/cooley_tukey.html</link> <link xlink:href="https://www.geeksforgeeks.org/iterative-fast-fourier-transformation-polynomial-multiplication/">https://www.geeksforgeeks.org/iterative-fast-fourier-transformation-polynomial-multiplication/</link> <link xlink:href="https://en.wikipedia.org/wiki/Cooley%E2%80%93Tukey_FFT_algorithm">https://en.wikipedia.org/wiki/Cooley%E2%80%93Tukey_FFT_algorithm</link> <link xlink:href="https://cp-algorithms.com/algebra/fft.html">https://cp-algorithms.com/algebra/fft.html</link></para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>x</entry><entry>
+<para>The discrete signal which is then converted to the <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_f_f_t">FFT</link> or the IFFT of signal x. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>inverse</entry><entry>
+<para>True if you want to find the inverse <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_f_f_t">FFT</link>. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/maths/FFT.java</section>
+</section>

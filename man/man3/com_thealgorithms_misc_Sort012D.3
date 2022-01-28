@@ -1,0 +1,25 @@
+.TH "com.thealgorithms.misc.Sort012D" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.misc.Sort012D
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBmain\fP (String args[])"
+.br
+.ti -1c
+.RI "static void \fBsort012\fP (int[] a)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+The array is divided into four sections: a[1\&.\&.Lo-1] zeroes a[Lo\&.\&.Mid-1] ones a[Mid\&.\&.Hi] unknown a[Hi+1\&.\&.N] twos If array [mid] =0, then swap array [mid] with array [low] and increment both pointers once\&. If array [mid] = 1, then no swapping is required\&. Increment mid pointer once\&. If array [mid] = 2, then we swap array [mid] with array [high] and decrement the high pointer once\&. For more information on the Dutch national flag algorithm refer https://en.wikipedia.org/wiki/Dutch_national_flag_problem 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

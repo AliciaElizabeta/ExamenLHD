@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_fenwick_tree" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.trees.FenwickTree Class Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.trees.FenwickTree</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_fenwick_tree_1ae055d22198b25c6b296e92a9064bd11f"/><emphasis role="strong">FenwickTree</emphasis> (int n)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_fenwick_tree_1a80316c05f54b125a92184324dbdc59b8"/>void <emphasis role="strong">update</emphasis> (int i, int val)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_fenwick_tree_1a816089b4b3081828905d89407681e53f"/>int <emphasis role="strong">query</emphasis> (int i)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/trees/FenwickTree.java</section>

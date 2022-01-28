@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_minimum_path_sum" xml:lang="en-US">
+<title>com.thealgorithms.dynamicprogramming.MinimumPathSum Class Reference</title>
+<indexterm><primary>com.thealgorithms.dynamicprogramming.MinimumPathSum</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_minimum_path_sum_1ad790aff1a1b36721f8eac561008566fb"/>void <emphasis role="strong">testRegular</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_minimum_path_sum_1a570a5dadb023c59e31773cefdbc72893"/>void <emphasis role="strong">testLessColumns</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_minimum_path_sum_1a3aa40c9b33c5b57a1cc3863a9a805a39"/>void <emphasis role="strong">testLessRows</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_minimum_path_sum_1a7ba4dd370d8d4ce83698c19f2f06d876"/>void <emphasis role="strong">testOneRowOneColumn</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_minimum_path_sum_1a53f5129f09b7fc18a3f85ab8feb56d70"/>static int <emphasis role="strong">minimumPathSum</emphasis> (int[][] grid)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/dynamicprogramming/MinimumPathSum.java</section>

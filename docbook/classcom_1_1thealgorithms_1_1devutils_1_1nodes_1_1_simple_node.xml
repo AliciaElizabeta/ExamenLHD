@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_simple_node" xml:lang="en-US">
+<title>com.thealgorithms.devutils.nodes.SimpleNode&lt; E &gt; Class Template Reference</title>
+<indexterm><primary>com.thealgorithms.devutils.nodes.SimpleNode&lt; E &gt;</primary></indexterm>
+<para>Inheritance diagram for com.thealgorithms.devutils.nodes.SimpleNode&lt; E &gt;:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_simple_node.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_simple_node_1a7d13f1276b63b5a01aa9be36bc98b25f">SimpleNode</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_simple_node_1adc9dd8099a801a19e6b240305f1534eb">SimpleNode</link> (E data)</para>
+</listitem>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_simple_node_1af234a9c4c2c844477c189235d4137ad3">SimpleNode</link> (E data, <link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_simple_node">SimpleNode</link>&lt; E &gt; nextNode)</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_simple_node_1a67fae74091a8441498e65e3394f9ef26">hasNext</link> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_simple_node_1ac954c7e89ee95252b95d8819892a3184"/><link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_simple_node">SimpleNode</link>&lt; E &gt; <emphasis role="strong">getNextNode</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_simple_node_1ae8f162a63158e59bfdda81c54ce192e2"/>void <emphasis role="strong">setNextNode</emphasis> (<link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_simple_node">SimpleNode</link>&lt; E &gt; nextNode)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Simple <link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_node">Node</link> implementation that holds a reference to the next <link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_node">Node</link>.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>&lt;E&gt;</entry><entry>
+<para>The type of the data held in the <link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_node">Node</link>.</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Author</title>
+
+<para><link xlink:href="https://github.com/aitorfi">aitorfi</link> </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_simple_node_1a7d13f1276b63b5a01aa9be36bc98b25f"/><section>
+    <title>SimpleNode()<computeroutput>[1/3]</computeroutput></title>
+<indexterm><primary>SimpleNode</primary><secondary>com.thealgorithms.devutils.nodes.SimpleNode&lt; E &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.devutils.nodes.SimpleNode&lt; E &gt;</primary><secondary>SimpleNode</secondary></indexterm>
+<para><computeroutput><link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_simple_node">com.thealgorithms.devutils.nodes.SimpleNode</link>&lt; E &gt;.<link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_simple_node">SimpleNode</link> ( )</computeroutput></para>
+<para>Empty contructor. </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_simple_node_1adc9dd8099a801a19e6b240305f1534eb"/><section>
+    <title>SimpleNode()<computeroutput>[2/3]</computeroutput></title>
+<indexterm><primary>SimpleNode</primary><secondary>com.thealgorithms.devutils.nodes.SimpleNode&lt; E &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.devutils.nodes.SimpleNode&lt; E &gt;</primary><secondary>SimpleNode</secondary></indexterm>
+<para><computeroutput><link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_simple_node">com.thealgorithms.devutils.nodes.SimpleNode</link>&lt; E &gt;.<link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_simple_node">SimpleNode</link> (E data)</computeroutput></para>
+<para>Initializes the Nodes&apos; data.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>data</entry><entry>
+<para>Value to which data will be initialized. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>See also</title>
+
+<para>Node::Node(Object) </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_simple_node_1af234a9c4c2c844477c189235d4137ad3"/><section>
+    <title>SimpleNode()<computeroutput>[3/3]</computeroutput></title>
+<indexterm><primary>SimpleNode</primary><secondary>com.thealgorithms.devutils.nodes.SimpleNode&lt; E &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.devutils.nodes.SimpleNode&lt; E &gt;</primary><secondary>SimpleNode</secondary></indexterm>
+<para><computeroutput><link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_simple_node">com.thealgorithms.devutils.nodes.SimpleNode</link>&lt; E &gt;.<link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_simple_node">SimpleNode</link> (E data, <link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_simple_node">SimpleNode</link>&lt; E &gt; nextNode)</computeroutput></para>
+<para>Initializes the Nodes&apos; data and next node reference.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>data</entry><entry>
+<para>Value to which data will be initialized. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>nextNode</entry><entry>
+<para>Value to which the next node reference will be set. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_simple_node_1a67fae74091a8441498e65e3394f9ef26"/><section>
+    <title>hasNext()</title>
+<indexterm><primary>hasNext</primary><secondary>com.thealgorithms.devutils.nodes.SimpleNode&lt; E &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.devutils.nodes.SimpleNode&lt; E &gt;</primary><secondary>hasNext</secondary></indexterm>
+<para><computeroutput>boolean <link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_simple_node">com.thealgorithms.devutils.nodes.SimpleNode</link>&lt; E &gt;.hasNext ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>True if there is a next node, otherwise false. </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/devutils/nodes/SimpleNode.java</section>
+</section>

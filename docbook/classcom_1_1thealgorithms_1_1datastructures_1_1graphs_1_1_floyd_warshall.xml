@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1graphs_1_1_floyd_warshall" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.graphs.FloydWarshall Class Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.graphs.FloydWarshall</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1graphs_1_1_floyd_warshall_1ab6bbd71f87ef9e2df2a0df489e2223b1"/><emphasis role="strong">FloydWarshall</emphasis> (int numberofvertices)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1graphs_1_1_floyd_warshall_1aca2196f2b6d85ea5689d641b5a246b6b"/>void <emphasis role="strong">floydwarshall</emphasis> (int AdjacencyMatrix[][])</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1graphs_1_1_floyd_warshall_1aa020bb731b3d73f0b4ae3313fb9b2d1a"/>static void <emphasis role="strong">main</emphasis> (String... arg)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1graphs_1_1_floyd_warshall_1a6033f08915295173f698b7c27bb4e448"/>static final int <emphasis role="strong">INFINITY</emphasis> = 999</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/graphs/FloydWarshall.java</section>

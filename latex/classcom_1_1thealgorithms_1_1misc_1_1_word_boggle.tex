@@ -1,0 +1,30 @@
+\hypertarget{classcom_1_1thealgorithms_1_1misc_1_1_word_boggle}{}\doxysection{com.\+thealgorithms.\+misc.\+Word\+Boggle Class Reference}
+\label{classcom_1_1thealgorithms_1_1misc_1_1_word_boggle}\index{com.thealgorithms.misc.WordBoggle@{com.thealgorithms.misc.WordBoggle}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static List$<$ String $>$ \mbox{\hyperlink{classcom_1_1thealgorithms_1_1misc_1_1_word_boggle_a517d97aab1a0c19ac221a0746ae8c791}{boggle\+Board}} (char\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} board, String\mbox{[}$\,$\mbox{]} words)
+\item 
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1misc_1_1_word_boggle_a64fa6445945a576a54907cd866b2e206}\label{classcom_1_1thealgorithms_1_1misc_1_1_word_boggle_a64fa6445945a576a54907cd866b2e206}} 
+static void {\bfseries main} (String\mbox{[}$\,$\mbox{]} args)
+\item 
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1misc_1_1_word_boggle_adc1df37e2b36d14120e5ac552bb532b5}\label{classcom_1_1thealgorithms_1_1misc_1_1_word_boggle_adc1df37e2b36d14120e5ac552bb532b5}} 
+static void {\bfseries explore} (int i, int j, char\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} board, Trie\+Node trie\+Node, boolean\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} visited, Set$<$ String $>$ final\+Words)
+\item 
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1misc_1_1_word_boggle_a0bda46e8adaf4a6bd9abacb32268c246}\label{classcom_1_1thealgorithms_1_1misc_1_1_word_boggle_a0bda46e8adaf4a6bd9abacb32268c246}} 
+static List$<$ Integer\mbox{[}$\,$\mbox{]}$>$ {\bfseries get\+Neighbors} (int i, int j, char\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} board)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1misc_1_1_word_boggle_a517d97aab1a0c19ac221a0746ae8c791}\label{classcom_1_1thealgorithms_1_1misc_1_1_word_boggle_a517d97aab1a0c19ac221a0746ae8c791}} 
+\index{com.thealgorithms.misc.WordBoggle@{com.thealgorithms.misc.WordBoggle}!boggleBoard@{boggleBoard}}
+\index{boggleBoard@{boggleBoard}!com.thealgorithms.misc.WordBoggle@{com.thealgorithms.misc.WordBoggle}}
+\doxysubsubsection{\texorpdfstring{boggleBoard()}{boggleBoard()}}
+{\footnotesize\ttfamily static List$<$ String $>$ com.\+thealgorithms.\+misc.\+Word\+Boggle.\+boggle\+Board (\begin{DoxyParamCaption}\item[{char}]{board\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]},  }\item[{String\mbox{[}$\,$\mbox{]}}]{words }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+O(nm $\ast$ 8$^\wedge$s + ws) time where n = width of boggle board, m = height of boggle board, s = length of longest word in string array, w = length of string array, 8 is due to 8 explorable neighbours O(nm + ws) space. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/thealgorithms/misc/Word\+Boggle.\+java\end{DoxyCompactItemize}

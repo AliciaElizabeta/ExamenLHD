@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_ceil" xml:lang="en-US">
+<title>com.thealgorithms.maths.Ceil Class Reference</title>
+<indexterm><primary>com.thealgorithms.maths.Ceil</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_ceil_1a36c9c8a3e13186d5d23247a8b27160c2"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+            <listitem><para>static double <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_ceil_1a3850676d7351c62a95913b6d1cab0bed">ceil</link> (double number)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_ceil_1a3850676d7351c62a95913b6d1cab0bed"/><section>
+    <title>ceil()</title>
+<indexterm><primary>ceil</primary><secondary>com.thealgorithms.maths.Ceil</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.Ceil</primary><secondary>ceil</secondary></indexterm>
+<para><computeroutput>static double com.thealgorithms.maths.Ceil.ceil (double number)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Returns the smallest (closest to negative infinity)</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>number</entry><entry>
+<para>the number </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>the smallest (closest to negative infinity) of given <literallayout><computeroutput>number&#32;
+</computeroutput></literallayout> </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/maths/Ceil.java</section>
+</section>

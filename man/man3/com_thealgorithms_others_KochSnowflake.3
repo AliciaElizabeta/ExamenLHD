@@ -1,0 +1,62 @@
+.TH "com.thealgorithms.others.KochSnowflake" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.others.KochSnowflake
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBmain\fP (String[] args)"
+.br
+.ti -1c
+.RI "static ArrayList< Vector2 > \fBIterate\fP (ArrayList< Vector2 > initialVectors, int steps)"
+.br
+.ti -1c
+.RI "static BufferedImage \fBGetKochSnowflake\fP (int imageWidth, int steps)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+The Koch snowflake is a fractal curve and one of the earliest fractals to have been described\&. The Koch snowflake can be built up iteratively, in a sequence of stages\&. The first stage is an equilateral triangle, and each successive stage is formed by adding outward bends to each side of the previous stage, making smaller equilateral triangles\&. This can be achieved through the following steps for each line: 1\&. divide the line segment into three segments of equal length\&. 2\&. draw an equilateral triangle that has the middle segment from step 1 as its base and points outward\&. 3\&. remove the line segment that is the base of the triangle from step 2\&. (description adapted from https://en.wikipedia.org/wiki/Koch_snowflake ) (for a more detailed explanation and an implementation in the Processing language, see https://natureofcode.com/book/chapter-8-fractals/ #84-the-koch-curve-and-the-arraylist-technique )\&. 
+.SH "Member Function Documentation"
+.PP 
+.SS "static BufferedImage com\&.thealgorithms\&.others\&.KochSnowflake\&.GetKochSnowflake (int imageWidth, int steps)\fC [static]\fP"
+Method to render the Koch snowflake to a image\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIimageWidth\fP The width of the rendered image\&. 
+.br
+\fIsteps\fP The number of iterations\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The image of the rendered Koch snowflake\&. 
+.RE
+.PP
+
+.SS "static ArrayList< Vector2 > com\&.thealgorithms\&.others\&.KochSnowflake\&.Iterate (ArrayList< Vector2 > initialVectors, int steps)\fC [static]\fP"
+Go through the number of iterations determined by the argument 'steps'\&. Be careful with high values (above 5) since the time to calculate increases exponentially\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIinitialVectors\fP The vectors composing the shape to which the algorithm is applied\&. 
+.br
+\fIsteps\fP The number of iterations\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The transformed vectors after the iteration-steps\&. 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

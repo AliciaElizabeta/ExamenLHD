@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1strings_1_1_lower" xml:lang="en-US">
+<title>com.thealgorithms.strings.Lower Class Reference</title>
+<indexterm><primary>com.thealgorithms.strings.Lower</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classcom_1_1thealgorithms_1_1strings_1_1_lower_1a8f60916d286d8345570b4b60a96db711">main</link> (String[] args)</para>
+</listitem>
+            <listitem><para>static String <link linkend="_classcom_1_1thealgorithms_1_1strings_1_1_lower_1acfa42a279422ec008ca7113eadaa246c">toLowerCase</link> (String s)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1strings_1_1_lower_1a8f60916d286d8345570b4b60a96db711"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>com.thealgorithms.strings.Lower</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.strings.Lower</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void com.thealgorithms.strings.Lower.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Driver Code </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1strings_1_1_lower_1acfa42a279422ec008ca7113eadaa246c"/><section>
+    <title>toLowerCase()</title>
+<indexterm><primary>toLowerCase</primary><secondary>com.thealgorithms.strings.Lower</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.strings.Lower</primary><secondary>toLowerCase</secondary></indexterm>
+<para><computeroutput>static String com.thealgorithms.strings.Lower.toLowerCase (String s)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Converts all of the characters in this <literallayout><computeroutput>String&#32;
+</computeroutput></literallayout> to lower case</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>s</entry><entry>
+<para>the string to convert </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>the <literallayout><computeroutput>String&#32;
+</computeroutput></literallayout> , converted to lowercase. </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/strings/Lower.java</section>
+</section>

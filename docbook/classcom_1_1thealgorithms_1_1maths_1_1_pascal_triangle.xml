@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_pascal_triangle" xml:lang="en-US">
+<title>com.thealgorithms.maths.PascalTriangle Class Reference</title>
+<indexterm><primary>com.thealgorithms.maths.PascalTriangle</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static int[][] <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_pascal_triangle_1a5cf927c5295eae9b15dbe96fee437512">pascal</link> (int n)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_pascal_triangle_1a5cf927c5295eae9b15dbe96fee437512"/><section>
+    <title>pascal()</title>
+<indexterm><primary>pascal</primary><secondary>com.thealgorithms.maths.PascalTriangle</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.PascalTriangle</primary><secondary>pascal</secondary></indexterm>
+<para><computeroutput>static int[][] com.thealgorithms.maths.PascalTriangle.pascal (int n)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>In mathematics, Pascal&apos;s triangle is a triangular array of the binomial coefficients that arises in probability theory, combinatorics, and algebra. In much of the Western world, it is named after the French mathematician Blaise Pascal, although other mathematicians studied it centuries before him in India, Persia, China, Germany, and Italy.</para>
+
+<para>The rows of Pascal&apos;s triangle are conventionally enumerated starting with row n=0 at the top (the 0th row). The entries in each row are numbered from the left beginning with k=0 and are usually staggered relative to the numbers in the adjacent rows. The triangle may be constructed in the following manner: In row 0 (the topmost row), there is a unique nonzero entry 1. Each entry of each subsequent row is constructed by adding the number above and to the left with the number above and to the right, treating blank entries as 0. For example, the initial number in the first (or any other) row is 1 (the sum of 0 and 1), whereas the numbers 1 and 3 in the third row are added to produce the number 4 in the fourth row. *</para>
+
+<para>link:-<link xlink:href="https://en.wikipedia.org/wiki/Pascal%27s_triangle">https://en.wikipedia.org/wiki/Pascal%27s_triangle</link></para>
+
+<para>Example:- 1 1 1 1 2 1 1 3 3 1 1 4 6 4 1 1 5 10 10 5 1 1 6 15 20 15 6 1 1 7 21 35 35 21 7 1 1 8 28 56 70 56 28 8 1 </para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>arr</entry><entry>
+<para>An auxiliary array to store generated pascal triangle values </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para></para>
+</formalpara>
+
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>line</entry><entry>
+<para>Iterate through every line and print integer(s) in it </para>
+</entry>
+                            </row>
+                            <row>
+<entry>i</entry><entry>
+<para>Represents the column number of the element we are currently on</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                @Every line has number of integers equal to line number</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/maths/PascalTriangle.java</section>
+</section>

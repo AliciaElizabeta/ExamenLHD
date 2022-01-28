@@ -1,0 +1,74 @@
+.TH "com.thealgorithms.maths.EulerMethod" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.maths.EulerMethod
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBmain\fP (String[] args)"
+.br
+.ti -1c
+.RI "static double \fBeulerStep\fP (double xCurrent, double stepSize, double yCurrent, BiFunction< Double, Double, Double > differentialEquation)"
+.br
+.ti -1c
+.RI "static ArrayList< double[]> \fBeulerFull\fP (double xStart, double xEnd, double stepSize, double yStart, BiFunction< Double, Double, Double > differentialEquation)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+In mathematics and computational science, the Euler method (also called forward Euler method) is a first-order numerical procedure for solving ordinary differential equations (ODEs) with a given initial value\&. It is the most basic explicit method for numerical integration of ordinary differential equations\&. The method proceeds in a series of steps\&. At each step the y-value is calculated by evaluating the differential equation at the previous step, multiplying the result with the step-size and adding it to the last y-value: y_n+1 = y_n + stepSize * f(x_n, y_n)\&. (description adapted from https://en.wikipedia.org/wiki/Euler_method ) (see also: https://www.geeksforgeeks.org/euler-method-solving-differential-equation/ ) 
+.SH "Member Function Documentation"
+.PP 
+.SS "static ArrayList< double[]> com\&.thealgorithms\&.maths\&.EulerMethod\&.eulerFull (double xStart, double xEnd, double stepSize, double yStart, BiFunction< Double, Double, Double > differentialEquation)\fC [static]\fP"
+Loops through all the steps until xEnd is reached, adds a point for each step and then returns all the points
+.PP
+\fBParameters\fP
+.RS 4
+\fIxStart\fP First x-value\&. 
+.br
+\fIxEnd\fP Last x-value\&. 
+.br
+\fIstepSize\fP Step-size on the x-axis\&. 
+.br
+\fIyStart\fP First y-value\&. 
+.br
+\fIdifferentialEquation\fP The differential equation to be solved\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The points constituting the solution of the differential equation\&. 
+.RE
+.PP
+
+.SS "static double com\&.thealgorithms\&.maths\&.EulerMethod\&.eulerStep (double xCurrent, double stepSize, double yCurrent, BiFunction< Double, Double, Double > differentialEquation)\fC [static]\fP"
+calculates the next y-value based on the current value of x, y and the stepSize the console\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIxCurrent\fP Current x-value\&. 
+.br
+\fIstepSize\fP Step-size on the x-axis\&. 
+.br
+\fIyCurrent\fP Current y-value\&. 
+.br
+\fIdifferentialEquation\fP The differential equation to be solved\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The next y-value\&. 
+.RE
+.PP
+
+.SS "static void com\&.thealgorithms\&.maths\&.EulerMethod\&.main (String[] args)\fC [static]\fP"
+Illustrates how the algorithm is used in 3 examples and prints the results to the console\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_node_stack" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.stacks.NodeStack&lt; Item &gt; Class Template Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.stacks.NodeStack&lt; Item &gt;</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_node_stack_1a758d1114e72b95f85581fa76bf992ab2">NodeStack</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_node_stack_1a04b6046ee0b5bddf1f7db336c25ef86a">push</link> (Item item)</para>
+</listitem>
+            <listitem><para>Item <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_node_stack_1a60b31584799bce4a1a77dcfdf68c41f1">pop</link> ()</para>
+</listitem>
+            <listitem><para>Item <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_node_stack_1a303c7843b23dcba1cacab2c5eedafe20">peek</link> ()</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_node_stack_1a78f6412048dcbb9211be2636b3cca437">isEmpty</link> ()</para>
+</listitem>
+            <listitem><para>int <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_node_stack_1a68979a26201b66f2892adee40d4b595c">size</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_node_stack_1a00f50910e69e420d120086f649a4eb85">print</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_node_stack_1a92b833a5ca6b99b5b0b34b9911287ed4">main</link> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Implementation of a stack using nodes. Unlimited size, no arraylist.</para>
+
+<para><formalpara><title>Author</title>
+
+<para>Kyler Smith, 2017 </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_node_stack_1a758d1114e72b95f85581fa76bf992ab2"/><section>
+    <title>NodeStack()</title>
+<indexterm><primary>NodeStack</primary><secondary>com.thealgorithms.datastructures.stacks.NodeStack&lt; Item &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.stacks.NodeStack&lt; Item &gt;</primary><secondary>NodeStack</secondary></indexterm>
+<para><computeroutput><link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_node_stack">com.thealgorithms.datastructures.stacks.NodeStack</link>&lt; Item &gt;.<link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_node_stack">NodeStack</link> ( )</computeroutput></para>
+<para>Constructors for the <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_node_stack">NodeStack</link>. </para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_node_stack_1a78f6412048dcbb9211be2636b3cca437"/><section>
+    <title>isEmpty()</title>
+<indexterm><primary>isEmpty</primary><secondary>com.thealgorithms.datastructures.stacks.NodeStack&lt; Item &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.stacks.NodeStack&lt; Item &gt;</primary><secondary>isEmpty</secondary></indexterm>
+<para><computeroutput>boolean <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_node_stack">com.thealgorithms.datastructures.stacks.NodeStack</link>&lt; Item &gt;.isEmpty ( )</computeroutput></para>
+<para>If the stack is empty or there is a value in.</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>boolean : whether or not the stack has anything in it. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_node_stack_1a92b833a5ca6b99b5b0b34b9911287ed4"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>com.thealgorithms.datastructures.stacks.NodeStack&lt; Item &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.stacks.NodeStack&lt; Item &gt;</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_node_stack">com.thealgorithms.datastructures.stacks.NodeStack</link>&lt; Item &gt;.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Entry point for the program. </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_node_stack_1a303c7843b23dcba1cacab2c5eedafe20"/><section>
+    <title>peek()</title>
+<indexterm><primary>peek</primary><secondary>com.thealgorithms.datastructures.stacks.NodeStack&lt; Item &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.stacks.NodeStack&lt; Item &gt;</primary><secondary>peek</secondary></indexterm>
+<para><computeroutput>Item <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_node_stack">com.thealgorithms.datastructures.stacks.NodeStack</link>&lt; Item &gt;.peek ( )</computeroutput></para>
+<para>Value that is next to be taken off the stack.</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>item : the next value that would be popped off the stack. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_node_stack_1a60b31584799bce4a1a77dcfdf68c41f1"/><section>
+    <title>pop()</title>
+<indexterm><primary>pop</primary><secondary>com.thealgorithms.datastructures.stacks.NodeStack&lt; Item &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.stacks.NodeStack&lt; Item &gt;</primary><secondary>pop</secondary></indexterm>
+<para><computeroutput>Item <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_node_stack">com.thealgorithms.datastructures.stacks.NodeStack</link>&lt; Item &gt;.pop ( )</computeroutput></para>
+<para>Value to be taken off the stack.</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>item : value that is returned. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_node_stack_1a00f50910e69e420d120086f649a4eb85"/><section>
+    <title>print()</title>
+<indexterm><primary>print</primary><secondary>com.thealgorithms.datastructures.stacks.NodeStack&lt; Item &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.stacks.NodeStack&lt; Item &gt;</primary><secondary>print</secondary></indexterm>
+<para><computeroutput>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_node_stack">com.thealgorithms.datastructures.stacks.NodeStack</link>&lt; Item &gt;.print ( )</computeroutput></para>
+<para>Print the contents of the stack in the following format.</para>
+
+<para>x &lt;- head (next out) y z &lt;- tail (first in) . . . </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_node_stack_1a04b6046ee0b5bddf1f7db336c25ef86a"/><section>
+    <title>push()</title>
+<indexterm><primary>push</primary><secondary>com.thealgorithms.datastructures.stacks.NodeStack&lt; Item &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.stacks.NodeStack&lt; Item &gt;</primary><secondary>push</secondary></indexterm>
+<para><computeroutput>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_node_stack">com.thealgorithms.datastructures.stacks.NodeStack</link>&lt; Item &gt;.push (Item item)</computeroutput></para>
+<para>Put a value onto the stack.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>item</entry><entry>
+<para>: value to be put on the stack. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_node_stack_1a68979a26201b66f2892adee40d4b595c"/><section>
+    <title>size()</title>
+<indexterm><primary>size</primary><secondary>com.thealgorithms.datastructures.stacks.NodeStack&lt; Item &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.stacks.NodeStack&lt; Item &gt;</primary><secondary>size</secondary></indexterm>
+<para><computeroutput>int <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_node_stack">com.thealgorithms.datastructures.stacks.NodeStack</link>&lt; Item &gt;.size ( )</computeroutput></para>
+<para>Returns the size of the stack.</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>int : number of values in the stack. </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/stacks/NodeStack.java</section>
+</section>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_red_black_b_s_t" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.trees.RedBlackBST Class Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.trees.RedBlackBST</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_red_black_b_s_t_1afd4846ce3cd9d1a7635c08fb21acc09b"/>void <emphasis role="strong">printTree</emphasis> (Node node)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_red_black_b_s_t_1ae98f79b33988def1e10652e89b1ccd3d"/>void <emphasis role="strong">printTreepre</emphasis> (Node node)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_red_black_b_s_t_1ab485cf36fe4b8a583beffb4b7035f82d"/>void <emphasis role="strong">insertDemo</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_red_black_b_s_t_1aa813cbf28acc0add7fda43138e54c885"/>void <emphasis role="strong">deleteDemo</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><formalpara><title>Author</title>
+
+<para>jack870131 </para>
+</formalpara>
+</para>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/trees/RedBlackBST.java</section>
+</section>

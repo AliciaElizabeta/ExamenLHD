@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_sum_of_arithmetic_series" xml:lang="en-US">
+<title>com.thealgorithms.maths.SumOfArithmeticSeries Class Reference</title>
+<indexterm><primary>com.thealgorithms.maths.SumOfArithmeticSeries</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_sum_of_arithmetic_series_1a2f34f2ee8bbedba9ca49eaa18bf66bf8"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>In mathematics, an arithmetic progression (AP) or arithmetic sequence is a sequence of numbers such that the difference between the consecutive terms is constant. Difference here means the second minus the first. For instance, the sequence 5, 7, 9, 11, 13, 15, . . . is an arithmetic progression with common difference of 2.</para>
+
+<para>Wikipedia: <link xlink:href="https://en.wikipedia.org/wiki/Arithmetic_progression">https://en.wikipedia.org/wiki/Arithmetic_progression</link> </para>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/maths/SumOfArithmeticSeries.java</section>
+</section>

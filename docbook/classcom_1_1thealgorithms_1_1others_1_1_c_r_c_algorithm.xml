@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm" xml:lang="en-US">
+<title>com.thealgorithms.others.CRCAlgorithm Class Reference</title>
+<indexterm><primary>com.thealgorithms.others.CRCAlgorithm</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_1a3e3a5dbe306cf619d71f1daf5481efc8">CRCAlgorithm</link> (String str, int size, double ber)</para>
+</listitem>
+            <listitem><para>int <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_1a04f6618a8ebf79d9a6f2bafc2431c981">getWrongMess</link> ()</para>
+</listitem>
+            <listitem><para>int <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_1a54b0b1e4cce2939d88589c414b0215e0">getWrongMessCaught</link> ()</para>
+</listitem>
+            <listitem><para>int <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_1a5a46cc8b84761af03889375c77980919">getWrongMessNotCaught</link> ()</para>
+</listitem>
+            <listitem><para>int <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_1a55146ddc15b9583035bb20184df9241c">getCorrectMess</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_1afaaab3058ca5eac782c77440c13b7584">refactor</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_1ad44f0ae5283fe860bc2244152ae61abb">generateRandomMess</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_1a188d8333fd97b1b6e28dada9c8543005">divideMessageWithP</link> (boolean check)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_1aa9a38bdbc69a39de9a11b35aa294b540">changeMess</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><formalpara><title>Author</title>
+
+<para>dimgrichr </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_1a3e3a5dbe306cf619d71f1daf5481efc8"/><section>
+    <title>CRCAlgorithm()</title>
+<indexterm><primary>CRCAlgorithm</primary><secondary>com.thealgorithms.others.CRCAlgorithm</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.others.CRCAlgorithm</primary><secondary>CRCAlgorithm</secondary></indexterm>
+<para><computeroutput>com.thealgorithms.others.CRCAlgorithm.CRCAlgorithm (String str, int size, double ber)</computeroutput></para>
+<para>The algorithm&apos;s main constructor. The most significant variables, used in the algorithm, are set in their initial values.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>str</entry><entry>
+<para>The binary number P, in a string form, which is used by the CRC algorithm </para>
+</entry>
+                            </row>
+                            <row>
+<entry>size</entry><entry>
+<para>The size of every transmitted message </para>
+</entry>
+                            </row>
+                            <row>
+<entry>ber</entry><entry>
+<para>The Bit Error Rate </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_1aa9a38bdbc69a39de9a11b35aa294b540"/><section>
+    <title>changeMess()</title>
+<indexterm><primary>changeMess</primary><secondary>com.thealgorithms.others.CRCAlgorithm</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.others.CRCAlgorithm</primary><secondary>changeMess</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.others.CRCAlgorithm.changeMess ( )</computeroutput></para>
+<para>Once the message is transmitted, some of it&apos;s elements, is possible to change from 1 to 0, or from 0 to 1, because of the Bit Error Rate (ber). For every element of the message, a random double number is created. If that number is smaller than ber, then the spesific element changes. On the other hand, if it&apos;s bigger than ber, it does not. Based on these changes. the boolean variable messageChanged, gets the value: true, or false. </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_1a188d8333fd97b1b6e28dada9c8543005"/><section>
+    <title>divideMessageWithP()</title>
+<indexterm><primary>divideMessageWithP</primary><secondary>com.thealgorithms.others.CRCAlgorithm</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.others.CRCAlgorithm</primary><secondary>divideMessageWithP</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.others.CRCAlgorithm.divideMessageWithP (boolean check)</computeroutput></para>
+<para>The most significant part of the CRC algorithm. The message is divided by P, so the dividedMessage ArrayList&lt;Integer&gt; is created. If check == true, the dividedMessaage is examined, in order to see if it contains any 1&apos;s. If it does, the message is considered to be wrong by the receiver,so the variable wrongMessCaught changes. If it does not, it is accepted, so one of the variables correctMess, wrongMessNotCaught, changes. If check == false, the diviided Message is added at the end of the ArrayList&lt;integer&gt; message.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>check</entry><entry>
+<para>the variable used to determine, if the message is going to be checked from the receiver if true, it is checked otherwise, it is not </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_1ad44f0ae5283fe860bc2244152ae61abb"/><section>
+    <title>generateRandomMess()</title>
+<indexterm><primary>generateRandomMess</primary><secondary>com.thealgorithms.others.CRCAlgorithm</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.others.CRCAlgorithm</primary><secondary>generateRandomMess</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.others.CRCAlgorithm.generateRandomMess ( )</computeroutput></para>
+<para>Random messages, consisted of 0&apos;s and 1&apos;s, are generated, so that they can later be transmitted </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_1a55146ddc15b9583035bb20184df9241c"/><section>
+    <title>getCorrectMess()</title>
+<indexterm><primary>getCorrectMess</primary><secondary>com.thealgorithms.others.CRCAlgorithm</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.others.CRCAlgorithm</primary><secondary>getCorrectMess</secondary></indexterm>
+<para><computeroutput>int com.thealgorithms.others.CRCAlgorithm.getCorrectMess ( )</computeroutput></para>
+<para>Returns the counter correctMess</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>correctMess, the number of the Correct Messages </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_1a04f6618a8ebf79d9a6f2bafc2431c981"/><section>
+    <title>getWrongMess()</title>
+<indexterm><primary>getWrongMess</primary><secondary>com.thealgorithms.others.CRCAlgorithm</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.others.CRCAlgorithm</primary><secondary>getWrongMess</secondary></indexterm>
+<para><computeroutput>int com.thealgorithms.others.CRCAlgorithm.getWrongMess ( )</computeroutput></para>
+<para>Returns the counter wrongMess</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>wrongMess, the number of Wrong Messages </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_1a54b0b1e4cce2939d88589c414b0215e0"/><section>
+    <title>getWrongMessCaught()</title>
+<indexterm><primary>getWrongMessCaught</primary><secondary>com.thealgorithms.others.CRCAlgorithm</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.others.CRCAlgorithm</primary><secondary>getWrongMessCaught</secondary></indexterm>
+<para><computeroutput>int com.thealgorithms.others.CRCAlgorithm.getWrongMessCaught ( )</computeroutput></para>
+<para>Returns the counter wrongMessCaught</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>wrongMessCaught, the number of wrong messages, which are caught by the CRC algoriithm </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_1a5a46cc8b84761af03889375c77980919"/><section>
+    <title>getWrongMessNotCaught()</title>
+<indexterm><primary>getWrongMessNotCaught</primary><secondary>com.thealgorithms.others.CRCAlgorithm</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.others.CRCAlgorithm</primary><secondary>getWrongMessNotCaught</secondary></indexterm>
+<para><computeroutput>int com.thealgorithms.others.CRCAlgorithm.getWrongMessNotCaught ( )</computeroutput></para>
+<para>Returns the counter wrongMessNotCaught</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>wrongMessNotCaught, the number of wrong messages, which are not caught by the CRC algorithm </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_c_r_c_algorithm_1afaaab3058ca5eac782c77440c13b7584"/><section>
+    <title>refactor()</title>
+<indexterm><primary>refactor</primary><secondary>com.thealgorithms.others.CRCAlgorithm</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.others.CRCAlgorithm</primary><secondary>refactor</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.others.CRCAlgorithm.refactor ( )</computeroutput></para>
+<para>Resets some of the object&apos;s values, used on the main function, so that it can be re-used, in order not to waste too much memory and time, by creating new objects. </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/others/CRCAlgorithm.java</section>
+</section>

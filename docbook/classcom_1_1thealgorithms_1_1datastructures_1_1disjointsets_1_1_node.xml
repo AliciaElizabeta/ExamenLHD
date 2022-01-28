@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1disjointsets_1_1_node" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.disjointsets.Node&lt; T &gt; Class Template Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.disjointsets.Node&lt; T &gt;</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1disjointsets_1_1_node_1a52cecd63ab1fdb89cd8768faed761f43"/><emphasis role="strong">Node</emphasis> (T data)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1disjointsets_1_1_node_1aa047758692fd8e73ee83461b98b26b4c"/>int <emphasis role="strong">rank</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1disjointsets_1_1_node_1a55495d4a70cea20f7733375524abfe3f"/><link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1disjointsets_1_1_node">Node</link>&lt; T &gt; <emphasis role="strong">parent</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1disjointsets_1_1_node_1a604ec1a4dba5580acf2e66c9afc0e890"/>T <emphasis role="strong">data</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/disjointsets/Node.java</section>

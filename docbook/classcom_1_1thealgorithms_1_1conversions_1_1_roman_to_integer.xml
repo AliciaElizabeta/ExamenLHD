@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1conversions_1_1_roman_to_integer" xml:lang="en-US">
+<title>com.thealgorithms.conversions.RomanToInteger Class Reference</title>
+<indexterm><primary>com.thealgorithms.conversions.RomanToInteger</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static int <link linkend="_classcom_1_1thealgorithms_1_1conversions_1_1_roman_to_integer_1a0a7ae13957938c309be9f7869152c80b">romanToInt</link> (String A)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1conversions_1_1_roman_to_integer_1a7e6411c6128eddb570532a63ff658aa0"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1conversions_1_1_roman_to_integer_1a0a7ae13957938c309be9f7869152c80b"/><section>
+    <title>romanToInt()</title>
+<indexterm><primary>romanToInt</primary><secondary>com.thealgorithms.conversions.RomanToInteger</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.conversions.RomanToInteger</primary><secondary>romanToInt</secondary></indexterm>
+<para><computeroutput>static int com.thealgorithms.conversions.RomanToInteger.romanToInt (String A)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>This function convert Roman number into Integer</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>A</entry><entry>
+<para>Roman number string </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>integer </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/conversions/RomanToInteger.java</section>
+</section>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1sorts_1_1_merge_sort_recursive" xml:lang="en-US">
+<title>com.thealgorithms.sorts.MergeSortRecursive Class Reference</title>
+<indexterm><primary>com.thealgorithms.sorts.MergeSortRecursive</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1sorts_1_1_merge_sort_recursive_1a8b50414586b353f21413eeb6daafb247"/><emphasis role="strong">MergeSortRecursive</emphasis> (List&lt; Integer &gt; arr)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1sorts_1_1_merge_sort_recursive_1a4ec732c33352e3f5395a50353c73c8ce"/>void <emphasis role="strong">mergeSort</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/sorts/MergeSortRecursive.java</section>

@@ -1,0 +1,127 @@
+.TH "com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBHashMapLinearProbing\fP (int hsize)"
+.br
+.ti -1c
+.RI "int \fBhashing\fP (int key)"
+.br
+.ti -1c
+.RI "void \fBinsertHash\fP (int key)"
+.br
+.ti -1c
+.RI "void \fBdeleteHash\fP (int key)"
+.br
+.ti -1c
+.RI "void \fBdisplayHashtable\fP ()"
+.br
+.ti -1c
+.RI "int \fBfindHash\fP (int key)"
+.br
+.ti -1c
+.RI "void \fBcheckLoadFactor\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBisFull\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBisEmpty\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+This class is an implementation of a hash table using linear probing It uses a dynamic array to lengthen the size of the hash table when load factor > \&.7 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "com\&.thealgorithms\&.datastructures\&.hashmap\&.hashing\&.HashMapLinearProbing\&.HashMapLinearProbing (int hsize)"
+Constructor initializes buckets array, hsize, and creates dummy object for AVAILABLE
+.PP
+\fBParameters\fP
+.RS 4
+\fIhsize\fP the desired size of the hash map 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "void com\&.thealgorithms\&.datastructures\&.hashmap\&.hashing\&.HashMapLinearProbing\&.checkLoadFactor ()"
+Checks the load factor of the hash table if greater than \&.7, automatically lengthens table to prevent further collisions 
+.SS "void com\&.thealgorithms\&.datastructures\&.hashmap\&.hashing\&.HashMapLinearProbing\&.deleteHash (int key)"
+deletes a key from the hash map and adds an available placeholder
+.PP
+\fBParameters\fP
+.RS 4
+\fIkey\fP the desired key to be deleted 
+.RE
+.PP
+
+.SS "void com\&.thealgorithms\&.datastructures\&.hashmap\&.hashing\&.HashMapLinearProbing\&.displayHashtable ()"
+Displays the hash table line by line 
+.SS "int com\&.thealgorithms\&.datastructures\&.hashmap\&.hashing\&.HashMapLinearProbing\&.findHash (int key)"
+Finds the index of location based on an inputed key
+.PP
+\fBParameters\fP
+.RS 4
+\fIkey\fP the desired key to be found 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+int the index where the key is located 
+.RE
+.PP
+
+.SS "int com\&.thealgorithms\&.datastructures\&.hashmap\&.hashing\&.HashMapLinearProbing\&.hashing (int key)"
+The Hash Function takes a given key and finds an index based on its data
+.PP
+\fBParameters\fP
+.RS 4
+\fIkey\fP the desired key to be converted 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+int an index corresponding to the key 
+.RE
+.PP
+
+.SS "void com\&.thealgorithms\&.datastructures\&.hashmap\&.hashing\&.HashMapLinearProbing\&.insertHash (int key)"
+inserts the key into the hash map by wrapping it as an Integer object
+.PP
+\fBParameters\fP
+.RS 4
+\fIkey\fP the desired key to be inserted in the hash map 
+.RE
+.PP
+
+.SS "boolean com\&.thealgorithms\&.datastructures\&.hashmap\&.hashing\&.HashMapLinearProbing\&.isEmpty ()"
+isEmpty returns true if the hash map is empty and false if not empty
+.PP
+\fBReturns\fP
+.RS 4
+boolean is Empty 
+.RE
+.PP
+
+.SS "boolean com\&.thealgorithms\&.datastructures\&.hashmap\&.hashing\&.HashMapLinearProbing\&.isFull ()"
+isFull returns true if the hash map is full and false if not full
+.PP
+\fBReturns\fP
+.RS 4
+boolean is Empty 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

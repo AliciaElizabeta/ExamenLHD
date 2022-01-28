@@ -1,0 +1,43 @@
+.TH "md_src_main_java_com_thealgorithms_datastructures_trees__r_e_a_d_m_e" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+md_src_main_java_com_thealgorithms_datastructures_trees__r_e_a_d_m_e \- Tree 
+
+.SS "Description"
+Tree is a data structure where the data is organized in a hierarchial structure\&. There should be one root node (which does not have any parent) and all subsequent nodes are represented as children of the root node and its children\&. If a node has at least one child, it is called \fCinternal\fP node and nodes with no children are called \fCleaf\fP nodes\&.
+.SS "Basic Structure"
+.PP
+.nf
+class Tree<E>{
+    E value;
+    Tree left;
+    Tree right;
+}
+.fi
+.PP
+.PP
+This basic structure is for a binary tree where each internal tree has at least one and at most two children\&. \fCleft\fP and \fCright\fP represent the two children and \fCvalue\fP is the placeholder for data\&.
+.SS "Properties"
+.IP "1." 4
+Tree data structure gives the facility to organize data in a hierarchial structure
+.IP "2." 4
+Tree nodes can be inserted in a sorted order which can be used for searching and inserting data in O(logN) time where N is the number of nodes\&.
+.PP
+.SS "Types of Trees"
+.IP "1." 4
+\fBBinary Search Tree:\fP A binary tree where the elements are inserted in asorted order\&. Here the searching can be done in O(logN) time in (depending on the structure)
+.IP "2." 4
+\fBAVL Tree and Red-Black Tree:\fP Binary search trees where the height is balanced\&. Here, searching is guaranteed to be in O(logN) time\&.
+.IP "3." 4
+\fBTraversal algorithms:\fP 
+.br
+ a\&. \fBBFS:\fP Breadth-first-search where all the children at each level are traversed at once\&. 
+.br
+ b\&. \fBDFS:\fP Depth-first-search where the first discovered child is traversed first\&.
+.IP "4." 4
+\fBMultiWay Search Tree:\fP Tree in sorted order, but more than two children in each internal node\&.
+.IP "5." 4
+\fBTrie:\fP A character based multiway search tree where words can be retrieved based on their prefix\&. Useful for implementing prefix based search algorithm\&. 
+.PP
+

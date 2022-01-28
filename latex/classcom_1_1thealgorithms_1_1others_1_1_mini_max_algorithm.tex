@@ -1,0 +1,93 @@
+\hypertarget{classcom_1_1thealgorithms_1_1others_1_1_mini_max_algorithm}{}\doxysection{com.\+thealgorithms.\+others.\+Mini\+Max\+Algorithm Class Reference}
+\label{classcom_1_1thealgorithms_1_1others_1_1_mini_max_algorithm}\index{com.thealgorithms.others.MiniMaxAlgorithm@{com.thealgorithms.others.MiniMaxAlgorithm}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1thealgorithms_1_1others_1_1_mini_max_algorithm_afe422e4cb38bfdc9e1278032e11f7db6}{Mini\+Max\+Algorithm}} ()
+\item 
+int \mbox{\hyperlink{classcom_1_1thealgorithms_1_1others_1_1_mini_max_algorithm_a276aaf17eca719d98a2547db79b6f347}{mini\+Max}} (int depth, boolean is\+Maximizer, int index, boolean verbose)
+\item 
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1others_1_1_mini_max_algorithm_a979db9b10255f97d70387bdba6081370}\label{classcom_1_1thealgorithms_1_1others_1_1_mini_max_algorithm_a979db9b10255f97d70387bdba6081370}} 
+void {\bfseries set\+Scores} (int\mbox{[}$\,$\mbox{]} scores)
+\item 
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1others_1_1_mini_max_algorithm_af9677aeb4c5f0bdd1404bab637f96ec9}\label{classcom_1_1thealgorithms_1_1others_1_1_mini_max_algorithm_af9677aeb4c5f0bdd1404bab637f96ec9}} 
+int\mbox{[}$\,$\mbox{]} {\bfseries get\+Scores} ()
+\item 
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1others_1_1_mini_max_algorithm_a1b8ae5f972d545b271b555c97884c728}\label{classcom_1_1thealgorithms_1_1others_1_1_mini_max_algorithm_a1b8ae5f972d545b271b555c97884c728}} 
+int {\bfseries get\+Height} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1others_1_1_mini_max_algorithm_a35c7a4512cd86d5818c4c3123cfaab30}\label{classcom_1_1thealgorithms_1_1others_1_1_mini_max_algorithm_a35c7a4512cd86d5818c4c3123cfaab30}} 
+static void {\bfseries main} (String\mbox{[}$\,$\mbox{]} args)
+\item 
+static int\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classcom_1_1thealgorithms_1_1others_1_1_mini_max_algorithm_aef4636d8828b6df30fad1047e48e6777}{get\+Random\+Scores}} (int size, int max\+Score)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Mini\+Max is an algorithm used int artificial intelligence and game theory for minimizing the possible loss for the worst case scenario.
+
+See more (\href{https://en.wikipedia.org/wiki/Minimax}{\texttt{ https\+://en.\+wikipedia.\+org/wiki/\+Minimax}}, \href{https://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-1-introduction/}{\texttt{ https\+://www.\+geeksforgeeks.\+org/minimax-\/algorithm-\/in-\/game-\/theory-\/set-\/1-\/introduction/}}).
+
+\begin{DoxyAuthor}{Author}
+aitofi (\href{https://github.com/aitorfi}{\texttt{ https\+://github.\+com/aitorfi}}) 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1others_1_1_mini_max_algorithm_afe422e4cb38bfdc9e1278032e11f7db6}\label{classcom_1_1thealgorithms_1_1others_1_1_mini_max_algorithm_afe422e4cb38bfdc9e1278032e11f7db6}} 
+\index{com.thealgorithms.others.MiniMaxAlgorithm@{com.thealgorithms.others.MiniMaxAlgorithm}!MiniMaxAlgorithm@{MiniMaxAlgorithm}}
+\index{MiniMaxAlgorithm@{MiniMaxAlgorithm}!com.thealgorithms.others.MiniMaxAlgorithm@{com.thealgorithms.others.MiniMaxAlgorithm}}
+\doxysubsubsection{\texorpdfstring{MiniMaxAlgorithm()}{MiniMaxAlgorithm()}}
+{\footnotesize\ttfamily com.\+thealgorithms.\+others.\+Mini\+Max\+Algorithm.\+Mini\+Max\+Algorithm (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Initializes the scores with 8 random leaf nodes 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1others_1_1_mini_max_algorithm_aef4636d8828b6df30fad1047e48e6777}\label{classcom_1_1thealgorithms_1_1others_1_1_mini_max_algorithm_aef4636d8828b6df30fad1047e48e6777}} 
+\index{com.thealgorithms.others.MiniMaxAlgorithm@{com.thealgorithms.others.MiniMaxAlgorithm}!getRandomScores@{getRandomScores}}
+\index{getRandomScores@{getRandomScores}!com.thealgorithms.others.MiniMaxAlgorithm@{com.thealgorithms.others.MiniMaxAlgorithm}}
+\doxysubsubsection{\texorpdfstring{getRandomScores()}{getRandomScores()}}
+{\footnotesize\ttfamily static int\mbox{[}$\,$\mbox{]} com.\+thealgorithms.\+others.\+Mini\+Max\+Algorithm.\+get\+Random\+Scores (\begin{DoxyParamCaption}\item[{int}]{size,  }\item[{int}]{max\+Score }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns an array of random numbers which lenght is a power of 2.
+
+
+\begin{DoxyParams}{Parameters}
+{\em size} & The power of 2 that will determine the lenght of the array. \\
+\hline
+{\em max\+Score} & The maximum possible score. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An array of random numbers. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1others_1_1_mini_max_algorithm_a276aaf17eca719d98a2547db79b6f347}\label{classcom_1_1thealgorithms_1_1others_1_1_mini_max_algorithm_a276aaf17eca719d98a2547db79b6f347}} 
+\index{com.thealgorithms.others.MiniMaxAlgorithm@{com.thealgorithms.others.MiniMaxAlgorithm}!miniMax@{miniMax}}
+\index{miniMax@{miniMax}!com.thealgorithms.others.MiniMaxAlgorithm@{com.thealgorithms.others.MiniMaxAlgorithm}}
+\doxysubsubsection{\texorpdfstring{miniMax()}{miniMax()}}
+{\footnotesize\ttfamily int com.\+thealgorithms.\+others.\+Mini\+Max\+Algorithm.\+mini\+Max (\begin{DoxyParamCaption}\item[{int}]{depth,  }\item[{boolean}]{is\+Maximizer,  }\item[{int}]{index,  }\item[{boolean}]{verbose }\end{DoxyParamCaption})}
+
+Returns the optimal score assuming that both players play their best.
+
+
+\begin{DoxyParams}{Parameters}
+{\em depth} & Indicates how deep we are into the game tree. \\
+\hline
+{\em is\+Maximizer} & True if it is maximizers turn; otherwise false. \\
+\hline
+{\em index} & Index of the leaf node that is being evaluated. \\
+\hline
+{\em verbose} & True to show each players choices. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The optimal score for the player that made the first move. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/thealgorithms/others/Mini\+Max\+Algorithm.\+java\end{DoxyCompactItemize}

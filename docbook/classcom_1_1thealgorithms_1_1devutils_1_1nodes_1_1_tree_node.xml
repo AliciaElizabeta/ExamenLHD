@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node" xml:lang="en-US">
+<title>com.thealgorithms.devutils.nodes.TreeNode&lt; E &gt; Class Template Reference</title>
+<indexterm><primary>com.thealgorithms.devutils.nodes.TreeNode&lt; E &gt;</primary></indexterm>
+<para>Inheritance diagram for com.thealgorithms.devutils.nodes.TreeNode&lt; E &gt;:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node_1aa2e1bbf213c99b49ff567b273c2085fa">TreeNode</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node_1af4617144ec70765358a0c5e1aaf5ae82">TreeNode</link> (E data)</para>
+</listitem>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node_1ae1b8bd55dc39e8e45c3ba52cc0ed922d">TreeNode</link> (E data, <link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node">TreeNode</link>&lt; E &gt; parentNode)</para>
+</listitem>
+            <listitem><para>abstract boolean <link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node_1a4e74cbeef32d3428b894c7a6078d507c">isLeafNode</link> ()</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node_1ada7946f44ff9e05cbbfd6ad28a6847c8">isRootNode</link> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node_1a2654fd917fdda9ffd1e879d6b33e8b8c"/><link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node">TreeNode</link>&lt; E &gt; <emphasis role="strong">getParent</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node_1a2763538a43484374614049b7b3a350b9"/>void <emphasis role="strong">setParent</emphasis> (<link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node">TreeNode</link>&lt; E &gt; parentNode)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node_1a88206da948d732141ab4bcfc1994f553"/>int <emphasis role="strong">getDepth</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Base class for any tree node which holds a reference to the parent node.</para>
+
+<para>All known subclasses: <link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_simple_tree_node">SimpleTreeNode</link>, <link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_large_tree_node">LargeTreeNode</link>.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>&lt;E&gt;</entry><entry>
+<para>The type of the data held in the <link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_node">Node</link>.</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Author</title>
+
+<para><link xlink:href="https://github.com/aitorfi">aitorfi</link> </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node_1aa2e1bbf213c99b49ff567b273c2085fa"/><section>
+    <title>TreeNode()<computeroutput>[1/3]</computeroutput></title>
+<indexterm><primary>TreeNode</primary><secondary>com.thealgorithms.devutils.nodes.TreeNode&lt; E &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.devutils.nodes.TreeNode&lt; E &gt;</primary><secondary>TreeNode</secondary></indexterm>
+<para><computeroutput><link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node">com.thealgorithms.devutils.nodes.TreeNode</link>&lt; E &gt;.<link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node">TreeNode</link> ( )</computeroutput></para>
+<para>Empty contructor. </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node_1af4617144ec70765358a0c5e1aaf5ae82"/><section>
+    <title>TreeNode()<computeroutput>[2/3]</computeroutput></title>
+<indexterm><primary>TreeNode</primary><secondary>com.thealgorithms.devutils.nodes.TreeNode&lt; E &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.devutils.nodes.TreeNode&lt; E &gt;</primary><secondary>TreeNode</secondary></indexterm>
+<para><computeroutput><link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node">com.thealgorithms.devutils.nodes.TreeNode</link>&lt; E &gt;.<link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node">TreeNode</link> (E data)</computeroutput></para>
+<para>Initializes the Nodes&apos; data.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>data</entry><entry>
+<para>Value to which data will be initialized. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>See also</title>
+
+<para>Node::Node(Object) </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node_1ae1b8bd55dc39e8e45c3ba52cc0ed922d"/><section>
+    <title>TreeNode()<computeroutput>[3/3]</computeroutput></title>
+<indexterm><primary>TreeNode</primary><secondary>com.thealgorithms.devutils.nodes.TreeNode&lt; E &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.devutils.nodes.TreeNode&lt; E &gt;</primary><secondary>TreeNode</secondary></indexterm>
+<para><computeroutput><link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node">com.thealgorithms.devutils.nodes.TreeNode</link>&lt; E &gt;.<link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node">TreeNode</link> (E data, <link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node">TreeNode</link>&lt; E &gt; parentNode)</computeroutput></para>
+<para>Initializes the Nodes&apos; data and parent node reference.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>data</entry><entry>
+<para>Value to which data will be initialized. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>parentNode</entry><entry>
+<para>Value to which the nodes&apos; parent reference will be set. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node_1a4e74cbeef32d3428b894c7a6078d507c"/><section>
+    <title>isLeafNode()</title>
+<indexterm><primary>isLeafNode</primary><secondary>com.thealgorithms.devutils.nodes.TreeNode&lt; E &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.devutils.nodes.TreeNode&lt; E &gt;</primary><secondary>isLeafNode</secondary></indexterm>
+<para><computeroutput>abstract boolean <link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node">com.thealgorithms.devutils.nodes.TreeNode</link>&lt; E &gt;.isLeafNode ( )<computeroutput>[abstract]</computeroutput></computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>True if the node is a leaf node, otherwise false. </para>
+</formalpara>
+</para>
+<para>
+Reimplemented in <link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_large_tree_node_1a89cfdfa8869e0ba29ea4cc09fbb11ed2">com.thealgorithms.devutils.nodes.LargeTreeNode&lt; E &gt;</link>, and <link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_simple_tree_node_1a45be6d981244b01aedf6a6d5af2c1ba5">com.thealgorithms.devutils.nodes.SimpleTreeNode&lt; E &gt;</link>.</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node_1ada7946f44ff9e05cbbfd6ad28a6847c8"/><section>
+    <title>isRootNode()</title>
+<indexterm><primary>isRootNode</primary><secondary>com.thealgorithms.devutils.nodes.TreeNode&lt; E &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.devutils.nodes.TreeNode&lt; E &gt;</primary><secondary>isRootNode</secondary></indexterm>
+<para><computeroutput>boolean <link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node">com.thealgorithms.devutils.nodes.TreeNode</link>&lt; E &gt;.isRootNode ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>True if the node is the root node, otherwise false. </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/devutils/nodes/TreeNode.java</section>
+</section>

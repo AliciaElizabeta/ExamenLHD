@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_max_heap" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.heaps.MaxHeap Class Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.heaps.MaxHeap</primary></indexterm>
+<para>Inheritance diagram for com.thealgorithms.datastructures.heaps.MaxHeap:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_max_heap.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_max_heap_1a95341f5bec9f2b968ad65da5a2d49483"/><emphasis role="strong">MaxHeap</emphasis> (List&lt; <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element">HeapElement</link> &gt; listElements)</para>
+</listitem>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element">HeapElement</link> <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_max_heap_1ae40d6fa71f9666e09589989111d6899b">getElement</link> (int elementIndex)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_max_heap_1a7cb71029be85d0c283460fcfae4419d5">insertElement</link> (<link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element">HeapElement</link> element)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_max_heap_1a94a347b543554527b1f87a77d058cbdb">deleteElement</link> (int elementIndex)</para>
+</listitem>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element">HeapElement</link> <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_max_heap_1a685e54b6401617773fae73f9343abd6d">getElement</link> ()  throws EmptyHeapException </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_interfacecom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap">Heap</link> tree where a node&apos;s key is higher than or equal to its parent&apos;s and lower than or equal to its children&apos;s.</para>
+
+<para><formalpara><title>Author</title>
+
+<para>Nicolas Renard </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_max_heap_1a94a347b543554527b1f87a77d058cbdb"/><section>
+    <title>deleteElement()</title>
+<indexterm><primary>deleteElement</primary><secondary>com.thealgorithms.datastructures.heaps.MaxHeap</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.heaps.MaxHeap</primary><secondary>deleteElement</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.heaps.MaxHeap.deleteElement (int elementIndex)</computeroutput></para>
+<para>Delete an element in the heap.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>elementIndex</entry><entry>
+<para>int containing the position in the heap of the element to be deleted. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implements <link linkend="_interfacecom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_1ae3e0a2d718959756cd5d013b25010f61">com.thealgorithms.datastructures.heaps.Heap</link>.</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_max_heap_1a685e54b6401617773fae73f9343abd6d"/><section>
+    <title>getElement()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>getElement</primary><secondary>com.thealgorithms.datastructures.heaps.MaxHeap</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.heaps.MaxHeap</primary><secondary>getElement</secondary></indexterm>
+<para><computeroutput><link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element">HeapElement</link> com.thealgorithms.datastructures.heaps.MaxHeap.getElement ( ) throws <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_empty_heap_exception">EmptyHeapException</link></computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>the top element in the heap, the one with lowest key for min-heap or with the highest key for max-heap </para>
+</formalpara>
+
+                <formalpara>
+                    <title>
+Exceptions</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry><link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_empty_heap_exception">EmptyHeapException</link></entry><entry>
+<para>if heap is empty </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implements <link linkend="_interfacecom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_1a200e574feedc45c5d83bc8fbb269dc16">com.thealgorithms.datastructures.heaps.Heap</link>.</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_max_heap_1ae40d6fa71f9666e09589989111d6899b"/><section>
+    <title>getElement()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>getElement</primary><secondary>com.thealgorithms.datastructures.heaps.MaxHeap</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.heaps.MaxHeap</primary><secondary>getElement</secondary></indexterm>
+<para><computeroutput><link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element">HeapElement</link> com.thealgorithms.datastructures.heaps.MaxHeap.getElement (int elementIndex)</computeroutput></para>
+<para>Get the element at a given index. The key for the list is equal to index value - 1</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>elementIndex</entry><entry>
+<para>index </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>heapElement </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_max_heap_1a7cb71029be85d0c283460fcfae4419d5"/><section>
+    <title>insertElement()</title>
+<indexterm><primary>insertElement</primary><secondary>com.thealgorithms.datastructures.heaps.MaxHeap</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.heaps.MaxHeap</primary><secondary>insertElement</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.heaps.MaxHeap.insertElement (<link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element">HeapElement</link> element)</computeroutput></para>
+<para>Inserts an element in the heap. Adds it to then end and toggle it until it finds its right position.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>element</entry><entry>
+<para>an instance of the <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element">HeapElement</link> class. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implements <link linkend="_interfacecom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_1a526859af3b476b26130aa491a8a6a941">com.thealgorithms.datastructures.heaps.Heap</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/heaps/MaxHeap.java</section>
+</section>

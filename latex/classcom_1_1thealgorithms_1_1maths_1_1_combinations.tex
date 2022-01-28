@@ -1,0 +1,93 @@
+\hypertarget{classcom_1_1thealgorithms_1_1maths_1_1_combinations}{}\doxysection{com.\+thealgorithms.\+maths.\+Combinations Class Reference}
+\label{classcom_1_1thealgorithms_1_1maths_1_1_combinations}\index{com.thealgorithms.maths.Combinations@{com.thealgorithms.maths.Combinations}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1maths_1_1_combinations_a2c7e0f8e0ba7d9c28c6ca4247b7fc6b0}\label{classcom_1_1thealgorithms_1_1maths_1_1_combinations_a2c7e0f8e0ba7d9c28c6ca4247b7fc6b0}} 
+static void {\bfseries main} (String\mbox{[}$\,$\mbox{]} args)
+\item 
+static long \mbox{\hyperlink{classcom_1_1thealgorithms_1_1maths_1_1_combinations_a84652528f03384d6ae54f99c55435187}{factorial}} (int n)
+\item 
+static long \mbox{\hyperlink{classcom_1_1thealgorithms_1_1maths_1_1_combinations_abf95585bc82ee2547c1ba3df3aca3ffe}{combinations}} (int n, int k)
+\item 
+static long \mbox{\hyperlink{classcom_1_1thealgorithms_1_1maths_1_1_combinations_a8935665aa2b8419cf58c48e8ba4f05f4}{combinations\+Optimized}} (int n, int k)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxySeeAlso}{See also}
+\href{https://en.wikipedia.org/wiki/Combination}{\texttt{ Combination}} 
+\end{DoxySeeAlso}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1maths_1_1_combinations_abf95585bc82ee2547c1ba3df3aca3ffe}\label{classcom_1_1thealgorithms_1_1maths_1_1_combinations_abf95585bc82ee2547c1ba3df3aca3ffe}} 
+\index{com.thealgorithms.maths.Combinations@{com.thealgorithms.maths.Combinations}!combinations@{combinations}}
+\index{combinations@{combinations}!com.thealgorithms.maths.Combinations@{com.thealgorithms.maths.Combinations}}
+\doxysubsubsection{\texorpdfstring{combinations()}{combinations()}}
+{\footnotesize\ttfamily static long com.\+thealgorithms.\+maths.\+Combinations.\+combinations (\begin{DoxyParamCaption}\item[{int}]{n,  }\item[{int}]{k }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Calculate combinations
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & first number \\
+\hline
+{\em k} & second number \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+combinations of given 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{n }
+
+\end{DoxyCode}
+ and 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{k }
+
+\end{DoxyCode}
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1maths_1_1_combinations_a8935665aa2b8419cf58c48e8ba4f05f4}\label{classcom_1_1thealgorithms_1_1maths_1_1_combinations_a8935665aa2b8419cf58c48e8ba4f05f4}} 
+\index{com.thealgorithms.maths.Combinations@{com.thealgorithms.maths.Combinations}!combinationsOptimized@{combinationsOptimized}}
+\index{combinationsOptimized@{combinationsOptimized}!com.thealgorithms.maths.Combinations@{com.thealgorithms.maths.Combinations}}
+\doxysubsubsection{\texorpdfstring{combinationsOptimized()}{combinationsOptimized()}}
+{\footnotesize\ttfamily static long com.\+thealgorithms.\+maths.\+Combinations.\+combinations\+Optimized (\begin{DoxyParamCaption}\item[{int}]{n,  }\item[{int}]{k }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+The above method can exceed limit of long (overflow) when factorial(n) is larger than limits of long variable. Thus even if n\+Ck is within range of long variable above reason can lead to incorrect result. This is an optimized version of computing combinations. Observations\+: nC(k + 1) = (n
+\begin{DoxyItemize}
+\item k) $\ast$ n\+Ck / (k + 1) We know the value of n\+Ck when k = 1 which is n\+Ck = n Using this base value and above formula we can compute the next term nC(k+1)
+\end{DoxyItemize}
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & \\
+\hline
+{\em k} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+n\+Ck 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1maths_1_1_combinations_a84652528f03384d6ae54f99c55435187}\label{classcom_1_1thealgorithms_1_1maths_1_1_combinations_a84652528f03384d6ae54f99c55435187}} 
+\index{com.thealgorithms.maths.Combinations@{com.thealgorithms.maths.Combinations}!factorial@{factorial}}
+\index{factorial@{factorial}!com.thealgorithms.maths.Combinations@{com.thealgorithms.maths.Combinations}}
+\doxysubsubsection{\texorpdfstring{factorial()}{factorial()}}
+{\footnotesize\ttfamily static long com.\+thealgorithms.\+maths.\+Combinations.\+factorial (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Calculate of factorial
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & the number \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+factorial of given number 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/thealgorithms/maths/Combinations.\+java\end{DoxyCompactItemize}

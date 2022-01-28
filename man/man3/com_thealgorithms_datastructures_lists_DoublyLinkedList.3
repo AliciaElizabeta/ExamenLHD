@@ -1,0 +1,203 @@
+.TH "com.thealgorithms.datastructures.lists.DoublyLinkedList" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.datastructures.lists.DoublyLinkedList
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBDoublyLinkedList\fP ()"
+.br
+.ti -1c
+.RI "\fBDoublyLinkedList\fP (int[] array)"
+.br
+.ti -1c
+.RI "void \fBinsertHead\fP (int x)"
+.br
+.ti -1c
+.RI "void \fBinsertTail\fP (int x)"
+.br
+.ti -1c
+.RI "void \fBinsertElementByIndex\fP (int x, int index)"
+.br
+.ti -1c
+.RI "Link \fBdeleteHead\fP ()"
+.br
+.ti -1c
+.RI "Link \fBdeleteTail\fP ()"
+.br
+.ti -1c
+.RI "void \fBdelete\fP (int x)"
+.br
+.ti -1c
+.RI "void \fBinsertOrdered\fP (int x)"
+.br
+.ti -1c
+.RI "void \fBdeleteNode\fP (Link z)"
+.br
+.ti -1c
+.RI "void \fBreverse\fP ()"
+.br
+.ti -1c
+.RI "void \fBclearList\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBisEmpty\fP ()"
+.br
+.ti -1c
+.RI "void \fBdisplay\fP ()"
+.br
+.ti -1c
+.RI "void \fBdisplayBackwards\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBremoveDuplicates\fP (\fBDoublyLinkedList\fP l)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+This class implements a \fBDoublyLinkedList\fP\&. This is done using the classes LinkedList and Link\&.
+.PP
+A linked list is similar to an array, it holds values\&. However, links in a linked list do not have indexes\&. With a linked list you do not need to predetermine it's size as it grows and shrinks as it is edited\&. This is an example of a double ended, doubly linked list\&. Each link references the next link and the previous one\&.
+.PP
+\fBAuthor\fP
+.RS 4
+Unknown 
+.RE
+.PP
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "com\&.thealgorithms\&.datastructures\&.lists\&.DoublyLinkedList\&.DoublyLinkedList ()"
+Default Constructor 
+.SS "com\&.thealgorithms\&.datastructures\&.lists\&.DoublyLinkedList\&.DoublyLinkedList (int[] array)"
+Constructs a list containing the elements of the array
+.PP
+\fBParameters\fP
+.RS 4
+\fIarray\fP the array whose elements are to be placed into this list 
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fINullPointerException\fP if the specified collection is null 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "void com\&.thealgorithms\&.datastructures\&.lists\&.DoublyLinkedList\&.clearList ()"
+Clears List 
+.SS "void com\&.thealgorithms\&.datastructures\&.lists\&.DoublyLinkedList\&.delete (int x)"
+Delete the element from somewhere in the list
+.PP
+\fBParameters\fP
+.RS 4
+\fIx\fP element to be deleted 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Link deleted 
+.RE
+.PP
+
+.SS "Link com\&.thealgorithms\&.datastructures\&.lists\&.DoublyLinkedList\&.deleteHead ()"
+Delete the element at the head
+.PP
+\fBReturns\fP
+.RS 4
+The new head 
+.RE
+.PP
+
+.SS "void com\&.thealgorithms\&.datastructures\&.lists\&.DoublyLinkedList\&.deleteNode (Link z)"
+Deletes the passed node from the current list
+.PP
+\fBParameters\fP
+.RS 4
+\fIz\fP Element to be deleted 
+.RE
+.PP
+
+.SS "Link com\&.thealgorithms\&.datastructures\&.lists\&.DoublyLinkedList\&.deleteTail ()"
+Delete the element at the tail
+.PP
+\fBReturns\fP
+.RS 4
+The new tail 
+.RE
+.PP
+
+.SS "void com\&.thealgorithms\&.datastructures\&.lists\&.DoublyLinkedList\&.display ()"
+Prints contents of the list 
+.SS "void com\&.thealgorithms\&.datastructures\&.lists\&.DoublyLinkedList\&.displayBackwards ()"
+Prints the contents of the list in reverse order 
+.SS "void com\&.thealgorithms\&.datastructures\&.lists\&.DoublyLinkedList\&.insertElementByIndex (int x, int index)"
+Insert an element at the index
+.PP
+\fBParameters\fP
+.RS 4
+\fIx\fP Element to be inserted 
+.br
+\fIindex\fP Index(from start) at which the element x to be inserted 
+.RE
+.PP
+
+.SS "void com\&.thealgorithms\&.datastructures\&.lists\&.DoublyLinkedList\&.insertHead (int x)"
+Insert an element at the head
+.PP
+\fBParameters\fP
+.RS 4
+\fIx\fP Element to be inserted 
+.RE
+.PP
+
+.SS "void com\&.thealgorithms\&.datastructures\&.lists\&.DoublyLinkedList\&.insertOrdered (int x)"
+Inserts element and reorders
+.PP
+\fBParameters\fP
+.RS 4
+\fIx\fP Element to be added 
+.RE
+.PP
+
+.SS "void com\&.thealgorithms\&.datastructures\&.lists\&.DoublyLinkedList\&.insertTail (int x)"
+Insert an element at the tail
+.PP
+\fBParameters\fP
+.RS 4
+\fIx\fP Element to be inserted 
+.RE
+.PP
+
+.SS "boolean com\&.thealgorithms\&.datastructures\&.lists\&.DoublyLinkedList\&.isEmpty ()"
+Returns true if list is empty
+.PP
+\fBReturns\fP
+.RS 4
+true if list is empty 
+.RE
+.PP
+
+.SS "void com\&.thealgorithms\&.datastructures\&.lists\&.DoublyLinkedList\&.reverse ()"
+Reverses the list in place
+.PP
+\fBParameters\fP
+.RS 4
+\fIl\fP the \fBDoublyLinkedList\fP to reverse 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_binary_pow" xml:lang="en-US">
+<title>com.thealgorithms.maths.BinaryPow Class Reference</title>
+<indexterm><primary>com.thealgorithms.maths.BinaryPow</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static int <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_binary_pow_1ab4dc32ef2c9c153df80cd0be185583e7">binPow</link> (int a, int p)</para>
+</listitem>
+            <listitem><para>static void <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_binary_pow_1ad236165cc1b7792822063cad22c034ca">test</link> (int a, int p)</para>
+</listitem>
+            <listitem><para>static void <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_binary_pow_1a9fe4449ae560f6afebefdcf5d363670c">main</link> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_binary_pow_1ab4dc32ef2c9c153df80cd0be185583e7"/><section>
+    <title>binPow()</title>
+<indexterm><primary>binPow</primary><secondary>com.thealgorithms.maths.BinaryPow</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.BinaryPow</primary><secondary>binPow</secondary></indexterm>
+<para><computeroutput>static int com.thealgorithms.maths.BinaryPow.binPow (int a, int p)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Calculate a^p using binary exponentiation <link xlink:href="https://cp-algorithms.com/algebra/binary-exp.html">Binary-Exponentiation</link></para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>a</entry><entry>
+<para>the base for exponentiation </para>
+</entry>
+                            </row>
+                            <row>
+<entry>p</entry><entry>
+<para>the exponent - must be greater than 0 </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>a^p </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_binary_pow_1a9fe4449ae560f6afebefdcf5d363670c"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>com.thealgorithms.maths.BinaryPow</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.BinaryPow</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void com.thealgorithms.maths.BinaryPow.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Main Function to call tests</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>args</entry><entry>
+<para>System Line Arguments </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_binary_pow_1ad236165cc1b7792822063cad22c034ca"/><section>
+    <title>test()</title>
+<indexterm><primary>test</primary><secondary>com.thealgorithms.maths.BinaryPow</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.BinaryPow</primary><secondary>test</secondary></indexterm>
+<para><computeroutput>static void com.thealgorithms.maths.BinaryPow.test (int a, int p)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Function for testing binary exponentiation</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>a</entry><entry>
+<para>the base </para>
+</entry>
+                            </row>
+                            <row>
+<entry>p</entry><entry>
+<para>the exponent </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/maths/BinaryPow.java</section>
+</section>

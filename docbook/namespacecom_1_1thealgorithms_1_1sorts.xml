@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacecom_1_1thealgorithms_1_1sorts" xml:lang="en-US">
+<title>Package com.thealgorithms.sorts</title>
+<indexterm><primary>com.thealgorithms.sorts</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <emphasis role="strong">App</emphasis></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1sorts_1_1_bitonic_sort">BitonicSort</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1sorts_1_1_bogo_sort">BogoSort</link></para>
+</listitem>
+            <listitem><para>class <emphasis role="strong">BubbleSort</emphasis></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1sorts_1_1_bubble_sort_recursion">BubbleSortRecursion</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1sorts_1_1_bucket_sort">BucketSort</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1sorts_1_1_circle_sort">CircleSort</link></para>
+</listitem>
+            <listitem><para>class <emphasis role="strong">CocktailShakerSort</emphasis></para>
+</listitem>
+            <listitem><para>class <emphasis role="strong">CombSort</emphasis></para>
+</listitem>
+            <listitem><para>class <emphasis role="strong">CountingSort</emphasis></para>
+</listitem>
+            <listitem><para>class <emphasis role="strong">CycleSort</emphasis></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1sorts_1_1_d_n_f_sort">DNFSort</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1sorts_1_1_gnome_sort">GnomeSort</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1sorts_1_1_heap_sort">HeapSort</link></para>
+</listitem>
+            <listitem><para>class <emphasis role="strong">InsertionSort</emphasis></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1sorts_1_1_link_list___sort">LinkList_Sort</link></para>
+</listitem>
+            <listitem><para>class <emphasis role="strong">MergeSort</emphasis></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1sorts_1_1_merge_sort_no_extra_space">MergeSortNoExtraSpace</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1sorts_1_1_merge_sort_recursive">MergeSortRecursive</link></para>
+</listitem>
+            <listitem><para>class <emphasis role="strong">Node</emphasis></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1sorts_1_1_odd_even_sort">OddEvenSort</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1sorts_1_1_pancake_sort">PancakeSort</link></para>
+</listitem>
+            <listitem><para>class <emphasis role="strong">QuickSort</emphasis></para>
+</listitem>
+            <listitem><para>class <emphasis role="strong">RadixSort</emphasis></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1sorts_1_1_selection_sort">SelectionSort</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1sorts_1_1_shell_sort">ShellSort</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1sorts_1_1_simple_sort">SimpleSort</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1sorts_1_1_slow_sort">SlowSort</link></para>
+</listitem>
+            <listitem><para>interface <link linkend="_interfacecom_1_1thealgorithms_1_1sorts_1_1_sort_algorithm">SortAlgorithm</link></para>
+</listitem>
+            <listitem><para>class <emphasis role="strong">SortUtils</emphasis></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1sorts_1_1_stooge_sort">StoogeSort</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1sorts_1_1_swap_sort">SwapSort</link></para>
+</listitem>
+            <listitem><para>class <emphasis role="strong">Task</emphasis></para>
+</listitem>
+            <listitem><para>class <emphasis role="strong">Task1</emphasis></para>
+</listitem>
+            <listitem><para>class <emphasis role="strong">Task2</emphasis></para>
+</listitem>
+            <listitem><para>class <emphasis role="strong">TimSort</emphasis></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1sorts_1_1_tree_sort">TreeSort</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Author : Siddhant Swarup Mallick Github : <link xlink:href="https://github.com/siddhant2002">https://github.com/siddhant2002</link> Program description - To sort the LinkList as per sorting technique </para>
+</section>
+</section>

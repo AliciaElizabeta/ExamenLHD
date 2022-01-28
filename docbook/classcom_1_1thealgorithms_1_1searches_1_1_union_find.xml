@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1searches_1_1_union_find" xml:lang="en-US">
+<title>com.thealgorithms.searches.UnionFind Class Reference</title>
+<indexterm><primary>com.thealgorithms.searches.UnionFind</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1searches_1_1_union_find_1ae0034febcc9440b83e212c0a8a19fd0c"/><emphasis role="strong">UnionFind</emphasis> (int n)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1searches_1_1_union_find_1ac1570a83d9418093d1184d27007766f6"/>int <emphasis role="strong">find</emphasis> (int i)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1searches_1_1_union_find_1a1a2f654f67826e7f9bd46b0c9b580ab7"/>void <emphasis role="strong">union</emphasis> (int x, int y)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1searches_1_1_union_find_1ae88186881301a2c36feaa088bede70f6"/>int <emphasis role="strong">count</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1searches_1_1_union_find_1afc5c734187f703ccf31b013989b1c419"/>String <emphasis role="strong">toString</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1searches_1_1_union_find_1a7b520640066f13759d0d0870e7236a44"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/searches/UnionFind.java</section>

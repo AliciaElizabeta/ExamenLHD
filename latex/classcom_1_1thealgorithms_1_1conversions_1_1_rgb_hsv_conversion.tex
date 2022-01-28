@@ -1,0 +1,63 @@
+\hypertarget{classcom_1_1thealgorithms_1_1conversions_1_1_rgb_hsv_conversion}{}\doxysection{com.\+thealgorithms.\+conversions.\+Rgb\+Hsv\+Conversion Class Reference}
+\label{classcom_1_1thealgorithms_1_1conversions_1_1_rgb_hsv_conversion}\index{com.thealgorithms.conversions.RgbHsvConversion@{com.thealgorithms.conversions.RgbHsvConversion}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1conversions_1_1_rgb_hsv_conversion_acd771046b24c0c46a8e52a844db0c8ee}\label{classcom_1_1thealgorithms_1_1conversions_1_1_rgb_hsv_conversion_acd771046b24c0c46a8e52a844db0c8ee}} 
+static void {\bfseries main} (String\mbox{[}$\,$\mbox{]} args)
+\item 
+static int\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classcom_1_1thealgorithms_1_1conversions_1_1_rgb_hsv_conversion_aac4b528ef0c09d2f68fc1ce8bc5cc332}{hsv\+To\+Rgb}} (double hue, double saturation, double value)
+\item 
+static double\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classcom_1_1thealgorithms_1_1conversions_1_1_rgb_hsv_conversion_ae8d76a0a1eb8e88686e2b74a7334805d}{rgb\+To\+Hsv}} (int red, int green, int blue)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The RGB color model is an additive color model in which red, green, and blue light are added together in various ways to reproduce a broad array of colors. The name of the model comes from the initials of the three additive primary colors, red, green, and blue. Meanwhile, the HSV representation models how colors appear under light. In it, colors are represented using three components\+: hue, saturation and (brightness-\/)value. This class provides methods for converting colors from one representation to the other. (description adapted from \href{https://en.wikipedia.org/wiki/RGB_color_model}{\texttt{ https\+://en.\+wikipedia.\+org/wiki/\+RGB\+\_\+color\+\_\+model}} and \href{https://en.wikipedia.org/wiki/HSL_and_HSV}{\texttt{ https\+://en.\+wikipedia.\+org/wiki/\+HSL\+\_\+and\+\_\+\+HSV}}). 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1conversions_1_1_rgb_hsv_conversion_aac4b528ef0c09d2f68fc1ce8bc5cc332}\label{classcom_1_1thealgorithms_1_1conversions_1_1_rgb_hsv_conversion_aac4b528ef0c09d2f68fc1ce8bc5cc332}} 
+\index{com.thealgorithms.conversions.RgbHsvConversion@{com.thealgorithms.conversions.RgbHsvConversion}!hsvToRgb@{hsvToRgb}}
+\index{hsvToRgb@{hsvToRgb}!com.thealgorithms.conversions.RgbHsvConversion@{com.thealgorithms.conversions.RgbHsvConversion}}
+\doxysubsubsection{\texorpdfstring{hsvToRgb()}{hsvToRgb()}}
+{\footnotesize\ttfamily static int\mbox{[}$\,$\mbox{]} com.\+thealgorithms.\+conversions.\+Rgb\+Hsv\+Conversion.\+hsv\+To\+Rgb (\begin{DoxyParamCaption}\item[{double}]{hue,  }\item[{double}]{saturation,  }\item[{double}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Conversion from the HSV-\/representation to the RGB-\/representation.
+
+
+\begin{DoxyParams}{Parameters}
+{\em hue} & Hue of the color. \\
+\hline
+{\em saturation} & Saturation of the color. \\
+\hline
+{\em value} & Brightness-\/value of the color. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The tuple of RGB-\/components. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1conversions_1_1_rgb_hsv_conversion_ae8d76a0a1eb8e88686e2b74a7334805d}\label{classcom_1_1thealgorithms_1_1conversions_1_1_rgb_hsv_conversion_ae8d76a0a1eb8e88686e2b74a7334805d}} 
+\index{com.thealgorithms.conversions.RgbHsvConversion@{com.thealgorithms.conversions.RgbHsvConversion}!rgbToHsv@{rgbToHsv}}
+\index{rgbToHsv@{rgbToHsv}!com.thealgorithms.conversions.RgbHsvConversion@{com.thealgorithms.conversions.RgbHsvConversion}}
+\doxysubsubsection{\texorpdfstring{rgbToHsv()}{rgbToHsv()}}
+{\footnotesize\ttfamily static double\mbox{[}$\,$\mbox{]} com.\+thealgorithms.\+conversions.\+Rgb\+Hsv\+Conversion.\+rgb\+To\+Hsv (\begin{DoxyParamCaption}\item[{int}]{red,  }\item[{int}]{green,  }\item[{int}]{blue }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Conversion from the RGB-\/representation to the HSV-\/representation.
+
+
+\begin{DoxyParams}{Parameters}
+{\em red} & Red-\/component of the color. \\
+\hline
+{\em green} & Green-\/component of the color. \\
+\hline
+{\em blue} & Blue-\/component of the color. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The tuple of HSV-\/components. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/thealgorithms/conversions/Rgb\+Hsv\+Conversion.\+java\end{DoxyCompactItemize}

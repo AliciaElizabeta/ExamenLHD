@@ -1,0 +1,202 @@
+.TH "com.thealgorithms.divideandconquer.ClosestPair" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.divideandconquer.ClosestPair
+.SH SYNOPSIS
+.br
+.PP
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "class \fBLocation\fP"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "Location[] \fBcreateLocation\fP (int numberValues)"
+.br
+.ti -1c
+.RI "Location \fBbuildLocation\fP (double x, double y)"
+.br
+.ti -1c
+.RI "int \fBxPartition\fP (final Location[] a, final int first, final int last)"
+.br
+.ti -1c
+.RI "int \fByPartition\fP (final Location[] a, final int first, final int last)"
+.br
+.ti -1c
+.RI "void \fBxQuickSort\fP (final Location[] a, final int first, final int last)"
+.br
+.ti -1c
+.RI "void \fByQuickSort\fP (final Location[] a, final int first, final int last)"
+.br
+.ti -1c
+.RI "double \fBclosestPair\fP (final Location[] a, final int indexNum)"
+.br
+.ti -1c
+.RI "double \fBbruteForce\fP (final Location[] arrayParam)"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBsetMinNum\fP (double minNum)"
+.br
+.ti -1c
+.RI "static void \fBsetSecondCount\fP (int secondCount)"
+.br
+.ti -1c
+.RI "static void \fBmain\fP (final String[] args)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+For a set of points in a coordinates system (10000 maximum), \fBClosestPair\fP class calculates the two closest points\&. 
+.SH "Member Function Documentation"
+.PP 
+.SS "double com\&.thealgorithms\&.divideandconquer\&.ClosestPair\&.bruteForce (final Location[] arrayParam)"
+bruteForce function: When the number of coordinates is less than 3\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIarrayParam\fP (IN Parameter) array stored before divide 
+.br
+ 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+
+.br
+ 
+.RE
+.PP
+
+.SS "double com\&.thealgorithms\&.divideandconquer\&.ClosestPair\&.closestPair (final Location[] a, final int indexNum)"
+closestPair function: find closest pair\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIa\fP (IN Parameter) array stored before divide 
+.br
+ 
+.br
+\fIindexNum\fP (IN Parameter) number coordinates divideArray 
+.br
+ 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+minimum distance 
+.br
+ 
+.RE
+.PP
+
+.SS "static void com\&.thealgorithms\&.divideandconquer\&.ClosestPair\&.main (final String[] args)\fC [static]\fP"
+main function: execute class\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIargs\fP (IN Parameter) 
+.br
+ 
+.RE
+.PP
+
+.SS "int com\&.thealgorithms\&.divideandconquer\&.ClosestPair\&.xPartition (final Location[] a, final int first, final int last)"
+xPartition function: arrange x-axis\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIa\fP (IN Parameter) array of points 
+.br
+ 
+.br
+\fIfirst\fP (IN Parameter) first point 
+.br
+ 
+.br
+\fIlast\fP (IN Parameter) last point 
+.br
+ 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+pivot index 
+.RE
+.PP
+
+.SS "void com\&.thealgorithms\&.divideandconquer\&.ClosestPair\&.xQuickSort (final Location[] a, final int first, final int last)"
+xQuickSort function: //x-axis Quick Sorting\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIa\fP (IN Parameter) array of points 
+.br
+ 
+.br
+\fIfirst\fP (IN Parameter) first point 
+.br
+ 
+.br
+\fIlast\fP (IN Parameter) last point 
+.br
+ 
+.RE
+.PP
+
+.SS "int com\&.thealgorithms\&.divideandconquer\&.ClosestPair\&.yPartition (final Location[] a, final int first, final int last)"
+yPartition function: arrange y-axis\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIa\fP (IN Parameter) array of points 
+.br
+ 
+.br
+\fIfirst\fP (IN Parameter) first point 
+.br
+ 
+.br
+\fIlast\fP (IN Parameter) last point 
+.br
+ 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+pivot index 
+.RE
+.PP
+
+.SS "void com\&.thealgorithms\&.divideandconquer\&.ClosestPair\&.yQuickSort (final Location[] a, final int first, final int last)"
+yQuickSort function: //y-axis Quick Sorting\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIa\fP (IN Parameter) array of points 
+.br
+ 
+.br
+\fIfirst\fP (IN Parameter) first point 
+.br
+ 
+.br
+\fIlast\fP (IN Parameter) last point 
+.br
+ 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

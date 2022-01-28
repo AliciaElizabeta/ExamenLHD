@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1strings_1_1_rotation" xml:lang="en-US">
+<title>com.thealgorithms.strings.Rotation Class Reference</title>
+<indexterm><primary>com.thealgorithms.strings.Rotation</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1strings_1_1_rotation_1a33d658ed24a0514ba302346bf69a1f08"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+            <listitem><para>static String <link linkend="_classcom_1_1thealgorithms_1_1strings_1_1_rotation_1a6dd225bcec7add6f10f7073e4eece884">rotation</link> (String s, int n)</para>
+</listitem>
+            <listitem><para>static void <link linkend="_classcom_1_1thealgorithms_1_1strings_1_1_rotation_1ab8465d8fb3909d4959c75c3464d471c1">rotation</link> (char[] values, int n)</para>
+</listitem>
+            <listitem><para>static void <link linkend="_classcom_1_1thealgorithms_1_1strings_1_1_rotation_1a911b9d40e219700fff57629c653561d6">reverse</link> (char[] values, int from, int to)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Given a string, moving several characters in front of the string to the end of the string. For example, move the two characters&apos;a&apos; and &apos;b&apos; in front of the string &quot;abcdef&quot; to the end of the string, so that the original string becomes the string &quot;cdefab&quot; </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1strings_1_1_rotation_1a911b9d40e219700fff57629c653561d6"/><section>
+    <title>reverse()</title>
+<indexterm><primary>reverse</primary><secondary>com.thealgorithms.strings.Rotation</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.strings.Rotation</primary><secondary>reverse</secondary></indexterm>
+<para><computeroutput>static void com.thealgorithms.strings.Rotation.reverse (char[] values, int from, int to)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Reverse character array</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>values</entry><entry>
+<para>character array </para>
+</entry>
+                            </row>
+                            <row>
+<entry>from</entry><entry>
+<para>begin index of given array </para>
+</entry>
+                            </row>
+                            <row>
+<entry>to</entry><entry>
+<para>end index of given array </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1strings_1_1_rotation_1ab8465d8fb3909d4959c75c3464d471c1"/><section>
+    <title>rotation()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>rotation</primary><secondary>com.thealgorithms.strings.Rotation</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.strings.Rotation</primary><secondary>rotation</secondary></indexterm>
+<para><computeroutput>static void com.thealgorithms.strings.Rotation.rotation (char[] values, int n)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Move <literallayout><computeroutput>n&#32;
+</computeroutput></literallayout> characters in front of given character array to the end of array time complexity: O(n) space complexity: O(1)</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>values</entry><entry>
+<para>given character array </para>
+</entry>
+                            </row>
+                            <row>
+<entry>n</entry><entry>
+<para>the total characters to be moved </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1strings_1_1_rotation_1a6dd225bcec7add6f10f7073e4eece884"/><section>
+    <title>rotation()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>rotation</primary><secondary>com.thealgorithms.strings.Rotation</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.strings.Rotation</primary><secondary>rotation</secondary></indexterm>
+<para><computeroutput>static String com.thealgorithms.strings.Rotation.rotation (String s, int n)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Move <literallayout><computeroutput>n&#32;
+</computeroutput></literallayout> characters in front of given string to the end of string time complexity: O(n) space complexity: O(n)</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>s</entry><entry>
+<para>given string </para>
+</entry>
+                            </row>
+                            <row>
+<entry>n</entry><entry>
+<para>the total characters to be moved </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>string after rotation </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/strings/Rotation.java</section>
+</section>

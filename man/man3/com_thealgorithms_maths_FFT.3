@@ -1,0 +1,56 @@
+.TH "com.thealgorithms.maths.FFT" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.maths.FFT
+.SH SYNOPSIS
+.br
+.PP
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "class \fBComplex\fP"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBfft\fP (ArrayList< Complex > x, boolean inverse)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Class for calculating the Fast Fourier Transform (\fBFFT\fP) of a discrete signal using the Cooley-Tukey algorithm\&.
+.PP
+\fBAuthor\fP
+.RS 4
+Ioannis Karavitsis 
+.RE
+.PP
+\fBVersion\fP
+.RS 4
+1\&.0 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "static void com\&.thealgorithms\&.maths\&.FFT\&.fft (ArrayList< Complex > x, boolean inverse)\fC [static]\fP"
+Iterative In-Place Radix-2 Cooley-Tukey Fast Fourier Transform Algorithm with Bit-Reversal\&. The size of the input signal must be a power of 2\&. If it isn't then it is padded with zeros and the output \fBFFT\fP will be bigger than the input signal\&.
+.PP
+More info: https://www.algorithm-archive.org/contents/cooley_tukey/cooley_tukey.html https://www.geeksforgeeks.org/iterative-fast-fourier-transformation-polynomial-multiplication/ https://en.wikipedia.org/wiki/Cooley%E2%80%93Tukey_FFT_algorithm https://cp-algorithms.com/algebra/fft.html
+.PP
+\fBParameters\fP
+.RS 4
+\fIx\fP The discrete signal which is then converted to the \fBFFT\fP or the IFFT of signal x\&. 
+.br
+\fIinverse\fP True if you want to find the inverse \fBFFT\fP\&. 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

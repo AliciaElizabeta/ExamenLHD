@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_stack_array" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.stacks.StackArray Class Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.stacks.StackArray</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_stack_array_1a3cf73e1e49a7215720888f111ea1a4c0">StackArray</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_stack_array_1aff7ebb4780672f09bef05bb77217ce84">StackArray</link> (int <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_stack_array_1ad89fba8e9422e9a9672e5378879512d2">size</link>)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_stack_array_1af980ef75f5d19324b3cbc64d1ea93a98">push</link> (int value)</para>
+</listitem>
+            <listitem><para>int <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_stack_array_1ad491184674912c389d2da2da9f723e69">pop</link> ()</para>
+</listitem>
+            <listitem><para>int <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_stack_array_1ae2f5cc5ec1f2911a2fd29941bd890a90">peek</link> ()</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_stack_array_1ae2f762977a95390d152819640c4b2816">isEmpty</link> ()</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_stack_array_1a78f0e58569977c541347254d83ac7cb9">isFull</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_stack_array_1a260834b2a24d085bca4325a6fb31d316">makeEmpty</link> ()</para>
+</listitem>
+            <listitem><para>int <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_stack_array_1ad89fba8e9422e9a9672e5378879512d2">size</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_stack_array_1ab418f4d2fda107f720076105ca8563c3">main</link> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>This class implements a Stack using a regular array.</para>
+
+<para>A stack is exactly what it sounds like. An element gets added to the top of the stack and only the element on the top may be removed. This is an example of an array implementation of a Stack. So an element can only be added/removed from the end of the array. In theory stack have no fixed size, but with an array implementation it does. </para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_stack_array_1a3cf73e1e49a7215720888f111ea1a4c0"/><section>
+    <title>StackArray()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>StackArray</primary><secondary>com.thealgorithms.datastructures.stacks.StackArray</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.stacks.StackArray</primary><secondary>StackArray</secondary></indexterm>
+<para><computeroutput>com.thealgorithms.datastructures.stacks.StackArray.StackArray ( )</computeroutput></para>
+<para>init Stack with DEFAULT_CAPACITY </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_stack_array_1aff7ebb4780672f09bef05bb77217ce84"/><section>
+    <title>StackArray()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>StackArray</primary><secondary>com.thealgorithms.datastructures.stacks.StackArray</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.stacks.StackArray</primary><secondary>StackArray</secondary></indexterm>
+<para><computeroutput>com.thealgorithms.datastructures.stacks.StackArray.StackArray (int size)</computeroutput></para>
+<para>Constructor</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>size</entry><entry>
+<para>Size of the Stack </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_stack_array_1ae2f762977a95390d152819640c4b2816"/><section>
+    <title>isEmpty()</title>
+<indexterm><primary>isEmpty</primary><secondary>com.thealgorithms.datastructures.stacks.StackArray</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.stacks.StackArray</primary><secondary>isEmpty</secondary></indexterm>
+<para><computeroutput>boolean com.thealgorithms.datastructures.stacks.StackArray.isEmpty ( )</computeroutput></para>
+<para>Returns true if the stack is empty</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>true if the stack is empty </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_stack_array_1a78f0e58569977c541347254d83ac7cb9"/><section>
+    <title>isFull()</title>
+<indexterm><primary>isFull</primary><secondary>com.thealgorithms.datastructures.stacks.StackArray</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.stacks.StackArray</primary><secondary>isFull</secondary></indexterm>
+<para><computeroutput>boolean com.thealgorithms.datastructures.stacks.StackArray.isFull ( )</computeroutput></para>
+<para>Returns true if the stack is full</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>true if the stack is full </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_stack_array_1ab418f4d2fda107f720076105ca8563c3"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>com.thealgorithms.datastructures.stacks.StackArray</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.stacks.StackArray</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void com.thealgorithms.datastructures.stacks.StackArray.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Driver Code </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_stack_array_1a260834b2a24d085bca4325a6fb31d316"/><section>
+    <title>makeEmpty()</title>
+<indexterm><primary>makeEmpty</primary><secondary>com.thealgorithms.datastructures.stacks.StackArray</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.stacks.StackArray</primary><secondary>makeEmpty</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.stacks.StackArray.makeEmpty ( )</computeroutput></para>
+<para>Deletes everything in the Stack</para>
+
+<para>Doesn&apos;t delete elements in the array but if you call push method after calling makeEmpty it will overwrite previous values </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_stack_array_1ae2f5cc5ec1f2911a2fd29941bd890a90"/><section>
+    <title>peek()</title>
+<indexterm><primary>peek</primary><secondary>com.thealgorithms.datastructures.stacks.StackArray</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.stacks.StackArray</primary><secondary>peek</secondary></indexterm>
+<para><computeroutput>int com.thealgorithms.datastructures.stacks.StackArray.peek ( )</computeroutput></para>
+<para>Returns the element at the top of the stack</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>element at the top of the stack </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_stack_array_1ad491184674912c389d2da2da9f723e69"/><section>
+    <title>pop()</title>
+<indexterm><primary>pop</primary><secondary>com.thealgorithms.datastructures.stacks.StackArray</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.stacks.StackArray</primary><secondary>pop</secondary></indexterm>
+<para><computeroutput>int com.thealgorithms.datastructures.stacks.StackArray.pop ( )</computeroutput></para>
+<para>Removes the top element of the stack and returns the value you&apos;ve removed</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>value popped off the Stack </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_stack_array_1af980ef75f5d19324b3cbc64d1ea93a98"/><section>
+    <title>push()</title>
+<indexterm><primary>push</primary><secondary>com.thealgorithms.datastructures.stacks.StackArray</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.stacks.StackArray</primary><secondary>push</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.stacks.StackArray.push (int value)</computeroutput></para>
+<para>Adds an element to the top of the stack</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>value</entry><entry>
+<para>The element added </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_stack_array_1ad89fba8e9422e9a9672e5378879512d2"/><section>
+    <title>size()</title>
+<indexterm><primary>size</primary><secondary>com.thealgorithms.datastructures.stacks.StackArray</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.stacks.StackArray</primary><secondary>size</secondary></indexterm>
+<para><computeroutput>int com.thealgorithms.datastructures.stacks.StackArray.size ( )</computeroutput></para>
+<para>Return size of stack</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>size of stack </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/stacks/StackArray.java</section>
+</section>

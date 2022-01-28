@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1strings_1_1_horspool_search" xml:lang="en-US">
+<title>com.thealgorithms.strings.HorspoolSearch Class Reference</title>
+<indexterm><primary>com.thealgorithms.strings.HorspoolSearch</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static int <link linkend="_classcom_1_1thealgorithms_1_1strings_1_1_horspool_search_1a50620577d03a121297608ddc534fb85e">findFirst</link> (String pattern, String text)</para>
+</listitem>
+            <listitem><para>static int <link linkend="_classcom_1_1thealgorithms_1_1strings_1_1_horspool_search_1ac9e0a767374b9817fef53dd721de48ad">findFirstInsensitive</link> (String pattern, String text)</para>
+</listitem>
+            <listitem><para>static Integer <link linkend="_classcom_1_1thealgorithms_1_1strings_1_1_horspool_search_1aa87e3824fb9bb819a31dbae15a62503a">getLastComparisons</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>This class is not thread safe
+<literallayout>&#160;&#xa;</literallayout>
+ 
+<literallayout>&#160;&#xa;</literallayout>
+ (From wikipedia) In computer science, the Boyer–Moore–Horspool algorithm or Horspool&apos;s algorithm is an algorithm for finding substrings in strings. It was published by Nigel Horspool in 1980. 
+<literallayout>&#160;&#xa;</literallayout>
+ <link xlink:href="https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore%E2%80%93Horspool_algorithm">Wikipedia page</link>
+<literallayout>&#160;&#xa;</literallayout>
+ 
+<literallayout>&#160;&#xa;</literallayout>
+</para>
+
+<para>An explanation:
+<literallayout>&#160;&#xa;</literallayout>
+</para>
+
+<para>The Horspool algorithm is a simplification of the Boyer-Moore algorithm in that it uses only one of the two heuristic methods for increasing the number of characters shifted when finding a bad match in the text. This method is usually called the &quot;bad symbol&quot; or &quot;bad character&quot; shift. The bad symbol shift method is classified as an input enhancement method in the theory of algorithms. Input enhancement is (from wikipedia) the principle that processing a given input to a problem and altering it in a specific way will increase runtime efficiency or space efficiency, or both. Both algorithms try to match the pattern and text comparing the pattern symbols to the text&apos;s from right to left.
+<literallayout>&#160;&#xa;</literallayout>
+ 
+<literallayout>&#160;&#xa;</literallayout>
+</para>
+
+<para>In the bad symbol shift method, a table is created prior to the search, called the &quot;bad symbol table&quot;. The bad symbol table contains the shift values for any symbol in the text and pattern. For these symbols, the value is the length of the pattern, if the symbol is not in the first (length - 1) of the pattern. Else it is the distance from its rightmost occurrence in the pattern to the last symbol of the pattern. In practice, we only calculate the values for the ones that exist in the first (length - 1) of the pattern.
+<literallayout>&#160;&#xa;</literallayout>
+ 
+<literallayout>&#160;&#xa;</literallayout>
+</para>
+
+<para>For more details on the algorithm and the more advanced Boyer-Moore I recommend checking out the wikipedia page and professor Anany Levitin&apos;s book: Introduction To The Design And Analysis Of Algorithms. </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1strings_1_1_horspool_search_1a50620577d03a121297608ddc534fb85e"/><section>
+    <title>findFirst()</title>
+<indexterm><primary>findFirst</primary><secondary>com.thealgorithms.strings.HorspoolSearch</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.strings.HorspoolSearch</primary><secondary>findFirst</secondary></indexterm>
+<para><computeroutput>static int com.thealgorithms.strings.HorspoolSearch.findFirst (String pattern, String text)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Case sensitive version version of the algorithm</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>pattern</entry><entry>
+<para>the pattern to be searched for (needle) </para>
+</entry>
+                            </row>
+                            <row>
+<entry>text</entry><entry>
+<para>the text being searched in (haystack) </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>-1 if not found or first index of the pattern in the text </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1strings_1_1_horspool_search_1ac9e0a767374b9817fef53dd721de48ad"/><section>
+    <title>findFirstInsensitive()</title>
+<indexterm><primary>findFirstInsensitive</primary><secondary>com.thealgorithms.strings.HorspoolSearch</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.strings.HorspoolSearch</primary><secondary>findFirstInsensitive</secondary></indexterm>
+<para><computeroutput>static int com.thealgorithms.strings.HorspoolSearch.findFirstInsensitive (String pattern, String text)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Case insensitive version version of the algorithm</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>pattern</entry><entry>
+<para>the pattern to be searched for (needle) </para>
+</entry>
+                            </row>
+                            <row>
+<entry>text</entry><entry>
+<para>the text being searched in (haystack) </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>-1 if not found or first index of the pattern in the text </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1strings_1_1_horspool_search_1aa87e3824fb9bb819a31dbae15a62503a"/><section>
+    <title>getLastComparisons()</title>
+<indexterm><primary>getLastComparisons</primary><secondary>com.thealgorithms.strings.HorspoolSearch</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.strings.HorspoolSearch</primary><secondary>getLastComparisons</secondary></indexterm>
+<para><computeroutput>static Integer com.thealgorithms.strings.HorspoolSearch.getLastComparisons ( )<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Utility method that returns comparisons made by last run (mainly for tests)</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>number of character comparisons of the last search </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/strings/HorspoolSearch.java</section>
+</section>

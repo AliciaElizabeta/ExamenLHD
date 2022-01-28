@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_binary_exponentiation" xml:lang="en-US">
+<title>com.thealgorithms.divideandconquer.BinaryExponentiation Class Reference</title>
+<indexterm><primary>com.thealgorithms.divideandconquer.BinaryExponentiation</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_binary_exponentiation_1a20f2655b067eb03c256eb58b6349971e"/>static void <emphasis role="strong">main</emphasis> (String args[])</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_binary_exponentiation_1a7f16ec363e0c2d8b8db05ee288180db2"/>static long <emphasis role="strong">calculatePower</emphasis> (long x, long y)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/divideandconquer/BinaryExponentiation.java</section>

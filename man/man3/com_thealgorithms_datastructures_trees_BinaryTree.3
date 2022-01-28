@@ -1,0 +1,170 @@
+.TH "com.thealgorithms.datastructures.trees.BinaryTree" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.datastructures.trees.BinaryTree
+.SH SYNOPSIS
+.br
+.PP
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "class \fBNode\fP"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBBinaryTree\fP ()"
+.br
+.ti -1c
+.RI "\fBBinaryTree\fP (Node root)"
+.br
+.ti -1c
+.RI "Node \fBfind\fP (int key)"
+.br
+.ti -1c
+.RI "void \fBput\fP (int value)"
+.br
+.ti -1c
+.RI "boolean \fBremove\fP (int value)"
+.br
+.ti -1c
+.RI "Node \fBfindSuccessor\fP (Node n)"
+.br
+.ti -1c
+.RI "Node \fBgetRoot\fP ()"
+.br
+.ti -1c
+.RI "void \fBinOrder\fP (Node localRoot)"
+.br
+.ti -1c
+.RI "void \fBpreOrder\fP (Node localRoot)"
+.br
+.ti -1c
+.RI "void \fBpostOrder\fP (Node localRoot)"
+.br
+.ti -1c
+.RI "void \fBbfs\fP (Node localRoot)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+This entire class is used to build a Binary Tree data structure\&. There is the Node Class and the Tree Class, both explained below\&. A binary tree is a data structure in which an element has two successors(children)\&. The left child is usually smaller than the parent, and the right child is usually bigger\&.
+.PP
+\fBAuthor\fP
+.RS 4
+Unknown 
+.RE
+.PP
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "com\&.thealgorithms\&.datastructures\&.trees\&.BinaryTree\&.BinaryTree ()"
+Constructor 
+.SS "com\&.thealgorithms\&.datastructures\&.trees\&.BinaryTree\&.BinaryTree (Node root)"
+Parameterized Constructor 
+.SH "Member Function Documentation"
+.PP 
+.SS "void com\&.thealgorithms\&.datastructures\&.trees\&.BinaryTree\&.bfs (Node localRoot)"
+Prints the tree in a breadth first search order This is similar to pre-order traversal, but instead of being implemented with a stack (or recursion), it is implemented with a queue
+.PP
+\fBParameters\fP
+.RS 4
+\fIlocalRoot\fP The local root of the binary tree 
+.RE
+.PP
+
+.SS "Node com\&.thealgorithms\&.datastructures\&.trees\&.BinaryTree\&.find (int key)"
+Method to find a Node with a certain value
+.PP
+\fBParameters\fP
+.RS 4
+\fIkey\fP Value being looked for 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The node if it finds it, otherwise returns the parent 
+.RE
+.PP
+
+.SS "Node com\&.thealgorithms\&.datastructures\&.trees\&.BinaryTree\&.findSuccessor (Node n)"
+This method finds the Successor to the Node given\&. Move right once and go left down the tree as far as you can
+.PP
+\fBParameters\fP
+.RS 4
+\fIn\fP Node that you want to find the Successor of 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The Successor of the node 
+.RE
+.PP
+
+.SS "Node com\&.thealgorithms\&.datastructures\&.trees\&.BinaryTree\&.getRoot ()"
+Returns the root of the Binary Tree
+.PP
+\fBReturns\fP
+.RS 4
+the root of the Binary Tree 
+.RE
+.PP
+
+.SS "void com\&.thealgorithms\&.datastructures\&.trees\&.BinaryTree\&.inOrder (Node localRoot)"
+Prints leftChild - root - rightChild This is the equivalent of a depth first search
+.PP
+\fBParameters\fP
+.RS 4
+\fIlocalRoot\fP The local root of the binary tree 
+.RE
+.PP
+
+.SS "void com\&.thealgorithms\&.datastructures\&.trees\&.BinaryTree\&.postOrder (Node localRoot)"
+Prints rightChild - leftChild - root
+.PP
+\fBParameters\fP
+.RS 4
+\fIlocalRoot\fP The local root of the binary tree 
+.RE
+.PP
+
+.SS "void com\&.thealgorithms\&.datastructures\&.trees\&.BinaryTree\&.preOrder (Node localRoot)"
+Prints root - leftChild - rightChild
+.PP
+\fBParameters\fP
+.RS 4
+\fIlocalRoot\fP The local root of the binary tree 
+.RE
+.PP
+
+.SS "void com\&.thealgorithms\&.datastructures\&.trees\&.BinaryTree\&.put (int value)"
+Inserts certain value into the Binary Tree
+.PP
+\fBParameters\fP
+.RS 4
+\fIvalue\fP Value to be inserted 
+.RE
+.PP
+
+.SS "boolean com\&.thealgorithms\&.datastructures\&.trees\&.BinaryTree\&.remove (int value)"
+Deletes a given value from the Binary Tree
+.PP
+\fBParameters\fP
+.RS 4
+\fIvalue\fP Value to be deleted 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+If the value was deleted 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

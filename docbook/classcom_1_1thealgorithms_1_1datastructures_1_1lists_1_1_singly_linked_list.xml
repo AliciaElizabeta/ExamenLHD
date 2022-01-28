@@ -1,0 +1,446 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.lists.SinglyLinkedList Class Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.lists.SinglyLinkedList</primary></indexterm>
+<para>Inheritance diagram for com.thealgorithms.datastructures.lists.SinglyLinkedList:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1a03046e3deb50389ef11a7805871819d5">SinglyLinkedList</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1a72a5dcf8876eefc69fff0a1cfa6635cf">SinglyLinkedList</link> (Node head, int size)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1a29d5ab6da2815a573edcc6e5b6408459">insertHead</link> (int x)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1ac7f8aa3c9b446e8ea24b0284b2e6409b">insert</link> (int data)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1a94b4042edb11be5453aac208e172cf92">insertNth</link> (int data, int position)</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1a8f4e1942b22f51f4fbdb9feffcc42e24">detectLoop</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1a8bb70fbbc39a199ef69aa2af46d4cd50">swapNodes</link> (int a, int b)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1a58b1807fa7328c5551f2cf4fde102440">deleteHead</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1a3e8fab12a981ed97b36481fb48e606bc">delete</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1a99beee77b132e0d1a63d36bb18337acb">deleteNth</link> (int position)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1a2dd1cbf1a277a6da28d8c49e44af57a2">checkBounds</link> (int position, int low, int high)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1aff0305a28065773257545a63cc7e63ee">clear</link> ()</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1a23d5fc711c8d78b34154764839d461b0">isEmpty</link> ()</para>
+</listitem>
+            <listitem><para>int <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1a06f3eaca0e31da4e3867b633b4a3da65">size</link> ()</para>
+</listitem>
+            <listitem><para>Node <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1a10f0c02770759ab543b846f0077c5c6e">getHead</link> ()</para>
+</listitem>
+            <listitem><para>int <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1a11b000996bf1d6e2084473f5ee2eb411">count</link> ()</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1ad473aecdff45e93862667754f7f7a210">search</link> (int key)</para>
+</listitem>
+            <listitem><para>int <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1a929bae4e7adcd6f5e97e9ad62d6942ae">getNth</link> (int index)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1ac531a98d875a7247052f55f3368ca8e1"/>String <emphasis role="strong">toString</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1a317c80fb3b6e62ac7a90c2c47b12d8b0">main</link> (String[] arg)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link xlink:href="https://en.wikipedia.org/wiki/Linked_list">https://en.wikipedia.org/wiki/Linked_list</link> </para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1a03046e3deb50389ef11a7805871819d5"/><section>
+    <title>SinglyLinkedList()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>SinglyLinkedList</primary><secondary>com.thealgorithms.datastructures.lists.SinglyLinkedList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.SinglyLinkedList</primary><secondary>SinglyLinkedList</secondary></indexterm>
+<para><computeroutput>com.thealgorithms.datastructures.lists.SinglyLinkedList.SinglyLinkedList ( )</computeroutput></para>
+<para>Init <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list">SinglyLinkedList</link> </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1a72a5dcf8876eefc69fff0a1cfa6635cf"/><section>
+    <title>SinglyLinkedList()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>SinglyLinkedList</primary><secondary>com.thealgorithms.datastructures.lists.SinglyLinkedList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.SinglyLinkedList</primary><secondary>SinglyLinkedList</secondary></indexterm>
+<para><computeroutput>com.thealgorithms.datastructures.lists.SinglyLinkedList.SinglyLinkedList (Node head, int size)</computeroutput></para>
+<para>Init <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list">SinglyLinkedList</link> with specified head node and size</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>head</entry><entry>
+<para>the head node of list </para>
+</entry>
+                            </row>
+                            <row>
+<entry>size</entry><entry>
+<para>the size of list </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1a2dd1cbf1a277a6da28d8c49e44af57a2"/><section>
+    <title>checkBounds()</title>
+<indexterm><primary>checkBounds</primary><secondary>com.thealgorithms.datastructures.lists.SinglyLinkedList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.SinglyLinkedList</primary><secondary>checkBounds</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.lists.SinglyLinkedList.checkBounds (int position, int low, int high)</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>position</entry><entry>
+<para>to check position </para>
+</entry>
+                            </row>
+                            <row>
+<entry>low</entry><entry>
+<para>low index </para>
+</entry>
+                            </row>
+                            <row>
+<entry>high</entry><entry>
+<para>high index </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                
+                <formalpara>
+                    <title>
+Exceptions</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>IndexOutOfBoundsException</entry><entry>
+<para>if <literallayout><computeroutput>position&#32;
+</computeroutput></literallayout> not in range <literallayout><computeroutput>low&#32;
+</computeroutput></literallayout> to <literallayout><computeroutput>high&#32;
+</computeroutput></literallayout> </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1aff0305a28065773257545a63cc7e63ee"/><section>
+    <title>clear()</title>
+<indexterm><primary>clear</primary><secondary>com.thealgorithms.datastructures.lists.SinglyLinkedList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.SinglyLinkedList</primary><secondary>clear</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.lists.SinglyLinkedList.clear ( )</computeroutput></para>
+<para>Clear all nodes in the list </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1a11b000996bf1d6e2084473f5ee2eb411"/><section>
+    <title>count()</title>
+<indexterm><primary>count</primary><secondary>com.thealgorithms.datastructures.lists.SinglyLinkedList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.SinglyLinkedList</primary><secondary>count</secondary></indexterm>
+<para><computeroutput>int com.thealgorithms.datastructures.lists.SinglyLinkedList.count ( )</computeroutput></para>
+<para>Calculate the count of the list manually</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>count of the list </para>
+</formalpara>
+</para>
+<para>
+Reimplemented in <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_count_singly_linked_list_recursion_1a944835be5b7ebe8cb8d1b8ede5d08b00">com.thealgorithms.datastructures.lists.CountSinglyLinkedListRecursion</link>.</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1a3e8fab12a981ed97b36481fb48e606bc"/><section>
+    <title>delete()</title>
+<indexterm><primary>delete</primary><secondary>com.thealgorithms.datastructures.lists.SinglyLinkedList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.SinglyLinkedList</primary><secondary>delete</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.lists.SinglyLinkedList.delete ( )</computeroutput></para>
+<para>Deletes an element at the tail </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1a58b1807fa7328c5551f2cf4fde102440"/><section>
+    <title>deleteHead()</title>
+<indexterm><primary>deleteHead</primary><secondary>com.thealgorithms.datastructures.lists.SinglyLinkedList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.SinglyLinkedList</primary><secondary>deleteHead</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.lists.SinglyLinkedList.deleteHead ( )</computeroutput></para>
+<para>Deletes a node at the head </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1a99beee77b132e0d1a63d36bb18337acb"/><section>
+    <title>deleteNth()</title>
+<indexterm><primary>deleteNth</primary><secondary>com.thealgorithms.datastructures.lists.SinglyLinkedList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.SinglyLinkedList</primary><secondary>deleteNth</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.lists.SinglyLinkedList.deleteNth (int position)</computeroutput></para>
+<para>Deletes an element at Nth position </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1a8f4e1942b22f51f4fbdb9feffcc42e24"/><section>
+    <title>detectLoop()</title>
+<indexterm><primary>detectLoop</primary><secondary>com.thealgorithms.datastructures.lists.SinglyLinkedList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.SinglyLinkedList</primary><secondary>detectLoop</secondary></indexterm>
+<para><computeroutput>boolean com.thealgorithms.datastructures.lists.SinglyLinkedList.detectLoop ( )</computeroutput></para>
+<para>Detects if there is a loop in the singly linked list using floy&apos;d turtle and hare algorithm. </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1a10f0c02770759ab543b846f0077c5c6e"/><section>
+    <title>getHead()</title>
+<indexterm><primary>getHead</primary><secondary>com.thealgorithms.datastructures.lists.SinglyLinkedList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.SinglyLinkedList</primary><secondary>getHead</secondary></indexterm>
+<para><computeroutput>Node com.thealgorithms.datastructures.lists.SinglyLinkedList.getHead ( )</computeroutput></para>
+<para>Get head of the list.</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>head of the list. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1a929bae4e7adcd6f5e97e9ad62d6942ae"/><section>
+    <title>getNth()</title>
+<indexterm><primary>getNth</primary><secondary>com.thealgorithms.datastructures.lists.SinglyLinkedList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.SinglyLinkedList</primary><secondary>getNth</secondary></indexterm>
+<para><computeroutput>int com.thealgorithms.datastructures.lists.SinglyLinkedList.getNth (int index)</computeroutput></para>
+<para>Return element at special index.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>index</entry><entry>
+<para>given index of element </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>element at special index. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1ac7f8aa3c9b446e8ea24b0284b2e6409b"/><section>
+    <title>insert()</title>
+<indexterm><primary>insert</primary><secondary>com.thealgorithms.datastructures.lists.SinglyLinkedList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.SinglyLinkedList</primary><secondary>insert</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.lists.SinglyLinkedList.insert (int data)</computeroutput></para>
+<para>Insert an element at the tail of the list</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>data</entry><entry>
+<para>element to be added </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1a29d5ab6da2815a573edcc6e5b6408459"/><section>
+    <title>insertHead()</title>
+<indexterm><primary>insertHead</primary><secondary>com.thealgorithms.datastructures.lists.SinglyLinkedList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.SinglyLinkedList</primary><secondary>insertHead</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.lists.SinglyLinkedList.insertHead (int x)</computeroutput></para>
+<para>Inserts an element at the head of the list</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>x</entry><entry>
+<para>element to be added </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1a94b4042edb11be5453aac208e172cf92"/><section>
+    <title>insertNth()</title>
+<indexterm><primary>insertNth</primary><secondary>com.thealgorithms.datastructures.lists.SinglyLinkedList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.SinglyLinkedList</primary><secondary>insertNth</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.lists.SinglyLinkedList.insertNth (int data, int position)</computeroutput></para>
+<para>Inserts a new node at a specified position of the list</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>data</entry><entry>
+<para>data to be stored in a new node </para>
+</entry>
+                            </row>
+                            <row>
+<entry>position</entry><entry>
+<para>position at which a new node is to be inserted </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1a23d5fc711c8d78b34154764839d461b0"/><section>
+    <title>isEmpty()</title>
+<indexterm><primary>isEmpty</primary><secondary>com.thealgorithms.datastructures.lists.SinglyLinkedList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.SinglyLinkedList</primary><secondary>isEmpty</secondary></indexterm>
+<para><computeroutput>boolean com.thealgorithms.datastructures.lists.SinglyLinkedList.isEmpty ( )</computeroutput></para>
+<para>Checks if the list is empty</para>
+
+<para><formalpara><title>Returns</title>
+
+<para><literallayout><computeroutput><emphasis role="keyword">true</emphasis>&#32;
+</computeroutput></literallayout> if list is empty, otherwise <literallayout><computeroutput><emphasis role="keyword">false</emphasis>&#32;
+</computeroutput></literallayout> . </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1a317c80fb3b6e62ac7a90c2c47b12d8b0"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>com.thealgorithms.datastructures.lists.SinglyLinkedList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.SinglyLinkedList</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void com.thealgorithms.datastructures.lists.SinglyLinkedList.main (String[] arg)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Driver Code </para>
+<para>
+Reimplemented in <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_count_singly_linked_list_recursion_1a6c2ee31ab6c5a79ad3c9326af4d100c6">com.thealgorithms.datastructures.lists.CountSinglyLinkedListRecursion</link>, <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_merge_sorted_singly_linked_list_1a03f0e2c4cd1723a33056d8842d914ba7">com.thealgorithms.datastructures.lists.MergeSortedSinglyLinkedList</link>, and <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_search_singly_linked_list_recursion_1acae34ca6d3afc4c827c8d12d5d9fec46">com.thealgorithms.datastructures.lists.SearchSinglyLinkedListRecursion</link>.</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1ad473aecdff45e93862667754f7f7a210"/><section>
+    <title>search()</title>
+<indexterm><primary>search</primary><secondary>com.thealgorithms.datastructures.lists.SinglyLinkedList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.SinglyLinkedList</primary><secondary>search</secondary></indexterm>
+<para><computeroutput>boolean com.thealgorithms.datastructures.lists.SinglyLinkedList.search (int key)</computeroutput></para>
+<para>Test if the value key is present in the list.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>key</entry><entry>
+<para>the value to be searched. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para><literallayout><computeroutput><emphasis role="keyword">true</emphasis>&#32;
+</computeroutput></literallayout> if key is present in the list, otherwise <literallayout><computeroutput><emphasis role="keyword">false</emphasis>&#32;
+</computeroutput></literallayout> . </para>
+</formalpara>
+</para>
+<para>
+Reimplemented in <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_search_singly_linked_list_recursion_1aa76ae49b1e7908935de1c7db4b3675c1">com.thealgorithms.datastructures.lists.SearchSinglyLinkedListRecursion</link>.</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1a06f3eaca0e31da4e3867b633b4a3da65"/><section>
+    <title>size()</title>
+<indexterm><primary>size</primary><secondary>com.thealgorithms.datastructures.lists.SinglyLinkedList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.SinglyLinkedList</primary><secondary>size</secondary></indexterm>
+<para><computeroutput>int com.thealgorithms.datastructures.lists.SinglyLinkedList.size ( )</computeroutput></para>
+<para>Returns the size of the linked list.</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>the size of the list. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1a8bb70fbbc39a199ef69aa2af46d4cd50"/><section>
+    <title>swapNodes()</title>
+<indexterm><primary>swapNodes</primary><secondary>com.thealgorithms.datastructures.lists.SinglyLinkedList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.SinglyLinkedList</primary><secondary>swapNodes</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.lists.SinglyLinkedList.swapNodes (int a, int b)</computeroutput></para>
+<para>Swaps nodes of two given values a and b. </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/lists/SinglyLinkedList.java</section>
+</section>

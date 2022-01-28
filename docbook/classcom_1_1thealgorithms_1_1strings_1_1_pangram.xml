@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1strings_1_1_pangram" xml:lang="en-US">
+<title>com.thealgorithms.strings.Pangram Class Reference</title>
+<indexterm><primary>com.thealgorithms.strings.Pangram</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classcom_1_1thealgorithms_1_1strings_1_1_pangram_1a54c92e3ecfff88ca61e54dd50d050e2d">main</link> (String[] args)</para>
+</listitem>
+            <listitem><para>static boolean <link linkend="_classcom_1_1thealgorithms_1_1strings_1_1_pangram_1ac78ed8f26cd1411184a90259c549aab1">isPangram</link> (String s)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Wikipedia: <link xlink:href="https://en.wikipedia.org/wiki/Pangram">https://en.wikipedia.org/wiki/Pangram</link> </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1strings_1_1_pangram_1ac78ed8f26cd1411184a90259c549aab1"/><section>
+    <title>isPangram()</title>
+<indexterm><primary>isPangram</primary><secondary>com.thealgorithms.strings.Pangram</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.strings.Pangram</primary><secondary>isPangram</secondary></indexterm>
+<para><computeroutput>static boolean com.thealgorithms.strings.Pangram.isPangram (String s)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Check if a string is a pangram string or not</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>s</entry><entry>
+<para>string to check </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para><literallayout><computeroutput><emphasis role="keyword">true</emphasis>&#32;
+</computeroutput></literallayout> if given string is pangram, otherwise <literallayout><computeroutput><emphasis role="keyword">false</emphasis>&#32;
+</computeroutput></literallayout> </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1strings_1_1_pangram_1a54c92e3ecfff88ca61e54dd50d050e2d"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>com.thealgorithms.strings.Pangram</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.strings.Pangram</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void com.thealgorithms.strings.Pangram.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Driver Code </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/strings/Pangram.java</section>
+</section>

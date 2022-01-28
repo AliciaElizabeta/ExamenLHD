@@ -1,0 +1,52 @@
+.TH "md_src_main_java_com_thealgorithms_datastructures_graphs__r_e_a_d_m_e" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+md_src_main_java_com_thealgorithms_datastructures_graphs__r_e_a_d_m_e \- Graph 
+Graph is a useful data structure for representing most of the real world problems involving a set of users/candidates/nodes and their relations\&. A Graph consists of two parameters :
+.PP
+.PP
+.nf
+V = a set of vertices
+E = a set of edges
+.fi
+.PP
+.PP
+Each edge in \fCE\fP connects any two vertices from \fCV\fP\&. Based on the type of edge, graphs can be of two types:
+.PP
+.IP "1." 4
+\fBDirected\fP: The edges are directed in nature which means that when there is an edge from node \fCA\fP to \fCB\fP, it does not imply that there is an edge from \fCB\fP to \fCA\fP\&. An example of directed edge graph the \fBfollow\fP feature of social media\&. If you follow a celebrity, it doesn't imply that s/he follows you\&.
+.IP "2." 4
+\fBUndirected\fP: The edges don't have any direction\&. So if \fCA\fP and \fCB\fP are connected, we can assume that there is edge from both \fCA\fP to \fCB\fP and \fCB\fP to \fCA\fP\&. Example: Social media graph, where if two persons are friend, it implies that both are friend with each other\&.
+.PP
+.SS "Representation"
+.IP "1." 4
+\fBAdjacency Lists\fP: Each node is represented as an entry and all the edges are represented as a list emerging from the corresponding node\&. So if vertex \fC1\fP has eadges to 2,3, and 6, the list corresponding to 1 will have 2,3 and 6 as entries\&. Consider the following graph\&.
+.PP
+.PP
+.PP
+.nf
+0: 1-->2-->3
+1: 0-->2
+2: 0-->1
+3: 0-->4
+4: 3
+.fi
+.PP
+ It means there are edges from 0 to 1, 2 and 3; from 1 to 0 and 2 and so on\&.
+.IP "2." 4
+\fBAdjacency Matrix\fP: The graph is represented as a matrix of size \fC|V| x |V|\fP and an entry 1 in cell \fC(i,j)\fP implies that there is an edge from i to j\&. 0 represents no edge\&. The mtrix for the above graph:
+.PP
+.PP
+.PP
+.nf
+   0 1 2 3 4
+
+0  0 1 1 1 0
+1  1 0 1 0 0
+2  1 1 0 0 0
+3  1 0 0 0 1
+4  0 0 0 1 0
+.fi
+.PP
+ 

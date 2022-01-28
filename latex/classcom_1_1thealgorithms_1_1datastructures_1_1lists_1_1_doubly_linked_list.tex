@@ -1,0 +1,233 @@
+\hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list}{}\doxysection{com.\+thealgorithms.\+datastructures.\+lists.\+Doubly\+Linked\+List Class Reference}
+\label{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list}\index{com.thealgorithms.datastructures.lists.DoublyLinkedList@{com.thealgorithms.datastructures.lists.DoublyLinkedList}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_a7bf714696895036890d79eb90dfdd64a}{Doubly\+Linked\+List}} ()
+\item 
+\mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_a4402dc5cf809fc90e7b1658a24e3804f}{Doubly\+Linked\+List}} (int\mbox{[}$\,$\mbox{]} array)
+\item 
+void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_a80e23ec2ce668589ed097342828c7aba}{insert\+Head}} (int x)
+\item 
+void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_a87113eab9d872be2e9d81671c635fc1f}{insert\+Tail}} (int x)
+\item 
+void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_a10340f764ebed418d1cb764bdfbde7d9}{insert\+Element\+By\+Index}} (int x, int index)
+\item 
+Link \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_aaec2458654cacd14bf6617248abd1392}{delete\+Head}} ()
+\item 
+Link \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_a1be046d936f2b6bb2c4f554c0b600b2f}{delete\+Tail}} ()
+\item 
+void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_a27e2475c63bd823b089336b4ad579c75}{delete}} (int x)
+\item 
+void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_a2362aa36c4aa937264df3a184065d575}{insert\+Ordered}} (int x)
+\item 
+void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_aba66e8a9a9631ffeca7a6a3da91158d9}{delete\+Node}} (Link z)
+\item 
+void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_ad7b927b12517bb938678ff7f659a9367}{reverse}} ()
+\item 
+void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_a0db29e22781092828ef4d19d2d502eb8}{clear\+List}} ()
+\item 
+boolean \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_affe7d03bfe72e040c9739df73b5af472}{is\+Empty}} ()
+\item 
+void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_a5923d3f5862a95742d33f5b9944fc298}{display}} ()
+\item 
+void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_a1b2d07a78f34206fd6f875241ff13a97}{display\+Backwards}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_a462c3b47565bd20bbc18c60ba875545c}\label{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_a462c3b47565bd20bbc18c60ba875545c}} 
+static void {\bfseries remove\+Duplicates} (\mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list}{Doubly\+Linked\+List}} l)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class implements a \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list}{Doubly\+Linked\+List}}. This is done using the classes Linked\+List and Link.
+
+A linked list is similar to an array, it holds values. However, links in a linked list do not have indexes. With a linked list you do not need to predetermine it\textquotesingle{}s size as it grows and shrinks as it is edited. This is an example of a double ended, doubly linked list. Each link references the next link and the previous one.
+
+\begin{DoxyAuthor}{Author}
+Unknown 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_a7bf714696895036890d79eb90dfdd64a}\label{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_a7bf714696895036890d79eb90dfdd64a}} 
+\index{com.thealgorithms.datastructures.lists.DoublyLinkedList@{com.thealgorithms.datastructures.lists.DoublyLinkedList}!DoublyLinkedList@{DoublyLinkedList}}
+\index{DoublyLinkedList@{DoublyLinkedList}!com.thealgorithms.datastructures.lists.DoublyLinkedList@{com.thealgorithms.datastructures.lists.DoublyLinkedList}}
+\doxysubsubsection{\texorpdfstring{DoublyLinkedList()}{DoublyLinkedList()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily com.\+thealgorithms.\+datastructures.\+lists.\+Doubly\+Linked\+List.\+Doubly\+Linked\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Default Constructor \mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_a4402dc5cf809fc90e7b1658a24e3804f}\label{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_a4402dc5cf809fc90e7b1658a24e3804f}} 
+\index{com.thealgorithms.datastructures.lists.DoublyLinkedList@{com.thealgorithms.datastructures.lists.DoublyLinkedList}!DoublyLinkedList@{DoublyLinkedList}}
+\index{DoublyLinkedList@{DoublyLinkedList}!com.thealgorithms.datastructures.lists.DoublyLinkedList@{com.thealgorithms.datastructures.lists.DoublyLinkedList}}
+\doxysubsubsection{\texorpdfstring{DoublyLinkedList()}{DoublyLinkedList()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily com.\+thealgorithms.\+datastructures.\+lists.\+Doubly\+Linked\+List.\+Doubly\+Linked\+List (\begin{DoxyParamCaption}\item[{int\mbox{[}$\,$\mbox{]}}]{array }\end{DoxyParamCaption})}
+
+Constructs a list containing the elements of the array
+
+
+\begin{DoxyParams}{Parameters}
+{\em array} & the array whose elements are to be placed into this list \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Null\+Pointer\+Exception} & if the specified collection is null \\
+\hline
+\end{DoxyExceptions}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_a0db29e22781092828ef4d19d2d502eb8}\label{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_a0db29e22781092828ef4d19d2d502eb8}} 
+\index{com.thealgorithms.datastructures.lists.DoublyLinkedList@{com.thealgorithms.datastructures.lists.DoublyLinkedList}!clearList@{clearList}}
+\index{clearList@{clearList}!com.thealgorithms.datastructures.lists.DoublyLinkedList@{com.thealgorithms.datastructures.lists.DoublyLinkedList}}
+\doxysubsubsection{\texorpdfstring{clearList()}{clearList()}}
+{\footnotesize\ttfamily void com.\+thealgorithms.\+datastructures.\+lists.\+Doubly\+Linked\+List.\+clear\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Clears List \mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_a27e2475c63bd823b089336b4ad579c75}\label{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_a27e2475c63bd823b089336b4ad579c75}} 
+\index{com.thealgorithms.datastructures.lists.DoublyLinkedList@{com.thealgorithms.datastructures.lists.DoublyLinkedList}!delete@{delete}}
+\index{delete@{delete}!com.thealgorithms.datastructures.lists.DoublyLinkedList@{com.thealgorithms.datastructures.lists.DoublyLinkedList}}
+\doxysubsubsection{\texorpdfstring{delete()}{delete()}}
+{\footnotesize\ttfamily void com.\+thealgorithms.\+datastructures.\+lists.\+Doubly\+Linked\+List.\+delete (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})}
+
+Delete the element from somewhere in the list
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & element to be deleted \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Link deleted 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_aaec2458654cacd14bf6617248abd1392}\label{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_aaec2458654cacd14bf6617248abd1392}} 
+\index{com.thealgorithms.datastructures.lists.DoublyLinkedList@{com.thealgorithms.datastructures.lists.DoublyLinkedList}!deleteHead@{deleteHead}}
+\index{deleteHead@{deleteHead}!com.thealgorithms.datastructures.lists.DoublyLinkedList@{com.thealgorithms.datastructures.lists.DoublyLinkedList}}
+\doxysubsubsection{\texorpdfstring{deleteHead()}{deleteHead()}}
+{\footnotesize\ttfamily Link com.\+thealgorithms.\+datastructures.\+lists.\+Doubly\+Linked\+List.\+delete\+Head (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Delete the element at the head
+
+\begin{DoxyReturn}{Returns}
+The new head 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_aba66e8a9a9631ffeca7a6a3da91158d9}\label{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_aba66e8a9a9631ffeca7a6a3da91158d9}} 
+\index{com.thealgorithms.datastructures.lists.DoublyLinkedList@{com.thealgorithms.datastructures.lists.DoublyLinkedList}!deleteNode@{deleteNode}}
+\index{deleteNode@{deleteNode}!com.thealgorithms.datastructures.lists.DoublyLinkedList@{com.thealgorithms.datastructures.lists.DoublyLinkedList}}
+\doxysubsubsection{\texorpdfstring{deleteNode()}{deleteNode()}}
+{\footnotesize\ttfamily void com.\+thealgorithms.\+datastructures.\+lists.\+Doubly\+Linked\+List.\+delete\+Node (\begin{DoxyParamCaption}\item[{Link}]{z }\end{DoxyParamCaption})}
+
+Deletes the passed node from the current list
+
+
+\begin{DoxyParams}{Parameters}
+{\em z} & Element to be deleted \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_a1be046d936f2b6bb2c4f554c0b600b2f}\label{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_a1be046d936f2b6bb2c4f554c0b600b2f}} 
+\index{com.thealgorithms.datastructures.lists.DoublyLinkedList@{com.thealgorithms.datastructures.lists.DoublyLinkedList}!deleteTail@{deleteTail}}
+\index{deleteTail@{deleteTail}!com.thealgorithms.datastructures.lists.DoublyLinkedList@{com.thealgorithms.datastructures.lists.DoublyLinkedList}}
+\doxysubsubsection{\texorpdfstring{deleteTail()}{deleteTail()}}
+{\footnotesize\ttfamily Link com.\+thealgorithms.\+datastructures.\+lists.\+Doubly\+Linked\+List.\+delete\+Tail (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Delete the element at the tail
+
+\begin{DoxyReturn}{Returns}
+The new tail 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_a5923d3f5862a95742d33f5b9944fc298}\label{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_a5923d3f5862a95742d33f5b9944fc298}} 
+\index{com.thealgorithms.datastructures.lists.DoublyLinkedList@{com.thealgorithms.datastructures.lists.DoublyLinkedList}!display@{display}}
+\index{display@{display}!com.thealgorithms.datastructures.lists.DoublyLinkedList@{com.thealgorithms.datastructures.lists.DoublyLinkedList}}
+\doxysubsubsection{\texorpdfstring{display()}{display()}}
+{\footnotesize\ttfamily void com.\+thealgorithms.\+datastructures.\+lists.\+Doubly\+Linked\+List.\+display (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Prints contents of the list \mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_a1b2d07a78f34206fd6f875241ff13a97}\label{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_a1b2d07a78f34206fd6f875241ff13a97}} 
+\index{com.thealgorithms.datastructures.lists.DoublyLinkedList@{com.thealgorithms.datastructures.lists.DoublyLinkedList}!displayBackwards@{displayBackwards}}
+\index{displayBackwards@{displayBackwards}!com.thealgorithms.datastructures.lists.DoublyLinkedList@{com.thealgorithms.datastructures.lists.DoublyLinkedList}}
+\doxysubsubsection{\texorpdfstring{displayBackwards()}{displayBackwards()}}
+{\footnotesize\ttfamily void com.\+thealgorithms.\+datastructures.\+lists.\+Doubly\+Linked\+List.\+display\+Backwards (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Prints the contents of the list in reverse order \mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_a10340f764ebed418d1cb764bdfbde7d9}\label{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_a10340f764ebed418d1cb764bdfbde7d9}} 
+\index{com.thealgorithms.datastructures.lists.DoublyLinkedList@{com.thealgorithms.datastructures.lists.DoublyLinkedList}!insertElementByIndex@{insertElementByIndex}}
+\index{insertElementByIndex@{insertElementByIndex}!com.thealgorithms.datastructures.lists.DoublyLinkedList@{com.thealgorithms.datastructures.lists.DoublyLinkedList}}
+\doxysubsubsection{\texorpdfstring{insertElementByIndex()}{insertElementByIndex()}}
+{\footnotesize\ttfamily void com.\+thealgorithms.\+datastructures.\+lists.\+Doubly\+Linked\+List.\+insert\+Element\+By\+Index (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{index }\end{DoxyParamCaption})}
+
+Insert an element at the index
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Element to be inserted \\
+\hline
+{\em index} & Index(from start) at which the element x to be inserted \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_a80e23ec2ce668589ed097342828c7aba}\label{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_a80e23ec2ce668589ed097342828c7aba}} 
+\index{com.thealgorithms.datastructures.lists.DoublyLinkedList@{com.thealgorithms.datastructures.lists.DoublyLinkedList}!insertHead@{insertHead}}
+\index{insertHead@{insertHead}!com.thealgorithms.datastructures.lists.DoublyLinkedList@{com.thealgorithms.datastructures.lists.DoublyLinkedList}}
+\doxysubsubsection{\texorpdfstring{insertHead()}{insertHead()}}
+{\footnotesize\ttfamily void com.\+thealgorithms.\+datastructures.\+lists.\+Doubly\+Linked\+List.\+insert\+Head (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})}
+
+Insert an element at the head
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Element to be inserted \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_a2362aa36c4aa937264df3a184065d575}\label{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_a2362aa36c4aa937264df3a184065d575}} 
+\index{com.thealgorithms.datastructures.lists.DoublyLinkedList@{com.thealgorithms.datastructures.lists.DoublyLinkedList}!insertOrdered@{insertOrdered}}
+\index{insertOrdered@{insertOrdered}!com.thealgorithms.datastructures.lists.DoublyLinkedList@{com.thealgorithms.datastructures.lists.DoublyLinkedList}}
+\doxysubsubsection{\texorpdfstring{insertOrdered()}{insertOrdered()}}
+{\footnotesize\ttfamily void com.\+thealgorithms.\+datastructures.\+lists.\+Doubly\+Linked\+List.\+insert\+Ordered (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})}
+
+Inserts element and reorders
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Element to be added \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_a87113eab9d872be2e9d81671c635fc1f}\label{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_a87113eab9d872be2e9d81671c635fc1f}} 
+\index{com.thealgorithms.datastructures.lists.DoublyLinkedList@{com.thealgorithms.datastructures.lists.DoublyLinkedList}!insertTail@{insertTail}}
+\index{insertTail@{insertTail}!com.thealgorithms.datastructures.lists.DoublyLinkedList@{com.thealgorithms.datastructures.lists.DoublyLinkedList}}
+\doxysubsubsection{\texorpdfstring{insertTail()}{insertTail()}}
+{\footnotesize\ttfamily void com.\+thealgorithms.\+datastructures.\+lists.\+Doubly\+Linked\+List.\+insert\+Tail (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})}
+
+Insert an element at the tail
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Element to be inserted \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_affe7d03bfe72e040c9739df73b5af472}\label{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_affe7d03bfe72e040c9739df73b5af472}} 
+\index{com.thealgorithms.datastructures.lists.DoublyLinkedList@{com.thealgorithms.datastructures.lists.DoublyLinkedList}!isEmpty@{isEmpty}}
+\index{isEmpty@{isEmpty}!com.thealgorithms.datastructures.lists.DoublyLinkedList@{com.thealgorithms.datastructures.lists.DoublyLinkedList}}
+\doxysubsubsection{\texorpdfstring{isEmpty()}{isEmpty()}}
+{\footnotesize\ttfamily boolean com.\+thealgorithms.\+datastructures.\+lists.\+Doubly\+Linked\+List.\+is\+Empty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns true if list is empty
+
+\begin{DoxyReturn}{Returns}
+true if list is empty 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_ad7b927b12517bb938678ff7f659a9367}\label{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_ad7b927b12517bb938678ff7f659a9367}} 
+\index{com.thealgorithms.datastructures.lists.DoublyLinkedList@{com.thealgorithms.datastructures.lists.DoublyLinkedList}!reverse@{reverse}}
+\index{reverse@{reverse}!com.thealgorithms.datastructures.lists.DoublyLinkedList@{com.thealgorithms.datastructures.lists.DoublyLinkedList}}
+\doxysubsubsection{\texorpdfstring{reverse()}{reverse()}}
+{\footnotesize\ttfamily void com.\+thealgorithms.\+datastructures.\+lists.\+Doubly\+Linked\+List.\+reverse (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Reverses the list in place
+
+
+\begin{DoxyParams}{Parameters}
+{\em l} & the \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list}{Doubly\+Linked\+List}} to reverse \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/thealgorithms/datastructures/lists/Doubly\+Linked\+List.\+java\end{DoxyCompactItemize}

@@ -1,0 +1,69 @@
+\hypertarget{classcom_1_1thealgorithms_1_1searches_1_1_quick_select}{}\doxysection{com.\+thealgorithms.\+searches.\+Quick\+Select Class Reference}
+\label{classcom_1_1thealgorithms_1_1searches_1_1_quick_select}\index{com.thealgorithms.searches.QuickSelect@{com.thealgorithms.searches.QuickSelect}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static$<$ T extends Comparable$<$ T $>$ T \mbox{\hyperlink{classcom_1_1thealgorithms_1_1searches_1_1_quick_select_afd30803dcdd60ce144e89edfbd12292d}{select}} (List$<$ T $>$ list, int n)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+An implementation of the Quickselect algorithm as described \href{https://en.wikipedia.org/wiki/Median_of_medians}{\texttt{ here}}. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1searches_1_1_quick_select_afd30803dcdd60ce144e89edfbd12292d}\label{classcom_1_1thealgorithms_1_1searches_1_1_quick_select_afd30803dcdd60ce144e89edfbd12292d}} 
+\index{com.thealgorithms.searches.QuickSelect@{com.thealgorithms.searches.QuickSelect}!select@{select}}
+\index{select@{select}!com.thealgorithms.searches.QuickSelect@{com.thealgorithms.searches.QuickSelect}}
+\doxysubsubsection{\texorpdfstring{select()}{select()}}
+{\footnotesize\ttfamily static$<$ T extends Comparable$<$ T $>$ T com.\+thealgorithms.\+searches.\+Quick\+Select.\+select (\begin{DoxyParamCaption}\item[{List$<$ T $>$}]{list,  }\item[{int}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Selects the 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{n }
+
+\end{DoxyCode}
+ -\/th largest element of 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{list }
+
+\end{DoxyCode}
+ , i.\+e. the element that would be at index n if the list was sorted. 
+
+Calling this function might change the order of elements in 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{list }
+
+\end{DoxyCode}
+ .
+
+
+\begin{DoxyParams}{Parameters}
+{\em list} & the list of elements \\
+\hline
+{\em n} & the index \\
+\hline
+{\em $<$\+T$>$} & the type of list elements \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the n-\/th largest element in the list 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Index\+Out\+Of\+Bounds\+Exception} & if n is less than 0 or greater or equal to the number of elements in the list \\
+\hline
+{\em Illegal\+Argument\+Exception} & if the list is empty \\
+\hline
+{\em Null\+Pointer\+Exception} & if 
+\begin{DoxyCode}{1}
+\DoxyCodeLine{list }
+
+\end{DoxyCode}
+ is null \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/thealgorithms/searches/Quick\+Select.\+java\end{DoxyCompactItemize}

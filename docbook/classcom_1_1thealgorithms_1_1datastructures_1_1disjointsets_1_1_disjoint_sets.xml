@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1disjointsets_1_1_disjoint_sets" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.disjointsets.DisjointSets&lt; T &gt; Class Template Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.disjointsets.DisjointSets&lt; T &gt;</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1disjointsets_1_1_disjoint_sets_1a00cad39d3c1dd00cdd4927074437df62"/><link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1disjointsets_1_1_node">Node</link>&lt; T &gt; <emphasis role="strong">MakeSet</emphasis> (T x)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1disjointsets_1_1_disjoint_sets_1a84a1fd325b01ddae75d54aa87b1026aa"/><link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1disjointsets_1_1_node">Node</link>&lt; T &gt; <emphasis role="strong">FindSet</emphasis> (<link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1disjointsets_1_1_node">Node</link>&lt; T &gt; node)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1disjointsets_1_1_disjoint_sets_1a22530df3dcbe8464ecb295134b089be3"/>void <emphasis role="strong">UnionSet</emphasis> (<link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1disjointsets_1_1_node">Node</link>&lt; T &gt; x, <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1disjointsets_1_1_node">Node</link>&lt; T &gt; y)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/disjointsets/DisjointSets.java</section>

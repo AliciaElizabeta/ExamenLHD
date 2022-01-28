@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_pi_nilakantha" xml:lang="en-US">
+<title>com.thealgorithms.maths.PiNilakantha Class Reference</title>
+<indexterm><primary>com.thealgorithms.maths.PiNilakantha</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_pi_nilakantha_1a911f25fa5e29b934ea505f8ed7fd79af"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+            <listitem><para>static double <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_pi_nilakantha_1a55a6da7a259cbdcc5c915b44e9d3c8d3">calculatePi</link> (int iterations)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_pi_nilakantha_1a55a6da7a259cbdcc5c915b44e9d3c8d3"/><section>
+    <title>calculatePi()</title>
+<indexterm><primary>calculatePi</primary><secondary>com.thealgorithms.maths.PiNilakantha</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.PiNilakantha</primary><secondary>calculatePi</secondary></indexterm>
+<para><computeroutput>static double com.thealgorithms.maths.PiNilakantha.calculatePi (int iterations)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>iterations</entry><entry>
+<para>number of times the infinite series gets repeated Pi get more accurate the higher the value of iterations is Values from 0 up to 500 are allowed since double precision is not sufficient for more than about 500 repetitions of this algorithm </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>the pi value of the calculation with a precision of x iteration </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/maths/PiNilakantha.java</section>
+</section>

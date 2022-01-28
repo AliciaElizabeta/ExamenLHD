@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_find_max_recursion" xml:lang="en-US">
+<title>com.thealgorithms.maths.FindMaxRecursion Class Reference</title>
+<indexterm><primary>com.thealgorithms.maths.FindMaxRecursion</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_find_max_recursion_1a061a7384416dc19a21dfe7e966362845"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+            <listitem><para>static int <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_find_max_recursion_1a401c84cb029284607c3cad24a990e43a">max</link> (int[] array, int low, int high)</para>
+</listitem>
+            <listitem><para>static int <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_find_max_recursion_1ac32ac20221b9b3eb9e2ea10a9120eae1">max</link> (int[] array, int len)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_find_max_recursion_1ac32ac20221b9b3eb9e2ea10a9120eae1"/><section>
+    <title>max()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>max</primary><secondary>com.thealgorithms.maths.FindMaxRecursion</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.FindMaxRecursion</primary><secondary>max</secondary></indexterm>
+<para><computeroutput>static int com.thealgorithms.maths.FindMaxRecursion.max (int[] array, int len)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Get max of array using recursion algorithm</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>array</entry><entry>
+<para>contains elements </para>
+</entry>
+                            </row>
+                            <row>
+<entry>len</entry><entry>
+<para>length of given array </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>max value of <literallayout><computeroutput>array&#32;
+</computeroutput></literallayout> </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_find_max_recursion_1a401c84cb029284607c3cad24a990e43a"/><section>
+    <title>max()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>max</primary><secondary>com.thealgorithms.maths.FindMaxRecursion</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.FindMaxRecursion</primary><secondary>max</secondary></indexterm>
+<para><computeroutput>static int com.thealgorithms.maths.FindMaxRecursion.max (int[] array, int low, int high)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Get max of array using divide and conquer algorithm</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>array</entry><entry>
+<para>contains elements </para>
+</entry>
+                            </row>
+                            <row>
+<entry>low</entry><entry>
+<para>the index of the first element </para>
+</entry>
+                            </row>
+                            <row>
+<entry>high</entry><entry>
+<para>the index of the last element </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>max of <literallayout><computeroutput>array&#32;
+</computeroutput></literallayout> </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/maths/FindMaxRecursion.java</section>
+</section>

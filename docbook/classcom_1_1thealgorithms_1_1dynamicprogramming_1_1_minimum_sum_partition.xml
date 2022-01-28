@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_minimum_sum_partition" xml:lang="en-US">
+<title>com.thealgorithms.dynamicprogramming.MinimumSumPartition Class Reference</title>
+<indexterm><primary>com.thealgorithms.dynamicprogramming.MinimumSumPartition</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_minimum_sum_partition_1a9cee4e9e011a97723e1b99f70ae3bf64"/>static int <emphasis role="strong">subSet</emphasis> (int[] arr)</para>
+</listitem>
+            <listitem><para>static int <link linkend="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_minimum_sum_partition_1ab87ad02dfbc75c1d87ec812aa8a064d0">getSum</link> (int[] arr)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_minimum_sum_partition_1aa71e5243f989e0945ca1c47152c01089"/>static int <emphasis role="strong">getMin</emphasis> (int[] arr, int sum)</para>
+</listitem>
+            <listitem><para>static void <link linkend="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_minimum_sum_partition_1a871c89cac84b43a1a2ed509d35638658">main</link> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_minimum_sum_partition_1ab87ad02dfbc75c1d87ec812aa8a064d0"/><section>
+    <title>getSum()</title>
+<indexterm><primary>getSum</primary><secondary>com.thealgorithms.dynamicprogramming.MinimumSumPartition</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.dynamicprogramming.MinimumSumPartition</primary><secondary>getSum</secondary></indexterm>
+<para><computeroutput>static int com.thealgorithms.dynamicprogramming.MinimumSumPartition.getSum (int[] arr)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Calculate sum of array elements</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>arr</entry><entry>
+<para>the array </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>sum of given array </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_minimum_sum_partition_1a871c89cac84b43a1a2ed509d35638658"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>com.thealgorithms.dynamicprogramming.MinimumSumPartition</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.dynamicprogramming.MinimumSumPartition</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void com.thealgorithms.dynamicprogramming.MinimumSumPartition.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Driver Code </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/dynamicprogramming/MinimumSumPartition.java</section>
+</section>

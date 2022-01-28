@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacecom_1_1thealgorithms_1_1strings" xml:lang="en-US">
+<title>Package com.thealgorithms.strings</title>
+<indexterm><primary>com.thealgorithms.strings</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <emphasis role="strong">Alphabetical</emphasis></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1strings_1_1_anagrams">Anagrams</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1strings_1_1_characters_same">CharactersSame</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1strings_1_1_check_anagrams">CheckAnagrams</link></para>
+</listitem>
+            <listitem><para>class <emphasis role="strong">CheckVowels</emphasis></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1strings_1_1_horspool_search">HorspoolSearch</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1strings_1_1_list__all___possible___words___from___phone___digits">List_all_Possible_Words_From_Phone_Digits</link></para>
+</listitem>
+            <listitem><para>class <emphasis role="strong">LongestPalindromicSubstring</emphasis></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1strings_1_1_lower">Lower</link></para>
+</listitem>
+            <listitem><para>class <emphasis role="strong">Palindrome</emphasis></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1strings_1_1_pangram">Pangram</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1strings_1_1_permute_string">PermuteString</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1strings_1_1_reverse_string">ReverseString</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1strings_1_1_rotation">Rotation</link></para>
+</listitem>
+            <listitem><para>class <emphasis role="strong">Solution</emphasis></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1strings_1_1_upper">Upper</link></para>
+</listitem>
+            <listitem><para>class <emphasis role="strong">WordLadder</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Author : Siddhant Swarup Mallick Github : <link xlink:href="https://github.com/siddhant2002">https://github.com/siddhant2002</link> PROBLEM DESCRIPTION : An anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.[1] For example, the word anagram itself can be rearranged into nag a ram, also the word binary into brainy and the word adobe into abode. Reference from <link xlink:href="https://en.wikipedia.org/wiki/Anagram">https://en.wikipedia.org/wiki/Anagram</link> </para>
+</section>
+</section>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1others_1_1_skyline_problem_1_1_skyline" xml:lang="en-US">
+<title>com.thealgorithms.others.SkylineProblem.Skyline Class Reference</title>
+<indexterm><primary>com.thealgorithms.others.SkylineProblem.Skyline</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_skyline_problem_1_1_skyline_1ae9c4e59067fbddf5d5e10a77e3417774"/><emphasis role="strong">Skyline</emphasis> (int coordinates, int height)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_skyline_problem_1_1_skyline_1ab763b9977705eee957e0ae84727fbf5c"/>int <emphasis role="strong">coordinates</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_skyline_problem_1_1_skyline_1a51a200ef65be18422fc238d67a7ca06a"/>int <emphasis role="strong">height</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/others/SkylineProblem.java</section>

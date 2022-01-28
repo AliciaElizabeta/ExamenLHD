@@ -1,0 +1,66 @@
+.TH "com.thealgorithms.conversions.RgbHsvConversion" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.conversions.RgbHsvConversion
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBmain\fP (String[] args)"
+.br
+.ti -1c
+.RI "static int[] \fBhsvToRgb\fP (double hue, double saturation, double value)"
+.br
+.ti -1c
+.RI "static double[] \fBrgbToHsv\fP (int red, int green, int blue)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+The RGB color model is an additive color model in which red, green, and blue light are added together in various ways to reproduce a broad array of colors\&. The name of the model comes from the initials of the three additive primary colors, red, green, and blue\&. Meanwhile, the HSV representation models how colors appear under light\&. In it, colors are represented using three components: hue, saturation and (brightness-)value\&. This class provides methods for converting colors from one representation to the other\&. (description adapted from https://en.wikipedia.org/wiki/RGB_color_model and https://en.wikipedia.org/wiki/HSL_and_HSV)\&. 
+.SH "Member Function Documentation"
+.PP 
+.SS "static int[] com\&.thealgorithms\&.conversions\&.RgbHsvConversion\&.hsvToRgb (double hue, double saturation, double value)\fC [static]\fP"
+Conversion from the HSV-representation to the RGB-representation\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIhue\fP Hue of the color\&. 
+.br
+\fIsaturation\fP Saturation of the color\&. 
+.br
+\fIvalue\fP Brightness-value of the color\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The tuple of RGB-components\&. 
+.RE
+.PP
+
+.SS "static double[] com\&.thealgorithms\&.conversions\&.RgbHsvConversion\&.rgbToHsv (int red, int green, int blue)\fC [static]\fP"
+Conversion from the RGB-representation to the HSV-representation\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIred\fP Red-component of the color\&. 
+.br
+\fIgreen\fP Green-component of the color\&. 
+.br
+\fIblue\fP Blue-component of the color\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The tuple of HSV-components\&. 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

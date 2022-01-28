@@ -1,0 +1,396 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.lists.DoublyLinkedList Class Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.lists.DoublyLinkedList</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_1a7bf714696895036890d79eb90dfdd64a">DoublyLinkedList</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_1a4402dc5cf809fc90e7b1658a24e3804f">DoublyLinkedList</link> (int[] array)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_1a80e23ec2ce668589ed097342828c7aba">insertHead</link> (int x)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_1a87113eab9d872be2e9d81671c635fc1f">insertTail</link> (int x)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_1a10340f764ebed418d1cb764bdfbde7d9">insertElementByIndex</link> (int x, int index)</para>
+</listitem>
+            <listitem><para>Link <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_1aaec2458654cacd14bf6617248abd1392">deleteHead</link> ()</para>
+</listitem>
+            <listitem><para>Link <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_1a1be046d936f2b6bb2c4f554c0b600b2f">deleteTail</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_1a27e2475c63bd823b089336b4ad579c75">delete</link> (int x)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_1a2362aa36c4aa937264df3a184065d575">insertOrdered</link> (int x)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_1aba66e8a9a9631ffeca7a6a3da91158d9">deleteNode</link> (Link z)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_1ad7b927b12517bb938678ff7f659a9367">reverse</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_1a0db29e22781092828ef4d19d2d502eb8">clearList</link> ()</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_1affe7d03bfe72e040c9739df73b5af472">isEmpty</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_1a5923d3f5862a95742d33f5b9944fc298">display</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_1a1b2d07a78f34206fd6f875241ff13a97">displayBackwards</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_1a462c3b47565bd20bbc18c60ba875545c"/>static void <emphasis role="strong">removeDuplicates</emphasis> (<link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list">DoublyLinkedList</link> l)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>This class implements a <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list">DoublyLinkedList</link>. This is done using the classes LinkedList and Link.</para>
+
+<para>A linked list is similar to an array, it holds values. However, links in a linked list do not have indexes. With a linked list you do not need to predetermine it&apos;s size as it grows and shrinks as it is edited. This is an example of a double ended, doubly linked list. Each link references the next link and the previous one.</para>
+
+<para><formalpara><title>Author</title>
+
+<para>Unknown </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_1a7bf714696895036890d79eb90dfdd64a"/><section>
+    <title>DoublyLinkedList()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>DoublyLinkedList</primary><secondary>com.thealgorithms.datastructures.lists.DoublyLinkedList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.DoublyLinkedList</primary><secondary>DoublyLinkedList</secondary></indexterm>
+<para><computeroutput>com.thealgorithms.datastructures.lists.DoublyLinkedList.DoublyLinkedList ( )</computeroutput></para>
+<para>Default Constructor </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_1a4402dc5cf809fc90e7b1658a24e3804f"/><section>
+    <title>DoublyLinkedList()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>DoublyLinkedList</primary><secondary>com.thealgorithms.datastructures.lists.DoublyLinkedList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.DoublyLinkedList</primary><secondary>DoublyLinkedList</secondary></indexterm>
+<para><computeroutput>com.thealgorithms.datastructures.lists.DoublyLinkedList.DoublyLinkedList (int[] array)</computeroutput></para>
+<para>Constructs a list containing the elements of the array</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>array</entry><entry>
+<para>the array whose elements are to be placed into this list </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                
+                <formalpara>
+                    <title>
+Exceptions</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>NullPointerException</entry><entry>
+<para>if the specified collection is null </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_1a0db29e22781092828ef4d19d2d502eb8"/><section>
+    <title>clearList()</title>
+<indexterm><primary>clearList</primary><secondary>com.thealgorithms.datastructures.lists.DoublyLinkedList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.DoublyLinkedList</primary><secondary>clearList</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.lists.DoublyLinkedList.clearList ( )</computeroutput></para>
+<para>Clears List </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_1a27e2475c63bd823b089336b4ad579c75"/><section>
+    <title>delete()</title>
+<indexterm><primary>delete</primary><secondary>com.thealgorithms.datastructures.lists.DoublyLinkedList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.DoublyLinkedList</primary><secondary>delete</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.lists.DoublyLinkedList.delete (int x)</computeroutput></para>
+<para>Delete the element from somewhere in the list</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>x</entry><entry>
+<para>element to be deleted </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>Link deleted </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_1aaec2458654cacd14bf6617248abd1392"/><section>
+    <title>deleteHead()</title>
+<indexterm><primary>deleteHead</primary><secondary>com.thealgorithms.datastructures.lists.DoublyLinkedList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.DoublyLinkedList</primary><secondary>deleteHead</secondary></indexterm>
+<para><computeroutput>Link com.thealgorithms.datastructures.lists.DoublyLinkedList.deleteHead ( )</computeroutput></para>
+<para>Delete the element at the head</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>The new head </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_1aba66e8a9a9631ffeca7a6a3da91158d9"/><section>
+    <title>deleteNode()</title>
+<indexterm><primary>deleteNode</primary><secondary>com.thealgorithms.datastructures.lists.DoublyLinkedList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.DoublyLinkedList</primary><secondary>deleteNode</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.lists.DoublyLinkedList.deleteNode (Link z)</computeroutput></para>
+<para>Deletes the passed node from the current list</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>z</entry><entry>
+<para>Element to be deleted </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_1a1be046d936f2b6bb2c4f554c0b600b2f"/><section>
+    <title>deleteTail()</title>
+<indexterm><primary>deleteTail</primary><secondary>com.thealgorithms.datastructures.lists.DoublyLinkedList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.DoublyLinkedList</primary><secondary>deleteTail</secondary></indexterm>
+<para><computeroutput>Link com.thealgorithms.datastructures.lists.DoublyLinkedList.deleteTail ( )</computeroutput></para>
+<para>Delete the element at the tail</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>The new tail </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_1a5923d3f5862a95742d33f5b9944fc298"/><section>
+    <title>display()</title>
+<indexterm><primary>display</primary><secondary>com.thealgorithms.datastructures.lists.DoublyLinkedList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.DoublyLinkedList</primary><secondary>display</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.lists.DoublyLinkedList.display ( )</computeroutput></para>
+<para>Prints contents of the list </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_1a1b2d07a78f34206fd6f875241ff13a97"/><section>
+    <title>displayBackwards()</title>
+<indexterm><primary>displayBackwards</primary><secondary>com.thealgorithms.datastructures.lists.DoublyLinkedList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.DoublyLinkedList</primary><secondary>displayBackwards</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.lists.DoublyLinkedList.displayBackwards ( )</computeroutput></para>
+<para>Prints the contents of the list in reverse order </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_1a10340f764ebed418d1cb764bdfbde7d9"/><section>
+    <title>insertElementByIndex()</title>
+<indexterm><primary>insertElementByIndex</primary><secondary>com.thealgorithms.datastructures.lists.DoublyLinkedList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.DoublyLinkedList</primary><secondary>insertElementByIndex</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.lists.DoublyLinkedList.insertElementByIndex (int x, int index)</computeroutput></para>
+<para>Insert an element at the index</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>x</entry><entry>
+<para>Element to be inserted </para>
+</entry>
+                            </row>
+                            <row>
+<entry>index</entry><entry>
+<para>Index(from start) at which the element x to be inserted </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_1a80e23ec2ce668589ed097342828c7aba"/><section>
+    <title>insertHead()</title>
+<indexterm><primary>insertHead</primary><secondary>com.thealgorithms.datastructures.lists.DoublyLinkedList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.DoublyLinkedList</primary><secondary>insertHead</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.lists.DoublyLinkedList.insertHead (int x)</computeroutput></para>
+<para>Insert an element at the head</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>x</entry><entry>
+<para>Element to be inserted </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_1a2362aa36c4aa937264df3a184065d575"/><section>
+    <title>insertOrdered()</title>
+<indexterm><primary>insertOrdered</primary><secondary>com.thealgorithms.datastructures.lists.DoublyLinkedList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.DoublyLinkedList</primary><secondary>insertOrdered</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.lists.DoublyLinkedList.insertOrdered (int x)</computeroutput></para>
+<para>Inserts element and reorders</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>x</entry><entry>
+<para>Element to be added </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_1a87113eab9d872be2e9d81671c635fc1f"/><section>
+    <title>insertTail()</title>
+<indexterm><primary>insertTail</primary><secondary>com.thealgorithms.datastructures.lists.DoublyLinkedList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.DoublyLinkedList</primary><secondary>insertTail</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.lists.DoublyLinkedList.insertTail (int x)</computeroutput></para>
+<para>Insert an element at the tail</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>x</entry><entry>
+<para>Element to be inserted </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_1affe7d03bfe72e040c9739df73b5af472"/><section>
+    <title>isEmpty()</title>
+<indexterm><primary>isEmpty</primary><secondary>com.thealgorithms.datastructures.lists.DoublyLinkedList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.DoublyLinkedList</primary><secondary>isEmpty</secondary></indexterm>
+<para><computeroutput>boolean com.thealgorithms.datastructures.lists.DoublyLinkedList.isEmpty ( )</computeroutput></para>
+<para>Returns true if list is empty</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>true if list is empty </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list_1ad7b927b12517bb938678ff7f659a9367"/><section>
+    <title>reverse()</title>
+<indexterm><primary>reverse</primary><secondary>com.thealgorithms.datastructures.lists.DoublyLinkedList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.DoublyLinkedList</primary><secondary>reverse</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.lists.DoublyLinkedList.reverse ( )</computeroutput></para>
+<para>Reverses the list in place</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>l</entry><entry>
+<para>the <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_doubly_linked_list">DoublyLinkedList</link> to reverse </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/lists/DoublyLinkedList.java</section>
+</section>

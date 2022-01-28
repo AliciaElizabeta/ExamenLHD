@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_matrix_chain_multiplication" xml:lang="en-US">
+<title>com.thealgorithms.dynamicprogramming.MatrixChainMultiplication Class Reference</title>
+<indexterm><primary>com.thealgorithms.dynamicprogramming.MatrixChainMultiplication</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_matrix_chain_multiplication_1af5f5563af4ca8f53e3ad7529f7500aa8"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/dynamicprogramming/MatrixChainMultiplication.java</section>

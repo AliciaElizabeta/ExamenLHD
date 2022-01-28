@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1misc_1_1_palindrome_prime" xml:lang="en-US">
+<title>com.thealgorithms.misc.PalindromePrime Class Reference</title>
+<indexterm><primary>com.thealgorithms.misc.PalindromePrime</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1misc_1_1_palindrome_prime_1a2179adf7517a20f343ce5ca107ba057b"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1misc_1_1_palindrome_prime_1aa7cf227e14bb935728f27e13b8c2360c"/>static boolean <emphasis role="strong">prime</emphasis> (int num)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1misc_1_1_palindrome_prime_1acb08b0d16534990b987d2705cf27988e"/>static int <emphasis role="strong">reverse</emphasis> (int n)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1misc_1_1_palindrome_prime_1a82788d56c4ed50200d53667e5598cc90"/>static void <emphasis role="strong">functioning</emphasis> (int y)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/misc/PalindromePrime.java</section>

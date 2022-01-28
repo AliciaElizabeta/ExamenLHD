@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1searches_1_1_iterative_ternary_search" xml:lang="en-US">
+<title>com.thealgorithms.searches.IterativeTernarySearch Class Reference</title>
+<indexterm><primary>com.thealgorithms.searches.IterativeTernarySearch</primary></indexterm>
+<para>Inheritance diagram for com.thealgorithms.searches.IterativeTernarySearch:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcom_1_1thealgorithms_1_1searches_1_1_iterative_ternary_search.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1searches_1_1_iterative_ternary_search_1a172a9bcdba26cecf3baced6f0bae14b2"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>A iterative version of a ternary search algorithm This is better way to implement the ternary search, because a recursive version adds some overhead to a stack. But in java the compile can transform the recursive version to iterative implicitly, so there are no much differences between these two algorithms</para>
+
+<para>Worst-case performance Θ(log3(N)) Best-case performance O(1) Average performance Θ(log3(N)) Worst-case space complexity O(1)</para>
+
+<para><formalpara><title>Author</title>
+
+<para>Podshivalov Nikita (<link xlink:href="https://github.com/nikitap492">https://github.com/nikitap492</link>) </para>
+</formalpara>
+<formalpara><title>See also</title>
+
+<para>SearchAlgorithm </para>
+
+<para><link linkend="_classcom_1_1thealgorithms_1_1searches_1_1_ternary_search">TernarySearch</link> </para>
+</formalpara>
+<formalpara><title>Since</title>
+
+<para>2018-04-13 </para>
+</formalpara>
+</para>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/searches/IterativeTernarySearch.java</section>
+</section>

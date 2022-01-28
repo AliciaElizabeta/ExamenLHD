@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_leonardo_number" xml:lang="en-US">
+<title>com.thealgorithms.maths.LeonardoNumber Class Reference</title>
+<indexterm><primary>com.thealgorithms.maths.LeonardoNumber</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_leonardo_number_1aeee7f681afa6e1d1d9fdc6b122af085d"/>static int <emphasis role="strong">leonardoNumber</emphasis> (int n)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_leonardo_number_1a3dc5358d7790f4b6679c6d6b576153bb"/>static void <emphasis role="strong">main</emphasis> (String args[])</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/maths/LeonardoNumber.java</section>

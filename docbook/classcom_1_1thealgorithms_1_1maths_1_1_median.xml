@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_median" xml:lang="en-US">
+<title>com.thealgorithms.maths.Median Class Reference</title>
+<indexterm><primary>com.thealgorithms.maths.Median</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_median_1a485e7daf8e3393f691fe492852a98140"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+            <listitem><para>static double <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_median_1a29708719c441e215f5250578ed225726">median</link> (int[] values)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Wikipedia: <link xlink:href="https://en.wikipedia.org/wiki/Median">https://en.wikipedia.org/wiki/Median</link> </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_median_1a29708719c441e215f5250578ed225726"/><section>
+    <title>median()</title>
+<indexterm><primary>median</primary><secondary>com.thealgorithms.maths.Median</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.Median</primary><secondary>median</secondary></indexterm>
+<para><computeroutput>static double com.thealgorithms.maths.Median.median (int[] values)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Calculate average median</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>values</entry><entry>
+<para>number series </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>median of given <literallayout><computeroutput>values&#32;
+</computeroutput></literallayout> </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/maths/Median.java</section>
+</section>

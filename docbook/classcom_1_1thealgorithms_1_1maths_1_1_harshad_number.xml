@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_harshad_number" xml:lang="en-US">
+<title>com.thealgorithms.maths.HarshadNumber Class Reference</title>
+<indexterm><primary>com.thealgorithms.maths.HarshadNumber</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_harshad_number_1a7679ec7b5a98fdf327321c13e87870c9"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+            <listitem><para>static void <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_harshad_number_1ac82fa022f148bb8f7582c46dde5e4397">checkHarshadNumber</link> (long a)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_harshad_number_1ac82fa022f148bb8f7582c46dde5e4397"/><section>
+    <title>checkHarshadNumber()</title>
+<indexterm><primary>checkHarshadNumber</primary><secondary>com.thealgorithms.maths.HarshadNumber</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.HarshadNumber</primary><secondary>checkHarshadNumber</secondary></indexterm>
+<para><computeroutput>static void com.thealgorithms.maths.HarshadNumber.checkHarshadNumber (long a)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>A function to check if a number is Harshad number or not</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>a</entry><entry>
+<para>The number which should be checked </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/maths/HarshadNumber.java</section>
+</section>

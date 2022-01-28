@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_stack_array_list" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.stacks.StackArrayList Class Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.stacks.StackArrayList</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_stack_array_list_1a4a2a737ccc7898139ae649ae21f3b1e8">StackArrayList</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_stack_array_list_1afdc9953dbfeb2f6e470f2ad1babcfafb">push</link> (int value)</para>
+</listitem>
+            <listitem><para>int <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_stack_array_list_1ad0aa188ba31aa47eaeeb70cd68261239">pop</link> ()</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_stack_array_list_1a64515fd5716352f53524e12f219505a9">isEmpty</link> ()</para>
+</listitem>
+            <listitem><para>int <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_stack_array_list_1aabf6d3fbfc706ae3bd372f760b33859c">peek</link> ()</para>
+</listitem>
+            <listitem><para>int <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_stack_array_list_1a721e90d812705cf5a49c436a5f45b86d">size</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_stack_array_list_1aaaf2975e4cdff1931148f6b380d45312">main</link> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>This class implements a Stack using an ArrayList.</para>
+
+<para>A stack is exactly what it sounds like. An element gets added to the top of the stack and only the element on the top may be removed.</para>
+
+<para>This is an ArrayList Implementation of a stack, where size is not a problem we can extend the stack as much as we want. </para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_stack_array_list_1a4a2a737ccc7898139ae649ae21f3b1e8"/><section>
+    <title>StackArrayList()</title>
+<indexterm><primary>StackArrayList</primary><secondary>com.thealgorithms.datastructures.stacks.StackArrayList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.stacks.StackArrayList</primary><secondary>StackArrayList</secondary></indexterm>
+<para><computeroutput>com.thealgorithms.datastructures.stacks.StackArrayList.StackArrayList ( )</computeroutput></para>
+<para>Constructor </para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_stack_array_list_1a64515fd5716352f53524e12f219505a9"/><section>
+    <title>isEmpty()</title>
+<indexterm><primary>isEmpty</primary><secondary>com.thealgorithms.datastructures.stacks.StackArrayList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.stacks.StackArrayList</primary><secondary>isEmpty</secondary></indexterm>
+<para><computeroutput>boolean com.thealgorithms.datastructures.stacks.StackArrayList.isEmpty ( )</computeroutput></para>
+<para>Test if the stack is empty.</para>
+
+<para><formalpara><title>Returns</title>
+
+<para><literallayout><computeroutput><emphasis role="keyword">true</emphasis>&#32;
+</computeroutput></literallayout> if this stack is empty, <literallayout><computeroutput><emphasis role="keyword">false</emphasis>&#32;
+</computeroutput></literallayout> otherwise. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_stack_array_list_1aaaf2975e4cdff1931148f6b380d45312"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>com.thealgorithms.datastructures.stacks.StackArrayList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.stacks.StackArrayList</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void com.thealgorithms.datastructures.stacks.StackArrayList.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Driver Code </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_stack_array_list_1aabf6d3fbfc706ae3bd372f760b33859c"/><section>
+    <title>peek()</title>
+<indexterm><primary>peek</primary><secondary>com.thealgorithms.datastructures.stacks.StackArrayList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.stacks.StackArrayList</primary><secondary>peek</secondary></indexterm>
+<para><computeroutput>int com.thealgorithms.datastructures.stacks.StackArrayList.peek ( )</computeroutput></para>
+<para>Return the element at the top of this stack without removing it from the stack.</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>the element at the top of this stack. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_stack_array_list_1ad0aa188ba31aa47eaeeb70cd68261239"/><section>
+    <title>pop()</title>
+<indexterm><primary>pop</primary><secondary>com.thealgorithms.datastructures.stacks.StackArrayList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.stacks.StackArrayList</primary><secondary>pop</secondary></indexterm>
+<para><computeroutput>int com.thealgorithms.datastructures.stacks.StackArrayList.pop ( )</computeroutput></para>
+<para>Removes the element at the top of this stack and returns</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>Element popped </para>
+</formalpara>
+
+                <formalpara>
+                    <title>
+Exceptions</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>EmptyStackException</entry><entry>
+<para>if the stack is empty. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_stack_array_list_1afdc9953dbfeb2f6e470f2ad1babcfafb"/><section>
+    <title>push()</title>
+<indexterm><primary>push</primary><secondary>com.thealgorithms.datastructures.stacks.StackArrayList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.stacks.StackArrayList</primary><secondary>push</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.stacks.StackArrayList.push (int value)</computeroutput></para>
+<para>Adds value to the end of list which is the top for stack</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>value</entry><entry>
+<para>value to be added </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_stack_array_list_1a721e90d812705cf5a49c436a5f45b86d"/><section>
+    <title>size()</title>
+<indexterm><primary>size</primary><secondary>com.thealgorithms.datastructures.stacks.StackArrayList</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.stacks.StackArrayList</primary><secondary>size</secondary></indexterm>
+<para><computeroutput>int com.thealgorithms.datastructures.stacks.StackArrayList.size ( )</computeroutput></para>
+<para>Return size of this stack.</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>size of this stack. </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/stacks/StackArrayList.java</section>
+</section>

@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search" xml:lang="en-US">
+<title>com.thealgorithms.searches.MonteCarloTreeSearch Class Reference</title>
+<indexterm><primary>com.thealgorithms.searches.MonteCarloTreeSearch</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1_1_node">Node</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1_1_node">Node</link> <link linkend="_classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1aa62842012db6ef9ce36f82ccc1810e4f">monteCarloTreeSearch</link> (<link linkend="_classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1_1_node">Node</link> rootNode)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1aef1aebf808221dd860146f4f35903960"/>void <emphasis role="strong">addChildNodes</emphasis> (<link linkend="_classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1_1_node">Node</link> node, int childCount)</para>
+</listitem>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1_1_node">Node</link> <link linkend="_classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1aecb79e8088acafd2f67458b1a6e152c1">getPromisingNode</link> (<link linkend="_classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1_1_node">Node</link> rootNode)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1a06074d86a46c220058b4e0ac1cc67f6d">simulateRandomPlay</link> (<link linkend="_classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1_1_node">Node</link> promisingNode)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1a1ba26bc473b89aaffa5acaee84eb30b6"/><link linkend="_classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1_1_node">Node</link> <emphasis role="strong">getWinnerNode</emphasis> (<link linkend="_classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1_1_node">Node</link> rootNode)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1a76672d3126a72048f6ae3ab8ce3075f0"/>void <emphasis role="strong">printScores</emphasis> (<link linkend="_classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1_1_node">Node</link> rootNode)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1a208e2fb13686bebe48e0c3f3008ac768"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Monte Carlo Tree Search (MCTS) is a heuristic search algorithm used in decition taking problems especially games.</para>
+
+<para>See more: <link xlink:href="https://en.wikipedia.org/wiki/Monte_Carlo_tree_search">https://en.wikipedia.org/wiki/Monte_Carlo_tree_search</link>, <link xlink:href="https://www.baeldung.com/java-monte-carlo-tree-search">https://www.baeldung.com/java-monte-carlo-tree-search</link> </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1aecb79e8088acafd2f67458b1a6e152c1"/><section>
+    <title>getPromisingNode()</title>
+<indexterm><primary>getPromisingNode</primary><secondary>com.thealgorithms.searches.MonteCarloTreeSearch</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.searches.MonteCarloTreeSearch</primary><secondary>getPromisingNode</secondary></indexterm>
+<para><computeroutput><link linkend="_classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1_1_node">Node</link> com.thealgorithms.searches.MonteCarloTreeSearch.getPromisingNode (<link linkend="_classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1_1_node">Node</link> rootNode)</computeroutput></para>
+<para>Uses UCT to find a promising child node to be explored.</para>
+
+<para>UCT: Upper Confidence bounds applied to Trees.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>rootNode</entry><entry>
+<para>Root node of the tree. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>The most promising node according to UCT. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1aa62842012db6ef9ce36f82ccc1810e4f"/><section>
+    <title>monteCarloTreeSearch()</title>
+<indexterm><primary>monteCarloTreeSearch</primary><secondary>com.thealgorithms.searches.MonteCarloTreeSearch</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.searches.MonteCarloTreeSearch</primary><secondary>monteCarloTreeSearch</secondary></indexterm>
+<para><computeroutput><link linkend="_classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1_1_node">Node</link> com.thealgorithms.searches.MonteCarloTreeSearch.monteCarloTreeSearch (<link linkend="_classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1_1_node">Node</link> rootNode)</computeroutput></para>
+<para>Explores a game tree using Monte Carlo Tree Search (MCTS) and returns the most promising node.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>rootNode</entry><entry>
+<para>Root node of the game tree. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>The most promising child of the root node. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1a06074d86a46c220058b4e0ac1cc67f6d"/><section>
+    <title>simulateRandomPlay()</title>
+<indexterm><primary>simulateRandomPlay</primary><secondary>com.thealgorithms.searches.MonteCarloTreeSearch</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.searches.MonteCarloTreeSearch</primary><secondary>simulateRandomPlay</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.searches.MonteCarloTreeSearch.simulateRandomPlay (<link linkend="_classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1_1_node">Node</link> promisingNode)</computeroutput></para>
+<para>Simulates a random play from a nodes current state and back propagates the result.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>promisingNode</entry><entry>
+<para><link linkend="_classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1_1_node">Node</link> that will be simulated. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/searches/MonteCarloTreeSearch.java</section>
+</section>

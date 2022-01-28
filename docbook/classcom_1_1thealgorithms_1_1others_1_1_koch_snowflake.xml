@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1others_1_1_koch_snowflake" xml:lang="en-US">
+<title>com.thealgorithms.others.KochSnowflake Class Reference</title>
+<indexterm><primary>com.thealgorithms.others.KochSnowflake</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_koch_snowflake_1a1cba1bebf327e092dbeb3887108fea90"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+            <listitem><para>static ArrayList&lt; Vector2 &gt; <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_koch_snowflake_1a1dec7a182e35c4078f0d3c31314c32c6">Iterate</link> (ArrayList&lt; Vector2 &gt; initialVectors, int steps)</para>
+</listitem>
+            <listitem><para>static BufferedImage <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_koch_snowflake_1a3d381975e922024db6b0c9a99444d799">GetKochSnowflake</link> (int imageWidth, int steps)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>The Koch snowflake is a fractal curve and one of the earliest fractals to have been described. The Koch snowflake can be built up iteratively, in a sequence of stages. The first stage is an equilateral triangle, and each successive stage is formed by adding outward bends to each side of the previous stage, making smaller equilateral triangles. This can be achieved through the following steps for each line: 1. divide the line segment into three segments of equal length. 2. draw an equilateral triangle that has the middle segment from step 1 as its base and points outward. 3. remove the line segment that is the base of the triangle from step 2. (description adapted from <link xlink:href="https://en.wikipedia.org/wiki/Koch_snowflake">https://en.wikipedia.org/wiki/Koch_snowflake</link> ) (for a more detailed explanation and an implementation in the Processing language, see <link xlink:href="https://natureofcode.com/book/chapter-8-fractals/">https://natureofcode.com/book/chapter-8-fractals/</link> #84-the-koch-curve-and-the-arraylist-technique ). </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_koch_snowflake_1a3d381975e922024db6b0c9a99444d799"/><section>
+    <title>GetKochSnowflake()</title>
+<indexterm><primary>GetKochSnowflake</primary><secondary>com.thealgorithms.others.KochSnowflake</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.others.KochSnowflake</primary><secondary>GetKochSnowflake</secondary></indexterm>
+<para><computeroutput>static BufferedImage com.thealgorithms.others.KochSnowflake.GetKochSnowflake (int imageWidth, int steps)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Method to render the Koch snowflake to a image.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>imageWidth</entry><entry>
+<para>The width of the rendered image. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>steps</entry><entry>
+<para>The number of iterations. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>The image of the rendered Koch snowflake. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_koch_snowflake_1a1dec7a182e35c4078f0d3c31314c32c6"/><section>
+    <title>Iterate()</title>
+<indexterm><primary>Iterate</primary><secondary>com.thealgorithms.others.KochSnowflake</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.others.KochSnowflake</primary><secondary>Iterate</secondary></indexterm>
+<para><computeroutput>static ArrayList&lt; Vector2 &gt; com.thealgorithms.others.KochSnowflake.Iterate (ArrayList&lt; Vector2 &gt; initialVectors, int steps)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Go through the number of iterations determined by the argument &quot;steps&quot;. Be careful with high values (above 5) since the time to calculate increases exponentially.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>initialVectors</entry><entry>
+<para>The vectors composing the shape to which the algorithm is applied. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>steps</entry><entry>
+<para>The number of iterations. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>The transformed vectors after the iteration-steps. </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/others/KochSnowflake.java</section>
+</section>

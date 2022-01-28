@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1others_1_1_skyline_problem" xml:lang="en-US">
+<title>com.thealgorithms.others.SkylineProblem Class Reference</title>
+<indexterm><primary>com.thealgorithms.others.SkylineProblem</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_skyline_problem_1_1_building">Building</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_skyline_problem_1_1_skyline">Skyline</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_skyline_problem_1a3146503bbdd4b53f0899147d3e46a889"/>void <emphasis role="strong">run</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_skyline_problem_1a03fe3695b0c49e50b77394d0c1cb55f4"/>void <emphasis role="strong">add</emphasis> (int left, int height, int right)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_skyline_problem_1adc7d752043ebe4c21c31f1f38f635622"/>void <emphasis role="strong">print</emphasis> (ArrayList&lt; <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_skyline_problem_1_1_skyline">Skyline</link> &gt; skyline)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_skyline_problem_1a2f73e6e9e3ada1dc62fb94b53c2b2416"/>ArrayList&lt; <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_skyline_problem_1_1_skyline">Skyline</link> &gt; <emphasis role="strong">findSkyline</emphasis> (int start, int end)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_skyline_problem_1ae862aa3895bee59cfe9b30133439b5db"/>ArrayList&lt; <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_skyline_problem_1_1_skyline">Skyline</link> &gt; <emphasis role="strong">mergeSkyline</emphasis> (ArrayList&lt; <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_skyline_problem_1_1_skyline">Skyline</link> &gt; sky1, ArrayList&lt; <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_skyline_problem_1_1_skyline">Skyline</link> &gt; sky2)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_skyline_problem_1a38338da0a572c4181c07d8f84d1390db"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/others/SkylineProblem.java</section>

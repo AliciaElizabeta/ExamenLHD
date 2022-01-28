@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_dudeney_number" xml:lang="en-US">
+<title>com.thealgorithms.maths.DudeneyNumber Class Reference</title>
+<indexterm><primary>com.thealgorithms.maths.DudeneyNumber</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_dudeney_number_1a3362f3d824d17e78be34073393ce925b"/>static boolean <emphasis role="strong">isDudeney</emphasis> (int n)</para>
+</listitem>
+            <listitem><para>static void <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_dudeney_number_1a640199a1b2020c415632bc53524e591b">main</link> (String args[])  throws IOException </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_dudeney_number_1a640199a1b2020c415632bc53524e591b"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>com.thealgorithms.maths.DudeneyNumber</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.DudeneyNumber</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void com.thealgorithms.maths.DudeneyNumber.main (String args[]) throws IOException<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Method to check if number is Dudeney Number or Not 1) Input - Enter a Number: 512 Output - It is a Dudeney Number. 2) Input - Enter a Number: 125 Output - It is not a Dudeney Number. </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/maths/DudeneyNumber.java</section>
+</section>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1_1_node" xml:lang="en-US">
+<title>com.thealgorithms.searches.MonteCarloTreeSearch.Node Class Reference</title>
+<indexterm><primary>com.thealgorithms.searches.MonteCarloTreeSearch.Node</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1_1_node_1a0bcf382b6b540e1f0cc43d17b61a4ce8"/><emphasis role="strong">Node</emphasis> (<link linkend="_classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1_1_node">Node</link> parent, boolean isPlayersTurn)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/searches/MonteCarloTreeSearch.java</section>

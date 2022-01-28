@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1strings_1_1_check_anagrams" xml:lang="en-US">
+<title>com.thealgorithms.strings.CheckAnagrams Class Reference</title>
+<indexterm><primary>com.thealgorithms.strings.CheckAnagrams</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1strings_1_1_check_anagrams_1abe3e69974b0990df5ee1a8034a8b4c5b"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+            <listitem><para>static boolean <link linkend="_classcom_1_1thealgorithms_1_1strings_1_1_check_anagrams_1a1f2a655ec7a13df9f0aba2ff3bb3ad95">isAnagrams</link> (String s1, String s2)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Two strings are anagrams if they are made of the same letters arranged differently (ignoring the case). </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1strings_1_1_check_anagrams_1a1f2a655ec7a13df9f0aba2ff3bb3ad95"/><section>
+    <title>isAnagrams()</title>
+<indexterm><primary>isAnagrams</primary><secondary>com.thealgorithms.strings.CheckAnagrams</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.strings.CheckAnagrams</primary><secondary>isAnagrams</secondary></indexterm>
+<para><computeroutput>static boolean com.thealgorithms.strings.CheckAnagrams.isAnagrams (String s1, String s2)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Check if two strings are anagrams or not</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>s1</entry><entry>
+<para>the first string </para>
+</entry>
+                            </row>
+                            <row>
+<entry>s2</entry><entry>
+<para>the second string </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para><literallayout><computeroutput><emphasis role="keyword">true</emphasis>&#32;
+</computeroutput></literallayout> if two string are anagrams, otherwise <literallayout><computeroutput><emphasis role="keyword">false</emphasis>&#32;
+</computeroutput></literallayout> </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/strings/CheckAnagrams.java</section>
+</section>

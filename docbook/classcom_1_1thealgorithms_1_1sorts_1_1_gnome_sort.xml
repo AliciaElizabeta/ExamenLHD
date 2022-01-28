@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1sorts_1_1_gnome_sort" xml:lang="en-US">
+<title>com.thealgorithms.sorts.GnomeSort Class Reference</title>
+<indexterm><primary>com.thealgorithms.sorts.GnomeSort</primary></indexterm>
+<para>Inheritance diagram for com.thealgorithms.sorts.GnomeSort:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcom_1_1thealgorithms_1_1sorts_1_1_gnome_sort.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1sorts_1_1_gnome_sort_1a20e3d11e8319a5e4e11d40b1d85d19be"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Implementation of gnome sort</para>
+
+<para><formalpara><title>Author</title>
+
+<para>Podshivalov Nikita (<link xlink:href="https://github.com/nikitap492">https://github.com/nikitap492</link>) </para>
+</formalpara>
+<formalpara><title>Since</title>
+
+<para>2018-04-10 </para>
+</formalpara>
+</para>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/sorts/GnomeSort.java</section>
+</section>

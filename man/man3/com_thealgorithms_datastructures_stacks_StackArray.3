@@ -1,0 +1,130 @@
+.TH "com.thealgorithms.datastructures.stacks.StackArray" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.datastructures.stacks.StackArray
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBStackArray\fP ()"
+.br
+.ti -1c
+.RI "\fBStackArray\fP (int \fBsize\fP)"
+.br
+.ti -1c
+.RI "void \fBpush\fP (int value)"
+.br
+.ti -1c
+.RI "int \fBpop\fP ()"
+.br
+.ti -1c
+.RI "int \fBpeek\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBisEmpty\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBisFull\fP ()"
+.br
+.ti -1c
+.RI "void \fBmakeEmpty\fP ()"
+.br
+.ti -1c
+.RI "int \fBsize\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBmain\fP (String[] args)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+This class implements a Stack using a regular array\&.
+.PP
+A stack is exactly what it sounds like\&. An element gets added to the top of the stack and only the element on the top may be removed\&. This is an example of an array implementation of a Stack\&. So an element can only be added/removed from the end of the array\&. In theory stack have no fixed size, but with an array implementation it does\&. 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "com\&.thealgorithms\&.datastructures\&.stacks\&.StackArray\&.StackArray ()"
+init Stack with DEFAULT_CAPACITY 
+.SS "com\&.thealgorithms\&.datastructures\&.stacks\&.StackArray\&.StackArray (int size)"
+Constructor
+.PP
+\fBParameters\fP
+.RS 4
+\fIsize\fP Size of the Stack 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "boolean com\&.thealgorithms\&.datastructures\&.stacks\&.StackArray\&.isEmpty ()"
+Returns true if the stack is empty
+.PP
+\fBReturns\fP
+.RS 4
+true if the stack is empty 
+.RE
+.PP
+
+.SS "boolean com\&.thealgorithms\&.datastructures\&.stacks\&.StackArray\&.isFull ()"
+Returns true if the stack is full
+.PP
+\fBReturns\fP
+.RS 4
+true if the stack is full 
+.RE
+.PP
+
+.SS "static void com\&.thealgorithms\&.datastructures\&.stacks\&.StackArray\&.main (String[] args)\fC [static]\fP"
+Driver Code 
+.SS "void com\&.thealgorithms\&.datastructures\&.stacks\&.StackArray\&.makeEmpty ()"
+Deletes everything in the Stack
+.PP
+Doesn't delete elements in the array but if you call push method after calling makeEmpty it will overwrite previous values 
+.SS "int com\&.thealgorithms\&.datastructures\&.stacks\&.StackArray\&.peek ()"
+Returns the element at the top of the stack
+.PP
+\fBReturns\fP
+.RS 4
+element at the top of the stack 
+.RE
+.PP
+
+.SS "int com\&.thealgorithms\&.datastructures\&.stacks\&.StackArray\&.pop ()"
+Removes the top element of the stack and returns the value you've removed
+.PP
+\fBReturns\fP
+.RS 4
+value popped off the Stack 
+.RE
+.PP
+
+.SS "void com\&.thealgorithms\&.datastructures\&.stacks\&.StackArray\&.push (int value)"
+Adds an element to the top of the stack
+.PP
+\fBParameters\fP
+.RS 4
+\fIvalue\fP The element added 
+.RE
+.PP
+
+.SS "int com\&.thealgorithms\&.datastructures\&.stacks\&.StackArray\&.size ()"
+Return size of stack
+.PP
+\fBReturns\fP
+.RS 4
+size of stack 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

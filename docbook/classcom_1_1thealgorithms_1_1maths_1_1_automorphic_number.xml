@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_automorphic_number" xml:lang="en-US">
+<title>com.thealgorithms.maths.AutomorphicNumber Class Reference</title>
+<indexterm><primary>com.thealgorithms.maths.AutomorphicNumber</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static boolean <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_automorphic_number_1a20f3b442cbccd20de4e36d88e39a2700">isAutomorphic</link> (int n)</para>
+</listitem>
+            <listitem><para>static void <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_automorphic_number_1ad8978485593f1a520412a24f4638e6f2">main</link> (String args[])  throws IOException </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_automorphic_number_1a20f3b442cbccd20de4e36d88e39a2700"/><section>
+    <title>isAutomorphic()</title>
+<indexterm><primary>isAutomorphic</primary><secondary>com.thealgorithms.maths.AutomorphicNumber</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.AutomorphicNumber</primary><secondary>isAutomorphic</secondary></indexterm>
+<para><computeroutput>static boolean com.thealgorithms.maths.AutomorphicNumber.isAutomorphic (int n)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>m = Temporary variable to store a copy of the number entered by the user. n = The number entered by the user c = Count the digits of the number entered by user. p = To calculate the square of the number. k = Support variable to count the digits of the number</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_automorphic_number_1ad8978485593f1a520412a24f4638e6f2"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>com.thealgorithms.maths.AutomorphicNumber</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.AutomorphicNumber</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void com.thealgorithms.maths.AutomorphicNumber.main (String args[]) throws IOException<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Method to check if number is Automorphic Number or Not 1) Input - Enter a Number: 25 Output - It is an Automorphic Number. 2) Input - Enter a Number: 7 Output - It is not an Automorphic Number. </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/maths/AutomorphicNumber.java</section>
+</section>

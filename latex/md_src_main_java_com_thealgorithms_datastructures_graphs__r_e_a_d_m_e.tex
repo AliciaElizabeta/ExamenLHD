@@ -1,0 +1,48 @@
+Graph is a useful data structure for representing most of the real world problems involving a set of users/candidates/nodes and their relations. A Graph consists of two parameters \+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{V = a set of vertices}
+\DoxyCodeLine{E = a set of edges}
+
+\end{DoxyCode}
+
+
+Each edge in {\ttfamily E} connects any two vertices from {\ttfamily V}. Based on the type of edge, graphs can be of two types\+:
+
+
+\begin{DoxyEnumerate}
+\item {\bfseries{Directed}}\+: The edges are directed in nature which means that when there is an edge from node {\ttfamily A} to {\ttfamily B}, it does not imply that there is an edge from {\ttfamily B} to {\ttfamily A}. An example of directed edge graph the {\bfseries{follow}} feature of social media. If you follow a celebrity, it doesn\textquotesingle{}t imply that s/he follows you.
+\item {\bfseries{Undirected}}\+: The edges don\textquotesingle{}t have any direction. So if {\ttfamily A} and {\ttfamily B} are connected, we can assume that there is edge from both {\ttfamily A} to {\ttfamily B} and {\ttfamily B} to {\ttfamily A}. Example\+: Social media graph, where if two persons are friend, it implies that both are friend with each other.
+\end{DoxyEnumerate}\hypertarget{md_src_main_java_com_thealgorithms_datastructures_graphs__r_e_a_d_m_e_autotoc_md1}{}\doxysubsection{Representation}\label{md_src_main_java_com_thealgorithms_datastructures_graphs__r_e_a_d_m_e_autotoc_md1}
+
+\begin{DoxyEnumerate}
+\item {\bfseries{Adjacency Lists}}\+: Each node is represented as an entry and all the edges are represented as a list emerging from the corresponding node. So if vertex {\ttfamily 1} has eadges to 2,3, and 6, the list corresponding to 1 will have 2,3 and 6 as entries. Consider the following graph.
+\end{DoxyEnumerate}
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{0: 1-\/-\/>2-\/-\/>3}
+\DoxyCodeLine{1: 0-\/-\/>2}
+\DoxyCodeLine{2: 0-\/-\/>1}
+\DoxyCodeLine{3: 0-\/-\/>4}
+\DoxyCodeLine{4: 3}
+
+\end{DoxyCode}
+ It means there are edges from 0 to 1, 2 and 3; from 1 to 0 and 2 and so on.
+\begin{DoxyEnumerate}
+\item {\bfseries{Adjacency Matrix}}\+: The graph is represented as a matrix of size {\ttfamily $\vert$\+V$\vert$ x $\vert$\+V$\vert$} and an entry 1 in cell {\ttfamily (i,j)} implies that there is an edge from i to j. 0 represents no edge. The mtrix for the above graph\+:
+\end{DoxyEnumerate}
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{   0 1 2 3 4}
+\DoxyCodeLine{}
+\DoxyCodeLine{0  0 1 1 1 0}
+\DoxyCodeLine{1  1 0 1 0 0}
+\DoxyCodeLine{2  1 1 0 0 0}
+\DoxyCodeLine{3  1 0 0 0 1}
+\DoxyCodeLine{4  0 0 0 1 0}
+
+\end{DoxyCode}
+ 

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_strassen_matrix_multiplication" xml:lang="en-US">
+<title>com.thealgorithms.divideandconquer.StrassenMatrixMultiplication Class Reference</title>
+<indexterm><primary>com.thealgorithms.divideandconquer.StrassenMatrixMultiplication</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_strassen_matrix_multiplication_1a89418ae8846b7ebb19903820c1becd6f"/>int[][] <emphasis role="strong">multiply</emphasis> (int[][] A, int[][] B)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_strassen_matrix_multiplication_1a00d099e5051170032b689ddf7a322ca1"/>int[][] <emphasis role="strong">sub</emphasis> (int[][] A, int[][] B)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_strassen_matrix_multiplication_1aef7c6149ca930c89a56b6b031123d83b"/>int[][] <emphasis role="strong">add</emphasis> (int[][] A, int[][] B)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_strassen_matrix_multiplication_1aeddd261f05684acad98dc26534497650"/>void <emphasis role="strong">split</emphasis> (int[][] P, int[][] C, int iB, int jB)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_strassen_matrix_multiplication_1aeba647e025474e51526a2f69a051ee72"/>void <emphasis role="strong">join</emphasis> (int[][] C, int[][] P, int iB, int jB)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_strassen_matrix_multiplication_1a5bc622429f9f0f5e78742fd700e1952a"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/divideandconquer/StrassenMatrixMultiplication.java</section>

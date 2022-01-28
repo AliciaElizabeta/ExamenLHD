@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1others_1_1_linear_congruential_generator" xml:lang="en-US">
+<title>com.thealgorithms.others.LinearCongruentialGenerator Class Reference</title>
+<indexterm><primary>com.thealgorithms.others.LinearCongruentialGenerator</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1others_1_1_linear_congruential_generator_1a0ef4123fa345fe09b33cb9f773d7d9cf">LinearCongruentialGenerator</link> (double multiplier, double increment, double modulo)</para>
+</listitem>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1others_1_1_linear_congruential_generator_1a4fe09200877e85e435dd9331fe2993cd">LinearCongruentialGenerator</link> (double seed, double multiplier, double increment, double modulo)</para>
+</listitem>
+            <listitem><para>double <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_linear_congruential_generator_1ab3b9388c575dc42989977c54eb3e6690">nextNumber</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_linear_congruential_generator_1a89cdd147c32b60cfbeddcef6e4846751"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><itemizedlist>
+<listitem>
+<para>A pseudorandom number generator.</para>
+</listitem></itemizedlist>
+</para>
+
+<para><formalpara><title>Author</title>
+
+<para>Tobias Carryer </para>
+</formalpara>
+<formalpara><title>Date</title>
+
+<para>October 10, 2017 </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_linear_congruential_generator_1a0ef4123fa345fe09b33cb9f773d7d9cf"/><section>
+    <title>LinearCongruentialGenerator()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>LinearCongruentialGenerator</primary><secondary>com.thealgorithms.others.LinearCongruentialGenerator</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.others.LinearCongruentialGenerator</primary><secondary>LinearCongruentialGenerator</secondary></indexterm>
+<para><computeroutput>com.thealgorithms.others.LinearCongruentialGenerator.LinearCongruentialGenerator (double multiplier, double increment, double modulo)</computeroutput></para>
+<para><itemizedlist>
+<listitem>
+<para>These parameters are saved and used when <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_linear_congruential_generator_1ab3b9388c575dc42989977c54eb3e6690">nextNumber()</link> is called. The current timestamp in milliseconds is used as the seed.</para>
+</listitem></itemizedlist>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>multiplier</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+<entry>increment</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+<entry>modulo</entry><entry>
+<para>The maximum number that can be generated (exclusive). A common value is 2^32. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_linear_congruential_generator_1a4fe09200877e85e435dd9331fe2993cd"/><section>
+    <title>LinearCongruentialGenerator()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>LinearCongruentialGenerator</primary><secondary>com.thealgorithms.others.LinearCongruentialGenerator</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.others.LinearCongruentialGenerator</primary><secondary>LinearCongruentialGenerator</secondary></indexterm>
+<para><computeroutput>com.thealgorithms.others.LinearCongruentialGenerator.LinearCongruentialGenerator (double seed, double multiplier, double increment, double modulo)</computeroutput></para>
+<para><itemizedlist>
+<listitem>
+<para>These parameters are saved and used when <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_linear_congruential_generator_1ab3b9388c575dc42989977c54eb3e6690">nextNumber()</link> is called.</para>
+</listitem></itemizedlist>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>seed</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+<entry>multiplier</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+<entry>increment</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+<entry>modulo</entry><entry>
+<para>The maximum number that can be generated (exclusive). A common value is 2^32. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_linear_congruential_generator_1ab3b9388c575dc42989977c54eb3e6690"/><section>
+    <title>nextNumber()</title>
+<indexterm><primary>nextNumber</primary><secondary>com.thealgorithms.others.LinearCongruentialGenerator</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.others.LinearCongruentialGenerator</primary><secondary>nextNumber</secondary></indexterm>
+<para><computeroutput>double com.thealgorithms.others.LinearCongruentialGenerator.nextNumber ( )</computeroutput></para>
+<para>The smallest number that can be generated is zero. The largest number that can be generated is modulo-1. modulo is set in the constructor.</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>a pseudorandom number. </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/others/LinearCongruentialGenerator.java</section>
+</section>

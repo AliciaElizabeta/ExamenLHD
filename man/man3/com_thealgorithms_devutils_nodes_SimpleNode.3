@@ -1,0 +1,91 @@
+.TH "com.thealgorithms.devutils.nodes.SimpleNode< E >" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.devutils.nodes.SimpleNode< E >
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBcom\&.thealgorithms\&.devutils\&.nodes\&.Node< E >\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBSimpleNode\fP ()"
+.br
+.ti -1c
+.RI "\fBSimpleNode\fP (E data)"
+.br
+.ti -1c
+.RI "\fBSimpleNode\fP (E data, \fBSimpleNode\fP< E > nextNode)"
+.br
+.ti -1c
+.RI "boolean \fBhasNext\fP ()"
+.br
+.ti -1c
+.RI "\fBSimpleNode\fP< E > \fBgetNextNode\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetNextNode\fP (\fBSimpleNode\fP< E > nextNode)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Simple \fBNode\fP implementation that holds a reference to the next \fBNode\fP\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fI<E>\fP The type of the data held in the \fBNode\fP\&.
+.RE
+.PP
+\fBAuthor\fP
+.RS 4
+\fCaitorfi\fP 
+.RE
+.PP
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "\fBcom\&.thealgorithms\&.devutils\&.nodes\&.SimpleNode\fP< E >\&.\fBSimpleNode\fP ()"
+Empty contructor\&. 
+.SS "\fBcom\&.thealgorithms\&.devutils\&.nodes\&.SimpleNode\fP< E >\&.\fBSimpleNode\fP (E data)"
+Initializes the Nodes' data\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIdata\fP Value to which data will be initialized\&. 
+.RE
+.PP
+\fBSee also\fP
+.RS 4
+Node::Node(Object) 
+.RE
+.PP
+
+.SS "\fBcom\&.thealgorithms\&.devutils\&.nodes\&.SimpleNode\fP< E >\&.\fBSimpleNode\fP (E data, \fBSimpleNode\fP< E > nextNode)"
+Initializes the Nodes' data and next node reference\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIdata\fP Value to which data will be initialized\&. 
+.br
+\fInextNode\fP Value to which the next node reference will be set\&. 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "boolean \fBcom\&.thealgorithms\&.devutils\&.nodes\&.SimpleNode\fP< E >\&.hasNext ()"
+
+.PP
+\fBReturns\fP
+.RS 4
+True if there is a next node, otherwise false\&. 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

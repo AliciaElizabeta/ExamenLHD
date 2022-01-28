@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1others_1_1_string_match_finite_automata" xml:lang="en-US">
+<title>com.thealgorithms.others.StringMatchFiniteAutomata Class Reference</title>
+<indexterm><primary>com.thealgorithms.others.StringMatchFiniteAutomata</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_string_match_finite_automata_1a31e288463539ac2f535e3836da540665"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_string_match_finite_automata_1a1176cb136df4d36615b01c917051a418"/>static void <emphasis role="strong">searchPat</emphasis> (String text, String pat)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_string_match_finite_automata_1a49aa717023b2b1286e9635e7e02b3a6a"/>static void <emphasis role="strong">computeFA</emphasis> (String pat, int m, int[][] FA)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_string_match_finite_automata_1a0a0520c8feae9b9741eb9fc38cd9ebaf"/>static int <emphasis role="strong">getNextState</emphasis> (String pat, int m, int state, int x)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_string_match_finite_automata_1aae680c5cfc69840c4ccce6272482fb30"/>static final int <emphasis role="strong">CHARS</emphasis> = 256</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_string_match_finite_automata_1a3da035708efd1634861311c123ff2527"/>static int[][] <emphasis role="strong">FA</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_string_match_finite_automata_1ad0d4a2ab2968dd51361cb6435955dbcd"/>static Scanner <emphasis role="strong">scanner</emphasis> = null</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/others/StringMatchFiniteAutomata.java</section>

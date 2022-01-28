@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_factorial" xml:lang="en-US">
+<title>com.thealgorithms.maths.Factorial Class Reference</title>
+<indexterm><primary>com.thealgorithms.maths.Factorial</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_factorial_1a1978470f736e11a18aa553d1a6f1fb5a"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+            <listitem><para>static long <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_factorial_1a5717a941ca7751e6efe69e58e1f444aa">factorial</link> (int n)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_factorial_1a5717a941ca7751e6efe69e58e1f444aa"/><section>
+    <title>factorial()</title>
+<indexterm><primary>factorial</primary><secondary>com.thealgorithms.maths.Factorial</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.Factorial</primary><secondary>factorial</secondary></indexterm>
+<para><computeroutput>static long com.thealgorithms.maths.Factorial.factorial (int n)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Calculate factorial N using iteration</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>n</entry><entry>
+<para>the number </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>the factorial of <literallayout><computeroutput>n&#32;
+</computeroutput></literallayout> </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/maths/Factorial.java</section>
+</section>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_pow_recursion" xml:lang="en-US">
+<title>com.thealgorithms.maths.PowRecursion Class Reference</title>
+<indexterm><primary>com.thealgorithms.maths.PowRecursion</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_pow_recursion_1a585bb04a4edbdf1b4af0d2a97292ccd1"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+            <listitem><para>static long <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_pow_recursion_1af179357677af2701aeace1a4ab3a3c23">pow</link> (int a, int b)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_pow_recursion_1af179357677af2701aeace1a4ab3a3c23"/><section>
+    <title>pow()</title>
+<indexterm><primary>pow</primary><secondary>com.thealgorithms.maths.PowRecursion</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.PowRecursion</primary><secondary>pow</secondary></indexterm>
+<para><computeroutput>static long com.thealgorithms.maths.PowRecursion.pow (int a, int b)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Returns the value of the first argument raised to the power of the second argument</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>a</entry><entry>
+<para>the base. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>b</entry><entry>
+<para>the exponent. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>the value <literallayout><computeroutput>a&#32;
+</computeroutput></literallayout> <superscript><literallayout><computeroutput>b&#32;
+</computeroutput></literallayout> </superscript>. </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/maths/PowRecursion.java</section>
+</section>

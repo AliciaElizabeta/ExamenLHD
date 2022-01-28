@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_trie_imp" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.trees.TrieImp Class Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.trees.TrieImp</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_trie_imp_1_1_trie_node">TrieNode</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_trie_imp_1ac3d6b390772e264055b507458d856cf2"/>void <emphasis role="strong">insert</emphasis> (String word)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_trie_imp_1a64ef54f8f564f0b9a3a5504dd5f181bc"/>boolean <emphasis role="strong">search</emphasis> (String word)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_trie_imp_1a7e34ae1bc418310fe7dc273ec449b761"/>boolean <emphasis role="strong">delete</emphasis> (String word)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_trie_imp_1a560b2146dc4824d7d6963361469de6e3"/>static void <emphasis role="strong">sop</emphasis> (String print)</para>
+</listitem>
+            <listitem><para>static boolean <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_trie_imp_1aeb0fba5cf584fca41dede2e63a0b58a8">isValid</link> (String word)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_trie_imp_1ae0dc015836645b7c5a4e442ec0c31a0a"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_trie_imp_1aeb0fba5cf584fca41dede2e63a0b58a8"/><section>
+    <title>isValid()</title>
+<indexterm><primary>isValid</primary><secondary>com.thealgorithms.datastructures.trees.TrieImp</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.trees.TrieImp</primary><secondary>isValid</secondary></indexterm>
+<para><computeroutput>static boolean com.thealgorithms.datastructures.trees.TrieImp.isValid (String word)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Regex to check if word contains only a-z character </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/trees/TrieImp.java</section>
+</section>

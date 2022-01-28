@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1strings_1_1_upper" xml:lang="en-US">
+<title>com.thealgorithms.strings.Upper Class Reference</title>
+<indexterm><primary>com.thealgorithms.strings.Upper</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classcom_1_1thealgorithms_1_1strings_1_1_upper_1ad0c5cb3666b4fbb15746fa95857cb7f2">main</link> (String[] args)</para>
+</listitem>
+            <listitem><para>static String <link linkend="_classcom_1_1thealgorithms_1_1strings_1_1_upper_1a63f3de2157cca155ccf9f733f3b9934e">toUpperCase</link> (String s)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1strings_1_1_upper_1ad0c5cb3666b4fbb15746fa95857cb7f2"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>com.thealgorithms.strings.Upper</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.strings.Upper</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void com.thealgorithms.strings.Upper.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Driver Code </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1strings_1_1_upper_1a63f3de2157cca155ccf9f733f3b9934e"/><section>
+    <title>toUpperCase()</title>
+<indexterm><primary>toUpperCase</primary><secondary>com.thealgorithms.strings.Upper</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.strings.Upper</primary><secondary>toUpperCase</secondary></indexterm>
+<para><computeroutput>static String com.thealgorithms.strings.Upper.toUpperCase (String s)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Converts all of the characters in this <literallayout><computeroutput>String&#32;
+</computeroutput></literallayout> to upper case</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>s</entry><entry>
+<para>the string to convert </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>the <literallayout><computeroutput>String&#32;
+</computeroutput></literallayout> , converted to uppercase. </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/strings/Upper.java</section>
+</section>

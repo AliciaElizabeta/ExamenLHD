@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1others_1_1_sieve_of_eratosthenes" xml:lang="en-US">
+<title>com.thealgorithms.others.SieveOfEratosthenes Class Reference</title>
+<indexterm><primary>com.thealgorithms.others.SieveOfEratosthenes</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static int[] <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_sieve_of_eratosthenes_1acf192c8114f3dadf7beb34621b82afd4">findPrimesTill</link> (int n)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_sieve_of_eratosthenes_1ad67f9836ebb92bf55a277924a95f9ed6"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Sieve of Eratosthenes is an ancient algorithm for finding all prime numbers up to any given limit. It does so by iteratively marking as composite (i.e., not prime) the multiples of each prime, starting with the first prime number,<orderedlist>
+<listitem>
+<para>The multiples of a given prime are generated as a sequence of numbers starting from that prime, with constant difference between them that is equal to that prime. This is the sieve&apos;s key distinction from using trial division to sequentially test each candidate number for divisibility by each prime. Once all the multiples of each discovered prime have been marked as composites, the remaining unmarked numbers are primes. </para>
+</listitem></orderedlist>
+</para>
+
+<para>Poetry about Sieve of Eratosthenes: </para>
+
+<para><emphasis>Sift the Two&apos;s and Sift the Three&apos;s:</emphasis></para>
+
+<para><emphasis>The Sieve of Eratosthenes.</emphasis></para>
+
+<para><emphasis>When the multiples sublime,</emphasis></para>
+
+<para><emphasis>The numbers that remain are Prime.</emphasis></para>
+
+<para><formalpara><title>See also</title>
+
+<para><link xlink:href="https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes">Wiki</link> </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_sieve_of_eratosthenes_1acf192c8114f3dadf7beb34621b82afd4"/><section>
+    <title>findPrimesTill()</title>
+<indexterm><primary>findPrimesTill</primary><secondary>com.thealgorithms.others.SieveOfEratosthenes</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.others.SieveOfEratosthenes</primary><secondary>findPrimesTill</secondary></indexterm>
+<para><computeroutput>static int[] com.thealgorithms.others.SieveOfEratosthenes.findPrimesTill (int n)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>n</entry><entry>
+<para>The number till which we have to check for prime Prints all the prime numbers till n. Should be more than 1. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>array of all prime numbers between 0 to n </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/others/SieveOfEratosthenes.java</section>
+</section>

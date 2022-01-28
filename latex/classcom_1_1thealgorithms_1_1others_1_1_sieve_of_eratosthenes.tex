@@ -1,0 +1,53 @@
+\hypertarget{classcom_1_1thealgorithms_1_1others_1_1_sieve_of_eratosthenes}{}\doxysection{com.\+thealgorithms.\+others.\+Sieve\+Of\+Eratosthenes Class Reference}
+\label{classcom_1_1thealgorithms_1_1others_1_1_sieve_of_eratosthenes}\index{com.thealgorithms.others.SieveOfEratosthenes@{com.thealgorithms.others.SieveOfEratosthenes}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classcom_1_1thealgorithms_1_1others_1_1_sieve_of_eratosthenes_acf192c8114f3dadf7beb34621b82afd4}{find\+Primes\+Till}} (int n)
+\item 
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1others_1_1_sieve_of_eratosthenes_ad67f9836ebb92bf55a277924a95f9ed6}\label{classcom_1_1thealgorithms_1_1others_1_1_sieve_of_eratosthenes_ad67f9836ebb92bf55a277924a95f9ed6}} 
+static void {\bfseries main} (String\mbox{[}$\,$\mbox{]} args)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Sieve of Eratosthenes is an ancient algorithm for finding all prime numbers up to any given limit. It does so by iteratively marking as composite (i.\+e., not prime) the multiples of each prime, starting with the first prime number,
+\begin{DoxyEnumerate}
+\item The multiples of a given prime are generated as a sequence of numbers starting from that prime, with constant difference between them that is equal to that prime. This is the sieve\textquotesingle{}s key distinction from using trial division to sequentially test each candidate number for divisibility by each prime. Once all the multiples of each discovered prime have been marked as composites, the remaining unmarked numbers are primes. 
+\end{DoxyEnumerate}
+
+Poetry about Sieve of Eratosthenes\+: 
+
+{\itshape Sift the Two\textquotesingle{}s and Sift the Three\textquotesingle{}s\+:}
+
+{\itshape The Sieve of Eratosthenes.}
+
+{\itshape When the multiples sublime,}
+
+{\itshape The numbers that remain are Prime.}
+
+\begin{DoxySeeAlso}{See also}
+\href{https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes}{\texttt{ Wiki}} 
+\end{DoxySeeAlso}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1others_1_1_sieve_of_eratosthenes_acf192c8114f3dadf7beb34621b82afd4}\label{classcom_1_1thealgorithms_1_1others_1_1_sieve_of_eratosthenes_acf192c8114f3dadf7beb34621b82afd4}} 
+\index{com.thealgorithms.others.SieveOfEratosthenes@{com.thealgorithms.others.SieveOfEratosthenes}!findPrimesTill@{findPrimesTill}}
+\index{findPrimesTill@{findPrimesTill}!com.thealgorithms.others.SieveOfEratosthenes@{com.thealgorithms.others.SieveOfEratosthenes}}
+\doxysubsubsection{\texorpdfstring{findPrimesTill()}{findPrimesTill()}}
+{\footnotesize\ttfamily static int\mbox{[}$\,$\mbox{]} com.\+thealgorithms.\+others.\+Sieve\+Of\+Eratosthenes.\+find\+Primes\+Till (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & The number till which we have to check for prime Prints all the prime numbers till n. Should be more than 1. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array of all prime numbers between 0 to n 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/thealgorithms/others/Sieve\+Of\+Eratosthenes.\+java\end{DoxyCompactItemize}

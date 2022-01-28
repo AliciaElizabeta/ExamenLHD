@@ -1,0 +1,54 @@
+.TH "com.thealgorithms.others.Mandelbrot" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.others.Mandelbrot
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBmain\fP (String[] args)"
+.br
+.ti -1c
+.RI "static BufferedImage \fBgetImage\fP (int imageWidth, int imageHeight, double figureCenterX, double figureCenterY, double figureWidth, int maxStep, boolean useDistanceColorCoding)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+The \fBMandelbrot\fP set is the set of complex numbers 'c' for which the series 'z_(n+1) = z_n * z_n + c' does not diverge, i\&.e\&. remains bounded\&. Thus, a complex number 'c' is a member of the \fBMandelbrot\fP set if, when starting with 'z_0 = 0' and applying the iteration repeatedly, the absolute value of 'z_n' remains bounded for all 'n > 0'\&. Complex numbers can be written as 'a + b*i': 'a' is the real component, usually drawn on the x-axis, and 'b*i' is the imaginary component, usually drawn on the y-axis\&. Most visualizations of the \fBMandelbrot\fP set use a color-coding to indicate after how many steps in the series the numbers outside the set cross the divergence threshold\&. Images of the \fBMandelbrot\fP set exhibit an elaborate and infinitely complicated boundary that reveals progressively ever-finer recursive detail at increasing magnifications, making the boundary of the \fBMandelbrot\fP set a fractal curve\&. (description adapted from https://en.wikipedia.org/wiki/Mandelbrot_set ) (see also https://en.wikipedia.org/wiki/Plotting_algorithms_for_the_Mandelbrot_set ) 
+.SH "Member Function Documentation"
+.PP 
+.SS "static BufferedImage com\&.thealgorithms\&.others\&.Mandelbrot\&.getImage (int imageWidth, int imageHeight, double figureCenterX, double figureCenterY, double figureWidth, int maxStep, boolean useDistanceColorCoding)\fC [static]\fP"
+Method to generate the image of the \fBMandelbrot\fP set\&. Two types of coordinates are used: image-coordinates that refer to the pixels and figure-coordinates that refer to the complex numbers inside and outside the \fBMandelbrot\fP set\&. The figure-coordinates in the arguments of this method determine which section of the \fBMandelbrot\fP set is viewed\&. The main area of the \fBMandelbrot\fP set is roughly between '-1\&.5 < x < 0\&.5' and '-1 <
+y < 1' in the figure-coordinates\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIimageWidth\fP The width of the rendered image\&. 
+.br
+\fIimageHeight\fP The height of the rendered image\&. 
+.br
+\fIfigureCenterX\fP The x-coordinate of the center of the figure\&. 
+.br
+\fIfigureCenterY\fP The y-coordinate of the center of the figure\&. 
+.br
+\fIfigureWidth\fP The width of the figure\&. 
+.br
+\fImaxStep\fP Maximum number of steps to check for divergent behavior\&. 
+.br
+\fIuseDistanceColorCoding\fP Render in color or black and white\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The image of the rendered \fBMandelbrot\fP set\&. 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

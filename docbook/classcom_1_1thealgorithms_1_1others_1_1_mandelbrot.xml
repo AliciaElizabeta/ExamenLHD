@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1others_1_1_mandelbrot" xml:lang="en-US">
+<title>com.thealgorithms.others.Mandelbrot Class Reference</title>
+<indexterm><primary>com.thealgorithms.others.Mandelbrot</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_mandelbrot_1aab0aac7c147c29194bbdf438c80bf0a9"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+            <listitem><para>static BufferedImage <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_mandelbrot_1ae7f6f9cf0e84920a76d3cb76264cfc74">getImage</link> (int imageWidth, int imageHeight, double figureCenterX, double figureCenterY, double figureWidth, int maxStep, boolean useDistanceColorCoding)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>The <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_mandelbrot">Mandelbrot</link> set is the set of complex numbers &quot;c&quot; for which the series &quot;z_(n+1) = z_n * z_n + c&quot; does not diverge, i.e. remains bounded. Thus, a complex number &quot;c&quot; is a member of the <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_mandelbrot">Mandelbrot</link> set if, when starting with &quot;z_0 = 0&quot; and applying the iteration repeatedly, the absolute value of &quot;z_n&quot; remains bounded for all &quot;n &gt; 0&quot;. Complex numbers can be written as &quot;a + b*i&quot;: &quot;a&quot; is the real component, usually drawn on the x-axis, and &quot;b*i&quot; is the imaginary component, usually drawn on the y-axis. Most visualizations of the <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_mandelbrot">Mandelbrot</link> set use a color-coding to indicate after how many steps in the series the numbers outside the set cross the divergence threshold. Images of the <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_mandelbrot">Mandelbrot</link> set exhibit an elaborate and infinitely complicated boundary that reveals progressively ever-finer recursive detail at increasing magnifications, making the boundary of the <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_mandelbrot">Mandelbrot</link> set a fractal curve. (description adapted from <link xlink:href="https://en.wikipedia.org/wiki/Mandelbrot_set">https://en.wikipedia.org/wiki/Mandelbrot_set</link> ) (see also <link xlink:href="https://en.wikipedia.org/wiki/Plotting_algorithms_for_the_Mandelbrot_set">https://en.wikipedia.org/wiki/Plotting_algorithms_for_the_Mandelbrot_set</link> ) </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_mandelbrot_1ae7f6f9cf0e84920a76d3cb76264cfc74"/><section>
+    <title>getImage()</title>
+<indexterm><primary>getImage</primary><secondary>com.thealgorithms.others.Mandelbrot</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.others.Mandelbrot</primary><secondary>getImage</secondary></indexterm>
+<para><computeroutput>static BufferedImage com.thealgorithms.others.Mandelbrot.getImage (int imageWidth, int imageHeight, double figureCenterX, double figureCenterY, double figureWidth, int maxStep, boolean useDistanceColorCoding)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Method to generate the image of the <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_mandelbrot">Mandelbrot</link> set. Two types of coordinates are used: image-coordinates that refer to the pixels and figure-coordinates that refer to the complex numbers inside and outside the <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_mandelbrot">Mandelbrot</link> set. The figure-coordinates in the arguments of this method determine which section of the <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_mandelbrot">Mandelbrot</link> set is viewed. The main area of the <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_mandelbrot">Mandelbrot</link> set is roughly between &quot;-1.5 &lt; x &lt; 0.5&quot; and &quot;-1 &lt;
+y &lt; 1&quot; in the figure-coordinates.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>imageWidth</entry><entry>
+<para>The width of the rendered image. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>imageHeight</entry><entry>
+<para>The height of the rendered image. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>figureCenterX</entry><entry>
+<para>The x-coordinate of the center of the figure. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>figureCenterY</entry><entry>
+<para>The y-coordinate of the center of the figure. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>figureWidth</entry><entry>
+<para>The width of the figure. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>maxStep</entry><entry>
+<para>Maximum number of steps to check for divergent behavior. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>useDistanceColorCoding</entry><entry>
+<para>Render in color or black and white. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>The image of the rendered <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_mandelbrot">Mandelbrot</link> set. </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/others/Mandelbrot.java</section>
+</section>

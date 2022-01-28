@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_linked_queue" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.queues.LinkedQueue Class Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.queues.LinkedQueue</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <emphasis role="strong">Node</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_linked_queue_1a0d7cbf4ca7ef19e8c826646a255f5b9f">LinkedQueue</link> ()</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_linked_queue_1a4e9b4ab3fd78e244d1032220ff4f2612">isEmpty</link> ()</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_linked_queue_1af178f1d7aaee6aa39eb46a1387dd6dd0">enqueue</link> (int data)</para>
+</listitem>
+            <listitem><para>int <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_linked_queue_1a9b6c58e199ce42503d2d08e3abc080a8">dequeue</link> ()</para>
+</listitem>
+            <listitem><para>int <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_linked_queue_1a1b38a608afeb89516556ef25ba1f1df3">peekFront</link> ()</para>
+</listitem>
+            <listitem><para>int <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_linked_queue_1a87914ad9a934b8e33d64f412d47afff7">peekRear</link> ()</para>
+</listitem>
+            <listitem><para>int <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_linked_queue_1a03539887fb94ba7bad60e8c11ddbcb0d">size</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_linked_queue_1a9291af7a50b5033493617ce5b0b87e77">clear</link> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_linked_queue_1a9ceefaafc4e4b8caf7c8bc324e196f1b"/>String <emphasis role="strong">toString</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_linked_queue_1ab3de9ef1fe3ce969db783d4704e7d1bd"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_linked_queue_1a0d7cbf4ca7ef19e8c826646a255f5b9f"/><section>
+    <title>LinkedQueue()</title>
+<indexterm><primary>LinkedQueue</primary><secondary>com.thealgorithms.datastructures.queues.LinkedQueue</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.queues.LinkedQueue</primary><secondary>LinkedQueue</secondary></indexterm>
+<para><computeroutput>com.thealgorithms.datastructures.queues.LinkedQueue.LinkedQueue ( )</computeroutput></para>
+<para>Init <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_linked_queue">LinkedQueue</link> </para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_linked_queue_1a9291af7a50b5033493617ce5b0b87e77"/><section>
+    <title>clear()</title>
+<indexterm><primary>clear</primary><secondary>com.thealgorithms.datastructures.queues.LinkedQueue</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.queues.LinkedQueue</primary><secondary>clear</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.queues.LinkedQueue.clear ( )</computeroutput></para>
+<para>Clear all nodes in queue </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_linked_queue_1a9b6c58e199ce42503d2d08e3abc080a8"/><section>
+    <title>dequeue()</title>
+<indexterm><primary>dequeue</primary><secondary>com.thealgorithms.datastructures.queues.LinkedQueue</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.queues.LinkedQueue</primary><secondary>dequeue</secondary></indexterm>
+<para><computeroutput>int com.thealgorithms.datastructures.queues.LinkedQueue.dequeue ( )</computeroutput></para>
+<para>Remove element at the front of queue</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>element at the front of queue </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_linked_queue_1af178f1d7aaee6aa39eb46a1387dd6dd0"/><section>
+    <title>enqueue()</title>
+<indexterm><primary>enqueue</primary><secondary>com.thealgorithms.datastructures.queues.LinkedQueue</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.queues.LinkedQueue</primary><secondary>enqueue</secondary></indexterm>
+<para><computeroutput>boolean com.thealgorithms.datastructures.queues.LinkedQueue.enqueue (int data)</computeroutput></para>
+<para>Add element to rear of queue</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>data</entry><entry>
+<para>insert value </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>true if add successfully </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_linked_queue_1a4e9b4ab3fd78e244d1032220ff4f2612"/><section>
+    <title>isEmpty()</title>
+<indexterm><primary>isEmpty</primary><secondary>com.thealgorithms.datastructures.queues.LinkedQueue</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.queues.LinkedQueue</primary><secondary>isEmpty</secondary></indexterm>
+<para><computeroutput>boolean com.thealgorithms.datastructures.queues.LinkedQueue.isEmpty ( )</computeroutput></para>
+<para>Check if queue is empty</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>true if queue is empty, otherwise false </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_linked_queue_1a1b38a608afeb89516556ef25ba1f1df3"/><section>
+    <title>peekFront()</title>
+<indexterm><primary>peekFront</primary><secondary>com.thealgorithms.datastructures.queues.LinkedQueue</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.queues.LinkedQueue</primary><secondary>peekFront</secondary></indexterm>
+<para><computeroutput>int com.thealgorithms.datastructures.queues.LinkedQueue.peekFront ( )</computeroutput></para>
+<para>Peek element at the front of queue without removing</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>element at the front </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_linked_queue_1a87914ad9a934b8e33d64f412d47afff7"/><section>
+    <title>peekRear()</title>
+<indexterm><primary>peekRear</primary><secondary>com.thealgorithms.datastructures.queues.LinkedQueue</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.queues.LinkedQueue</primary><secondary>peekRear</secondary></indexterm>
+<para><computeroutput>int com.thealgorithms.datastructures.queues.LinkedQueue.peekRear ( )</computeroutput></para>
+<para>Peek element at the rear of queue without removing</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>element at the front </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_linked_queue_1a03539887fb94ba7bad60e8c11ddbcb0d"/><section>
+    <title>size()</title>
+<indexterm><primary>size</primary><secondary>com.thealgorithms.datastructures.queues.LinkedQueue</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.queues.LinkedQueue</primary><secondary>size</secondary></indexterm>
+<para><computeroutput>int com.thealgorithms.datastructures.queues.LinkedQueue.size ( )</computeroutput></para>
+<para>Return size of queue</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>size of queue </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/queues/LinkedQueue.java</section>
+</section>

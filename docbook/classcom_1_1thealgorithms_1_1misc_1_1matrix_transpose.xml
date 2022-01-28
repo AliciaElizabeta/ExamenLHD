@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1misc_1_1matrix_transpose" xml:lang="en-US">
+<title>com.thealgorithms.misc.matrixTranspose Class Reference</title>
+<indexterm><primary>com.thealgorithms.misc.matrixTranspose</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1misc_1_1matrix_transpose_1a631e924c51346aabb5f3c6db94de256e"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><formalpara><title>Find the Transpose of Matrix!</title></formalpara>
+</para>
+
+<para>Simply take input from the user and print the matrix before the transpose and after the transpose.</para>
+
+<para><emphasis role="bold">Note:</emphasis> Giving proper comments in your program makes it more user friendly and it is assumed as a high quality code.</para>
+
+<para><formalpara><title>Author</title>
+
+<para>Rajat-Jain29 </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>11.0.9 </para>
+</formalpara>
+<formalpara><title>Since</title>
+
+<para>2014-03-31 </para>
+</formalpara>
+</para>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/misc/matrixTranspose.java</section>
+</section>

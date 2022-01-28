@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1searches_1_1_ternary_search" xml:lang="en-US">
+<title>com.thealgorithms.searches.TernarySearch Class Reference</title>
+<indexterm><primary>com.thealgorithms.searches.TernarySearch</primary></indexterm>
+<para>Inheritance diagram for com.thealgorithms.searches.TernarySearch:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcom_1_1thealgorithms_1_1searches_1_1_ternary_search.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1searches_1_1_ternary_search_1a75ecd32c0da8a25a276225a6bdcc3a44"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>A ternary search algorithm is a technique in computer science for finding the minimum or maximum of a unimodal function The algorithm determines either that the minimum or maximum cannot be in the first third of the domain or that it cannot be in the last third of the domain, then repeats on the remaining third.</para>
+
+<para>Worst-case performance Θ(log3(N)) Best-case performance O(1) Average performance Θ(log3(N)) Worst-case space complexity O(1)</para>
+
+<para><formalpara><title>Author</title>
+
+<para>Podshivalov Nikita (<link xlink:href="https://github.com/nikitap492">https://github.com/nikitap492</link>) </para>
+</formalpara>
+<formalpara><title>See also</title>
+
+<para>SearchAlgorithm </para>
+
+<para><link linkend="_classcom_1_1thealgorithms_1_1searches_1_1_iterative_binary_search">IterativeBinarySearch</link> </para>
+</formalpara>
+</para>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/searches/TernarySearch.java</section>
+</section>

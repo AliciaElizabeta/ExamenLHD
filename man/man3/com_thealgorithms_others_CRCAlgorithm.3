@@ -1,0 +1,121 @@
+.TH "com.thealgorithms.others.CRCAlgorithm" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.others.CRCAlgorithm
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBCRCAlgorithm\fP (String str, int size, double ber)"
+.br
+.ti -1c
+.RI "int \fBgetWrongMess\fP ()"
+.br
+.ti -1c
+.RI "int \fBgetWrongMessCaught\fP ()"
+.br
+.ti -1c
+.RI "int \fBgetWrongMessNotCaught\fP ()"
+.br
+.ti -1c
+.RI "int \fBgetCorrectMess\fP ()"
+.br
+.ti -1c
+.RI "void \fBrefactor\fP ()"
+.br
+.ti -1c
+.RI "void \fBgenerateRandomMess\fP ()"
+.br
+.ti -1c
+.RI "void \fBdivideMessageWithP\fP (boolean check)"
+.br
+.ti -1c
+.RI "void \fBchangeMess\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.PP
+\fBAuthor\fP
+.RS 4
+dimgrichr 
+.RE
+.PP
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "com\&.thealgorithms\&.others\&.CRCAlgorithm\&.CRCAlgorithm (String str, int size, double ber)"
+The algorithm's main constructor\&. The most significant variables, used in the algorithm, are set in their initial values\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIstr\fP The binary number P, in a string form, which is used by the CRC algorithm 
+.br
+\fIsize\fP The size of every transmitted message 
+.br
+\fIber\fP The Bit Error Rate 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "void com\&.thealgorithms\&.others\&.CRCAlgorithm\&.changeMess ()"
+Once the message is transmitted, some of it's elements, is possible to change from 1 to 0, or from 0 to 1, because of the Bit Error Rate (ber)\&. For every element of the message, a random double number is created\&. If that number is smaller than ber, then the spesific element changes\&. On the other hand, if it's bigger than ber, it does not\&. Based on these changes\&. the boolean variable messageChanged, gets the value: true, or false\&. 
+.SS "void com\&.thealgorithms\&.others\&.CRCAlgorithm\&.divideMessageWithP (boolean check)"
+The most significant part of the CRC algorithm\&. The message is divided by P, so the dividedMessage ArrayList<Integer> is created\&. If check == true, the dividedMessaage is examined, in order to see if it contains any 1's\&. If it does, the message is considered to be wrong by the receiver,so the variable wrongMessCaught changes\&. If it does not, it is accepted, so one of the variables correctMess, wrongMessNotCaught, changes\&. If check == false, the diviided Message is added at the end of the ArrayList<integer> message\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIcheck\fP the variable used to determine, if the message is going to be checked from the receiver if true, it is checked otherwise, it is not 
+.RE
+.PP
+
+.SS "void com\&.thealgorithms\&.others\&.CRCAlgorithm\&.generateRandomMess ()"
+Random messages, consisted of 0's and 1's, are generated, so that they can later be transmitted 
+.SS "int com\&.thealgorithms\&.others\&.CRCAlgorithm\&.getCorrectMess ()"
+Returns the counter correctMess
+.PP
+\fBReturns\fP
+.RS 4
+correctMess, the number of the Correct Messages 
+.RE
+.PP
+
+.SS "int com\&.thealgorithms\&.others\&.CRCAlgorithm\&.getWrongMess ()"
+Returns the counter wrongMess
+.PP
+\fBReturns\fP
+.RS 4
+wrongMess, the number of Wrong Messages 
+.RE
+.PP
+
+.SS "int com\&.thealgorithms\&.others\&.CRCAlgorithm\&.getWrongMessCaught ()"
+Returns the counter wrongMessCaught
+.PP
+\fBReturns\fP
+.RS 4
+wrongMessCaught, the number of wrong messages, which are caught by the CRC algoriithm 
+.RE
+.PP
+
+.SS "int com\&.thealgorithms\&.others\&.CRCAlgorithm\&.getWrongMessNotCaught ()"
+Returns the counter wrongMessNotCaught
+.PP
+\fBReturns\fP
+.RS 4
+wrongMessNotCaught, the number of wrong messages, which are not caught by the CRC algorithm 
+.RE
+.PP
+
+.SS "void com\&.thealgorithms\&.others\&.CRCAlgorithm\&.refactor ()"
+Resets some of the object's values, used on the main function, so that it can be re-used, in order not to waste too much memory and time, by creating new objects\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

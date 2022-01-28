@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_md_src_main_java_com_thealgorithms_datastructures_trees__r_e_a_d_m_e" xml:lang="en-US">
+<section xml:id="_md_src_main_java_com_thealgorithms_datastructures_trees__r_e_a_d_m_e_1autotoc_md29">
+<title>Description</title>
+
+<para>Tree is a data structure where the data is organized in a hierarchial structure. There should be one root node (which does not have any parent) and all subsequent nodes are represented as children of the root node and its children. If a node has at least one child, it is called <computeroutput>internal</computeroutput> node and nodes with no children are called <computeroutput>leaf</computeroutput> nodes.</para>
+</section>
+<section xml:id="_md_src_main_java_com_thealgorithms_datastructures_trees__r_e_a_d_m_e_1autotoc_md30">
+<title>Basic Structure</title>
+
+<para><literallayout><computeroutput>class&#32;Tree&lt;E&gt;{
+&#32;&#32;&#32;&#32;E&#32;value;
+&#32;&#32;&#32;&#32;Tree&#32;left;
+&#32;&#32;&#32;&#32;Tree&#32;right;
+}
+</computeroutput></literallayout></para>
+
+<para>This basic structure is for a binary tree where each internal tree has at least one and at most two children. <computeroutput>left</computeroutput> and <computeroutput>right</computeroutput> represent the two children and <computeroutput>value</computeroutput> is the placeholder for data.</para>
+</section>
+<section xml:id="_md_src_main_java_com_thealgorithms_datastructures_trees__r_e_a_d_m_e_1autotoc_md31">
+<title>Properties</title>
+
+<para><orderedlist>
+<listitem>
+<para>Tree data structure gives the facility to organize data in a hierarchial structure</para>
+</listitem><listitem>
+<para>Tree nodes can be inserted in a sorted order which can be used for searching and inserting data in O(logN) time where N is the number of nodes.</para>
+</listitem></orderedlist>
+</para>
+</section>
+<section xml:id="_md_src_main_java_com_thealgorithms_datastructures_trees__r_e_a_d_m_e_1autotoc_md32">
+<title>Types of Trees</title>
+
+<para><orderedlist>
+<listitem>
+<para><emphasis role="bold">Binary Search Tree:</emphasis> A binary tree where the elements are inserted in asorted order. Here the searching can be done in O(logN) time in (depending on the structure)</para>
+</listitem><listitem>
+<para><emphasis role="bold">AVL Tree and Red-Black Tree:</emphasis> Binary search trees where the height is balanced. Here, searching is guaranteed to be in O(logN) time.</para>
+</listitem><listitem>
+<para><emphasis role="bold">Traversal algorithms:</emphasis> 
+<literallayout>&#160;&#xa;</literallayout>
+ a. <emphasis role="bold">BFS:</emphasis> Breadth-first-search where all the children at each level are traversed at once. 
+<literallayout>&#160;&#xa;</literallayout>
+ b. <emphasis role="bold">DFS:</emphasis> Depth-first-search where the first discovered child is traversed first.</para>
+</listitem><listitem>
+<para><emphasis role="bold">MultiWay Search Tree:</emphasis> Tree in sorted order, but more than two children in each internal node.</para>
+</listitem><listitem>
+<para><emphasis role="bold">Trie:</emphasis> A character based multiway search tree where words can be retrieved based on their prefix. Useful for implementing prefix based search algorithm. </para>
+</listitem></orderedlist>
+</para>
+</section>
+</section>

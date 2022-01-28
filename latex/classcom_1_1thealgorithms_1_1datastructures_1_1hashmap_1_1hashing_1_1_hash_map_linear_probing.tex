@@ -1,0 +1,142 @@
+\hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing}{}\doxysection{com.\+thealgorithms.\+datastructures.\+hashmap.\+hashing.\+Hash\+Map\+Linear\+Probing Class Reference}
+\label{classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing}\index{com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing@{com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_acba23ac35bf651f15258dced29f6dff8}{Hash\+Map\+Linear\+Probing}} (int hsize)
+\item 
+int \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_acb5a9f2efc558ee746f4997cfe20ef21}{hashing}} (int key)
+\item 
+void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_a7fc0c60ec61031cb574ad7da32d383e2}{insert\+Hash}} (int key)
+\item 
+void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_aa2cf741f10aaaec21f69f71b0a936291}{delete\+Hash}} (int key)
+\item 
+void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_a52eb6f530b50993a7a68226e8b940be8}{display\+Hashtable}} ()
+\item 
+int \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_a969dffc5a57f5a91d044e4c9d4a1a19b}{find\+Hash}} (int key)
+\item 
+void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_a056d0184d265ac871b9044f07ebff949}{check\+Load\+Factor}} ()
+\item 
+boolean \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_ab482695eb990df445438387e2e2f3ee8}{is\+Full}} ()
+\item 
+boolean \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_aceeeb494a144d5bd2a0919c6d729c2b5}{is\+Empty}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class is an implementation of a hash table using linear probing It uses a dynamic array to lengthen the size of the hash table when load factor \texorpdfstring{$>$}{>} .7 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_acba23ac35bf651f15258dced29f6dff8}\label{classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_acba23ac35bf651f15258dced29f6dff8}} 
+\index{com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing@{com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing}!HashMapLinearProbing@{HashMapLinearProbing}}
+\index{HashMapLinearProbing@{HashMapLinearProbing}!com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing@{com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing}}
+\doxysubsubsection{\texorpdfstring{HashMapLinearProbing()}{HashMapLinearProbing()}}
+{\footnotesize\ttfamily com.\+thealgorithms.\+datastructures.\+hashmap.\+hashing.\+Hash\+Map\+Linear\+Probing.\+Hash\+Map\+Linear\+Probing (\begin{DoxyParamCaption}\item[{int}]{hsize }\end{DoxyParamCaption})}
+
+Constructor initializes buckets array, hsize, and creates dummy object for AVAILABLE
+
+
+\begin{DoxyParams}{Parameters}
+{\em hsize} & the desired size of the hash map \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_a056d0184d265ac871b9044f07ebff949}\label{classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_a056d0184d265ac871b9044f07ebff949}} 
+\index{com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing@{com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing}!checkLoadFactor@{checkLoadFactor}}
+\index{checkLoadFactor@{checkLoadFactor}!com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing@{com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing}}
+\doxysubsubsection{\texorpdfstring{checkLoadFactor()}{checkLoadFactor()}}
+{\footnotesize\ttfamily void com.\+thealgorithms.\+datastructures.\+hashmap.\+hashing.\+Hash\+Map\+Linear\+Probing.\+check\+Load\+Factor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Checks the load factor of the hash table if greater than .7, automatically lengthens table to prevent further collisions \mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_aa2cf741f10aaaec21f69f71b0a936291}\label{classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_aa2cf741f10aaaec21f69f71b0a936291}} 
+\index{com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing@{com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing}!deleteHash@{deleteHash}}
+\index{deleteHash@{deleteHash}!com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing@{com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing}}
+\doxysubsubsection{\texorpdfstring{deleteHash()}{deleteHash()}}
+{\footnotesize\ttfamily void com.\+thealgorithms.\+datastructures.\+hashmap.\+hashing.\+Hash\+Map\+Linear\+Probing.\+delete\+Hash (\begin{DoxyParamCaption}\item[{int}]{key }\end{DoxyParamCaption})}
+
+deletes a key from the hash map and adds an available placeholder
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & the desired key to be deleted \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_a52eb6f530b50993a7a68226e8b940be8}\label{classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_a52eb6f530b50993a7a68226e8b940be8}} 
+\index{com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing@{com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing}!displayHashtable@{displayHashtable}}
+\index{displayHashtable@{displayHashtable}!com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing@{com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing}}
+\doxysubsubsection{\texorpdfstring{displayHashtable()}{displayHashtable()}}
+{\footnotesize\ttfamily void com.\+thealgorithms.\+datastructures.\+hashmap.\+hashing.\+Hash\+Map\+Linear\+Probing.\+display\+Hashtable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Displays the hash table line by line \mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_a969dffc5a57f5a91d044e4c9d4a1a19b}\label{classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_a969dffc5a57f5a91d044e4c9d4a1a19b}} 
+\index{com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing@{com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing}!findHash@{findHash}}
+\index{findHash@{findHash}!com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing@{com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing}}
+\doxysubsubsection{\texorpdfstring{findHash()}{findHash()}}
+{\footnotesize\ttfamily int com.\+thealgorithms.\+datastructures.\+hashmap.\+hashing.\+Hash\+Map\+Linear\+Probing.\+find\+Hash (\begin{DoxyParamCaption}\item[{int}]{key }\end{DoxyParamCaption})}
+
+Finds the index of location based on an inputed key
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & the desired key to be found \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int the index where the key is located 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_acb5a9f2efc558ee746f4997cfe20ef21}\label{classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_acb5a9f2efc558ee746f4997cfe20ef21}} 
+\index{com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing@{com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing}!hashing@{hashing}}
+\index{hashing@{hashing}!com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing@{com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing}}
+\doxysubsubsection{\texorpdfstring{hashing()}{hashing()}}
+{\footnotesize\ttfamily int com.\+thealgorithms.\+datastructures.\+hashmap.\+hashing.\+Hash\+Map\+Linear\+Probing.\+hashing (\begin{DoxyParamCaption}\item[{int}]{key }\end{DoxyParamCaption})}
+
+The Hash Function takes a given key and finds an index based on its data
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & the desired key to be converted \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int an index corresponding to the key 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_a7fc0c60ec61031cb574ad7da32d383e2}\label{classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_a7fc0c60ec61031cb574ad7da32d383e2}} 
+\index{com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing@{com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing}!insertHash@{insertHash}}
+\index{insertHash@{insertHash}!com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing@{com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing}}
+\doxysubsubsection{\texorpdfstring{insertHash()}{insertHash()}}
+{\footnotesize\ttfamily void com.\+thealgorithms.\+datastructures.\+hashmap.\+hashing.\+Hash\+Map\+Linear\+Probing.\+insert\+Hash (\begin{DoxyParamCaption}\item[{int}]{key }\end{DoxyParamCaption})}
+
+inserts the key into the hash map by wrapping it as an Integer object
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & the desired key to be inserted in the hash map \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_aceeeb494a144d5bd2a0919c6d729c2b5}\label{classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_aceeeb494a144d5bd2a0919c6d729c2b5}} 
+\index{com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing@{com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing}!isEmpty@{isEmpty}}
+\index{isEmpty@{isEmpty}!com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing@{com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing}}
+\doxysubsubsection{\texorpdfstring{isEmpty()}{isEmpty()}}
+{\footnotesize\ttfamily boolean com.\+thealgorithms.\+datastructures.\+hashmap.\+hashing.\+Hash\+Map\+Linear\+Probing.\+is\+Empty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+is\+Empty returns true if the hash map is empty and false if not empty
+
+\begin{DoxyReturn}{Returns}
+boolean is Empty 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_ab482695eb990df445438387e2e2f3ee8}\label{classcom_1_1thealgorithms_1_1datastructures_1_1hashmap_1_1hashing_1_1_hash_map_linear_probing_ab482695eb990df445438387e2e2f3ee8}} 
+\index{com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing@{com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing}!isFull@{isFull}}
+\index{isFull@{isFull}!com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing@{com.thealgorithms.datastructures.hashmap.hashing.HashMapLinearProbing}}
+\doxysubsubsection{\texorpdfstring{isFull()}{isFull()}}
+{\footnotesize\ttfamily boolean com.\+thealgorithms.\+datastructures.\+hashmap.\+hashing.\+Hash\+Map\+Linear\+Probing.\+is\+Full (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+is\+Full returns true if the hash map is full and false if not full
+
+\begin{DoxyReturn}{Returns}
+boolean is Empty 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/thealgorithms/datastructures/hashmap/hashing/Hash\+Map\+Linear\+Probing.\+java\end{DoxyCompactItemize}

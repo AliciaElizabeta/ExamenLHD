@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_boundary_fill" xml:lang="en-US">
+<title>com.thealgorithms.dynamicprogramming.BoundaryFill Class Reference</title>
+<indexterm><primary>com.thealgorithms.dynamicprogramming.BoundaryFill</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static int <link linkend="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_boundary_fill_1aa84ebdd68ded96f071ec8ec7a171e8b9">getPixel</link> (int[][] image, int x_co_ordinate, int y_co_ordinate)</para>
+</listitem>
+            <listitem><para>static void <link linkend="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_boundary_fill_1a94f278661f75bf8a716155355c1e5b0c">putPixel</link> (int[][] image, int x_co_ordinate, int y_co_ordinate, int new_color)</para>
+</listitem>
+            <listitem><para>static void <link linkend="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_boundary_fill_1a47d1a6b1868892d8c685f00655062f70">boundaryFill</link> (int[][] image, int x_co_ordinate, int y_co_ordinate, int new_color, int boundary_color)</para>
+</listitem>
+            <listitem><para>static void <link linkend="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_boundary_fill_1a44a18f7d7fa1644f3fcacd54a66aeb28">printImageArray</link> (int[][] image)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_boundary_fill_1a503ce4b7d8137ca92a176a53f1f00fda"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Java program for Boundary fill algorithm. <formalpara><title>Author</title>
+
+<para>Akshay Dubey (<link xlink:href="https://github.com/itsAkshayDubey">https://github.com/itsAkshayDubey</link>) </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_boundary_fill_1a47d1a6b1868892d8c685f00655062f70"/><section>
+    <title>boundaryFill()</title>
+<indexterm><primary>boundaryFill</primary><secondary>com.thealgorithms.dynamicprogramming.BoundaryFill</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.dynamicprogramming.BoundaryFill</primary><secondary>boundaryFill</secondary></indexterm>
+<para><computeroutput>static void com.thealgorithms.dynamicprogramming.BoundaryFill.boundaryFill (int image[][], int x_co_ordinate, int y_co_ordinate, int new_color, int boundary_color)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Fill the 2D image with new color</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>image</entry><entry>
+<para>The image to be filed </para>
+</entry>
+                            </row>
+                            <row>
+<entry>x_co_ordinate</entry><entry>
+<para>The x co-ordinate at which color is to be filled </para>
+</entry>
+                            </row>
+                            <row>
+<entry>y_co_ordinate</entry><entry>
+<para>The y co-ordinate at which color is to be filled </para>
+</entry>
+                            </row>
+                            <row>
+<entry>new_color</entry><entry>
+<para>The new color which to be filled in the image </para>
+</entry>
+                            </row>
+                            <row>
+<entry>boundary_color</entry><entry>
+<para>The old color which is to be replaced in the image </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_boundary_fill_1aa84ebdd68ded96f071ec8ec7a171e8b9"/><section>
+    <title>getPixel()</title>
+<indexterm><primary>getPixel</primary><secondary>com.thealgorithms.dynamicprogramming.BoundaryFill</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.dynamicprogramming.BoundaryFill</primary><secondary>getPixel</secondary></indexterm>
+<para><computeroutput>static int com.thealgorithms.dynamicprogramming.BoundaryFill.getPixel (int image[][], int x_co_ordinate, int y_co_ordinate)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Get the color at the given co-odrinates of a 2D image</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>image</entry><entry>
+<para>The image to be filled </para>
+</entry>
+                            </row>
+                            <row>
+<entry>x_co_ordinate</entry><entry>
+<para>The x co-ordinate of which color is to be obtained </para>
+</entry>
+                            </row>
+                            <row>
+<entry>y_co_ordinate</entry><entry>
+<para>The y co-ordinate of which color is to be obtained </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_boundary_fill_1a44a18f7d7fa1644f3fcacd54a66aeb28"/><section>
+    <title>printImageArray()</title>
+<indexterm><primary>printImageArray</primary><secondary>com.thealgorithms.dynamicprogramming.BoundaryFill</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.dynamicprogramming.BoundaryFill</primary><secondary>printImageArray</secondary></indexterm>
+<para><computeroutput>static void com.thealgorithms.dynamicprogramming.BoundaryFill.printImageArray (int image[][])<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>This method will print the 2D image matrix</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>image</entry><entry>
+<para>The image to be printed on the console </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_boundary_fill_1a94f278661f75bf8a716155355c1e5b0c"/><section>
+    <title>putPixel()</title>
+<indexterm><primary>putPixel</primary><secondary>com.thealgorithms.dynamicprogramming.BoundaryFill</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.dynamicprogramming.BoundaryFill</primary><secondary>putPixel</secondary></indexterm>
+<para><computeroutput>static void com.thealgorithms.dynamicprogramming.BoundaryFill.putPixel (int image[][], int x_co_ordinate, int y_co_ordinate, int new_color)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Put the color at the given co-odrinates of a 2D image</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>image</entry><entry>
+<para>The image to be filed </para>
+</entry>
+                            </row>
+                            <row>
+<entry>x_co_ordinate</entry><entry>
+<para>The x co-ordinate at which color is to be filled </para>
+</entry>
+                            </row>
+                            <row>
+<entry>y_co_ordinate</entry><entry>
+<para>The y co-ordinate at which color is to be filled </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/dynamicprogramming/BoundaryFill.java</section>
+</section>

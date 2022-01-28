@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_next_grater_element" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.stacks.NextGraterElement Class Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.stacks.NextGraterElement</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_next_grater_element_1a30604ba66118ec9c5f7f72aa5c4b9eeb"/>static int[] <emphasis role="strong">findNextGreaterElements</emphasis> (int[] array)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_next_grater_element_1a3ed8bc2a22629e5c5f85775fa2062085"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/stacks/NextGraterElement.java</section>

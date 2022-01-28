@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1others_1_1_mini_max_algorithm" xml:lang="en-US">
+<title>com.thealgorithms.others.MiniMaxAlgorithm Class Reference</title>
+<indexterm><primary>com.thealgorithms.others.MiniMaxAlgorithm</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1others_1_1_mini_max_algorithm_1afe422e4cb38bfdc9e1278032e11f7db6">MiniMaxAlgorithm</link> ()</para>
+</listitem>
+            <listitem><para>int <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_mini_max_algorithm_1a276aaf17eca719d98a2547db79b6f347">miniMax</link> (int depth, boolean isMaximizer, int index, boolean verbose)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_mini_max_algorithm_1a979db9b10255f97d70387bdba6081370"/>void <emphasis role="strong">setScores</emphasis> (int[] scores)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_mini_max_algorithm_1af9677aeb4c5f0bdd1404bab637f96ec9"/>int[] <emphasis role="strong">getScores</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_mini_max_algorithm_1a1b8ae5f972d545b271b555c97884c728"/>int <emphasis role="strong">getHeight</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_mini_max_algorithm_1a35c7a4512cd86d5818c4c3123cfaab30"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+            <listitem><para>static int[] <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_mini_max_algorithm_1aef4636d8828b6df30fad1047e48e6777">getRandomScores</link> (int size, int maxScore)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>MiniMax is an algorithm used int artificial intelligence and game theory for minimizing the possible loss for the worst case scenario.</para>
+
+<para>See more (<link xlink:href="https://en.wikipedia.org/wiki/Minimax">https://en.wikipedia.org/wiki/Minimax</link>, <link xlink:href="https://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-1-introduction/">https://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-1-introduction/</link>).</para>
+
+<para><formalpara><title>Author</title>
+
+<para>aitofi (<link xlink:href="https://github.com/aitorfi">https://github.com/aitorfi</link>) </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_mini_max_algorithm_1afe422e4cb38bfdc9e1278032e11f7db6"/><section>
+    <title>MiniMaxAlgorithm()</title>
+<indexterm><primary>MiniMaxAlgorithm</primary><secondary>com.thealgorithms.others.MiniMaxAlgorithm</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.others.MiniMaxAlgorithm</primary><secondary>MiniMaxAlgorithm</secondary></indexterm>
+<para><computeroutput>com.thealgorithms.others.MiniMaxAlgorithm.MiniMaxAlgorithm ( )</computeroutput></para>
+<para>Initializes the scores with 8 random leaf nodes </para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_mini_max_algorithm_1aef4636d8828b6df30fad1047e48e6777"/><section>
+    <title>getRandomScores()</title>
+<indexterm><primary>getRandomScores</primary><secondary>com.thealgorithms.others.MiniMaxAlgorithm</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.others.MiniMaxAlgorithm</primary><secondary>getRandomScores</secondary></indexterm>
+<para><computeroutput>static int[] com.thealgorithms.others.MiniMaxAlgorithm.getRandomScores (int size, int maxScore)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Returns an array of random numbers which lenght is a power of 2.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>size</entry><entry>
+<para>The power of 2 that will determine the lenght of the array. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>maxScore</entry><entry>
+<para>The maximum possible score. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>An array of random numbers. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_mini_max_algorithm_1a276aaf17eca719d98a2547db79b6f347"/><section>
+    <title>miniMax()</title>
+<indexterm><primary>miniMax</primary><secondary>com.thealgorithms.others.MiniMaxAlgorithm</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.others.MiniMaxAlgorithm</primary><secondary>miniMax</secondary></indexterm>
+<para><computeroutput>int com.thealgorithms.others.MiniMaxAlgorithm.miniMax (int depth, boolean isMaximizer, int index, boolean verbose)</computeroutput></para>
+<para>Returns the optimal score assuming that both players play their best.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>depth</entry><entry>
+<para>Indicates how deep we are into the game tree. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>isMaximizer</entry><entry>
+<para>True if it is maximizers turn; otherwise false. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>index</entry><entry>
+<para>Index of the leaf node that is being evaluated. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>verbose</entry><entry>
+<para>True to show each players choices. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>The optimal score for the player that made the first move. </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/others/MiniMaxAlgorithm.java</section>
+</section>

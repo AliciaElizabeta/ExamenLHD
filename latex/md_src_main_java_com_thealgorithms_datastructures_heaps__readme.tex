@@ -1,0 +1,115 @@
+{\bfseries{\doxysection*{HEAP DATA STRUCTURE}}}
+
+{\bfseries{}} 
+
+A Heap is a special Tree-\/based data structure in which the tree is a complete binary tree.\hypertarget{md_src_main_java_com_thealgorithms_datastructures_heaps__readme_autotoc_md9}{}\doxysubsection{$<$h2$>$\+Complete Binary Tree$<$/h2$>$}\label{md_src_main_java_com_thealgorithms_datastructures_heaps__readme_autotoc_md9}
+A complete binary tree is a binary tree in which all the levels except the last level, i.\+e., leaf node should be completely filled, and all the nodes should be left-\/justified.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{        10}
+\DoxyCodeLine{      /    \(\backslash\)}
+\DoxyCodeLine{    20      30}
+\DoxyCodeLine{   /  \(\backslash\)    }
+\DoxyCodeLine{  40   50}
+\DoxyCodeLine{  }
+\DoxyCodeLine{COMPLETE BINARY TREE}
+
+\end{DoxyCode}
+\hypertarget{md_src_main_java_com_thealgorithms_datastructures_heaps__readme_autotoc_md10}{}\doxysubsection{$<$h2$>$\+Types of Heap$<$/h2$>$}\label{md_src_main_java_com_thealgorithms_datastructures_heaps__readme_autotoc_md10}
+Generally, Heaps can be of two types\+: ~\newline
+ {\bfseries{Max-\/\+Heap\+:}} In a Max-\/\+Heap the key present at the root node must be greatest among the keys present at all of it’s children. The same property must be recursively true for all sub-\/trees in that Binary Tree. ~\newline
+ {\bfseries{Min-\/\+Heap\+:}} In a Min-\/\+Heap the key present at the root node must be minimum among the keys present at all of it’s children. The same property must be recursively true for all sub-\/trees in that Binary Tree. 
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{      10}
+\DoxyCodeLine{    /    \(\backslash\)}
+\DoxyCodeLine{  20      30}
+\DoxyCodeLine{ /  \(\backslash\)    /  \(\backslash\)}
+\DoxyCodeLine{40  50  60  70}
+\DoxyCodeLine{}
+\DoxyCodeLine{    MIN HEAP}
+
+\end{DoxyCode}
+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{      70}
+\DoxyCodeLine{    /    \(\backslash\)}
+\DoxyCodeLine{  50      60}
+\DoxyCodeLine{ /  \(\backslash\)    /  \(\backslash\)}
+\DoxyCodeLine{40  30  10   20}
+\DoxyCodeLine{}
+\DoxyCodeLine{    MAX HEAP}
+
+\end{DoxyCode}
+\hypertarget{md_src_main_java_com_thealgorithms_datastructures_heaps__readme_autotoc_md11}{}\doxysubsection{$<$h2$>$\+Min Heap Construction Algorithm$<$/h2$>$}\label{md_src_main_java_com_thealgorithms_datastructures_heaps__readme_autotoc_md11}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{Step 1 − Create a new node at the end of heap.}
+\DoxyCodeLine{Step 2 − Assign new value to the node.}
+\DoxyCodeLine{Step 3 − Compare the value of this child node with its parent.}
+\DoxyCodeLine{Step 4 − If value of parent is more than child, then swap them.}
+\DoxyCodeLine{Step 5 − Repeat step 3 \& 4 until Heap property holds.}
+
+\end{DoxyCode}
+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{Add 15}
+\DoxyCodeLine{}
+\DoxyCodeLine{                            10                         10                     10}
+\DoxyCodeLine{                          /    \(\backslash\)                     /   \(\backslash\)                  /    \(\backslash\)}
+\DoxyCodeLine{                        20      30    -\/-\/-\/-\/-\/-\/>      20     30   -\/-\/-\/-\/-\/-\/>     20     15}
+\DoxyCodeLine{                       /  \(\backslash\)                       /  \(\backslash\)   /                /  \(\backslash\)    /  }
+\DoxyCodeLine{                      40  50                    40   50  15              40  50  30}
+
+\end{DoxyCode}
+\hypertarget{md_src_main_java_com_thealgorithms_datastructures_heaps__readme_autotoc_md12}{}\doxysubsection{$<$h2$>$\+Min Heap Deletion Algorithm$<$/h2$>$}\label{md_src_main_java_com_thealgorithms_datastructures_heaps__readme_autotoc_md12}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{Step 1 − Remove root node.}
+\DoxyCodeLine{Step 2 − Move the last element of last level to root.}
+\DoxyCodeLine{Step 3 − Compare the value of this child node with its parent.}
+\DoxyCodeLine{Step 4 − If value of parent is more than child, then swap them.}
+\DoxyCodeLine{Step 5 − Repeat step 3 \& 4 until Heap property holds.}
+
+\end{DoxyCode}
+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{Delete 10}
+\DoxyCodeLine{}
+\DoxyCodeLine{                            10                        50                     20                   20}
+\DoxyCodeLine{                          /    \(\backslash\)                     /   \(\backslash\)                  /   \(\backslash\)                /  \(\backslash\)}
+\DoxyCodeLine{                        20      30    -\/-\/-\/-\/-\/-\/>      20     30   -\/-\/-\/-\/-\/-\/>     50    30   -\/-\/-\/-\/-\/-\/>   40   30}
+\DoxyCodeLine{                       /  \(\backslash\)                       /                       /                    /}
+\DoxyCodeLine{                      40  50                    40                       40                   50}
+
+\end{DoxyCode}
+\hypertarget{md_src_main_java_com_thealgorithms_datastructures_heaps__readme_autotoc_md13}{}\doxysubsection{$<$h2$>$\+Time Complexity (\+Min Heap)$<$/h2$>$}\label{md_src_main_java_com_thealgorithms_datastructures_heaps__readme_autotoc_md13}
+\tabulinesep=1mm
+\begin{longtabu}spread 0pt [c]{*{4}{|X[-1]}|}
+\hline
+\cellcolor{\tableheadbgcolor}\textbf{ Operations }&\cellcolor{\tableheadbgcolor}\textbf{ Sorted Array }&\cellcolor{\tableheadbgcolor}\textbf{ Un\+Sorted Array }&\cellcolor{\tableheadbgcolor}\textbf{ Heap  }\\\cline{1-4}
+\endfirsthead
+\hline
+\endfoot
+\hline
+\cellcolor{\tableheadbgcolor}\textbf{ Operations }&\cellcolor{\tableheadbgcolor}\textbf{ Sorted Array }&\cellcolor{\tableheadbgcolor}\textbf{ Un\+Sorted Array }&\cellcolor{\tableheadbgcolor}\textbf{ Heap  }\\\cline{1-4}
+\endhead
+Add &O(\+N) &O(1) &O(log\+N)  ~\newline
+ \\\cline{1-4}
+Delete Minimum &O(\+N) &O(\+N) &O(log\+N)  \\\cline{1-4}
+Get Minimum &O(1) &O(\+N) &O(1)  \\\cline{1-4}
+\end{longtabu}
+\hypertarget{md_src_main_java_com_thealgorithms_datastructures_heaps__readme_autotoc_md14}{}\doxysubsection{$<$h2$>$\+Applications of Heap Data Structure$<$/h2$>$}\label{md_src_main_java_com_thealgorithms_datastructures_heaps__readme_autotoc_md14}
+{\bfseries{Heapsort\+:}} Heapsort algorithm has limited uses because Quicksort is better in practice. Nevertheless, the Heap data structure itself is enormously used.
+
+{\bfseries{Priority Queues\+:}} Priority queues can be efficiently implemented using Binary Heap because it supports insert(), delete() and extractmax(), decrease\+Key() operations in O(logn) time. Binomoial Heap and Fibonacci Heap are variations of Binary Heap. These variations perform union also in O(logn) time which is a O(n) operation in Binary Heap. Heap Implemented priority queues are used in Graph algorithms like Prim’s Algorithm and Dijkstra’s algorithm.
+
+{\bfseries{Order statistics\+:}} The Heap data structure can be used to efficiently find the kth smallest (or largest) element in an array. 

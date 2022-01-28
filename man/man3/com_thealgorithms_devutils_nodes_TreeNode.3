@@ -1,0 +1,112 @@
+.TH "com.thealgorithms.devutils.nodes.TreeNode< E >" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.devutils.nodes.TreeNode< E >
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBcom\&.thealgorithms\&.devutils\&.nodes\&.Node< E >\fP\&.
+.PP
+Inherited by \fBcom\&.thealgorithms\&.devutils\&.nodes\&.LargeTreeNode< E >\fP, and \fBcom\&.thealgorithms\&.devutils\&.nodes\&.SimpleTreeNode< E >\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBTreeNode\fP ()"
+.br
+.ti -1c
+.RI "\fBTreeNode\fP (E data)"
+.br
+.ti -1c
+.RI "\fBTreeNode\fP (E data, \fBTreeNode\fP< E > parentNode)"
+.br
+.ti -1c
+.RI "abstract boolean \fBisLeafNode\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBisRootNode\fP ()"
+.br
+.ti -1c
+.RI "\fBTreeNode\fP< E > \fBgetParent\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetParent\fP (\fBTreeNode\fP< E > parentNode)"
+.br
+.ti -1c
+.RI "int \fBgetDepth\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Base class for any tree node which holds a reference to the parent node\&.
+.PP
+All known subclasses: \fBSimpleTreeNode\fP, \fBLargeTreeNode\fP\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fI<E>\fP The type of the data held in the \fBNode\fP\&.
+.RE
+.PP
+\fBAuthor\fP
+.RS 4
+\fCaitorfi\fP 
+.RE
+.PP
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "\fBcom\&.thealgorithms\&.devutils\&.nodes\&.TreeNode\fP< E >\&.\fBTreeNode\fP ()"
+Empty contructor\&. 
+.SS "\fBcom\&.thealgorithms\&.devutils\&.nodes\&.TreeNode\fP< E >\&.\fBTreeNode\fP (E data)"
+Initializes the Nodes' data\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIdata\fP Value to which data will be initialized\&. 
+.RE
+.PP
+\fBSee also\fP
+.RS 4
+Node::Node(Object) 
+.RE
+.PP
+
+.SS "\fBcom\&.thealgorithms\&.devutils\&.nodes\&.TreeNode\fP< E >\&.\fBTreeNode\fP (E data, \fBTreeNode\fP< E > parentNode)"
+Initializes the Nodes' data and parent node reference\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIdata\fP Value to which data will be initialized\&. 
+.br
+\fIparentNode\fP Value to which the nodes' parent reference will be set\&. 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "abstract boolean \fBcom\&.thealgorithms\&.devutils\&.nodes\&.TreeNode\fP< E >\&.isLeafNode ()\fC [abstract]\fP"
+
+.PP
+\fBReturns\fP
+.RS 4
+True if the node is a leaf node, otherwise false\&. 
+.RE
+.PP
+
+.PP
+Reimplemented in \fBcom\&.thealgorithms\&.devutils\&.nodes\&.LargeTreeNode< E >\fP, and \fBcom\&.thealgorithms\&.devutils\&.nodes\&.SimpleTreeNode< E >\fP\&.
+.SS "boolean \fBcom\&.thealgorithms\&.devutils\&.nodes\&.TreeNode\fP< E >\&.isRootNode ()"
+
+.PP
+\fBReturns\fP
+.RS 4
+True if the node is the root node, otherwise false\&. 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

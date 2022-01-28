@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_circular_queue" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.queues.CircularQueue Class Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.queues.CircularQueue</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_circular_queue_1a61ae8f49c783a722953bec40e5454031"/><emphasis role="strong">CircularQueue</emphasis> (int size)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_circular_queue_1a3d6a8d29cef378daddfdd17dc433300a"/>boolean <emphasis role="strong">isEmpty</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_circular_queue_1a9581eb9192ab068589e1e0f39758b118"/>boolean <emphasis role="strong">isFull</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_circular_queue_1a67c59ae7d629d2e4298d1873e2b70b39"/>void <emphasis role="strong">enQueue</emphasis> (int value)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_circular_queue_1ab2a8ab381fedde5ed8e1d49d03f79fc7"/>int <emphasis role="strong">deQueue</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_circular_queue_1a0966095e6a6570cfca586cdffe89e8b9"/>int <emphasis role="strong">peek</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_circular_queue_1aaf52d9b3dd0cafa1b6ac3c6fbc16a3af"/>void <emphasis role="strong">deleteQueue</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_circular_queue_1a9a9b0e8f43a58e752f9a5d91931e13b7"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/queues/CircularQueue.java</section>

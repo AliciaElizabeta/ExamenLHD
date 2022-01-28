@@ -1,0 +1,18 @@
+\hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_create_binary_tree_from_inorder_preorder}{}\doxysection{com.\+thealgorithms.\+datastructures.\+trees.\+Create\+Binary\+Tree\+From\+Inorder\+Preorder Class Reference}
+\label{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_create_binary_tree_from_inorder_preorder}\index{com.thealgorithms.datastructures.trees.CreateBinaryTreeFromInorderPreorder@{com.thealgorithms.datastructures.trees.CreateBinaryTreeFromInorderPreorder}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_create_binary_tree_from_inorder_preorder_a68aadbe2b6fb1b8a0cd171760aae566e}\label{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_create_binary_tree_from_inorder_preorder_a68aadbe2b6fb1b8a0cd171760aae566e}} 
+static void {\bfseries main} (String\mbox{[}$\,$\mbox{]} args)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Approach\+: Naive Solution\+: Create root node from first value present in preorder traversal. Look for the index of root node\textquotesingle{}s value in inorder traversal. That will tell total nodes present in left subtree and right subtree. Based on that index create left and right subtree. Complexity\+: Time\+: O(n$^\wedge$2) for each node there is iteration to find index in inorder array Space\+: Stack size = O(height) = O(lg(n))
+
+Optimized Solution\+: Instead of iterating over inorder array to find index of root value, create a hashmap and find out the index of root value. Complexity\+: Time\+: O(n) hashmap reduced iteration to find index in inorder array Space\+: O(n) space taken by hashmap 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/thealgorithms/datastructures/trees/Create\+Binary\+Tree\+From\+Inorder\+Preorder.\+java\end{DoxyCompactItemize}

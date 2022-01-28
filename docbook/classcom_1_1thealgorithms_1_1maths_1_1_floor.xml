@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_floor" xml:lang="en-US">
+<title>com.thealgorithms.maths.Floor Class Reference</title>
+<indexterm><primary>com.thealgorithms.maths.Floor</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_floor_1a566377fa3e064017f809dffc2130c497"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+            <listitem><para>static double <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_floor_1a42223dd2999bef9eca2ee9c4e0d21303">floor</link> (double number)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_floor_1a42223dd2999bef9eca2ee9c4e0d21303"/><section>
+    <title>floor()</title>
+<indexterm><primary>floor</primary><secondary>com.thealgorithms.maths.Floor</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.Floor</primary><secondary>floor</secondary></indexterm>
+<para><computeroutput>static double com.thealgorithms.maths.Floor.floor (double number)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Returns the largest (closest to positive infinity)</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>number</entry><entry>
+<para>the number </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>the largest (closest to positive infinity) of given <literallayout><computeroutput>number&#32;
+</computeroutput></literallayout> </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/maths/Floor.java</section>
+</section>

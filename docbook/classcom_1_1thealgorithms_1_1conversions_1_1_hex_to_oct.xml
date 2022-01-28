@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1conversions_1_1_hex_to_oct" xml:lang="en-US">
+<title>com.thealgorithms.conversions.HexToOct Class Reference</title>
+<indexterm><primary>com.thealgorithms.conversions.HexToOct</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static int <link linkend="_classcom_1_1thealgorithms_1_1conversions_1_1_hex_to_oct_1a78cbe9a43a90a40442c469314d0f395e">hex2decimal</link> (String s)</para>
+</listitem>
+            <listitem><para>static int <link linkend="_classcom_1_1thealgorithms_1_1conversions_1_1_hex_to_oct_1a7cc390fb2ed221c9496209a16a10e4f6">decimal2octal</link> (int q)</para>
+</listitem>
+            <listitem><para>static void <link linkend="_classcom_1_1thealgorithms_1_1conversions_1_1_hex_to_oct_1a844d5baf5930a7bb1c2a93e81875ec99">main</link> (String args[])</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Converts any Hexadecimal Number to Octal</para>
+
+<para><formalpara><title>Author</title>
+
+<para>Tanmay Joshi </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1conversions_1_1_hex_to_oct_1a7cc390fb2ed221c9496209a16a10e4f6"/><section>
+    <title>decimal2octal()</title>
+<indexterm><primary>decimal2octal</primary><secondary>com.thealgorithms.conversions.HexToOct</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.conversions.HexToOct</primary><secondary>decimal2octal</secondary></indexterm>
+<para><computeroutput>static int com.thealgorithms.conversions.HexToOct.decimal2octal (int q)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>This method converts a Decimal number to a octal number</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>q</entry><entry>
+<para>The Decimal Number </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>The Octal number </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1conversions_1_1_hex_to_oct_1a78cbe9a43a90a40442c469314d0f395e"/><section>
+    <title>hex2decimal()</title>
+<indexterm><primary>hex2decimal</primary><secondary>com.thealgorithms.conversions.HexToOct</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.conversions.HexToOct</primary><secondary>hex2decimal</secondary></indexterm>
+<para><computeroutput>static int com.thealgorithms.conversions.HexToOct.hex2decimal (String s)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>This method converts a Hexadecimal number to a decimal number</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>s</entry><entry>
+<para>The Hexadecimal Number </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>The Decimal number </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1conversions_1_1_hex_to_oct_1a844d5baf5930a7bb1c2a93e81875ec99"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>com.thealgorithms.conversions.HexToOct</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.conversions.HexToOct</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void com.thealgorithms.conversions.HexToOct.main (String args[])<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Main method that gets the hex input from user and converts it into octal.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>args</entry><entry>
+<para>arguments </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/conversions/HexToOct.java</section>
+</section>

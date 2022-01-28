@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_convolution_f_f_t" xml:lang="en-US">
+<title>com.thealgorithms.maths.ConvolutionFFT Class Reference</title>
+<indexterm><primary>com.thealgorithms.maths.ConvolutionFFT</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static ArrayList&lt; FFT.Complex &gt; <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_convolution_f_f_t_1a35f2435be411c13170e58f86ee9c0af5">convolutionFFT</link> (ArrayList&lt; FFT.Complex &gt; a, ArrayList&lt; FFT.Complex &gt; b)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Class for linear convolution of two discrete signals using the convolution theorem.</para>
+
+<para><formalpara><title>Author</title>
+
+<para>Ioannis Karavitsis </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_convolution_f_f_t_1a35f2435be411c13170e58f86ee9c0af5"/><section>
+    <title>convolutionFFT()</title>
+<indexterm><primary>convolutionFFT</primary><secondary>com.thealgorithms.maths.ConvolutionFFT</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.ConvolutionFFT</primary><secondary>convolutionFFT</secondary></indexterm>
+<para><computeroutput>static ArrayList&lt; FFT.Complex &gt; com.thealgorithms.maths.ConvolutionFFT.convolutionFFT (ArrayList&lt; FFT.Complex &gt; a, ArrayList&lt; FFT.Complex &gt; b)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Discrete linear convolution function. It uses the convolution theorem for discrete signals convolved: = IDFT(DFT(a)*DFT(b)). This is true for circular convolution. In order to get the linear convolution of the two signals we first pad the two signals to have the same size equal to the convolved signal (a.size() + b.size() - 1). Then we use the <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_f_f_t">FFT</link> algorithm for faster calculations of the two DFTs and the final IDFT.</para>
+
+<para>More info: <link xlink:href="https://en.wikipedia.org/wiki/Convolution_theorem">https://en.wikipedia.org/wiki/Convolution_theorem</link> <link xlink:href="https://ccrma.stanford.edu/~jos/ReviewFourier/FFT_Convolution.html">https://ccrma.stanford.edu/~jos/ReviewFourier/FFT_Convolution.html</link></para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>a</entry><entry>
+<para>The first signal. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>b</entry><entry>
+<para>The other signal. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>The convolved signal. </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/maths/ConvolutionFFT.java</section>
+</section>

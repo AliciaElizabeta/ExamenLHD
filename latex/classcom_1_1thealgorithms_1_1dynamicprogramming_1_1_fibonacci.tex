@@ -1,0 +1,72 @@
+\hypertarget{classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_fibonacci}{}\doxysection{com.\+thealgorithms.\+dynamicprogramming.\+Fibonacci Class Reference}
+\label{classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_fibonacci}\index{com.thealgorithms.dynamicprogramming.Fibonacci@{com.thealgorithms.dynamicprogramming.Fibonacci}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_fibonacci_a9f2eed28605e5d93be1567f67c41c312}\label{classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_fibonacci_a9f2eed28605e5d93be1567f67c41c312}} 
+static void {\bfseries main} (String\mbox{[}$\,$\mbox{]} args)
+\item 
+static int \mbox{\hyperlink{classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_fibonacci_a45f208149b9bf51e1754580b5155071d}{fib\+Memo}} (int n)
+\item 
+static int \mbox{\hyperlink{classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_fibonacci_ae424a1e9468b90870acdc006d61ffb65}{fib\+Bot\+Up}} (int n)
+\item 
+static int \mbox{\hyperlink{classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_fibonacci_a9211b4c38f0cf32917bfac658c420d87}{fib\+Optimized}} (int n)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Varun Upadhyay (\href{https://github.com/varunu28}{\texttt{ https\+://github.\+com/varunu28}}) 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_fibonacci_ae424a1e9468b90870acdc006d61ffb65}\label{classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_fibonacci_ae424a1e9468b90870acdc006d61ffb65}} 
+\index{com.thealgorithms.dynamicprogramming.Fibonacci@{com.thealgorithms.dynamicprogramming.Fibonacci}!fibBotUp@{fibBotUp}}
+\index{fibBotUp@{fibBotUp}!com.thealgorithms.dynamicprogramming.Fibonacci@{com.thealgorithms.dynamicprogramming.Fibonacci}}
+\doxysubsubsection{\texorpdfstring{fibBotUp()}{fibBotUp()}}
+{\footnotesize\ttfamily static int com.\+thealgorithms.\+dynamicprogramming.\+Fibonacci.\+fib\+Bot\+Up (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+This method finds the nth fibonacci number using bottom up
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & The input n for which we have to determine the fibonacci number Outputs the nth fibonacci number \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_fibonacci_a45f208149b9bf51e1754580b5155071d}\label{classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_fibonacci_a45f208149b9bf51e1754580b5155071d}} 
+\index{com.thealgorithms.dynamicprogramming.Fibonacci@{com.thealgorithms.dynamicprogramming.Fibonacci}!fibMemo@{fibMemo}}
+\index{fibMemo@{fibMemo}!com.thealgorithms.dynamicprogramming.Fibonacci@{com.thealgorithms.dynamicprogramming.Fibonacci}}
+\doxysubsubsection{\texorpdfstring{fibMemo()}{fibMemo()}}
+{\footnotesize\ttfamily static int com.\+thealgorithms.\+dynamicprogramming.\+Fibonacci.\+fib\+Memo (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+This method finds the nth fibonacci number using memoization technique
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & The input n for which we have to determine the fibonacci number Outputs the nth fibonacci number \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_fibonacci_a9211b4c38f0cf32917bfac658c420d87}\label{classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_fibonacci_a9211b4c38f0cf32917bfac658c420d87}} 
+\index{com.thealgorithms.dynamicprogramming.Fibonacci@{com.thealgorithms.dynamicprogramming.Fibonacci}!fibOptimized@{fibOptimized}}
+\index{fibOptimized@{fibOptimized}!com.thealgorithms.dynamicprogramming.Fibonacci@{com.thealgorithms.dynamicprogramming.Fibonacci}}
+\doxysubsubsection{\texorpdfstring{fibOptimized()}{fibOptimized()}}
+{\footnotesize\ttfamily static int com.\+thealgorithms.\+dynamicprogramming.\+Fibonacci.\+fib\+Optimized (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+This method finds the nth fibonacci number using bottom up
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & The input n for which we have to determine the fibonacci number Outputs the nth fibonacci number \\
+\hline
+\end{DoxyParams}
+This is optimized version of \mbox{\hyperlink{classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_fibonacci}{Fibonacci}} Program. Without using Hashmap and recursion. It saves both memory and time. Space Complexity will be O(1) Time Complexity will be O(n) 
+
+Whereas , the above functions will take O(n) Space. \begin{DoxyAuthor}{Author}
+Shoaib Rayeen (\href{https://github.com/shoaibrayeen}{\texttt{ https\+://github.\+com/shoaibrayeen}}) 
+\end{DoxyAuthor}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/thealgorithms/dynamicprogramming/Fibonacci.\+java\end{DoxyCompactItemize}

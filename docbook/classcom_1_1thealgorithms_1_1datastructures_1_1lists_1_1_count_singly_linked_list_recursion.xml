@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_count_singly_linked_list_recursion" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.lists.CountSinglyLinkedListRecursion Class Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.lists.CountSinglyLinkedListRecursion</primary></indexterm>
+<para>Inheritance diagram for com.thealgorithms.datastructures.lists.CountSinglyLinkedListRecursion:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_count_singly_linked_list_recursion.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_count_singly_linked_list_recursion_1a944835be5b7ebe8cb8d1b8ede5d08b00">count</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_count_singly_linked_list_recursion_1a6c2ee31ab6c5a79ad3c9326af4d100c6">main</link> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_count_singly_linked_list_recursion_1a944835be5b7ebe8cb8d1b8ede5d08b00"/><section>
+    <title>count()</title>
+<indexterm><primary>count</primary><secondary>com.thealgorithms.datastructures.lists.CountSinglyLinkedListRecursion</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.CountSinglyLinkedListRecursion</primary><secondary>count</secondary></indexterm>
+<para><computeroutput>int com.thealgorithms.datastructures.lists.CountSinglyLinkedListRecursion.count ( )</computeroutput></para>
+<para>Returns the count of the list. </para>
+<para>
+Reimplemented from <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1a11b000996bf1d6e2084473f5ee2eb411">com.thealgorithms.datastructures.lists.SinglyLinkedList</link>.</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_count_singly_linked_list_recursion_1a6c2ee31ab6c5a79ad3c9326af4d100c6"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>com.thealgorithms.datastructures.lists.CountSinglyLinkedListRecursion</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.CountSinglyLinkedListRecursion</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void com.thealgorithms.datastructures.lists.CountSinglyLinkedListRecursion.main (String[] arg)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Driver Code </para>
+<para>
+Reimplemented from <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1a317c80fb3b6e62ac7a90c2c47b12d8b0">com.thealgorithms.datastructures.lists.SinglyLinkedList</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/lists/CountSinglyLinkedListRecursion.java</section>
+</section>

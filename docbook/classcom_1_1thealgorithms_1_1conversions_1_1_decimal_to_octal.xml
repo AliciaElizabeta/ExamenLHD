@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1conversions_1_1_decimal_to_octal" xml:lang="en-US">
+<title>com.thealgorithms.conversions.DecimalToOctal Class Reference</title>
+<indexterm><primary>com.thealgorithms.conversions.DecimalToOctal</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classcom_1_1thealgorithms_1_1conversions_1_1_decimal_to_octal_1addfa55b7cf8302f3c5794f20d0e58702">main</link> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>This class converts Decimal numbers to Octal Numbers </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1conversions_1_1_decimal_to_octal_1addfa55b7cf8302f3c5794f20d0e58702"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>com.thealgorithms.conversions.DecimalToOctal</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.conversions.DecimalToOctal</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void com.thealgorithms.conversions.DecimalToOctal.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Main Method</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>args</entry><entry>
+<para>Command line Arguments </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/conversions/DecimalToOctal.java</section>
+</section>

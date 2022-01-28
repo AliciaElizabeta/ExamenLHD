@@ -1,0 +1,49 @@
+\hypertarget{classcom_1_1thealgorithms_1_1others_1_1_mandelbrot}{}\doxysection{com.\+thealgorithms.\+others.\+Mandelbrot Class Reference}
+\label{classcom_1_1thealgorithms_1_1others_1_1_mandelbrot}\index{com.thealgorithms.others.Mandelbrot@{com.thealgorithms.others.Mandelbrot}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1others_1_1_mandelbrot_aab0aac7c147c29194bbdf438c80bf0a9}\label{classcom_1_1thealgorithms_1_1others_1_1_mandelbrot_aab0aac7c147c29194bbdf438c80bf0a9}} 
+static void {\bfseries main} (String\mbox{[}$\,$\mbox{]} args)
+\item 
+static Buffered\+Image \mbox{\hyperlink{classcom_1_1thealgorithms_1_1others_1_1_mandelbrot_ae7f6f9cf0e84920a76d3cb76264cfc74}{get\+Image}} (int image\+Width, int image\+Height, double figure\+CenterX, double figure\+CenterY, double figure\+Width, int max\+Step, boolean use\+Distance\+Color\+Coding)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The \mbox{\hyperlink{classcom_1_1thealgorithms_1_1others_1_1_mandelbrot}{Mandelbrot}} set is the set of complex numbers \char`\"{}c\char`\"{} for which the series \char`\"{}z\+\_\+(n+1) = z\+\_\+n $\ast$ z\+\_\+n + c\char`\"{} does not diverge, i.\+e. remains bounded. Thus, a complex number \char`\"{}c\char`\"{} is a member of the \mbox{\hyperlink{classcom_1_1thealgorithms_1_1others_1_1_mandelbrot}{Mandelbrot}} set if, when starting with \char`\"{}z\+\_\+0 = 0\char`\"{} and applying the iteration repeatedly, the absolute value of \char`\"{}z\+\_\+n\char`\"{} remains bounded for all \char`\"{}n $>$ 0\char`\"{}. Complex numbers can be written as \char`\"{}a + b$\ast$i\char`\"{}\+: \char`\"{}a\char`\"{} is the real component, usually drawn on the x-\/axis, and \char`\"{}b$\ast$i\char`\"{} is the imaginary component, usually drawn on the y-\/axis. Most visualizations of the \mbox{\hyperlink{classcom_1_1thealgorithms_1_1others_1_1_mandelbrot}{Mandelbrot}} set use a color-\/coding to indicate after how many steps in the series the numbers outside the set cross the divergence threshold. Images of the \mbox{\hyperlink{classcom_1_1thealgorithms_1_1others_1_1_mandelbrot}{Mandelbrot}} set exhibit an elaborate and infinitely complicated boundary that reveals progressively ever-\/finer recursive detail at increasing magnifications, making the boundary of the \mbox{\hyperlink{classcom_1_1thealgorithms_1_1others_1_1_mandelbrot}{Mandelbrot}} set a fractal curve. (description adapted from \href{https://en.wikipedia.org/wiki/Mandelbrot_set}{\texttt{ https\+://en.\+wikipedia.\+org/wiki/\+Mandelbrot\+\_\+set}} ) (see also \href{https://en.wikipedia.org/wiki/Plotting_algorithms_for_the_Mandelbrot_set}{\texttt{ https\+://en.\+wikipedia.\+org/wiki/\+Plotting\+\_\+algorithms\+\_\+for\+\_\+the\+\_\+\+Mandelbrot\+\_\+set}} ) 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1others_1_1_mandelbrot_ae7f6f9cf0e84920a76d3cb76264cfc74}\label{classcom_1_1thealgorithms_1_1others_1_1_mandelbrot_ae7f6f9cf0e84920a76d3cb76264cfc74}} 
+\index{com.thealgorithms.others.Mandelbrot@{com.thealgorithms.others.Mandelbrot}!getImage@{getImage}}
+\index{getImage@{getImage}!com.thealgorithms.others.Mandelbrot@{com.thealgorithms.others.Mandelbrot}}
+\doxysubsubsection{\texorpdfstring{getImage()}{getImage()}}
+{\footnotesize\ttfamily static Buffered\+Image com.\+thealgorithms.\+others.\+Mandelbrot.\+get\+Image (\begin{DoxyParamCaption}\item[{int}]{image\+Width,  }\item[{int}]{image\+Height,  }\item[{double}]{figure\+CenterX,  }\item[{double}]{figure\+CenterY,  }\item[{double}]{figure\+Width,  }\item[{int}]{max\+Step,  }\item[{boolean}]{use\+Distance\+Color\+Coding }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method to generate the image of the \mbox{\hyperlink{classcom_1_1thealgorithms_1_1others_1_1_mandelbrot}{Mandelbrot}} set. Two types of coordinates are used\+: image-\/coordinates that refer to the pixels and figure-\/coordinates that refer to the complex numbers inside and outside the \mbox{\hyperlink{classcom_1_1thealgorithms_1_1others_1_1_mandelbrot}{Mandelbrot}} set. The figure-\/coordinates in the arguments of this method determine which section of the \mbox{\hyperlink{classcom_1_1thealgorithms_1_1others_1_1_mandelbrot}{Mandelbrot}} set is viewed. The main area of the \mbox{\hyperlink{classcom_1_1thealgorithms_1_1others_1_1_mandelbrot}{Mandelbrot}} set is roughly between \char`\"{}-\/1.\+5 $<$ x $<$ 0.\+5\char`\"{} and \char`\"{}-\/1 $<$ y $<$ 1\char`\"{} in the figure-\/coordinates.
+
+
+\begin{DoxyParams}{Parameters}
+{\em image\+Width} & The width of the rendered image. \\
+\hline
+{\em image\+Height} & The height of the rendered image. \\
+\hline
+{\em figure\+CenterX} & The x-\/coordinate of the center of the figure. \\
+\hline
+{\em figure\+CenterY} & The y-\/coordinate of the center of the figure. \\
+\hline
+{\em figure\+Width} & The width of the figure. \\
+\hline
+{\em max\+Step} & Maximum number of steps to check for divergent behavior. \\
+\hline
+{\em use\+Distance\+Color\+Coding} & Render in color or black and white. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The image of the rendered \mbox{\hyperlink{classcom_1_1thealgorithms_1_1others_1_1_mandelbrot}{Mandelbrot}} set. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/thealgorithms/others/Mandelbrot.\+java\end{DoxyCompactItemize}

@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacecom_1_1thealgorithms_1_1maths" xml:lang="en-US">
+<title>Package com.thealgorithms.maths</title>
+<indexterm><primary>com.thealgorithms.maths</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_absolute_max">AbsoluteMax</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_absolute_min">AbsoluteMin</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_absolute_value">AbsoluteValue</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_a_d_t_fraction">ADTFraction</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_aliquot_sum">AliquotSum</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_amicable_number">AmicableNumber</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_area">Area</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_armstrong">Armstrong</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_automorphic_number">AutomorphicNumber</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_average">Average</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_binary_pow">BinaryPow</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_binomial_coefficient">BinomialCoefficient</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_ceil">Ceil</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_circular_convolution_f_f_t">CircularConvolutionFFT</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_combinations">Combinations</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_convolution">Convolution</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_convolution_f_f_t">ConvolutionFFT</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_determinant_of_matrix">DeterminantOfMatrix</link></para>
+</listitem>
+            <listitem><para>class <emphasis role="strong">DigitalRoot</emphasis></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_dudeney_number">DudeneyNumber</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_euler_method">EulerMethod</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_factorial">Factorial</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_factorial_recursion">FactorialRecursion</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_f_f_t">FFT</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_f_f_t_bluestein">FFTBluestein</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_fibonacci_java_streams">FibonacciJavaStreams</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_fibonacci_number">FibonacciNumber</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_find_max">FindMax</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_find_max_recursion">FindMaxRecursion</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_find_min">FindMin</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_find_min_recursion">FindMinRecursion</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_floor">Floor</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_gaussian">Gaussian</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_g_c_d">GCD</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_g_c_d_recursion">GCDRecursion</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_generic_root">GenericRoot</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_harshad_number">HarshadNumber</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_juggler_sequence">JugglerSequence</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_kaprekar_numbers">KaprekarNumbers</link></para>
+</listitem>
+            <listitem><para>class <emphasis role="strong">KeithNumber</emphasis></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_krishnamurthy_number">KrishnamurthyNumber</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_leonardo_number">LeonardoNumber</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_lucas_series">LucasSeries</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_magic_square">MagicSquare</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_matrix_util">MatrixUtil</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_max_value">MaxValue</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_median">Median</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_min_value">MinValue</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_mode">Mode</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_non_repeating_element">NonRepeatingElement</link></para>
+</listitem>
+            <listitem><para>class <emphasis role="strong">NthUglyNumber</emphasis></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_number_of_digits">NumberOfDigits</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_palindrome_number">PalindromeNumber</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_parse_integer">ParseInteger</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_pascal_triangle">PascalTriangle</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_perfect_cube">PerfectCube</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_perfect_number">PerfectNumber</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_perfect_square">PerfectSquare</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_pi_nilakantha">PiNilakantha</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_pow">Pow</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_power_of_two_or_not">PowerOfTwoOrNot</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_pow_recursion">PowRecursion</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_prime_check">PrimeCheck</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_prime_factorization">PrimeFactorization</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_pronic_number">PronicNumber</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_pythagorean_triple">PythagoreanTriple</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_reverse_number">ReverseNumber</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_roman_numeral_util">RomanNumeralUtil</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_simpson_integration">SimpsonIntegration</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_sum_of_arithmetic_series">SumOfArithmeticSeries</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_sum_of_digits">SumOfDigits</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_trinomial_triangle">TrinomialTriangle</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_vampire_number">VampireNumber</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_volume">Volume</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Author : Suraj Kumar Modi <link xlink:href="https://github.com/skmodi649">https://github.com/skmodi649</link> You are given a number n. You need to find the digital root of n. DigitalRoot of a number is the recursive sum of its digits until we get a single digit number.</para>
+
+<para>Test Case 1: Input: n = 1 Output: 1 Explanation: Digital root of 1 is 1</para>
+
+<para>Test Case 2: Input: n = 99999 Output: 9 Explanation: Sum of digits of 99999 is 45 which is not a single digit number, hence sum of digit of 45 is 9 which is a single digit number. Algorithm : Step 1 : Define a method digitalRoot(int n) Step 2 : Define another method single(int n) Step 3 : digitalRoot(int n) method takes output of single(int n) as input if(single(int n) &lt;= 9) return single(n) else return digitalRoot(single(n)) Step 4 : single(int n) calculates the sum of digits of number n recursively if(n&lt;=9) return n; else return (n%10) + (n/10) Step 5 : In main method simply take n as input and then call digitalRoot(int n) function and print the result</para>
+
+<para>A number is said to be Dudeney if the sum of the digits, is the cube root of the entered number. Example- Let the number be 512, its sum of digits is 5+1+2=8. The cube root of 512 is also 8. Since, the sum of the digits is equal to the cube root of the entered number; it is a Dudeney Number. </para>
+</section>
+</section>

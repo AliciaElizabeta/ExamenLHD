@@ -1,0 +1,106 @@
+.TH "com.thealgorithms.audiofilters.IIRFilter" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.audiofilters.IIRFilter
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBIIRFilter\fP (int order)  throws IllegalArgumentException "
+.br
+.ti -1c
+.RI "void \fBsetCoeffs\fP (double[] aCoeffs, double[] bCoeffs)  throws IllegalArgumentException "
+.br
+.ti -1c
+.RI "double \fBprocess\fP (double sample)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+N-Order IIR Filter Assumes inputs are normalized to [-1, 1]
+.PP
+Based on the difference equation from https://en.wikipedia.org/wiki/Infinite_impulse_response 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "com\&.thealgorithms\&.audiofilters\&.IIRFilter\&.IIRFilter (int order) throws IllegalArgumentException"
+Construct an IIR Filter
+.PP
+\fBParameters\fP
+.RS 4
+\fIorder\fP the filter's order 
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIIllegalArgumentException\fP if order is zero or less 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "double com\&.thealgorithms\&.audiofilters\&.IIRFilter\&.process (double sample)"
+Process a single sample
+.PP
+\fBParameters\fP
+.RS 4
+\fIsample\fP the sample to process 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+the processed sample 
+.RE
+.PP
+
+.SS "void com\&.thealgorithms\&.audiofilters\&.IIRFilter\&.setCoeffs (double[] aCoeffs, double[] bCoeffs) throws IllegalArgumentException"
+Set coefficients
+.PP
+\fBParameters\fP
+.RS 4
+\fIaCoeffs\fP Denominator coefficients 
+.br
+\fIbCoeffs\fP Numerator coefficients 
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIIllegalArgumentException\fP if 
+.PP
+.nf
+aCoeffs 
+
+.fi
+.PP
+ or 
+.PP
+.nf
+bCoeffs 
+
+.fi
+.PP
+ is not of size 
+.PP
+.nf
+order 
+
+.fi
+.PP
+ , or if 
+.PP
+.nf
+aCoeffs[0] 
+
+.fi
+.PP
+ is 0\&.0 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

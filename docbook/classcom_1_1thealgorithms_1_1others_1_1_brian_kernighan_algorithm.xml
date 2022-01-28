@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1others_1_1_brian_kernighan_algorithm" xml:lang="en-US">
+<title>com.thealgorithms.others.BrianKernighanAlgorithm Class Reference</title>
+<indexterm><primary>com.thealgorithms.others.BrianKernighanAlgorithm</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_brian_kernighan_algorithm_1aa4f24df04a899f75f4f3bae778accbc8">main</link> (String args[])</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><formalpara><title>Author</title>
+
+<para>Nishita Aggarwal </para>
+</formalpara>
+Brian Kernighan’s Algorithm </para>
+
+<para>algorithm to count the number of set bits in a given number </para>
+
+<para>Subtraction of 1 from a number toggles all the bits (from right to left) till the rightmost set bit(including the rightmost set bit). So if we subtract a number by 1 and do bitwise &amp; with itself i.e. (n &amp; (n-1)), we unset the rightmost set bit. </para>
+
+<para>If we do n &amp; (n-1) in a loop and count the no of times loop executes we get the set bit count. </para>
+
+<para>Time Complexity: O(logn) </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_brian_kernighan_algorithm_1aa4f24df04a899f75f4f3bae778accbc8"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>com.thealgorithms.others.BrianKernighanAlgorithm</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.others.BrianKernighanAlgorithm</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void com.thealgorithms.others.BrianKernighanAlgorithm.main (String args[])<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>args</entry><entry>
+<para>: command line arguments </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/others/BrianKernighanAlgorithm.java</section>
+</section>

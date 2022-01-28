@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_merge___k___sorted_linkedlist" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.lists.Merge_K_SortedLinkedlist Class Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.lists.Merge_K_SortedLinkedlist</primary></indexterm>
+<section>
+<title>Detailed Description</title>
+
+<para><formalpara><title>Author</title>
+
+<para>Arun Pandey (<link xlink:href="https://github.com/pandeyarun709">https://github.com/pandeyarun709</link>) </para>
+</formalpara>
+</para>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/lists/Merge_K_SortedLinkedlist.java</section>
+</section>

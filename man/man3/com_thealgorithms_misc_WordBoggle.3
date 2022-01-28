@@ -1,0 +1,32 @@
+.TH "com.thealgorithms.misc.WordBoggle" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.misc.WordBoggle
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static List< String > \fBboggleBoard\fP (char[][] board, String[] words)"
+.br
+.ti -1c
+.RI "static void \fBmain\fP (String[] args)"
+.br
+.ti -1c
+.RI "static void \fBexplore\fP (int i, int j, char[][] board, TrieNode trieNode, boolean[][] visited, Set< String > finalWords)"
+.br
+.ti -1c
+.RI "static List< Integer[]> \fBgetNeighbors\fP (int i, int j, char[][] board)"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "static List< String > com\&.thealgorithms\&.misc\&.WordBoggle\&.boggleBoard (char board[][], String[] words)\fC [static]\fP"
+O(nm * 8^s + ws) time where n = width of boggle board, m = height of boggle board, s = length of longest word in string array, w = length of string array, 8 is due to 8 explorable neighbours O(nm + ws) space\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

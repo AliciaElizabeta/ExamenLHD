@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1searches_1_1_square_root_binary_search" xml:lang="en-US">
+<title>com.thealgorithms.searches.SquareRootBinarySearch Class Reference</title>
+<indexterm><primary>com.thealgorithms.searches.SquareRootBinarySearch</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classcom_1_1thealgorithms_1_1searches_1_1_square_root_binary_search_1a69656d4b8376909618555a4387668d37">main</link> (String args[])</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Given an integer x, find the square root of x. If x is not a perfect square, then return floor(√x). </para>
+
+<para>For example, if x = 5, The answer should be 2 which is the floor value of √5. </para>
+
+<para>The approach that will be used for solving the above problem is not going to be a straight forward Math.sqrt(). Instead we will be using Binary Search to find the square root of a number in the most optimised way.</para>
+
+<para><formalpara><title>Author</title>
+
+<para>sahil </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1searches_1_1_square_root_binary_search_1a69656d4b8376909618555a4387668d37"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>com.thealgorithms.searches.SquareRootBinarySearch</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.searches.SquareRootBinarySearch</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void com.thealgorithms.searches.SquareRootBinarySearch.main (String args[])<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>This is the driver method.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>args</entry><entry>
+<para>Command line arguments </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/searches/SquareRootBinarySearch.java</section>
+</section>

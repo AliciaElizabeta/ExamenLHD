@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_absolute_max" xml:lang="en-US">
+<title>com.thealgorithms.maths.AbsoluteMax Class Reference</title>
+<indexterm><primary>com.thealgorithms.maths.AbsoluteMax</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_absolute_max_1af15a3f92f0e8599f077ee519c06c292a"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+            <listitem><para>static int <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_absolute_max_1a9bfc08545c9a64fa06d09778f9107f1d">absMax</link> (int[] numbers)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>description:</para>
+
+<para>absMax([0, 5, 1, 11]) = 11, absMax([3 , -10, -2]) = -10 </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_absolute_max_1a9bfc08545c9a64fa06d09778f9107f1d"/><section>
+    <title>absMax()</title>
+<indexterm><primary>absMax</primary><secondary>com.thealgorithms.maths.AbsoluteMax</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.AbsoluteMax</primary><secondary>absMax</secondary></indexterm>
+<para><computeroutput>static int com.thealgorithms.maths.AbsoluteMax.absMax (int[] numbers)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>get the value, return the absolute max value</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>numbers</entry><entry>
+<para>contains elements </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>the absolute max value </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/maths/AbsoluteMax.java</section>
+</section>

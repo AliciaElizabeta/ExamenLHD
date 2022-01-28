@@ -1,0 +1,74 @@
+\hypertarget{classcom_1_1thealgorithms_1_1others_1_1_damm}{}\doxysection{com.\+thealgorithms.\+others.\+Damm Class Reference}
+\label{classcom_1_1thealgorithms_1_1others_1_1_damm}\index{com.thealgorithms.others.Damm@{com.thealgorithms.others.Damm}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static boolean \mbox{\hyperlink{classcom_1_1thealgorithms_1_1others_1_1_damm_a80a3cfef9e087bf1fa47967c18e5c85d}{damm\+Check}} (String digits)
+\item 
+static String \mbox{\hyperlink{classcom_1_1thealgorithms_1_1others_1_1_damm_a4fae66ee3a05afd614ea0317a8daa841}{add\+Damm\+Checksum}} (String initial\+Digits)
+\item 
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1others_1_1_damm_a8f7be8519d9e12b1147f60115952e484}\label{classcom_1_1thealgorithms_1_1others_1_1_damm_a8f7be8519d9e12b1147f60115952e484}} 
+static void {\bfseries main} (String\mbox{[}$\,$\mbox{]} args)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classcom_1_1thealgorithms_1_1others_1_1_damm}{Damm}} algorithm is a check digit algorithm that detects all single-\/digit errors and all adjacent transposition errors. It was presented by H. Michael \mbox{\hyperlink{classcom_1_1thealgorithms_1_1others_1_1_damm}{Damm}} in 2004. Essential part of the algorithm is a quasigroup of order 10 (i.\+e. having a 10 × 10 Latin square as the body of its operation table) with the special feature of being weakly totally anti-\/symmetric. \mbox{\hyperlink{classcom_1_1thealgorithms_1_1others_1_1_damm}{Damm}} revealed several methods to create totally anti-\/symmetric quasigroups of order 10 and gave some examples in his doctoral dissertation.
+
+\begin{DoxySeeAlso}{See also}
+\href{https://en.wikipedia.org/wiki/Damm_algorithm}{\texttt{ Wiki. Damm algorithm}} 
+\end{DoxySeeAlso}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1others_1_1_damm_a4fae66ee3a05afd614ea0317a8daa841}\label{classcom_1_1thealgorithms_1_1others_1_1_damm_a4fae66ee3a05afd614ea0317a8daa841}} 
+\index{com.thealgorithms.others.Damm@{com.thealgorithms.others.Damm}!addDammChecksum@{addDammChecksum}}
+\index{addDammChecksum@{addDammChecksum}!com.thealgorithms.others.Damm@{com.thealgorithms.others.Damm}}
+\doxysubsubsection{\texorpdfstring{addDammChecksum()}{addDammChecksum()}}
+{\footnotesize\ttfamily static String com.\+thealgorithms.\+others.\+Damm.\+add\+Damm\+Checksum (\begin{DoxyParamCaption}\item[{String}]{initial\+Digits }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Calculate check digit for initial digits and add it tho the last position.
+
+
+\begin{DoxyParams}{Parameters}
+{\em initial\+Digits} & initial value \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+digits with the checksum in the last position 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Illegal\+Argument\+Exception} & if input parameter contains not only digits \\
+\hline
+{\em Null\+Pointer\+Exception} & if input is null \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1others_1_1_damm_a80a3cfef9e087bf1fa47967c18e5c85d}\label{classcom_1_1thealgorithms_1_1others_1_1_damm_a80a3cfef9e087bf1fa47967c18e5c85d}} 
+\index{com.thealgorithms.others.Damm@{com.thealgorithms.others.Damm}!dammCheck@{dammCheck}}
+\index{dammCheck@{dammCheck}!com.thealgorithms.others.Damm@{com.thealgorithms.others.Damm}}
+\doxysubsubsection{\texorpdfstring{dammCheck()}{dammCheck()}}
+{\footnotesize\ttfamily static boolean com.\+thealgorithms.\+others.\+Damm.\+damm\+Check (\begin{DoxyParamCaption}\item[{String}]{digits }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Check input digits by \mbox{\hyperlink{classcom_1_1thealgorithms_1_1others_1_1_damm}{Damm}} algorithm.
+
+
+\begin{DoxyParams}{Parameters}
+{\em digits} & input to check \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if check was successful, false otherwise 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Illegal\+Argument\+Exception} & if input parameter contains not only digits \\
+\hline
+{\em Null\+Pointer\+Exception} & if input is null \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/thealgorithms/others/Damm.\+java\end{DoxyCompactItemize}

@@ -1,0 +1,87 @@
+.TH "com.thealgorithms.strings.Rotation" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.strings.Rotation
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBmain\fP (String[] args)"
+.br
+.ti -1c
+.RI "static String \fBrotation\fP (String s, int n)"
+.br
+.ti -1c
+.RI "static void \fBrotation\fP (char[] values, int n)"
+.br
+.ti -1c
+.RI "static void \fBreverse\fP (char[] values, int from, int to)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Given a string, moving several characters in front of the string to the end of the string\&. For example, move the two characters'a' and 'b' in front of the string 'abcdef' to the end of the string, so that the original string becomes the string 'cdefab' 
+.SH "Member Function Documentation"
+.PP 
+.SS "static void com\&.thealgorithms\&.strings\&.Rotation\&.reverse (char[] values, int from, int to)\fC [static]\fP"
+Reverse character array
+.PP
+\fBParameters\fP
+.RS 4
+\fIvalues\fP character array 
+.br
+\fIfrom\fP begin index of given array 
+.br
+\fIto\fP end index of given array 
+.RE
+.PP
+
+.SS "static void com\&.thealgorithms\&.strings\&.Rotation\&.rotation (char[] values, int n)\fC [static]\fP"
+Move 
+.PP
+.nf
+n 
+
+.fi
+.PP
+ characters in front of given character array to the end of array time complexity: O(n) space complexity: O(1)
+.PP
+\fBParameters\fP
+.RS 4
+\fIvalues\fP given character array 
+.br
+\fIn\fP the total characters to be moved 
+.RE
+.PP
+
+.SS "static String com\&.thealgorithms\&.strings\&.Rotation\&.rotation (String s, int n)\fC [static]\fP"
+Move 
+.PP
+.nf
+n 
+
+.fi
+.PP
+ characters in front of given string to the end of string time complexity: O(n) space complexity: O(n)
+.PP
+\fBParameters\fP
+.RS 4
+\fIs\fP given string 
+.br
+\fIn\fP the total characters to be moved 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+string after rotation 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

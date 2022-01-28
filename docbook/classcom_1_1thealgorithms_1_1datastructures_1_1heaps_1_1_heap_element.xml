@@ -1,0 +1,348 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.heaps.HeapElement Class Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.heaps.HeapElement</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_1a54d98bd0d54dc04523bf49e396550863">HeapElement</link> (double key, Object info)</para>
+</listitem>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_1a6e9fc372c930c490036ad11aa4079d44">HeapElement</link> (int key, Object info)</para>
+</listitem>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_1a184361ee312b676185f4b82a9b08813f">HeapElement</link> (Integer key, Object info)</para>
+</listitem>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_1a858db1d8199992ac42cde49fd4d16886">HeapElement</link> (Double key, Object info)</para>
+</listitem>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_1aed3361ff9ec18f5eb574bf36115df067">HeapElement</link> (double key)</para>
+</listitem>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_1afb8d8f57d228676139f20bc3f415c469">HeapElement</link> (int key)</para>
+</listitem>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_1afdf47d02850d5745c26552511c9e886f">HeapElement</link> (Integer key)</para>
+</listitem>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_1afbf534017d5d8b8848a4748f4cdcea29">HeapElement</link> (Double key)</para>
+</listitem>
+            <listitem><para>Object <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_1a43bba53b1ab36d89d1e45d16916243b9">getInfo</link> ()</para>
+</listitem>
+            <listitem><para>double <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_1ab9efa8e6341b72c6f07146dbefc85682">getKey</link> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_1ab1ec6d13881b2feca186b19892770897"/>String <emphasis role="strong">toString</emphasis> ()</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_1a6a0e6e44fd3e6057e42dc8e8e40ff4ab">equals</link> (Object o)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_1a7f82b75b6e0ac61b6d094cc3336962d3"/>int <emphasis role="strong">hashCode</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Class for heap elements.
+<literallayout>&#160;&#xa;</literallayout>
+</para>
+
+<para>A heap element contains two attributes: a key which will be used to build the tree (int or double, either primitive type or object) and any kind of IMMUTABLE object the user sees fit to carry any information he/she likes. Be aware that the use of a mutable object might jeopardize the integrity of this information.</para>
+
+<para><formalpara><title>Author</title>
+
+<para>Nicolas Renard </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_1a54d98bd0d54dc04523bf49e396550863"/><section>
+    <title>HeapElement()<computeroutput>[1/8]</computeroutput></title>
+<indexterm><primary>HeapElement</primary><secondary>com.thealgorithms.datastructures.heaps.HeapElement</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.heaps.HeapElement</primary><secondary>HeapElement</secondary></indexterm>
+<para><computeroutput>com.thealgorithms.datastructures.heaps.HeapElement.HeapElement (double key, Object info)</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>key</entry><entry>
+<para>: a number of primitive type &apos;double&apos; </para>
+</entry>
+                            </row>
+                            <row>
+<entry>info</entry><entry>
+<para>: any kind of IMMUTABLE object. May be null, since the purpose is only to carry additional information of use for the user </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_1a6e9fc372c930c490036ad11aa4079d44"/><section>
+    <title>HeapElement()<computeroutput>[2/8]</computeroutput></title>
+<indexterm><primary>HeapElement</primary><secondary>com.thealgorithms.datastructures.heaps.HeapElement</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.heaps.HeapElement</primary><secondary>HeapElement</secondary></indexterm>
+<para><computeroutput>com.thealgorithms.datastructures.heaps.HeapElement.HeapElement (int key, Object info)</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>key</entry><entry>
+<para>: a number of primitive type &apos;int&apos; </para>
+</entry>
+                            </row>
+                            <row>
+<entry>info</entry><entry>
+<para>: any kind of IMMUTABLE object. May be null, since the purpose is only to carry additional information of use for the user </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_1a184361ee312b676185f4b82a9b08813f"/><section>
+    <title>HeapElement()<computeroutput>[3/8]</computeroutput></title>
+<indexterm><primary>HeapElement</primary><secondary>com.thealgorithms.datastructures.heaps.HeapElement</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.heaps.HeapElement</primary><secondary>HeapElement</secondary></indexterm>
+<para><computeroutput>com.thealgorithms.datastructures.heaps.HeapElement.HeapElement (Integer key, Object info)</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>key</entry><entry>
+<para>: a number of object type &apos;Integer&apos; </para>
+</entry>
+                            </row>
+                            <row>
+<entry>info</entry><entry>
+<para>: any kind of IMMUTABLE object. May be null, since the purpose is only to carry additional information of use for the user </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_1a858db1d8199992ac42cde49fd4d16886"/><section>
+    <title>HeapElement()<computeroutput>[4/8]</computeroutput></title>
+<indexterm><primary>HeapElement</primary><secondary>com.thealgorithms.datastructures.heaps.HeapElement</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.heaps.HeapElement</primary><secondary>HeapElement</secondary></indexterm>
+<para><computeroutput>com.thealgorithms.datastructures.heaps.HeapElement.HeapElement (Double key, Object info)</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>key</entry><entry>
+<para>: a number of object type &apos;Double&apos; </para>
+</entry>
+                            </row>
+                            <row>
+<entry>info</entry><entry>
+<para>: any kind of IMMUTABLE object. May be null, since the purpose is only to carry additional information of use for the user </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_1aed3361ff9ec18f5eb574bf36115df067"/><section>
+    <title>HeapElement()<computeroutput>[5/8]</computeroutput></title>
+<indexterm><primary>HeapElement</primary><secondary>com.thealgorithms.datastructures.heaps.HeapElement</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.heaps.HeapElement</primary><secondary>HeapElement</secondary></indexterm>
+<para><computeroutput>com.thealgorithms.datastructures.heaps.HeapElement.HeapElement (double key)</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>key</entry><entry>
+<para>: a number of primitive type &apos;double&apos; </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_1afb8d8f57d228676139f20bc3f415c469"/><section>
+    <title>HeapElement()<computeroutput>[6/8]</computeroutput></title>
+<indexterm><primary>HeapElement</primary><secondary>com.thealgorithms.datastructures.heaps.HeapElement</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.heaps.HeapElement</primary><secondary>HeapElement</secondary></indexterm>
+<para><computeroutput>com.thealgorithms.datastructures.heaps.HeapElement.HeapElement (int key)</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>key</entry><entry>
+<para>: a number of primitive type &apos;int&apos; </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_1afdf47d02850d5745c26552511c9e886f"/><section>
+    <title>HeapElement()<computeroutput>[7/8]</computeroutput></title>
+<indexterm><primary>HeapElement</primary><secondary>com.thealgorithms.datastructures.heaps.HeapElement</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.heaps.HeapElement</primary><secondary>HeapElement</secondary></indexterm>
+<para><computeroutput>com.thealgorithms.datastructures.heaps.HeapElement.HeapElement (Integer key)</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>key</entry><entry>
+<para>: a number of object type &apos;Integer&apos; </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_1afbf534017d5d8b8848a4748f4cdcea29"/><section>
+    <title>HeapElement()<computeroutput>[8/8]</computeroutput></title>
+<indexterm><primary>HeapElement</primary><secondary>com.thealgorithms.datastructures.heaps.HeapElement</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.heaps.HeapElement</primary><secondary>HeapElement</secondary></indexterm>
+<para><computeroutput>com.thealgorithms.datastructures.heaps.HeapElement.HeapElement (Double key)</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>key</entry><entry>
+<para>: a number of object type &apos;Double&apos; </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_1a6a0e6e44fd3e6057e42dc8e8e40ff4ab"/><section>
+    <title>equals()</title>
+<indexterm><primary>equals</primary><secondary>com.thealgorithms.datastructures.heaps.HeapElement</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.heaps.HeapElement</primary><secondary>equals</secondary></indexterm>
+<para><computeroutput>boolean com.thealgorithms.datastructures.heaps.HeapElement.equals (Object o)</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>otherHeapElement</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>true if the keys on both elements are identical and the additional info objects are identical. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_1a43bba53b1ab36d89d1e45d16916243b9"/><section>
+    <title>getInfo()</title>
+<indexterm><primary>getInfo</primary><secondary>com.thealgorithms.datastructures.heaps.HeapElement</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.heaps.HeapElement</primary><secondary>getInfo</secondary></indexterm>
+<para><computeroutput>Object com.thealgorithms.datastructures.heaps.HeapElement.getInfo ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>the object containing the additional info provided by the user. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_1ab9efa8e6341b72c6f07146dbefc85682"/><section>
+    <title>getKey()</title>
+<indexterm><primary>getKey</primary><secondary>com.thealgorithms.datastructures.heaps.HeapElement</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.heaps.HeapElement</primary><secondary>getKey</secondary></indexterm>
+<para><computeroutput>double com.thealgorithms.datastructures.heaps.HeapElement.getKey ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>the key value of the element </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/heaps/HeapElement.java</section>
+</section>

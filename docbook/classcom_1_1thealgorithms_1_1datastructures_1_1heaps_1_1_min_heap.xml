@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_min_heap" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.heaps.MinHeap Class Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.heaps.MinHeap</primary></indexterm>
+<para>Inheritance diagram for com.thealgorithms.datastructures.heaps.MinHeap:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_min_heap.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_min_heap_1a7536953b26c5984add34d278adc5c16d"/><emphasis role="strong">MinHeap</emphasis> (List&lt; <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element">HeapElement</link> &gt; listElements)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_min_heap_1ae96eb51e18e81f0c7dd0c5848c9f0bfd"/><link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element">HeapElement</link> <emphasis role="strong">getElement</emphasis> (int elementIndex)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_min_heap_1aeea284c40c396edba76ef817f9fddcc5">insertElement</link> (<link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element">HeapElement</link> element)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_min_heap_1a5022aa3fd3b86645ecd4baaaef731c29">deleteElement</link> (int elementIndex)</para>
+</listitem>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element">HeapElement</link> <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_min_heap_1a0128d6c056914866f7173b0bb63cb71e">getElement</link> ()  throws EmptyHeapException </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_interfacecom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap">Heap</link> tree where a node&apos;s key is higher than or equal to its parent&apos;s and lower than or equal to its children&apos;s.</para>
+
+<para><formalpara><title>Author</title>
+
+<para>Nicolas Renard </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_min_heap_1a5022aa3fd3b86645ecd4baaaef731c29"/><section>
+    <title>deleteElement()</title>
+<indexterm><primary>deleteElement</primary><secondary>com.thealgorithms.datastructures.heaps.MinHeap</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.heaps.MinHeap</primary><secondary>deleteElement</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.heaps.MinHeap.deleteElement (int elementIndex)</computeroutput></para>
+<para>Delete an element in the heap.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>elementIndex</entry><entry>
+<para>int containing the position in the heap of the element to be deleted. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implements <link linkend="_interfacecom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_1ae3e0a2d718959756cd5d013b25010f61">com.thealgorithms.datastructures.heaps.Heap</link>.</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_min_heap_1a0128d6c056914866f7173b0bb63cb71e"/><section>
+    <title>getElement()</title>
+<indexterm><primary>getElement</primary><secondary>com.thealgorithms.datastructures.heaps.MinHeap</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.heaps.MinHeap</primary><secondary>getElement</secondary></indexterm>
+<para><computeroutput><link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element">HeapElement</link> com.thealgorithms.datastructures.heaps.MinHeap.getElement ( ) throws <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_empty_heap_exception">EmptyHeapException</link></computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>the top element in the heap, the one with lowest key for min-heap or with the highest key for max-heap </para>
+</formalpara>
+
+                <formalpara>
+                    <title>
+Exceptions</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry><link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_empty_heap_exception">EmptyHeapException</link></entry><entry>
+<para>if heap is empty </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implements <link linkend="_interfacecom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_1a200e574feedc45c5d83bc8fbb269dc16">com.thealgorithms.datastructures.heaps.Heap</link>.</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_min_heap_1aeea284c40c396edba76ef817f9fddcc5"/><section>
+    <title>insertElement()</title>
+<indexterm><primary>insertElement</primary><secondary>com.thealgorithms.datastructures.heaps.MinHeap</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.heaps.MinHeap</primary><secondary>insertElement</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.heaps.MinHeap.insertElement (<link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element">HeapElement</link> element)</computeroutput></para>
+<para>Inserts an element in the heap. Adds it to then end and toggle it until it finds its right position.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>element</entry><entry>
+<para>an instance of the <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element">HeapElement</link> class. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implements <link linkend="_interfacecom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_1a526859af3b476b26130aa491a8a6a941">com.thealgorithms.datastructures.heaps.Heap</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/heaps/MinHeap.java</section>
+</section>

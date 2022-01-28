@@ -1,0 +1,169 @@
+.TH "com.thealgorithms.datastructures.dynamicarray.DynamicArray< E >" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.datastructures.dynamicarray.DynamicArray< E >
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Iterable< E >\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBDynamicArray\fP (final int capacity)"
+.br
+.ti -1c
+.RI "\fBDynamicArray\fP ()"
+.br
+.ti -1c
+.RI "void \fBadd\fP (final E element)"
+.br
+.ti -1c
+.RI "void \fBput\fP (final int index, E element)"
+.br
+.ti -1c
+.RI "E \fBget\fP (final int index)"
+.br
+.ti -1c
+.RI "E \fBremove\fP (final int index)"
+.br
+.ti -1c
+.RI "int \fBgetSize\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBisEmpty\fP ()"
+.br
+.ti -1c
+.RI "Stream< E > \fBstream\fP ()"
+.br
+.ti -1c
+.RI "String \fBtoString\fP ()"
+.br
+.ti -1c
+.RI "Iterator \fBiterator\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBmain\fP (String[] args)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+This class implements a dynamic array
+.PP
+\fBParameters\fP
+.RS 4
+\fI<E>\fP the type that each index of the array will hold 
+.RE
+.PP
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "\fBcom\&.thealgorithms\&.datastructures\&.dynamicarray\&.DynamicArray\fP< E >\&.\fBDynamicArray\fP (final int capacity)"
+constructor
+.PP
+\fBParameters\fP
+.RS 4
+\fIcapacity\fP the starting length of the desired array 
+.RE
+.PP
+
+.SS "\fBcom\&.thealgorithms\&.datastructures\&.dynamicarray\&.DynamicArray\fP< E >\&.\fBDynamicArray\fP ()"
+No-args constructor 
+.SH "Member Function Documentation"
+.PP 
+.SS "void \fBcom\&.thealgorithms\&.datastructures\&.dynamicarray\&.DynamicArray\fP< E >\&.add (final E element)"
+Adds an element to the array If full, creates a copy array twice the size of the current one
+.PP
+\fBParameters\fP
+.RS 4
+\fIelement\fP the element of type <E> to be added to the array 
+.RE
+.PP
+
+.SS "E \fBcom\&.thealgorithms\&.datastructures\&.dynamicarray\&.DynamicArray\fP< E >\&.get (final int index)"
+get method for element at a given index returns null if the index is empty
+.PP
+\fBParameters\fP
+.RS 4
+\fIindex\fP the desired index of the element 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+<E> the element at the specified index 
+.RE
+.PP
+
+.SS "int \fBcom\&.thealgorithms\&.datastructures\&.dynamicarray\&.DynamicArray\fP< E >\&.getSize ()"
+get method for size field
+.PP
+\fBReturns\fP
+.RS 4
+int size 
+.RE
+.PP
+
+.SS "boolean \fBcom\&.thealgorithms\&.datastructures\&.dynamicarray\&.DynamicArray\fP< E >\&.isEmpty ()"
+isEmpty helper method
+.PP
+\fBReturns\fP
+.RS 4
+boolean true if the array contains no elements, false otherwise 
+.RE
+.PP
+
+.SS "Iterator \fBcom\&.thealgorithms\&.datastructures\&.dynamicarray\&.DynamicArray\fP< E >\&.iterator ()"
+Creates and returns a new Dynamic Array Iterator
+.PP
+\fBReturns\fP
+.RS 4
+Iterator a Dynamic Array Iterator 
+.RE
+.PP
+
+.SS "static void \fBcom\&.thealgorithms\&.datastructures\&.dynamicarray\&.DynamicArray\fP< E >\&.main (String[] args)\fC [static]\fP"
+This class is the driver for the DynamicArray<E> class it tests a variety of methods and prints the output 
+.SS "void \fBcom\&.thealgorithms\&.datastructures\&.dynamicarray\&.DynamicArray\fP< E >\&.put (final int index, E element)"
+Places element of type <E> at the desired index
+.PP
+\fBParameters\fP
+.RS 4
+\fIindex\fP the index for the element to be placed 
+.br
+\fIelement\fP the element to be inserted 
+.RE
+.PP
+
+.SS "E \fBcom\&.thealgorithms\&.datastructures\&.dynamicarray\&.DynamicArray\fP< E >\&.remove (final int index)"
+Removes an element from the array
+.PP
+\fBParameters\fP
+.RS 4
+\fIindex\fP the index of the element to be removed 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+<E> the element removed 
+.RE
+.PP
+
+.SS "String \fBcom\&.thealgorithms\&.datastructures\&.dynamicarray\&.DynamicArray\fP< E >\&.toString ()"
+returns a String representation of this object
+.PP
+\fBReturns\fP
+.RS 4
+String a String representing the array 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

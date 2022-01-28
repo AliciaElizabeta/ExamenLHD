@@ -1,0 +1,97 @@
+.TH "com.thealgorithms.others.LinearCongruentialGenerator" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.others.LinearCongruentialGenerator
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBLinearCongruentialGenerator\fP (double multiplier, double increment, double modulo)"
+.br
+.ti -1c
+.RI "\fBLinearCongruentialGenerator\fP (double seed, double multiplier, double increment, double modulo)"
+.br
+.ti -1c
+.RI "double \fBnextNumber\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBmain\fP (String[] args)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.IP "\(bu" 2
+A pseudorandom number generator\&.
+.PP
+.PP
+\fBAuthor\fP
+.RS 4
+Tobias Carryer 
+.RE
+.PP
+\fBDate\fP
+.RS 4
+October 10, 2017 
+.RE
+.PP
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "com\&.thealgorithms\&.others\&.LinearCongruentialGenerator\&.LinearCongruentialGenerator (double multiplier, double increment, double modulo)"
+
+.IP "\(bu" 2
+These parameters are saved and used when \fBnextNumber()\fP is called\&. The current timestamp in milliseconds is used as the seed\&.
+.PP
+.PP
+\fBParameters\fP
+.RS 4
+\fImultiplier\fP 
+.br
+\fIincrement\fP 
+.br
+\fImodulo\fP The maximum number that can be generated (exclusive)\&. A common value is 2^32\&. 
+.RE
+.PP
+
+.SS "com\&.thealgorithms\&.others\&.LinearCongruentialGenerator\&.LinearCongruentialGenerator (double seed, double multiplier, double increment, double modulo)"
+
+.IP "\(bu" 2
+These parameters are saved and used when \fBnextNumber()\fP is called\&.
+.PP
+.PP
+\fBParameters\fP
+.RS 4
+\fIseed\fP 
+.br
+\fImultiplier\fP 
+.br
+\fIincrement\fP 
+.br
+\fImodulo\fP The maximum number that can be generated (exclusive)\&. A common value is 2^32\&. 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "double com\&.thealgorithms\&.others\&.LinearCongruentialGenerator\&.nextNumber ()"
+The smallest number that can be generated is zero\&. The largest number that can be generated is modulo-1\&. modulo is set in the constructor\&.
+.PP
+\fBReturns\fP
+.RS 4
+a pseudorandom number\&. 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

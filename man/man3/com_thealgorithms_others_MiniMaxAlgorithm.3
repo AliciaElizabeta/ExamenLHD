@@ -1,0 +1,95 @@
+.TH "com.thealgorithms.others.MiniMaxAlgorithm" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.others.MiniMaxAlgorithm
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBMiniMaxAlgorithm\fP ()"
+.br
+.ti -1c
+.RI "int \fBminiMax\fP (int depth, boolean isMaximizer, int index, boolean verbose)"
+.br
+.ti -1c
+.RI "void \fBsetScores\fP (int[] scores)"
+.br
+.ti -1c
+.RI "int[] \fBgetScores\fP ()"
+.br
+.ti -1c
+.RI "int \fBgetHeight\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBmain\fP (String[] args)"
+.br
+.ti -1c
+.RI "static int[] \fBgetRandomScores\fP (int size, int maxScore)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+MiniMax is an algorithm used int artificial intelligence and game theory for minimizing the possible loss for the worst case scenario\&.
+.PP
+See more (https://en.wikipedia.org/wiki/Minimax, https://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-1-introduction/)\&.
+.PP
+\fBAuthor\fP
+.RS 4
+aitofi (https://github.com/aitorfi) 
+.RE
+.PP
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "com\&.thealgorithms\&.others\&.MiniMaxAlgorithm\&.MiniMaxAlgorithm ()"
+Initializes the scores with 8 random leaf nodes 
+.SH "Member Function Documentation"
+.PP 
+.SS "static int[] com\&.thealgorithms\&.others\&.MiniMaxAlgorithm\&.getRandomScores (int size, int maxScore)\fC [static]\fP"
+Returns an array of random numbers which lenght is a power of 2\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIsize\fP The power of 2 that will determine the lenght of the array\&. 
+.br
+\fImaxScore\fP The maximum possible score\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+An array of random numbers\&. 
+.RE
+.PP
+
+.SS "int com\&.thealgorithms\&.others\&.MiniMaxAlgorithm\&.miniMax (int depth, boolean isMaximizer, int index, boolean verbose)"
+Returns the optimal score assuming that both players play their best\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIdepth\fP Indicates how deep we are into the game tree\&. 
+.br
+\fIisMaximizer\fP True if it is maximizers turn; otherwise false\&. 
+.br
+\fIindex\fP Index of the leaf node that is being evaluated\&. 
+.br
+\fIverbose\fP True to show each players choices\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The optimal score for the player that made the first move\&. 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

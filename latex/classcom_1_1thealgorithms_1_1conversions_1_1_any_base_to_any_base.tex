@@ -1,0 +1,57 @@
+\hypertarget{classcom_1_1thealgorithms_1_1conversions_1_1_any_base_to_any_base}{}\doxysection{com.\+thealgorithms.\+conversions.\+Any\+Base\+To\+Any\+Base Class Reference}
+\label{classcom_1_1thealgorithms_1_1conversions_1_1_any_base_to_any_base}\index{com.thealgorithms.conversions.AnyBaseToAnyBase@{com.thealgorithms.conversions.AnyBaseToAnyBase}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1conversions_1_1_any_base_to_any_base_a0f7ec1cbb4acc647f89f5a3fea037326}\label{classcom_1_1thealgorithms_1_1conversions_1_1_any_base_to_any_base_a0f7ec1cbb4acc647f89f5a3fea037326}} 
+static void {\bfseries main} (String\mbox{[}$\,$\mbox{]} args)
+\item 
+static boolean \mbox{\hyperlink{classcom_1_1thealgorithms_1_1conversions_1_1_any_base_to_any_base_ad089c94cb4c4da4828cd30390ead95d4}{valid\+For\+Base}} (String n, int base)
+\item 
+static String \mbox{\hyperlink{classcom_1_1thealgorithms_1_1conversions_1_1_any_base_to_any_base_a0b40f9af0b4e5d87669df78b393f0671}{base2base}} (String n, int b1, int b2)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class for converting from \char`\"{}any\char`\"{} base to \char`\"{}any\char`\"{} other base, when \char`\"{}any\char`\"{} means from 2-\/36. Works by going from base 1 to decimal to base 2. Includes auxiliary method for determining whether a number is valid for a given base.
+
+\begin{DoxyAuthor}{Author}
+Michael Rolland 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+2017.\+10.\+10 
+\end{DoxyVersion}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1conversions_1_1_any_base_to_any_base_a0b40f9af0b4e5d87669df78b393f0671}\label{classcom_1_1thealgorithms_1_1conversions_1_1_any_base_to_any_base_a0b40f9af0b4e5d87669df78b393f0671}} 
+\index{com.thealgorithms.conversions.AnyBaseToAnyBase@{com.thealgorithms.conversions.AnyBaseToAnyBase}!base2base@{base2base}}
+\index{base2base@{base2base}!com.thealgorithms.conversions.AnyBaseToAnyBase@{com.thealgorithms.conversions.AnyBaseToAnyBase}}
+\doxysubsubsection{\texorpdfstring{base2base()}{base2base()}}
+{\footnotesize\ttfamily static String com.\+thealgorithms.\+conversions.\+Any\+Base\+To\+Any\+Base.\+base2base (\begin{DoxyParamCaption}\item[{String}]{n,  }\item[{int}]{b1,  }\item[{int}]{b2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method to convert any integer from base b1 to base b2. Works by converting from b1 to decimal, then decimal to b2.
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & The integer to be converted. \\
+\hline
+{\em b1} & Beginning base. \\
+\hline
+{\em b2} & End base. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+n in base b2. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1conversions_1_1_any_base_to_any_base_ad089c94cb4c4da4828cd30390ead95d4}\label{classcom_1_1thealgorithms_1_1conversions_1_1_any_base_to_any_base_ad089c94cb4c4da4828cd30390ead95d4}} 
+\index{com.thealgorithms.conversions.AnyBaseToAnyBase@{com.thealgorithms.conversions.AnyBaseToAnyBase}!validForBase@{validForBase}}
+\index{validForBase@{validForBase}!com.thealgorithms.conversions.AnyBaseToAnyBase@{com.thealgorithms.conversions.AnyBaseToAnyBase}}
+\doxysubsubsection{\texorpdfstring{validForBase()}{validForBase()}}
+{\footnotesize\ttfamily static boolean com.\+thealgorithms.\+conversions.\+Any\+Base\+To\+Any\+Base.\+valid\+For\+Base (\begin{DoxyParamCaption}\item[{String}]{n,  }\item[{int}]{base }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Checks if a number (as a String) is valid for a given base. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/thealgorithms/conversions/Any\+Base\+To\+Any\+Base.\+java\end{DoxyCompactItemize}

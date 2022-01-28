@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1searches_1_1_quick_select" xml:lang="en-US">
+<title>com.thealgorithms.searches.QuickSelect Class Reference</title>
+<indexterm><primary>com.thealgorithms.searches.QuickSelect</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static&lt; T extends Comparable&lt; T &gt; T <link linkend="_classcom_1_1thealgorithms_1_1searches_1_1_quick_select_1afd30803dcdd60ce144e89edfbd12292d">select</link> (List&lt; T &gt; list, int n)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>An implementation of the Quickselect algorithm as described <link xlink:href="https://en.wikipedia.org/wiki/Median_of_medians">here</link>. </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1searches_1_1_quick_select_1afd30803dcdd60ce144e89edfbd12292d"/><section>
+    <title>select()</title>
+<indexterm><primary>select</primary><secondary>com.thealgorithms.searches.QuickSelect</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.searches.QuickSelect</primary><secondary>select</secondary></indexterm>
+<para><computeroutput>static&lt; T extends Comparable&lt; T &gt; T com.thealgorithms.searches.QuickSelect.select (List&lt; T &gt; list, int n)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Selects the <literallayout><computeroutput>n&#32;
+</computeroutput></literallayout> -th largest element of <literallayout><computeroutput>list&#32;
+</computeroutput></literallayout> , i.e. the element that would be at index n if the list was sorted. </para>
+
+<para>Calling this function might change the order of elements in <literallayout><computeroutput>list&#32;
+</computeroutput></literallayout> .</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>list</entry><entry>
+<para>the list of elements </para>
+</entry>
+                            </row>
+                            <row>
+<entry>n</entry><entry>
+<para>the index </para>
+</entry>
+                            </row>
+                            <row>
+<entry>&lt;T&gt;</entry><entry>
+<para>the type of list elements </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>the n-th largest element in the list </para>
+</formalpara>
+
+                <formalpara>
+                    <title>
+Exceptions</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>IndexOutOfBoundsException</entry><entry>
+<para>if n is less than 0 or greater or equal to the number of elements in the list </para>
+</entry>
+                            </row>
+                            <row>
+<entry>IllegalArgumentException</entry><entry>
+<para>if the list is empty </para>
+</entry>
+                            </row>
+                            <row>
+<entry>NullPointerException</entry><entry>
+<para>if <literallayout><computeroutput>list&#32;
+</computeroutput></literallayout> is null </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/searches/QuickSelect.java</section>
+</section>

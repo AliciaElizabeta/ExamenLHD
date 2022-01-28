@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_a_v_l_tree" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.trees.AVLTree Class Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.trees.AVLTree</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_a_v_l_tree_1a10cee76ca727773149967b38cfd873dd"/>boolean <emphasis role="strong">insert</emphasis> (int key)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_a_v_l_tree_1a5db2546049dd01974ae7c7279c007c17"/>void <emphasis role="strong">delete</emphasis> (int delKey)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_a_v_l_tree_1a257bcde792794e00611ff9aa4af45616"/>void <emphasis role="strong">printBalance</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_a_v_l_tree_1a064fe74f89b541f827f9ab55e06b34ad"/>boolean <emphasis role="strong">search</emphasis> (int key)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_a_v_l_tree_1ac71a2be4bd7575da3c8285b4cbe45af7"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/trees/AVLTree.java</section>

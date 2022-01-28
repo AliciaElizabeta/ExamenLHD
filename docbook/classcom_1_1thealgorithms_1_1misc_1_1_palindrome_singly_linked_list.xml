@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1misc_1_1_palindrome_singly_linked_list" xml:lang="en-US">
+<title>com.thealgorithms.misc.PalindromeSinglyLinkedList Class Reference</title>
+<indexterm><primary>com.thealgorithms.misc.PalindromeSinglyLinkedList</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1misc_1_1_palindrome_singly_linked_list_1a612203cedf010209b20e4d08517dab22"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1misc_1_1_palindrome_singly_linked_list_1a586c1235a9a61f6780ce036ed4db22df"/>static boolean <emphasis role="strong">isPalindrome</emphasis> (<link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list">SinglyLinkedList</link> linkedList)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>A simple way of knowing if a singly linked list is palindrome is to push all the values into a Stack and then compare the list to popped vales from the Stack.</para>
+
+<para>See more: <link xlink:href="https://www.geeksforgeeks.org/function-to-check-if-a-singly-linked-list-is-palindrome/">https://www.geeksforgeeks.org/function-to-check-if-a-singly-linked-list-is-palindrome/</link> </para>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/misc/PalindromeSinglyLinkedList.java</section>
+</section>

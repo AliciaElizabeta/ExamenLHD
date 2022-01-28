@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1others_1_1_verhoeff" xml:lang="en-US">
+<title>com.thealgorithms.others.Verhoeff Class Reference</title>
+<indexterm><primary>com.thealgorithms.others.Verhoeff</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static boolean <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_verhoeff_1addfba90cb5cf93ce616f979acd50cd6b">verhoeffCheck</link> (String digits)</para>
+</listitem>
+            <listitem><para>static String <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_verhoeff_1a55268f163015f08f15fbb73d15bc135c">addVerhoeffChecksum</link> (String initialDigits)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_verhoeff_1a4454717ef05ff8cbc57dce53a1ebe4d7"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>The <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_verhoeff">Verhoeff</link> algorithm is a checksum formula for error detection developed by the Dutch mathematician Jacobus <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_verhoeff">Verhoeff</link> and was first published in 1969. It was the first decimal check digit algorithm which detects all single-digit errors, and all transposition errors involving two adjacent digits.</para>
+
+<para>The strengths of the algorithm are that it detects all transliteration and transposition errors, and additionally most twin, twin jump, jump transposition and phonetic errors. The main weakness of the <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_verhoeff">Verhoeff</link> algorithm is its complexity. The calculations required cannot easily be expressed as a formula. For easy calculation three tables are required:</para>
+
+<para><orderedlist>
+<listitem>
+
+<para>multiplication table </para>
+</listitem>
+<listitem>
+
+<para>inverse table </para>
+</listitem>
+<listitem>
+
+<para>permutation table </para>
+</listitem>
+</orderedlist>
+</para>
+
+<para><formalpara><title>See also</title>
+
+<para><link xlink:href="https://en.wikipedia.org/wiki/Verhoeff_algorithm">Wiki. Verhoeff algorithm</link> </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_verhoeff_1a55268f163015f08f15fbb73d15bc135c"/><section>
+    <title>addVerhoeffChecksum()</title>
+<indexterm><primary>addVerhoeffChecksum</primary><secondary>com.thealgorithms.others.Verhoeff</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.others.Verhoeff</primary><secondary>addVerhoeffChecksum</secondary></indexterm>
+<para><computeroutput>static String com.thealgorithms.others.Verhoeff.addVerhoeffChecksum (String initialDigits)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Calculate check digit for initial digits and add it tho the last position.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>initialDigits</entry><entry>
+<para>initial value </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>digits with the checksum in the last position </para>
+</formalpara>
+
+                <formalpara>
+                    <title>
+Exceptions</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>IllegalArgumentException</entry><entry>
+<para>if input parameter contains not only digits </para>
+</entry>
+                            </row>
+                            <row>
+<entry>NullPointerException</entry><entry>
+<para>if input is null </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_verhoeff_1addfba90cb5cf93ce616f979acd50cd6b"/><section>
+    <title>verhoeffCheck()</title>
+<indexterm><primary>verhoeffCheck</primary><secondary>com.thealgorithms.others.Verhoeff</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.others.Verhoeff</primary><secondary>verhoeffCheck</secondary></indexterm>
+<para><computeroutput>static boolean com.thealgorithms.others.Verhoeff.verhoeffCheck (String digits)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Check input digits by <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_verhoeff">Verhoeff</link> algorithm.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>digits</entry><entry>
+<para>input to check </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>true if check was successful, false otherwise </para>
+</formalpara>
+
+                <formalpara>
+                    <title>
+Exceptions</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>IllegalArgumentException</entry><entry>
+<para>if input parameter contains not only digits </para>
+</entry>
+                            </row>
+                            <row>
+<entry>NullPointerException</entry><entry>
+<para>if input is null </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/others/Verhoeff.java</section>
+</section>

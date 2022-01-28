@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1bags_1_1_bag" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.bags.Bag&lt; Element &gt; Class Template Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.bags.Bag&lt; Element &gt;</primary></indexterm>
+<para>Inheritance diagram for com.thealgorithms.datastructures.bags.Bag&lt; Element &gt;:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcom_1_1thealgorithms_1_1datastructures_1_1bags_1_1_bag.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1bags_1_1_bag_1a44334413f97ac45f5743b2583f2b432e">Bag</link> ()</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1bags_1_1_bag_1a5e813608c14a90c556ebb9988c2eaf20">isEmpty</link> ()</para>
+</listitem>
+            <listitem><para>int <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1bags_1_1_bag_1a2b154082c7ccef875348f757a134f072">size</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1bags_1_1_bag_1a6de8bc820c077f2fe8ae4ef84f644335">add</link> (Element element)</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1bags_1_1_bag_1ac76e79635a9a4971f4750f11cf11bd2d">contains</link> (Element element)</para>
+</listitem>
+            <listitem><para>Iterator&lt; Element &gt; <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1bags_1_1_bag_1ac27e2a591223511a9be50a9e46aea6e3">iterator</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1bags_1_1_bag_1ac345f66a082651e66af74059524b2535">main</link> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Collection which does not allow removing elements (only collect and iterate)</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>&lt;Element&gt;</entry><entry>
+<para>- the generic type of an element in this bag </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1bags_1_1_bag_1a44334413f97ac45f5743b2583f2b432e"/><section>
+    <title>Bag()</title>
+<indexterm><primary>Bag</primary><secondary>com.thealgorithms.datastructures.bags.Bag&lt; Element &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.bags.Bag&lt; Element &gt;</primary><secondary>Bag</secondary></indexterm>
+<para><computeroutput><link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1bags_1_1_bag">com.thealgorithms.datastructures.bags.Bag</link>&lt; Element &gt;.<link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1bags_1_1_bag">Bag</link> ( )</computeroutput></para>
+<para>Create an empty bag </para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1bags_1_1_bag_1a6de8bc820c077f2fe8ae4ef84f644335"/><section>
+    <title>add()</title>
+<indexterm><primary>add</primary><secondary>com.thealgorithms.datastructures.bags.Bag&lt; Element &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.bags.Bag&lt; Element &gt;</primary><secondary>add</secondary></indexterm>
+<para><computeroutput>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1bags_1_1_bag">com.thealgorithms.datastructures.bags.Bag</link>&lt; Element &gt;.add (Element element)</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>element</entry><entry>
+<para>- the element to add </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1bags_1_1_bag_1ac76e79635a9a4971f4750f11cf11bd2d"/><section>
+    <title>contains()</title>
+<indexterm><primary>contains</primary><secondary>com.thealgorithms.datastructures.bags.Bag&lt; Element &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.bags.Bag&lt; Element &gt;</primary><secondary>contains</secondary></indexterm>
+<para><computeroutput>boolean <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1bags_1_1_bag">com.thealgorithms.datastructures.bags.Bag</link>&lt; Element &gt;.contains (Element element)</computeroutput></para>
+<para>Checks if the bag contains a specific element</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>element</entry><entry>
+<para>which you want to look for </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>true if bag contains element, otherwise false </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1bags_1_1_bag_1a5e813608c14a90c556ebb9988c2eaf20"/><section>
+    <title>isEmpty()</title>
+<indexterm><primary>isEmpty</primary><secondary>com.thealgorithms.datastructures.bags.Bag&lt; Element &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.bags.Bag&lt; Element &gt;</primary><secondary>isEmpty</secondary></indexterm>
+<para><computeroutput>boolean <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1bags_1_1_bag">com.thealgorithms.datastructures.bags.Bag</link>&lt; Element &gt;.isEmpty ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>true if this bag is empty, false otherwise </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1bags_1_1_bag_1ac27e2a591223511a9be50a9e46aea6e3"/><section>
+    <title>iterator()</title>
+<indexterm><primary>iterator</primary><secondary>com.thealgorithms.datastructures.bags.Bag&lt; Element &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.bags.Bag&lt; Element &gt;</primary><secondary>iterator</secondary></indexterm>
+<para><computeroutput>Iterator&lt; Element &gt; <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1bags_1_1_bag">com.thealgorithms.datastructures.bags.Bag</link>&lt; Element &gt;.iterator ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>an iterator that iterates over the elements in this bag in arbitrary order </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1bags_1_1_bag_1ac345f66a082651e66af74059524b2535"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>com.thealgorithms.datastructures.bags.Bag&lt; Element &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.bags.Bag&lt; Element &gt;</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1bags_1_1_bag">com.thealgorithms.datastructures.bags.Bag</link>&lt; Element &gt;.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>main-method for testing </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1bags_1_1_bag_1a2b154082c7ccef875348f757a134f072"/><section>
+    <title>size()</title>
+<indexterm><primary>size</primary><secondary>com.thealgorithms.datastructures.bags.Bag&lt; Element &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.bags.Bag&lt; Element &gt;</primary><secondary>size</secondary></indexterm>
+<para><computeroutput>int <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1bags_1_1_bag">com.thealgorithms.datastructures.bags.Bag</link>&lt; Element &gt;.size ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>the number of elements </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/bags/Bag.java</section>
+</section>

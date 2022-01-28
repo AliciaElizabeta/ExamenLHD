@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_parse_integer" xml:lang="en-US">
+<title>com.thealgorithms.maths.ParseInteger Class Reference</title>
+<indexterm><primary>com.thealgorithms.maths.ParseInteger</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_parse_integer_1a7eaffd667d2562bb6070509358f6352b"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+            <listitem><para>static int <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_parse_integer_1a80140b5c3e5c1f0f8891d5e9ffda00ab">parseInt</link> (String s)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_parse_integer_1a80140b5c3e5c1f0f8891d5e9ffda00ab"/><section>
+    <title>parseInt()</title>
+<indexterm><primary>parseInt</primary><secondary>com.thealgorithms.maths.ParseInteger</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.ParseInteger</primary><secondary>parseInt</secondary></indexterm>
+<para><computeroutput>static int com.thealgorithms.maths.ParseInteger.parseInt (String s)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Parse a string to integer</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>s</entry><entry>
+<para>the string </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>the integer value represented by the argument in decimal. </para>
+</formalpara>
+
+                <formalpara>
+                    <title>
+Exceptions</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>NumberFormatException</entry><entry>
+<para>if the <literallayout><computeroutput><emphasis role="keywordtype">string</emphasis>&#32;
+</computeroutput></literallayout> does not contain a parsable integer. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/maths/ParseInteger.java</section>
+</section>

@@ -1,0 +1,57 @@
+\hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_cursor_linked_list}{}\doxysection{com.\+thealgorithms.\+datastructures.\+lists.\+Cursor\+Linked\+List\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>} Class Template Reference}
+\label{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_cursor_linked_list}\index{com.thealgorithms.datastructures.lists.CursorLinkedList$<$ T $>$@{com.thealgorithms.datastructures.lists.CursorLinkedList$<$ T $>$}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_cursor_linked_list_a603bafb8d9135afbb705bb4c4391b772}\label{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_cursor_linked_list_a603bafb8d9135afbb705bb4c4391b772}} 
+void {\bfseries print\+List} ()
+\item 
+int \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_cursor_linked_list_ad634d6ad736edabcb1a3250b24dfe9b9}{index\+Of}} (T element)
+\item 
+T \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_cursor_linked_list_ac0021128ab00399390192b7e133566dc}{get}} (int position)
+\item 
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_cursor_linked_list_af965df90517994b3187944fc9408a56d}\label{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_cursor_linked_list_af965df90517994b3187944fc9408a56d}} 
+void {\bfseries remove\+By\+Index} (int index)
+\item 
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_cursor_linked_list_a8591214212b1752d6347b44dbc229145}\label{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_cursor_linked_list_a8591214212b1752d6347b44dbc229145}} 
+void {\bfseries remove} (T element)
+\item 
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_cursor_linked_list_ade7928001ed2d43319defd902e132f45}\label{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_cursor_linked_list_ade7928001ed2d43319defd902e132f45}} 
+void {\bfseries append} (T element)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class implements a Cursor Linked List.
+
+A \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_cursor_linked_list}{Cursor\+Linked\+List}} is an array version of a Linked List. Essentially you have an array of list nodes but instead of each node containing a pointer to the next item in the linked list, each node element in the array contains the index for the next node element. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_cursor_linked_list_ac0021128ab00399390192b7e133566dc}\label{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_cursor_linked_list_ac0021128ab00399390192b7e133566dc}} 
+\index{com.thealgorithms.datastructures.lists.CursorLinkedList$<$ T $>$@{com.thealgorithms.datastructures.lists.CursorLinkedList$<$ T $>$}!get@{get}}
+\index{get@{get}!com.thealgorithms.datastructures.lists.CursorLinkedList$<$ T $>$@{com.thealgorithms.datastructures.lists.CursorLinkedList$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{get()}{get()}}
+{\footnotesize\ttfamily T \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_cursor_linked_list}{com.\+thealgorithms.\+datastructures.\+lists.\+Cursor\+Linked\+List}}$<$ T $>$.get (\begin{DoxyParamCaption}\item[{int}]{position }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em position,the} & logical index of the element , not the actual one within the \mbox{[}cursor\+Space\mbox{]} array . this method should be used to get the index give by \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_cursor_linked_list_ad634d6ad736edabcb1a3250b24dfe9b9}{index\+Of()}} method. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_cursor_linked_list_ad634d6ad736edabcb1a3250b24dfe9b9}\label{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_cursor_linked_list_ad634d6ad736edabcb1a3250b24dfe9b9}} 
+\index{com.thealgorithms.datastructures.lists.CursorLinkedList$<$ T $>$@{com.thealgorithms.datastructures.lists.CursorLinkedList$<$ T $>$}!indexOf@{indexOf}}
+\index{indexOf@{indexOf}!com.thealgorithms.datastructures.lists.CursorLinkedList$<$ T $>$@{com.thealgorithms.datastructures.lists.CursorLinkedList$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{indexOf()}{indexOf()}}
+{\footnotesize\ttfamily int \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_cursor_linked_list}{com.\+thealgorithms.\+datastructures.\+lists.\+Cursor\+Linked\+List}}$<$ T $>$.index\+Of (\begin{DoxyParamCaption}\item[{T}]{element }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+the logical index of the element within the list , not the actual index of the \mbox{[}cursor\+Space\mbox{]} array 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/thealgorithms/datastructures/lists/Cursor\+Linked\+List.\+java\end{DoxyCompactItemize}

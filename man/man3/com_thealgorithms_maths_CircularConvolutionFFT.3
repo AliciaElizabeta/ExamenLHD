@@ -1,0 +1,54 @@
+.TH "com.thealgorithms.maths.CircularConvolutionFFT" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.maths.CircularConvolutionFFT
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static ArrayList< FFT\&.Complex > \fBfftCircularConvolution\fP (ArrayList< FFT\&.Complex > a, ArrayList< FFT\&.Complex > b)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Class for circular convolution of two discrete signals using the convolution theorem\&.
+.PP
+\fBAuthor\fP
+.RS 4
+Ioannis Karavitsis 
+.RE
+.PP
+\fBVersion\fP
+.RS 4
+1\&.0 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "static ArrayList< FFT\&.Complex > com\&.thealgorithms\&.maths\&.CircularConvolutionFFT\&.fftCircularConvolution (ArrayList< FFT\&.Complex > a, ArrayList< FFT\&.Complex > b)\fC [static]\fP"
+Discrete circular convolution function\&. It uses the convolution theorem for discrete signals: convolved = IDFT(DFT(a)*DFT(b))\&. Then we use the \fBFFT\fP algorithm for faster calculations of the two DFTs and the final IDFT\&.
+.PP
+More info: https://en.wikipedia.org/wiki/Convolution_theorem
+.PP
+\fBParameters\fP
+.RS 4
+\fIa\fP The first signal\&. 
+.br
+\fIb\fP The other signal\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The convolved signal\&. 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_levenshtein_distance" xml:lang="en-US">
+<title>com.thealgorithms.dynamicprogramming.LevenshteinDistance Class Reference</title>
+<indexterm><primary>com.thealgorithms.dynamicprogramming.LevenshteinDistance</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_levenshtein_distance_1ae0763b83f533c4e3073bb27cd029fd0b"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><formalpara><title>Author</title>
+
+<para>Kshitij VERMA (github.com/kv19971) LEVENSHTEIN DISTANCE dyamic programming implementation to show the difference between two strings (<link xlink:href="https://en.wikipedia.org/wiki/Levenshtein_distance">https://en.wikipedia.org/wiki/Levenshtein_distance</link>) </para>
+</formalpara>
+</para>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/dynamicprogramming/LevenshteinDistance.java</section>
+</section>

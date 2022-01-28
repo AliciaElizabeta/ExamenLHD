@@ -1,0 +1,90 @@
+.TH "com.thealgorithms.others.Verhoeff" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.others.Verhoeff
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static boolean \fBverhoeffCheck\fP (String digits)"
+.br
+.ti -1c
+.RI "static String \fBaddVerhoeffChecksum\fP (String initialDigits)"
+.br
+.ti -1c
+.RI "static void \fBmain\fP (String[] args)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+The \fBVerhoeff\fP algorithm is a checksum formula for error detection developed by the Dutch mathematician Jacobus \fBVerhoeff\fP and was first published in 1969\&. It was the first decimal check digit algorithm which detects all single-digit errors, and all transposition errors involving two adjacent digits\&.
+.PP
+The strengths of the algorithm are that it detects all transliteration and transposition errors, and additionally most twin, twin jump, jump transposition and phonetic errors\&. The main weakness of the \fBVerhoeff\fP algorithm is its complexity\&. The calculations required cannot easily be expressed as a formula\&. For easy calculation three tables are required:
+.PP
+.PD 0
+.IP "1." 4
+multiplication table 
+.IP "2." 4
+inverse table 
+.IP "3." 4
+permutation table 
+.PP
+.PP
+\fBSee also\fP
+.RS 4
+\fCWiki\&. Verhoeff algorithm\fP 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "static String com\&.thealgorithms\&.others\&.Verhoeff\&.addVerhoeffChecksum (String initialDigits)\fC [static]\fP"
+Calculate check digit for initial digits and add it tho the last position\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIinitialDigits\fP initial value 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+digits with the checksum in the last position 
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIIllegalArgumentException\fP if input parameter contains not only digits 
+.br
+\fINullPointerException\fP if input is null 
+.RE
+.PP
+
+.SS "static boolean com\&.thealgorithms\&.others\&.Verhoeff\&.verhoeffCheck (String digits)\fC [static]\fP"
+Check input digits by \fBVerhoeff\fP algorithm\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIdigits\fP input to check 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true if check was successful, false otherwise 
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIIllegalArgumentException\fP if input parameter contains not only digits 
+.br
+\fINullPointerException\fP if input is null 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

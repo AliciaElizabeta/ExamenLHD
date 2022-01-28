@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1strings_1_1_characters_same" xml:lang="en-US">
+<title>com.thealgorithms.strings.CharactersSame Class Reference</title>
+<indexterm><primary>com.thealgorithms.strings.CharactersSame</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classcom_1_1thealgorithms_1_1strings_1_1_characters_same_1adc7b9779bb7f51992bf20cc39f0eedd3">main</link> (String[] args)</para>
+</listitem>
+            <listitem><para>static boolean <link linkend="_classcom_1_1thealgorithms_1_1strings_1_1_characters_same_1a0fc1037328a2c16a47a11848e17cdda5">isAllCharactersSame</link> (String s)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1strings_1_1_characters_same_1a0fc1037328a2c16a47a11848e17cdda5"/><section>
+    <title>isAllCharactersSame()</title>
+<indexterm><primary>isAllCharactersSame</primary><secondary>com.thealgorithms.strings.CharactersSame</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.strings.CharactersSame</primary><secondary>isAllCharactersSame</secondary></indexterm>
+<para><computeroutput>static boolean com.thealgorithms.strings.CharactersSame.isAllCharactersSame (String s)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>check if all the characters of a string are same</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>s</entry><entry>
+<para>the string to check </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para><literallayout><computeroutput><emphasis role="keyword">true</emphasis>&#32;
+</computeroutput></literallayout> if all characters of a string are same, otherwise <literallayout><computeroutput><emphasis role="keyword">false</emphasis>&#32;
+</computeroutput></literallayout> </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1strings_1_1_characters_same_1adc7b9779bb7f51992bf20cc39f0eedd3"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>com.thealgorithms.strings.CharactersSame</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.strings.CharactersSame</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void com.thealgorithms.strings.CharactersSame.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Driver Code </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/strings/CharactersSame.java</section>
+</section>

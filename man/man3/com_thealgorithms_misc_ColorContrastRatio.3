@@ -1,0 +1,115 @@
+.TH "com.thealgorithms.misc.ColorContrastRatio" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.misc.ColorContrastRatio \- A Java implementation of the offcial W3 documented procedure to calculate contrast ratio between colors on the web\&. This is used to calculate the readability of a foreground color on top of a background color\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "double \fBgetContrastRatio\fP (Color a, Color b)"
+.br
+.RI "Calculates the contrast ratio between two given colors\&. "
+.ti -1c
+.RI "double \fBgetRelativeLuminance\fP (Color color)"
+.br
+.RI "Calculates the relative luminance of a given color\&. "
+.ti -1c
+.RI "double \fBgetColor\fP (int color8Bit)"
+.br
+.RI "Calculates the final value for a color to be used in the relative luminance formula as described in step 1\&. "
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBmain\fP (String args[])"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+A Java implementation of the offcial W3 documented procedure to calculate contrast ratio between colors on the web\&. This is used to calculate the readability of a foreground color on top of a background color\&. 
+
+
+.PP
+\fBSince\fP
+.RS 4
+2020-10-15 
+.RE
+.PP
+\fBSee also\fP
+.RS 4
+\fCColor Contrast Ratio\fP 
+.RE
+.PP
+\fBAuthor\fP
+.RS 4
+\fCSeth Falco\fP 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "double com\&.thealgorithms\&.misc\&.ColorContrastRatio\&.getColor (int color8Bit)"
+
+.PP
+Calculates the final value for a color to be used in the relative luminance formula as described in step 1\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIcolor8Bit\fP 8-bit representation of a color component value\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Value for the provided color component to be used in the relative luminance formula\&. 
+.RE
+.PP
+
+.SS "double com\&.thealgorithms\&.misc\&.ColorContrastRatio\&.getContrastRatio (Color a, Color b)"
+
+.PP
+Calculates the contrast ratio between two given colors\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIa\fP Any color, used to get the red, green, and blue values\&. 
+.br
+\fIb\fP Another color, which will be compared against the first color\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The contrast ratio between the two colors\&. 
+.RE
+.PP
+
+.SS "double com\&.thealgorithms\&.misc\&.ColorContrastRatio\&.getRelativeLuminance (Color color)"
+
+.PP
+Calculates the relative luminance of a given color\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIcolor\fP Any color, used to get the red, green, and blue values\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The relative luminance of the color\&. 
+.RE
+.PP
+\fBSee also\fP
+.RS 4
+\fCMore info on relative luminance\&.\fP 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

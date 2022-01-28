@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1misc_1_1_color_contrast_ratio" xml:lang="en-US">
+<title>com.thealgorithms.misc.ColorContrastRatio Class Reference</title>
+<indexterm><primary>com.thealgorithms.misc.ColorContrastRatio</primary></indexterm>
+<para>
+
+<para>A Java implementation of the offcial W3 documented procedure to calculate contrast ratio between colors on the web. This is used to calculate the readability of a foreground color on top of a background color. </para>
+ 
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>double <link linkend="_classcom_1_1thealgorithms_1_1misc_1_1_color_contrast_ratio_1a6c09f89d92c43ccb2bf35912fcde60eb">getContrastRatio</link> (Color a, Color b)</para>
+
+<para>Calculates the contrast ratio between two given colors. </para>
+</listitem>
+            <listitem><para>double <link linkend="_classcom_1_1thealgorithms_1_1misc_1_1_color_contrast_ratio_1a2b41bee27e8dc75f06beaab3ca8ef23a">getRelativeLuminance</link> (Color color)</para>
+
+<para>Calculates the relative luminance of a given color. </para>
+</listitem>
+            <listitem><para>double <link linkend="_classcom_1_1thealgorithms_1_1misc_1_1_color_contrast_ratio_1ac5ccb729b2ed38e19e3e89ddf9435dd6">getColor</link> (int color8Bit)</para>
+
+<para>Calculates the final value for a color to be used in the relative luminance formula as described in step 1. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1misc_1_1_color_contrast_ratio_1a9be40edbdb86ef2eb00cae2985c305d9"/>static void <emphasis role="strong">main</emphasis> (String args[])</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>A Java implementation of the offcial W3 documented procedure to calculate contrast ratio between colors on the web. This is used to calculate the readability of a foreground color on top of a background color. </para>
+
+
+
+<para><formalpara><title>Since</title>
+
+<para>2020-10-15 </para>
+</formalpara>
+<formalpara><title>See also</title>
+
+<para><link xlink:href="https://www.w3.org/TR/WCAG20-TECHS/G17.html#G17-procedure">Color Contrast Ratio</link> </para>
+</formalpara>
+<formalpara><title>Author</title>
+
+<para><link xlink:href="https://github.com/SethFalco">Seth Falco</link> </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1misc_1_1_color_contrast_ratio_1ac5ccb729b2ed38e19e3e89ddf9435dd6"/><section>
+    <title>getColor()</title>
+<indexterm><primary>getColor</primary><secondary>com.thealgorithms.misc.ColorContrastRatio</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.misc.ColorContrastRatio</primary><secondary>getColor</secondary></indexterm>
+<para><computeroutput>double com.thealgorithms.misc.ColorContrastRatio.getColor (int color8Bit)</computeroutput></para><para>
+
+<para>Calculates the final value for a color to be used in the relative luminance formula as described in step 1. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>color8Bit</entry><entry>
+<para>8-bit representation of a color component value. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>Value for the provided color component to be used in the relative luminance formula. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1misc_1_1_color_contrast_ratio_1a6c09f89d92c43ccb2bf35912fcde60eb"/><section>
+    <title>getContrastRatio()</title>
+<indexterm><primary>getContrastRatio</primary><secondary>com.thealgorithms.misc.ColorContrastRatio</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.misc.ColorContrastRatio</primary><secondary>getContrastRatio</secondary></indexterm>
+<para><computeroutput>double com.thealgorithms.misc.ColorContrastRatio.getContrastRatio (Color a, Color b)</computeroutput></para><para>
+
+<para>Calculates the contrast ratio between two given colors. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>a</entry><entry>
+<para>Any color, used to get the red, green, and blue values. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>b</entry><entry>
+<para>Another color, which will be compared against the first color. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>The contrast ratio between the two colors. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1misc_1_1_color_contrast_ratio_1a2b41bee27e8dc75f06beaab3ca8ef23a"/><section>
+    <title>getRelativeLuminance()</title>
+<indexterm><primary>getRelativeLuminance</primary><secondary>com.thealgorithms.misc.ColorContrastRatio</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.misc.ColorContrastRatio</primary><secondary>getRelativeLuminance</secondary></indexterm>
+<para><computeroutput>double com.thealgorithms.misc.ColorContrastRatio.getRelativeLuminance (Color color)</computeroutput></para><para>
+
+<para>Calculates the relative luminance of a given color. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>color</entry><entry>
+<para>Any color, used to get the red, green, and blue values. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>The relative luminance of the color. </para>
+</formalpara>
+<formalpara><title>See also</title>
+
+<para><link xlink:href="https://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminancedef">More info on relative luminance.</link> </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/misc/ColorContrastRatio.java</section>
+</section>

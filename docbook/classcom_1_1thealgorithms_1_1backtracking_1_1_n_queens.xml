@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1backtracking_1_1_n_queens" xml:lang="en-US">
+<title>com.thealgorithms.backtracking.NQueens Class Reference</title>
+<indexterm><primary>com.thealgorithms.backtracking.NQueens</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1backtracking_1_1_n_queens_1a0bd0d25561408e1b240d3536226fa3b7"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1backtracking_1_1_n_queens_1a714f239a9f0b237649e46f3c5cd8b43b"/>static void <emphasis role="strong">placeQueens</emphasis> (final int queens)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Problem statement: Given a N x N chess board. Return all arrangements in which N queens can be placed on the board such no two queens attack each other. Ex. N = 6 Solution= There are 4 possible ways Arrangement: 1 &quot;.Q....&quot;, &quot;...Q..&quot;, &quot;.....Q&quot;, &quot;Q.....&quot;, &quot;..Q...&quot;, &quot;....Q.&quot; </para>
+
+<para>Arrangement: 2 &quot;..Q...&quot;, &quot;.....Q&quot;, &quot;.Q....&quot;, &quot;....Q.&quot;, &quot;Q.....&quot;, &quot;...Q..&quot; </para>
+
+<para>Arrangement: 3 &quot;...Q..&quot;, &quot;Q.....&quot;, &quot;....Q.&quot;, &quot;.Q....&quot;, &quot;.....Q&quot;, &quot;..Q...&quot; </para>
+
+<para>Arrangement: 4 &quot;....Q.&quot;, &quot;..Q...&quot;, &quot;Q.....&quot;, &quot;.....Q&quot;, &quot;...Q..&quot;, &quot;.Q....&quot;</para>
+
+<para>Solution: Brute Force approach:</para>
+
+<para>Generate all possible arrangement to place N queens on N*N board. Check each board if queens are placed safely. If it is safe, include arrangement in solution set. Otherwise ignore it</para>
+
+<para>Optimized solution: This can be solved using backtracking in below steps</para>
+
+<para>Start with first column and place queen on first row Try placing queen in a row on second column If placing second queen in second column attacks any of the previous queens, change the row in second column otherwise move to next column and try to place next queen In case if there is no rows where a queen can be placed such that it doesn&apos;t attack previous queens, then go back to previous column and change row of previous queen. Keep doing this until last queen is not placed safely. If there is no such way then return an empty list as solution </para>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/backtracking/NQueens.java</section>
+</section>

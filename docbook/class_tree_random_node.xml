@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_tree_random_node" xml:lang="en-US">
+<title>TreeRandomNode Class Reference</title>
+<indexterm><primary>TreeRandomNode</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_tree_random_node_1a4979a60ce953c99be6d3f5e4abac4606"/>void <emphasis role="strong">getrandom</emphasis> (Node val)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/trees/TreeRandomNode.java</section>

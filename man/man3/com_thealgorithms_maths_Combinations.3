@@ -1,0 +1,103 @@
+.TH "com.thealgorithms.maths.Combinations" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.maths.Combinations
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBmain\fP (String[] args)"
+.br
+.ti -1c
+.RI "static long \fBfactorial\fP (int n)"
+.br
+.ti -1c
+.RI "static long \fBcombinations\fP (int n, int k)"
+.br
+.ti -1c
+.RI "static long \fBcombinationsOptimized\fP (int n, int k)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.PP
+\fBSee also\fP
+.RS 4
+\fCCombination\fP 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "static long com\&.thealgorithms\&.maths\&.Combinations\&.combinations (int n, int k)\fC [static]\fP"
+Calculate combinations
+.PP
+\fBParameters\fP
+.RS 4
+\fIn\fP first number 
+.br
+\fIk\fP second number 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+combinations of given 
+.PP
+.nf
+n 
+
+.fi
+.PP
+ and 
+.PP
+.nf
+k 
+
+.fi
+.PP
+ 
+.RE
+.PP
+
+.SS "static long com\&.thealgorithms\&.maths\&.Combinations\&.combinationsOptimized (int n, int k)\fC [static]\fP"
+The above method can exceed limit of long (overflow) when factorial(n) is larger than limits of long variable\&. Thus even if nCk is within range of long variable above reason can lead to incorrect result\&. This is an optimized version of computing combinations\&. Observations: nC(k + 1) = (n
+.IP "\(bu" 2
+k) * nCk / (k + 1) We know the value of nCk when k = 1 which is nCk = n Using this base value and above formula we can compute the next term nC(k+1)
+.PP
+.PP
+\fBParameters\fP
+.RS 4
+\fIn\fP 
+.br
+\fIk\fP 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+nCk 
+.RE
+.PP
+
+.SS "static long com\&.thealgorithms\&.maths\&.Combinations\&.factorial (int n)\fC [static]\fP"
+Calculate of factorial
+.PP
+\fBParameters\fP
+.RS 4
+\fIn\fP the number 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+factorial of given number 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

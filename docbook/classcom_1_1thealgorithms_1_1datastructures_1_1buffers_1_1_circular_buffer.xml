@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1buffers_1_1_circular_buffer" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.buffers.CircularBuffer Class Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.buffers.CircularBuffer</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1buffers_1_1_circular_buffer_1a6909c947f5fde0228258d9303b42b72e"/><emphasis role="strong">CircularBuffer</emphasis> (int buffer_size)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1buffers_1_1_circular_buffer_1a10ad3df2ed6ed95342a879d62afce3e7"/>Character <emphasis role="strong">readOutChar</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1buffers_1_1_circular_buffer_1a17a0fbb7197108d2ef4ec0844440142a"/>boolean <emphasis role="strong">writeToCharBuffer</emphasis> (char c)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1buffers_1_1_circular_buffer_1a3e03f063f48025fd407150fc73deac0a"/>static void <emphasis role="strong">main</emphasis> (String[] args)  throws InterruptedException </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1buffers_1_1_circular_buffer_1a3589ba469313800e3d35d5234dc1d90f"/>final int <emphasis role="strong">_buffer_size</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/buffers/CircularBuffer.java</section>

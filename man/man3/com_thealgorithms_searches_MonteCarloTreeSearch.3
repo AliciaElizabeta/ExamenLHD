@@ -1,0 +1,94 @@
+.TH "com.thealgorithms.searches.MonteCarloTreeSearch" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.searches.MonteCarloTreeSearch
+.SH SYNOPSIS
+.br
+.PP
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "class \fBNode\fP"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBNode\fP \fBmonteCarloTreeSearch\fP (\fBNode\fP rootNode)"
+.br
+.ti -1c
+.RI "void \fBaddChildNodes\fP (\fBNode\fP node, int childCount)"
+.br
+.ti -1c
+.RI "\fBNode\fP \fBgetPromisingNode\fP (\fBNode\fP rootNode)"
+.br
+.ti -1c
+.RI "void \fBsimulateRandomPlay\fP (\fBNode\fP promisingNode)"
+.br
+.ti -1c
+.RI "\fBNode\fP \fBgetWinnerNode\fP (\fBNode\fP rootNode)"
+.br
+.ti -1c
+.RI "void \fBprintScores\fP (\fBNode\fP rootNode)"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBmain\fP (String[] args)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Monte Carlo Tree Search (MCTS) is a heuristic search algorithm used in decition taking problems especially games\&.
+.PP
+See more: https://en.wikipedia.org/wiki/Monte_Carlo_tree_search, https://www.baeldung.com/java-monte-carlo-tree-search 
+.SH "Member Function Documentation"
+.PP 
+.SS "\fBNode\fP com\&.thealgorithms\&.searches\&.MonteCarloTreeSearch\&.getPromisingNode (\fBNode\fP rootNode)"
+Uses UCT to find a promising child node to be explored\&.
+.PP
+UCT: Upper Confidence bounds applied to Trees\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIrootNode\fP Root node of the tree\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The most promising node according to UCT\&. 
+.RE
+.PP
+
+.SS "\fBNode\fP com\&.thealgorithms\&.searches\&.MonteCarloTreeSearch\&.monteCarloTreeSearch (\fBNode\fP rootNode)"
+Explores a game tree using Monte Carlo Tree Search (MCTS) and returns the most promising node\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIrootNode\fP Root node of the game tree\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The most promising child of the root node\&. 
+.RE
+.PP
+
+.SS "void com\&.thealgorithms\&.searches\&.MonteCarloTreeSearch\&.simulateRandomPlay (\fBNode\fP promisingNode)"
+Simulates a random play from a nodes current state and back propagates the result\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIpromisingNode\fP \fBNode\fP that will be simulated\&. 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

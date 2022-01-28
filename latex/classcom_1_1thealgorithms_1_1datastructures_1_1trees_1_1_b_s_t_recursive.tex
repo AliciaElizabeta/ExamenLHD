@@ -1,0 +1,105 @@
+\hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive}{}\doxysection{com.\+thealgorithms.\+datastructures.\+trees.\+BSTRecursive Class Reference}
+\label{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive}\index{com.thealgorithms.datastructures.trees.BSTRecursive@{com.thealgorithms.datastructures.trees.BSTRecursive}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive_a45d343e1c124de2ab0487c400a6ddc21}{add}} (int data)
+\item 
+void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive_afb3da58b49f29fb2c632b81912fd306f}{remove}} (int data)
+\item 
+void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive_a7e85b8dc86695098c7dd389f51b49617}{inorder}} ()
+\item 
+void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive_ae8d305882544429d3361db2e28ac8803}{postorder}} ()
+\item 
+void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive_a53c733a1312d9e4c5590d276c0a1932c}{preorder}} ()
+\item 
+boolean \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive_a3be5b6750633a175cf1c6387e3f77f5e}{find}} (int data)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive_ab053c716e2c9be6fbe7ae6a4c3c22e12}{main}} (String\mbox{[}$\,$\mbox{]} args)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\doxysubsection*{Binary Search Tree (Recursive)}
+
+An implementation of BST recursively. In recursive implementation the checks are down the tree First root is checked if not found then its childs are checked Binary Search Tree is a binary tree which satisfies three properties\+: left child is less than root node, right child is grater than root node, both left and right childs must themselves be a BST.
+
+I have made public functions as methods and to actually implement recursive approach I have used private methods
+
+\begin{DoxyAuthor}{Author}
+\href{https://github.com/Lakhan-Nad}{\texttt{ Lakhan Nad}} 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive_a45d343e1c124de2ab0487c400a6ddc21}\label{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive_a45d343e1c124de2ab0487c400a6ddc21}} 
+\index{com.thealgorithms.datastructures.trees.BSTRecursive@{com.thealgorithms.datastructures.trees.BSTRecursive}!add@{add}}
+\index{add@{add}!com.thealgorithms.datastructures.trees.BSTRecursive@{com.thealgorithms.datastructures.trees.BSTRecursive}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily void com.\+thealgorithms.\+datastructures.\+trees.\+BSTRecursive.\+add (\begin{DoxyParamCaption}\item[{int}]{data }\end{DoxyParamCaption})}
+
+add in BST. if the value is not already present it is inserted or else no change takes place.
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & the value to be inserted \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive_a3be5b6750633a175cf1c6387e3f77f5e}\label{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive_a3be5b6750633a175cf1c6387e3f77f5e}} 
+\index{com.thealgorithms.datastructures.trees.BSTRecursive@{com.thealgorithms.datastructures.trees.BSTRecursive}!find@{find}}
+\index{find@{find}!com.thealgorithms.datastructures.trees.BSTRecursive@{com.thealgorithms.datastructures.trees.BSTRecursive}}
+\doxysubsubsection{\texorpdfstring{find()}{find()}}
+{\footnotesize\ttfamily boolean com.\+thealgorithms.\+datastructures.\+trees.\+BSTRecursive.\+find (\begin{DoxyParamCaption}\item[{int}]{data }\end{DoxyParamCaption})}
+
+To check if given value is present in tree or not.
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & the data to be found for \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive_a7e85b8dc86695098c7dd389f51b49617}\label{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive_a7e85b8dc86695098c7dd389f51b49617}} 
+\index{com.thealgorithms.datastructures.trees.BSTRecursive@{com.thealgorithms.datastructures.trees.BSTRecursive}!inorder@{inorder}}
+\index{inorder@{inorder}!com.thealgorithms.datastructures.trees.BSTRecursive@{com.thealgorithms.datastructures.trees.BSTRecursive}}
+\doxysubsubsection{\texorpdfstring{inorder()}{inorder()}}
+{\footnotesize\ttfamily void com.\+thealgorithms.\+datastructures.\+trees.\+BSTRecursive.\+inorder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+To call inorder traversal on tree \mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive_ab053c716e2c9be6fbe7ae6a4c3c22e12}\label{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive_ab053c716e2c9be6fbe7ae6a4c3c22e12}} 
+\index{com.thealgorithms.datastructures.trees.BSTRecursive@{com.thealgorithms.datastructures.trees.BSTRecursive}!main@{main}}
+\index{main@{main}!com.thealgorithms.datastructures.trees.BSTRecursive@{com.thealgorithms.datastructures.trees.BSTRecursive}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily static void com.\+thealgorithms.\+datastructures.\+trees.\+BSTRecursive.\+main (\begin{DoxyParamCaption}\item[{String\mbox{[}$\,$\mbox{]}}]{args }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+main function for tests \mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive_ae8d305882544429d3361db2e28ac8803}\label{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive_ae8d305882544429d3361db2e28ac8803}} 
+\index{com.thealgorithms.datastructures.trees.BSTRecursive@{com.thealgorithms.datastructures.trees.BSTRecursive}!postorder@{postorder}}
+\index{postorder@{postorder}!com.thealgorithms.datastructures.trees.BSTRecursive@{com.thealgorithms.datastructures.trees.BSTRecursive}}
+\doxysubsubsection{\texorpdfstring{postorder()}{postorder()}}
+{\footnotesize\ttfamily void com.\+thealgorithms.\+datastructures.\+trees.\+BSTRecursive.\+postorder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+To call postorder traversal on tree \mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive_a53c733a1312d9e4c5590d276c0a1932c}\label{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive_a53c733a1312d9e4c5590d276c0a1932c}} 
+\index{com.thealgorithms.datastructures.trees.BSTRecursive@{com.thealgorithms.datastructures.trees.BSTRecursive}!preorder@{preorder}}
+\index{preorder@{preorder}!com.thealgorithms.datastructures.trees.BSTRecursive@{com.thealgorithms.datastructures.trees.BSTRecursive}}
+\doxysubsubsection{\texorpdfstring{preorder()}{preorder()}}
+{\footnotesize\ttfamily void com.\+thealgorithms.\+datastructures.\+trees.\+BSTRecursive.\+preorder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+To call preorder traversal on tree. \mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive_afb3da58b49f29fb2c632b81912fd306f}\label{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive_afb3da58b49f29fb2c632b81912fd306f}} 
+\index{com.thealgorithms.datastructures.trees.BSTRecursive@{com.thealgorithms.datastructures.trees.BSTRecursive}!remove@{remove}}
+\index{remove@{remove}!com.thealgorithms.datastructures.trees.BSTRecursive@{com.thealgorithms.datastructures.trees.BSTRecursive}}
+\doxysubsubsection{\texorpdfstring{remove()}{remove()}}
+{\footnotesize\ttfamily void com.\+thealgorithms.\+datastructures.\+trees.\+BSTRecursive.\+remove (\begin{DoxyParamCaption}\item[{int}]{data }\end{DoxyParamCaption})}
+
+If data is present in BST delete it else do nothing.
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & the value to be removed \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/thealgorithms/datastructures/trees/BSTRecursive.\+java\end{DoxyCompactItemize}

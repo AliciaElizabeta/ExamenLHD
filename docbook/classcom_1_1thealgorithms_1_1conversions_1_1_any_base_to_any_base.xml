@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1conversions_1_1_any_base_to_any_base" xml:lang="en-US">
+<title>com.thealgorithms.conversions.AnyBaseToAnyBase Class Reference</title>
+<indexterm><primary>com.thealgorithms.conversions.AnyBaseToAnyBase</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1conversions_1_1_any_base_to_any_base_1a0f7ec1cbb4acc647f89f5a3fea037326"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+            <listitem><para>static boolean <link linkend="_classcom_1_1thealgorithms_1_1conversions_1_1_any_base_to_any_base_1ad089c94cb4c4da4828cd30390ead95d4">validForBase</link> (String n, int base)</para>
+</listitem>
+            <listitem><para>static String <link linkend="_classcom_1_1thealgorithms_1_1conversions_1_1_any_base_to_any_base_1a0b40f9af0b4e5d87669df78b393f0671">base2base</link> (String n, int b1, int b2)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Class for converting from &quot;any&quot; base to &quot;any&quot; other base, when &quot;any&quot; means from 2-36. Works by going from base 1 to decimal to base 2. Includes auxiliary method for determining whether a number is valid for a given base.</para>
+
+<para><formalpara><title>Author</title>
+
+<para>Michael Rolland </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>2017.10.10 </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1conversions_1_1_any_base_to_any_base_1a0b40f9af0b4e5d87669df78b393f0671"/><section>
+    <title>base2base()</title>
+<indexterm><primary>base2base</primary><secondary>com.thealgorithms.conversions.AnyBaseToAnyBase</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.conversions.AnyBaseToAnyBase</primary><secondary>base2base</secondary></indexterm>
+<para><computeroutput>static String com.thealgorithms.conversions.AnyBaseToAnyBase.base2base (String n, int b1, int b2)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Method to convert any integer from base b1 to base b2. Works by converting from b1 to decimal, then decimal to b2.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>n</entry><entry>
+<para>The integer to be converted. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>b1</entry><entry>
+<para>Beginning base. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>b2</entry><entry>
+<para>End base. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>n in base b2. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1conversions_1_1_any_base_to_any_base_1ad089c94cb4c4da4828cd30390ead95d4"/><section>
+    <title>validForBase()</title>
+<indexterm><primary>validForBase</primary><secondary>com.thealgorithms.conversions.AnyBaseToAnyBase</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.conversions.AnyBaseToAnyBase</primary><secondary>validForBase</secondary></indexterm>
+<para><computeroutput>static boolean com.thealgorithms.conversions.AnyBaseToAnyBase.validForBase (String n, int base)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Checks if a number (as a String) is valid for a given base. </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/conversions/AnyBaseToAnyBase.java</section>
+</section>

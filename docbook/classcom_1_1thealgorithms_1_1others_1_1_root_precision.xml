@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1others_1_1_root_precision" xml:lang="en-US">
+<title>com.thealgorithms.others.RootPrecision Class Reference</title>
+<indexterm><primary>com.thealgorithms.others.RootPrecision</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_root_precision_1a6eeb7ea73cc4dbdefdc5eb7420742e41"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_root_precision_1a7408d68b2dcd1686c84eb8c1cc30040c"/>static double <emphasis role="strong">squareRoot</emphasis> (int N, int P)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/others/RootPrecision.java</section>

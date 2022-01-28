@@ -1,0 +1,89 @@
+\hypertarget{classcom_1_1thealgorithms_1_1divideandconquer_1_1_skyline_algorithm}{}\doxysection{com.\+thealgorithms.\+divideandconquer.\+Skyline\+Algorithm Class Reference}
+\label{classcom_1_1thealgorithms_1_1divideandconquer_1_1_skyline_algorithm}\index{com.thealgorithms.divideandconquer.SkylineAlgorithm@{com.thealgorithms.divideandconquer.SkylineAlgorithm}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Point}
+\item 
+class {\bfseries XComparator}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1thealgorithms_1_1divideandconquer_1_1_skyline_algorithm_aeddae7c61905d568aa9ed41f5d6def01}{Skyline\+Algorithm}} ()
+\item 
+Array\+List$<$ Point $>$ \mbox{\hyperlink{classcom_1_1thealgorithms_1_1divideandconquer_1_1_skyline_algorithm_a3635a92e4f066c993a29b5c375897aaa}{get\+Points}} ()
+\item 
+Array\+List$<$ Point $>$ \mbox{\hyperlink{classcom_1_1thealgorithms_1_1divideandconquer_1_1_skyline_algorithm_a27ab80d2553c147c3b288da811fca2cf}{produce\+Sub\+Sky\+Lines}} (Array\+List$<$ Point $>$ list)
+\item 
+Array\+List$<$ Point $>$ \mbox{\hyperlink{classcom_1_1thealgorithms_1_1divideandconquer_1_1_skyline_algorithm_a61b6d5df2085cfbf70f69ddd82435167}{produce\+Final\+Sky\+Line}} (Array\+List$<$ Point $>$ left, Array\+List$<$ Point $>$ right)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+dimgrichr 
+\end{DoxyAuthor}
+Space complexity\+: O(n) Time complexity\+: O(nlogn), because it is a divide and conquer algorithm 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1divideandconquer_1_1_skyline_algorithm_aeddae7c61905d568aa9ed41f5d6def01}\label{classcom_1_1thealgorithms_1_1divideandconquer_1_1_skyline_algorithm_aeddae7c61905d568aa9ed41f5d6def01}} 
+\index{com.thealgorithms.divideandconquer.SkylineAlgorithm@{com.thealgorithms.divideandconquer.SkylineAlgorithm}!SkylineAlgorithm@{SkylineAlgorithm}}
+\index{SkylineAlgorithm@{SkylineAlgorithm}!com.thealgorithms.divideandconquer.SkylineAlgorithm@{com.thealgorithms.divideandconquer.SkylineAlgorithm}}
+\doxysubsubsection{\texorpdfstring{SkylineAlgorithm()}{SkylineAlgorithm()}}
+{\footnotesize\ttfamily com.\+thealgorithms.\+divideandconquer.\+Skyline\+Algorithm.\+Skyline\+Algorithm (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Main constructor of the application. Array\+List points gets created, which represents the sum of all edges. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1divideandconquer_1_1_skyline_algorithm_a3635a92e4f066c993a29b5c375897aaa}\label{classcom_1_1thealgorithms_1_1divideandconquer_1_1_skyline_algorithm_a3635a92e4f066c993a29b5c375897aaa}} 
+\index{com.thealgorithms.divideandconquer.SkylineAlgorithm@{com.thealgorithms.divideandconquer.SkylineAlgorithm}!getPoints@{getPoints}}
+\index{getPoints@{getPoints}!com.thealgorithms.divideandconquer.SkylineAlgorithm@{com.thealgorithms.divideandconquer.SkylineAlgorithm}}
+\doxysubsubsection{\texorpdfstring{getPoints()}{getPoints()}}
+{\footnotesize\ttfamily Array\+List$<$ Point $>$ com.\+thealgorithms.\+divideandconquer.\+Skyline\+Algorithm.\+get\+Points (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+points, the Array\+List that includes all points. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1divideandconquer_1_1_skyline_algorithm_a61b6d5df2085cfbf70f69ddd82435167}\label{classcom_1_1thealgorithms_1_1divideandconquer_1_1_skyline_algorithm_a61b6d5df2085cfbf70f69ddd82435167}} 
+\index{com.thealgorithms.divideandconquer.SkylineAlgorithm@{com.thealgorithms.divideandconquer.SkylineAlgorithm}!produceFinalSkyLine@{produceFinalSkyLine}}
+\index{produceFinalSkyLine@{produceFinalSkyLine}!com.thealgorithms.divideandconquer.SkylineAlgorithm@{com.thealgorithms.divideandconquer.SkylineAlgorithm}}
+\doxysubsubsection{\texorpdfstring{produceFinalSkyLine()}{produceFinalSkyLine()}}
+{\footnotesize\ttfamily Array\+List$<$ Point $>$ com.\+thealgorithms.\+divideandconquer.\+Skyline\+Algorithm.\+produce\+Final\+Sky\+Line (\begin{DoxyParamCaption}\item[{Array\+List$<$ Point $>$}]{left,  }\item[{Array\+List$<$ Point $>$}]{right }\end{DoxyParamCaption})}
+
+The first half\textquotesingle{}s skyline gets cleared from some points that are not part of the final skyline (Points with same x-\/value and different y=values. The point with the smallest y-\/value is kept). Then, the minimum y-\/value of the points of first half\textquotesingle{}s skyline is found. That helps us to clear the second half\textquotesingle{}s skyline, because, the points of second half\textquotesingle{}s skyline that have greater y-\/value of the minimum y-\/value that we found before, are dominated, so they are not part of the final skyline. Finally, the \char`\"{}cleaned\char`\"{} first half\textquotesingle{}s and second half\textquotesingle{}s skylines, are combined, producing the final skyline, which is returned.
+
+
+\begin{DoxyParams}{Parameters}
+{\em left} & the skyline of the left part of points \\
+\hline
+{\em right} & the skyline of the right part of points \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+left the final skyline 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1divideandconquer_1_1_skyline_algorithm_a27ab80d2553c147c3b288da811fca2cf}\label{classcom_1_1thealgorithms_1_1divideandconquer_1_1_skyline_algorithm_a27ab80d2553c147c3b288da811fca2cf}} 
+\index{com.thealgorithms.divideandconquer.SkylineAlgorithm@{com.thealgorithms.divideandconquer.SkylineAlgorithm}!produceSubSkyLines@{produceSubSkyLines}}
+\index{produceSubSkyLines@{produceSubSkyLines}!com.thealgorithms.divideandconquer.SkylineAlgorithm@{com.thealgorithms.divideandconquer.SkylineAlgorithm}}
+\doxysubsubsection{\texorpdfstring{produceSubSkyLines()}{produceSubSkyLines()}}
+{\footnotesize\ttfamily Array\+List$<$ Point $>$ com.\+thealgorithms.\+divideandconquer.\+Skyline\+Algorithm.\+produce\+Sub\+Sky\+Lines (\begin{DoxyParamCaption}\item[{Array\+List$<$ Point $>$}]{list }\end{DoxyParamCaption})}
+
+The main divide and conquer, and also recursive algorithm. It gets an Array\+List full of points as an argument. If the size of that Array\+List is 1 or 2, the Array\+List is returned as it is, or with one less point (if the initial size is 2 and one of it\textquotesingle{}s points, is dominated by the other one). On the other hand, if the Array\+List\textquotesingle{}s size is bigger than 2, the function is called again, twice, with arguments the corresponding half of the initial Array\+List each time. Once the flashback has ended, the function produce\+Final\+Sky\+Line gets called, in order to produce the final skyline, and return it.
+
+
+\begin{DoxyParams}{Parameters}
+{\em list,the} & initial list of points \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+left\+Sky\+Line, the combination of first half\textquotesingle{}s and second half\textquotesingle{}s skyline 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+Point 
+\end{DoxySeeAlso}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/thealgorithms/divideandconquer/Skyline\+Algorithm.\+java\end{DoxyCompactItemize}

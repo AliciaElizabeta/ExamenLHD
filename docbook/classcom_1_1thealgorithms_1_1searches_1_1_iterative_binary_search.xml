@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1searches_1_1_iterative_binary_search" xml:lang="en-US">
+<title>com.thealgorithms.searches.IterativeBinarySearch Class Reference</title>
+<indexterm><primary>com.thealgorithms.searches.IterativeBinarySearch</primary></indexterm>
+<para>Inheritance diagram for com.thealgorithms.searches.IterativeBinarySearch:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcom_1_1thealgorithms_1_1searches_1_1_iterative_binary_search.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1searches_1_1_iterative_binary_search_1a26228f2562bbfb4456244eec7c2a313b"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Binary search is one of the most popular algorithms This class represents iterative version <link linkend="_">BinarySearch</link> Iterative binary search is likely to have lower constant factors because it doesn&apos;t involve the overhead of manipulating the call stack. But in java the recursive version can be optimized by the compiler to this version.</para>
+
+<para>Worst-case performance O(log n) Best-case performance O(1) Average performance O(log n) Worst-case space complexity O(1)</para>
+
+<para><formalpara><title>Author</title>
+
+<para>Gabriele La Greca : <link xlink:href="https://github.com/thegabriele97">https://github.com/thegabriele97</link> </para>
+
+<para>Podshivalov Nikita (<link xlink:href="https://github.com/nikitap492">https://github.com/nikitap492</link>) </para>
+</formalpara>
+<formalpara><title>See also</title>
+
+<para>SearchAlgorithm </para>
+
+<para>BinarySearch </para>
+</formalpara>
+</para>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/searches/IterativeBinarySearch.java</section>
+</section>

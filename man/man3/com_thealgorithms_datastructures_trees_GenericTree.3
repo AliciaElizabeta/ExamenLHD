@@ -1,0 +1,119 @@
+.TH "com.thealgorithms.datastructures.trees.GenericTree" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.datastructures.trees.GenericTree
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBdisplay\fP ()"
+.br
+.ti -1c
+.RI "int \fBsize2call\fP ()"
+.br
+.ti -1c
+.RI "int \fBsize2\fP (Node roott)"
+.br
+.ti -1c
+.RI "int \fBmaxcall\fP ()"
+.br
+.ti -1c
+.RI "int \fBheightcall\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBfindcall\fP (int info)"
+.br
+.ti -1c
+.RI "void \fBdepthcaller\fP (int dep)"
+.br
+.ti -1c
+.RI "void \fBdepth\fP (Node node, int dep)"
+.br
+.ti -1c
+.RI "void \fBpreordercall\fP ()"
+.br
+.ti -1c
+.RI "void \fBpostordercall\fP ()"
+.br
+.ti -1c
+.RI "void \fBlevelorder\fP ()"
+.br
+.ti -1c
+.RI "void \fBremoveleavescall\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+A generic tree is a tree which can have as many children as it can be It might be possible that every node present is directly connected to root node\&.
+.PP
+In this code Every function has two copies: one function is helper function which can be called from main and from that function a private function is called which will do the actual work\&. I have done this, while calling from main one have to give minimum parameters\&. 
+.SH "Member Function Documentation"
+.PP 
+.SS "void com\&.thealgorithms\&.datastructures\&.trees\&.GenericTree\&.depthcaller (int dep)"
+Function to calculate depth of generic tree
+.PP
+\fBParameters\fP
+.RS 4
+\fIdep\fP depth 
+.RE
+.PP
+
+.SS "void com\&.thealgorithms\&.datastructures\&.trees\&.GenericTree\&.display ()"
+Function to display the generic tree 
+.SS "boolean com\&.thealgorithms\&.datastructures\&.trees\&.GenericTree\&.findcall (int info)"
+Function to find whether a number is present in the generic tree or not
+.PP
+\fBParameters\fP
+.RS 4
+\fIinfo\fP number 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+present or not 
+.RE
+.PP
+
+.SS "int com\&.thealgorithms\&.datastructures\&.trees\&.GenericTree\&.heightcall ()"
+Function to compute HEIGHT of the generic tree
+.PP
+\fBReturns\fP
+.RS 4
+height 
+.RE
+.PP
+
+.SS "void com\&.thealgorithms\&.datastructures\&.trees\&.GenericTree\&.levelorder ()"
+Function to print generic tree in level-order 
+.SS "int com\&.thealgorithms\&.datastructures\&.trees\&.GenericTree\&.maxcall ()"
+Function to compute maximum value in the generic tree
+.PP
+\fBReturns\fP
+.RS 4
+maximum value 
+.RE
+.PP
+
+.SS "void com\&.thealgorithms\&.datastructures\&.trees\&.GenericTree\&.postordercall ()"
+Function to print generic tree in post-order 
+.SS "void com\&.thealgorithms\&.datastructures\&.trees\&.GenericTree\&.preordercall ()"
+Function to print generic tree in pre-order 
+.SS "void com\&.thealgorithms\&.datastructures\&.trees\&.GenericTree\&.removeleavescall ()"
+Function to remove all leaves of generic tree 
+.SS "int com\&.thealgorithms\&.datastructures\&.trees\&.GenericTree\&.size2call ()"
+One call store the size directly but if you are asked compute size this function to calculate size goes as follows
+.PP
+\fBReturns\fP
+.RS 4
+size 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

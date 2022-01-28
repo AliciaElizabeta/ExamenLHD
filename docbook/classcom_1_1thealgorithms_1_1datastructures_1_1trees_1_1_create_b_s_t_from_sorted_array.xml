@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_create_b_s_t_from_sorted_array" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.trees.CreateBSTFromSortedArray Class Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.trees.CreateBSTFromSortedArray</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_create_b_s_t_from_sorted_array_1a979782ea29dad196a223e038d53bcd7e"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Given a sorted array. Create a balanced binary search tree from it.</para>
+
+<para>Steps: 1. Find the middle element of array. This will act as root 2. Use the left half recursively to create left subtree 3. Use the right half recursively to create right subtree </para>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/trees/CreateBSTFromSortedArray.java</section>
+</section>

@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_find_min_recursion" xml:lang="en-US">
+<title>com.thealgorithms.maths.FindMinRecursion Class Reference</title>
+<indexterm><primary>com.thealgorithms.maths.FindMinRecursion</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_find_min_recursion_1a46e40c64b9d60c1c206b4a8e5778869b">main</link> (String[] args)</para>
+</listitem>
+            <listitem><para>static int <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_find_min_recursion_1affb479d40204e40f41a986be6294c5f8">min</link> (int[] array, int low, int high)</para>
+</listitem>
+            <listitem><para>static int <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_find_min_recursion_1ab6db020bfd7bacd9a39af720bd15a4f1">min</link> (int[] array, int len)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_find_min_recursion_1a46e40c64b9d60c1c206b4a8e5778869b"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>com.thealgorithms.maths.FindMinRecursion</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.FindMinRecursion</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void com.thealgorithms.maths.FindMinRecursion.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Driver Code </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_find_min_recursion_1ab6db020bfd7bacd9a39af720bd15a4f1"/><section>
+    <title>min()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>min</primary><secondary>com.thealgorithms.maths.FindMinRecursion</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.FindMinRecursion</primary><secondary>min</secondary></indexterm>
+<para><computeroutput>static int com.thealgorithms.maths.FindMinRecursion.min (int[] array, int len)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Get min of array using recursion algorithm</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>array</entry><entry>
+<para>contains elements </para>
+</entry>
+                            </row>
+                            <row>
+<entry>len</entry><entry>
+<para>length of given array </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>min value of <literallayout><computeroutput>array&#32;
+</computeroutput></literallayout> </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_find_min_recursion_1affb479d40204e40f41a986be6294c5f8"/><section>
+    <title>min()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>min</primary><secondary>com.thealgorithms.maths.FindMinRecursion</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.FindMinRecursion</primary><secondary>min</secondary></indexterm>
+<para><computeroutput>static int com.thealgorithms.maths.FindMinRecursion.min (int[] array, int low, int high)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Get min of array using divide and conquer algorithm</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>array</entry><entry>
+<para>contains elements </para>
+</entry>
+                            </row>
+                            <row>
+<entry>low</entry><entry>
+<para>the index of the first element </para>
+</entry>
+                            </row>
+                            <row>
+<entry>high</entry><entry>
+<para>the index of the last element </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>min of <literallayout><computeroutput>array&#32;
+</computeroutput></literallayout> </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/maths/FindMinRecursion.java</section>
+</section>

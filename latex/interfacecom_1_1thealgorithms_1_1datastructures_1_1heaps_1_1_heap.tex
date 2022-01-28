@@ -1,0 +1,90 @@
+\hypertarget{interfacecom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap}{}\doxysection{com.\+thealgorithms.\+datastructures.\+heaps.\+Heap Interface Reference}
+\label{interfacecom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap}\index{com.thealgorithms.datastructures.heaps.Heap@{com.thealgorithms.datastructures.heaps.Heap}}
+Inheritance diagram for com.\+thealgorithms.\+datastructures.\+heaps.\+Heap\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.860465cm]{interfacecom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element}{Heap\+Element}} \mbox{\hyperlink{interfacecom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_a200e574feedc45c5d83bc8fbb269dc16}{get\+Element}} ()  throws Empty\+Heap\+Exception
+\item 
+void \mbox{\hyperlink{interfacecom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_a526859af3b476b26130aa491a8a6a941}{insert\+Element}} (\mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element}{Heap\+Element}} element)
+\item 
+void \mbox{\hyperlink{interfacecom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_ae3e0a2d718959756cd5d013b25010f61}{delete\+Element}} (int element\+Index)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Interface common to heap data structures.~\newline
+
+
+Heaps are tree-\/like data structures that allow storing elements in a specific way. Each node corresponds to an element and has one parent node (except for the root) and at most two children nodes. Every element contains a key, and those keys indicate how the tree shall be built. For instance, for a min-\/heap, the key of a node shall be greater than or equal to its parent\textquotesingle{}s and lower than or equal to its children\textquotesingle{}s (the opposite rule applies to a max-\/heap).
+
+All heap-\/related operations (inserting or deleting an element, extracting the min or max) are performed in O(log n) time.
+
+\begin{DoxyAuthor}{Author}
+Nicolas Renard 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{interfacecom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_ae3e0a2d718959756cd5d013b25010f61}\label{interfacecom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_ae3e0a2d718959756cd5d013b25010f61}} 
+\index{com.thealgorithms.datastructures.heaps.Heap@{com.thealgorithms.datastructures.heaps.Heap}!deleteElement@{deleteElement}}
+\index{deleteElement@{deleteElement}!com.thealgorithms.datastructures.heaps.Heap@{com.thealgorithms.datastructures.heaps.Heap}}
+\doxysubsubsection{\texorpdfstring{deleteElement()}{deleteElement()}}
+{\footnotesize\ttfamily void com.\+thealgorithms.\+datastructures.\+heaps.\+Heap.\+delete\+Element (\begin{DoxyParamCaption}\item[{int}]{element\+Index }\end{DoxyParamCaption})}
+
+Delete an element in the heap.
+
+
+\begin{DoxyParams}{Parameters}
+{\em element\+Index} & int containing the position in the heap of the element to be deleted. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_max_heap_a94a347b543554527b1f87a77d058cbdb}{com.\+thealgorithms.\+datastructures.\+heaps.\+Max\+Heap}}, and \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_min_heap_a5022aa3fd3b86645ecd4baaaef731c29}{com.\+thealgorithms.\+datastructures.\+heaps.\+Min\+Heap}}.
+
+\mbox{\Hypertarget{interfacecom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_a200e574feedc45c5d83bc8fbb269dc16}\label{interfacecom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_a200e574feedc45c5d83bc8fbb269dc16}} 
+\index{com.thealgorithms.datastructures.heaps.Heap@{com.thealgorithms.datastructures.heaps.Heap}!getElement@{getElement}}
+\index{getElement@{getElement}!com.thealgorithms.datastructures.heaps.Heap@{com.thealgorithms.datastructures.heaps.Heap}}
+\doxysubsubsection{\texorpdfstring{getElement()}{getElement()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element}{Heap\+Element}} com.\+thealgorithms.\+datastructures.\+heaps.\+Heap.\+get\+Element (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_empty_heap_exception}{Empty\+Heap\+Exception}}}
+
+\begin{DoxyReturn}{Returns}
+the top element in the heap, the one with lowest key for min-\/heap or with the highest key for max-\/heap 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_empty_heap_exception}{Empty\+Heap\+Exception}}} & if heap is empty \\
+\hline
+\end{DoxyExceptions}
+
+
+Implemented in \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_max_heap_a685e54b6401617773fae73f9343abd6d}{com.\+thealgorithms.\+datastructures.\+heaps.\+Max\+Heap}}, and \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_min_heap_a0128d6c056914866f7173b0bb63cb71e}{com.\+thealgorithms.\+datastructures.\+heaps.\+Min\+Heap}}.
+
+\mbox{\Hypertarget{interfacecom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_a526859af3b476b26130aa491a8a6a941}\label{interfacecom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_a526859af3b476b26130aa491a8a6a941}} 
+\index{com.thealgorithms.datastructures.heaps.Heap@{com.thealgorithms.datastructures.heaps.Heap}!insertElement@{insertElement}}
+\index{insertElement@{insertElement}!com.thealgorithms.datastructures.heaps.Heap@{com.thealgorithms.datastructures.heaps.Heap}}
+\doxysubsubsection{\texorpdfstring{insertElement()}{insertElement()}}
+{\footnotesize\ttfamily void com.\+thealgorithms.\+datastructures.\+heaps.\+Heap.\+insert\+Element (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element}{Heap\+Element}}}]{element }\end{DoxyParamCaption})}
+
+Inserts an element in the heap. Adds it to then end and toggle it until it finds its right position.
+
+
+\begin{DoxyParams}{Parameters}
+{\em element} & an instance of the \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element}{Heap\+Element}} class. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_max_heap_a7cb71029be85d0c283460fcfae4419d5}{com.\+thealgorithms.\+datastructures.\+heaps.\+Max\+Heap}}, and \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_min_heap_aeea284c40c396edba76ef817f9fddcc5}{com.\+thealgorithms.\+datastructures.\+heaps.\+Min\+Heap}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/thealgorithms/datastructures/heaps/Heap.\+java\end{DoxyCompactItemize}

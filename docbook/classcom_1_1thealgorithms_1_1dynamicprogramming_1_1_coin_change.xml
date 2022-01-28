@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_coin_change" xml:lang="en-US">
+<title>com.thealgorithms.dynamicprogramming.CoinChange Class Reference</title>
+<indexterm><primary>com.thealgorithms.dynamicprogramming.CoinChange</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_coin_change_1a0649c6fabf6f85d9a75c81ab54aad803"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+            <listitem><para>static int <link linkend="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_coin_change_1acdc2b28fbd9d2d9bf4df5cc86aab6961">change</link> (int[] coins, int amount)</para>
+</listitem>
+            <listitem><para>static int <link linkend="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_coin_change_1ab6b4562d5eecd6f90a81fe2f65cabf4f">minimumCoins</link> (int[] coins, int amount)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_coin_change_1a28231943bba0411c01468c2bcc4b3c04"/>static void <emphasis role="strong">printAmount</emphasis> (int[] arr)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><formalpara><title>Author</title>
+
+<para>Varun Upadhyay (<link xlink:href="https://github.com/varunu28">https://github.com/varunu28</link>) </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_coin_change_1acdc2b28fbd9d2d9bf4df5cc86aab6961"/><section>
+    <title>change()</title>
+<indexterm><primary>change</primary><secondary>com.thealgorithms.dynamicprogramming.CoinChange</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.dynamicprogramming.CoinChange</primary><secondary>change</secondary></indexterm>
+<para><computeroutput>static int com.thealgorithms.dynamicprogramming.CoinChange.change (int[] coins, int amount)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>This method finds the number of combinations of getting change for a given amount and change coins</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>coins</entry><entry>
+<para>The list of coins </para>
+</entry>
+                            </row>
+                            <row>
+<entry>amount</entry><entry>
+<para>The amount for which we need to find the change Finds the number of combinations of change </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_coin_change_1ab6b4562d5eecd6f90a81fe2f65cabf4f"/><section>
+    <title>minimumCoins()</title>
+<indexterm><primary>minimumCoins</primary><secondary>com.thealgorithms.dynamicprogramming.CoinChange</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.dynamicprogramming.CoinChange</primary><secondary>minimumCoins</secondary></indexterm>
+<para><computeroutput>static int com.thealgorithms.dynamicprogramming.CoinChange.minimumCoins (int[] coins, int amount)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>This method finds the minimum number of coins needed for a given amount.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>coins</entry><entry>
+<para>The list of coins </para>
+</entry>
+                            </row>
+                            <row>
+<entry>amount</entry><entry>
+<para>The amount for which we need to find the minimum number of coins. Finds the the minimum number of coins that make a given value. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/dynamicprogramming/CoinChange.java</section>
+</section>

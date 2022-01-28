@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_remove_duplicate_nodes" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.lists.RemoveDuplicateNodes Class Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.lists.RemoveDuplicateNodes</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_remove_duplicate_nodes_1a166bcaaec6d5392ab840da8d3e7bdecf"/>Node <emphasis role="strong">deleteDuplicates</emphasis> (Node head)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_remove_duplicate_nodes_1a18055ba206cb1cdf9a788c1871af601c"/>void <emphasis role="strong">print</emphasis> (Node head)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_remove_duplicate_nodes_1abb8329887384744e1ae4abef96b4bf5a"/>static void <emphasis role="strong">main</emphasis> (String arg[])</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/lists/RemoveDuplicateNodes.java</section>

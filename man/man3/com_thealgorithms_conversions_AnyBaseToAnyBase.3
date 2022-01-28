@@ -1,0 +1,62 @@
+.TH "com.thealgorithms.conversions.AnyBaseToAnyBase" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.conversions.AnyBaseToAnyBase
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBmain\fP (String[] args)"
+.br
+.ti -1c
+.RI "static boolean \fBvalidForBase\fP (String n, int base)"
+.br
+.ti -1c
+.RI "static String \fBbase2base\fP (String n, int b1, int b2)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Class for converting from 'any' base to 'any' other base, when 'any' means from 2-36\&. Works by going from base 1 to decimal to base 2\&. Includes auxiliary method for determining whether a number is valid for a given base\&.
+.PP
+\fBAuthor\fP
+.RS 4
+Michael Rolland 
+.RE
+.PP
+\fBVersion\fP
+.RS 4
+2017\&.10\&.10 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "static String com\&.thealgorithms\&.conversions\&.AnyBaseToAnyBase\&.base2base (String n, int b1, int b2)\fC [static]\fP"
+Method to convert any integer from base b1 to base b2\&. Works by converting from b1 to decimal, then decimal to b2\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIn\fP The integer to be converted\&. 
+.br
+\fIb1\fP Beginning base\&. 
+.br
+\fIb2\fP End base\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+n in base b2\&. 
+.RE
+.PP
+
+.SS "static boolean com\&.thealgorithms\&.conversions\&.AnyBaseToAnyBase\&.validForBase (String n, int base)\fC [static]\fP"
+Checks if a number (as a String) is valid for a given base\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

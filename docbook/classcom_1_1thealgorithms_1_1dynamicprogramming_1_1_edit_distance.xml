@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_edit_distance" xml:lang="en-US">
+<title>com.thealgorithms.dynamicprogramming.EditDistance Class Reference</title>
+<indexterm><primary>com.thealgorithms.dynamicprogramming.EditDistance</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_edit_distance_1ab2a35dfc086cd8a6f951e6e77a73ba5e"/>static int <emphasis role="strong">minDistance</emphasis> (String word1, String word2)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_edit_distance_1a7fac3acd675ced07d77d35b7a2151e8c"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_edit_distance_1add36396f5cede06b8bc0856d7b1fd800"/>static int <emphasis role="strong">editDistance</emphasis> (String s1, String s2)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_edit_distance_1a409ea90fb2df94beb1b57e98c996bbb4"/>static int <emphasis role="strong">editDistance</emphasis> (String s1, String s2, int[][] storage)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/dynamicprogramming/EditDistance.java</section>

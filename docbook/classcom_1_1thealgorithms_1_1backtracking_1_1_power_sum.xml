@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1backtracking_1_1_power_sum" xml:lang="en-US">
+<title>com.thealgorithms.backtracking.PowerSum Class Reference</title>
+<indexterm><primary>com.thealgorithms.backtracking.PowerSum</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1backtracking_1_1_power_sum_1a9c9cdc8d4b86d9040aa2454fd3ae1f8c"/>int <emphasis role="strong">powSum</emphasis> (int N, int X)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1backtracking_1_1_power_sum_1acbf01d8b0e8de823256ec97e7d5568eb"/>void <emphasis role="strong">Sum</emphasis> (int N, int X, int i)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1backtracking_1_1_power_sum_1ab5feae5ffc947d9e200e1cabe991da96"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/backtracking/PowerSum.java</section>

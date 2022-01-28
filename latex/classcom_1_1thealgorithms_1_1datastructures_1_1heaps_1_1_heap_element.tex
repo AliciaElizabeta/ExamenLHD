@@ -1,0 +1,183 @@
+\hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element}{}\doxysection{com.\+thealgorithms.\+datastructures.\+heaps.\+Heap\+Element Class Reference}
+\label{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element}\index{com.thealgorithms.datastructures.heaps.HeapElement@{com.thealgorithms.datastructures.heaps.HeapElement}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_a54d98bd0d54dc04523bf49e396550863}{Heap\+Element}} (double key, Object info)
+\item 
+\mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_a6e9fc372c930c490036ad11aa4079d44}{Heap\+Element}} (int key, Object info)
+\item 
+\mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_a184361ee312b676185f4b82a9b08813f}{Heap\+Element}} (Integer key, Object info)
+\item 
+\mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_a858db1d8199992ac42cde49fd4d16886}{Heap\+Element}} (Double key, Object info)
+\item 
+\mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_aed3361ff9ec18f5eb574bf36115df067}{Heap\+Element}} (double key)
+\item 
+\mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_afb8d8f57d228676139f20bc3f415c469}{Heap\+Element}} (int key)
+\item 
+\mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_afdf47d02850d5745c26552511c9e886f}{Heap\+Element}} (Integer key)
+\item 
+\mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_afbf534017d5d8b8848a4748f4cdcea29}{Heap\+Element}} (Double key)
+\item 
+Object \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_a43bba53b1ab36d89d1e45d16916243b9}{get\+Info}} ()
+\item 
+double \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_ab9efa8e6341b72c6f07146dbefc85682}{get\+Key}} ()
+\item 
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_ab1ec6d13881b2feca186b19892770897}\label{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_ab1ec6d13881b2feca186b19892770897}} 
+String {\bfseries to\+String} ()
+\item 
+boolean \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_a6a0e6e44fd3e6057e42dc8e8e40ff4ab}{equals}} (Object o)
+\item 
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_a7f82b75b6e0ac61b6d094cc3336962d3}\label{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_a7f82b75b6e0ac61b6d094cc3336962d3}} 
+int {\bfseries hash\+Code} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class for heap elements.~\newline
+
+
+A heap element contains two attributes\+: a key which will be used to build the tree (int or double, either primitive type or object) and any kind of IMMUTABLE object the user sees fit to carry any information he/she likes. Be aware that the use of a mutable object might jeopardize the integrity of this information.
+
+\begin{DoxyAuthor}{Author}
+Nicolas Renard 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_a54d98bd0d54dc04523bf49e396550863}\label{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_a54d98bd0d54dc04523bf49e396550863}} 
+\index{com.thealgorithms.datastructures.heaps.HeapElement@{com.thealgorithms.datastructures.heaps.HeapElement}!HeapElement@{HeapElement}}
+\index{HeapElement@{HeapElement}!com.thealgorithms.datastructures.heaps.HeapElement@{com.thealgorithms.datastructures.heaps.HeapElement}}
+\doxysubsubsection{\texorpdfstring{HeapElement()}{HeapElement()}\hspace{0.1cm}{\footnotesize\ttfamily [1/8]}}
+{\footnotesize\ttfamily com.\+thealgorithms.\+datastructures.\+heaps.\+Heap\+Element.\+Heap\+Element (\begin{DoxyParamCaption}\item[{double}]{key,  }\item[{Object}]{info }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & \+: a number of primitive type \textquotesingle{}double\textquotesingle{} \\
+\hline
+{\em info} & \+: any kind of IMMUTABLE object. May be null, since the purpose is only to carry additional information of use for the user \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_a6e9fc372c930c490036ad11aa4079d44}\label{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_a6e9fc372c930c490036ad11aa4079d44}} 
+\index{com.thealgorithms.datastructures.heaps.HeapElement@{com.thealgorithms.datastructures.heaps.HeapElement}!HeapElement@{HeapElement}}
+\index{HeapElement@{HeapElement}!com.thealgorithms.datastructures.heaps.HeapElement@{com.thealgorithms.datastructures.heaps.HeapElement}}
+\doxysubsubsection{\texorpdfstring{HeapElement()}{HeapElement()}\hspace{0.1cm}{\footnotesize\ttfamily [2/8]}}
+{\footnotesize\ttfamily com.\+thealgorithms.\+datastructures.\+heaps.\+Heap\+Element.\+Heap\+Element (\begin{DoxyParamCaption}\item[{int}]{key,  }\item[{Object}]{info }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & \+: a number of primitive type \textquotesingle{}int\textquotesingle{} \\
+\hline
+{\em info} & \+: any kind of IMMUTABLE object. May be null, since the purpose is only to carry additional information of use for the user \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_a184361ee312b676185f4b82a9b08813f}\label{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_a184361ee312b676185f4b82a9b08813f}} 
+\index{com.thealgorithms.datastructures.heaps.HeapElement@{com.thealgorithms.datastructures.heaps.HeapElement}!HeapElement@{HeapElement}}
+\index{HeapElement@{HeapElement}!com.thealgorithms.datastructures.heaps.HeapElement@{com.thealgorithms.datastructures.heaps.HeapElement}}
+\doxysubsubsection{\texorpdfstring{HeapElement()}{HeapElement()}\hspace{0.1cm}{\footnotesize\ttfamily [3/8]}}
+{\footnotesize\ttfamily com.\+thealgorithms.\+datastructures.\+heaps.\+Heap\+Element.\+Heap\+Element (\begin{DoxyParamCaption}\item[{Integer}]{key,  }\item[{Object}]{info }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & \+: a number of object type \textquotesingle{}Integer\textquotesingle{} \\
+\hline
+{\em info} & \+: any kind of IMMUTABLE object. May be null, since the purpose is only to carry additional information of use for the user \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_a858db1d8199992ac42cde49fd4d16886}\label{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_a858db1d8199992ac42cde49fd4d16886}} 
+\index{com.thealgorithms.datastructures.heaps.HeapElement@{com.thealgorithms.datastructures.heaps.HeapElement}!HeapElement@{HeapElement}}
+\index{HeapElement@{HeapElement}!com.thealgorithms.datastructures.heaps.HeapElement@{com.thealgorithms.datastructures.heaps.HeapElement}}
+\doxysubsubsection{\texorpdfstring{HeapElement()}{HeapElement()}\hspace{0.1cm}{\footnotesize\ttfamily [4/8]}}
+{\footnotesize\ttfamily com.\+thealgorithms.\+datastructures.\+heaps.\+Heap\+Element.\+Heap\+Element (\begin{DoxyParamCaption}\item[{Double}]{key,  }\item[{Object}]{info }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & \+: a number of object type \textquotesingle{}Double\textquotesingle{} \\
+\hline
+{\em info} & \+: any kind of IMMUTABLE object. May be null, since the purpose is only to carry additional information of use for the user \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_aed3361ff9ec18f5eb574bf36115df067}\label{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_aed3361ff9ec18f5eb574bf36115df067}} 
+\index{com.thealgorithms.datastructures.heaps.HeapElement@{com.thealgorithms.datastructures.heaps.HeapElement}!HeapElement@{HeapElement}}
+\index{HeapElement@{HeapElement}!com.thealgorithms.datastructures.heaps.HeapElement@{com.thealgorithms.datastructures.heaps.HeapElement}}
+\doxysubsubsection{\texorpdfstring{HeapElement()}{HeapElement()}\hspace{0.1cm}{\footnotesize\ttfamily [5/8]}}
+{\footnotesize\ttfamily com.\+thealgorithms.\+datastructures.\+heaps.\+Heap\+Element.\+Heap\+Element (\begin{DoxyParamCaption}\item[{double}]{key }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & \+: a number of primitive type \textquotesingle{}double\textquotesingle{} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_afb8d8f57d228676139f20bc3f415c469}\label{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_afb8d8f57d228676139f20bc3f415c469}} 
+\index{com.thealgorithms.datastructures.heaps.HeapElement@{com.thealgorithms.datastructures.heaps.HeapElement}!HeapElement@{HeapElement}}
+\index{HeapElement@{HeapElement}!com.thealgorithms.datastructures.heaps.HeapElement@{com.thealgorithms.datastructures.heaps.HeapElement}}
+\doxysubsubsection{\texorpdfstring{HeapElement()}{HeapElement()}\hspace{0.1cm}{\footnotesize\ttfamily [6/8]}}
+{\footnotesize\ttfamily com.\+thealgorithms.\+datastructures.\+heaps.\+Heap\+Element.\+Heap\+Element (\begin{DoxyParamCaption}\item[{int}]{key }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & \+: a number of primitive type \textquotesingle{}int\textquotesingle{} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_afdf47d02850d5745c26552511c9e886f}\label{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_afdf47d02850d5745c26552511c9e886f}} 
+\index{com.thealgorithms.datastructures.heaps.HeapElement@{com.thealgorithms.datastructures.heaps.HeapElement}!HeapElement@{HeapElement}}
+\index{HeapElement@{HeapElement}!com.thealgorithms.datastructures.heaps.HeapElement@{com.thealgorithms.datastructures.heaps.HeapElement}}
+\doxysubsubsection{\texorpdfstring{HeapElement()}{HeapElement()}\hspace{0.1cm}{\footnotesize\ttfamily [7/8]}}
+{\footnotesize\ttfamily com.\+thealgorithms.\+datastructures.\+heaps.\+Heap\+Element.\+Heap\+Element (\begin{DoxyParamCaption}\item[{Integer}]{key }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & \+: a number of object type \textquotesingle{}Integer\textquotesingle{} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_afbf534017d5d8b8848a4748f4cdcea29}\label{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_afbf534017d5d8b8848a4748f4cdcea29}} 
+\index{com.thealgorithms.datastructures.heaps.HeapElement@{com.thealgorithms.datastructures.heaps.HeapElement}!HeapElement@{HeapElement}}
+\index{HeapElement@{HeapElement}!com.thealgorithms.datastructures.heaps.HeapElement@{com.thealgorithms.datastructures.heaps.HeapElement}}
+\doxysubsubsection{\texorpdfstring{HeapElement()}{HeapElement()}\hspace{0.1cm}{\footnotesize\ttfamily [8/8]}}
+{\footnotesize\ttfamily com.\+thealgorithms.\+datastructures.\+heaps.\+Heap\+Element.\+Heap\+Element (\begin{DoxyParamCaption}\item[{Double}]{key }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & \+: a number of object type \textquotesingle{}Double\textquotesingle{} \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_a6a0e6e44fd3e6057e42dc8e8e40ff4ab}\label{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_a6a0e6e44fd3e6057e42dc8e8e40ff4ab}} 
+\index{com.thealgorithms.datastructures.heaps.HeapElement@{com.thealgorithms.datastructures.heaps.HeapElement}!equals@{equals}}
+\index{equals@{equals}!com.thealgorithms.datastructures.heaps.HeapElement@{com.thealgorithms.datastructures.heaps.HeapElement}}
+\doxysubsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean com.\+thealgorithms.\+datastructures.\+heaps.\+Heap\+Element.\+equals (\begin{DoxyParamCaption}\item[{Object}]{o }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em other\+Heap\+Element} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the keys on both elements are identical and the additional info objects are identical. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_a43bba53b1ab36d89d1e45d16916243b9}\label{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_a43bba53b1ab36d89d1e45d16916243b9}} 
+\index{com.thealgorithms.datastructures.heaps.HeapElement@{com.thealgorithms.datastructures.heaps.HeapElement}!getInfo@{getInfo}}
+\index{getInfo@{getInfo}!com.thealgorithms.datastructures.heaps.HeapElement@{com.thealgorithms.datastructures.heaps.HeapElement}}
+\doxysubsubsection{\texorpdfstring{getInfo()}{getInfo()}}
+{\footnotesize\ttfamily Object com.\+thealgorithms.\+datastructures.\+heaps.\+Heap\+Element.\+get\+Info (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+the object containing the additional info provided by the user. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_ab9efa8e6341b72c6f07146dbefc85682}\label{classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_heap_element_ab9efa8e6341b72c6f07146dbefc85682}} 
+\index{com.thealgorithms.datastructures.heaps.HeapElement@{com.thealgorithms.datastructures.heaps.HeapElement}!getKey@{getKey}}
+\index{getKey@{getKey}!com.thealgorithms.datastructures.heaps.HeapElement@{com.thealgorithms.datastructures.heaps.HeapElement}}
+\doxysubsubsection{\texorpdfstring{getKey()}{getKey()}}
+{\footnotesize\ttfamily double com.\+thealgorithms.\+datastructures.\+heaps.\+Heap\+Element.\+get\+Key (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+the key value of the element 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/thealgorithms/datastructures/heaps/Heap\+Element.\+java\end{DoxyCompactItemize}

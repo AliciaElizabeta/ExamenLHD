@@ -1,0 +1,187 @@
+\hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_binary_tree}{}\doxysection{com.\+thealgorithms.\+datastructures.\+trees.\+Binary\+Tree Class Reference}
+\label{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_binary_tree}\index{com.thealgorithms.datastructures.trees.BinaryTree@{com.thealgorithms.datastructures.trees.BinaryTree}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Node}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_binary_tree_a69436a3b2e53ebd3e3f0665f6d234c0e}{Binary\+Tree}} ()
+\item 
+\mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_binary_tree_ab9e487807f721354aa13bbb38e99ef5f}{Binary\+Tree}} (Node root)
+\item 
+Node \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_binary_tree_a7dad30c4d35a9dd2e043e82bc5c551a3}{find}} (int key)
+\item 
+void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_binary_tree_a2891e2c21650c718c2afe854865d47c0}{put}} (int value)
+\item 
+boolean \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_binary_tree_a56cef2f2f9553918cc05a9b1104eb39e}{remove}} (int value)
+\item 
+Node \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_binary_tree_a164f2bf990d857b9b20f1c74cbc02cca}{find\+Successor}} (Node n)
+\item 
+Node \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_binary_tree_ae8e289bab9eba4c36ff4239c732b4f60}{get\+Root}} ()
+\item 
+void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_binary_tree_aeda3f29c49b9666c6ecd633aefa73ddc}{in\+Order}} (Node local\+Root)
+\item 
+void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_binary_tree_a08350b3a505eefa385697b1a6a8ed9e3}{pre\+Order}} (Node local\+Root)
+\item 
+void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_binary_tree_abeece5b22c43dae6bbc786cab6dc0a4a}{post\+Order}} (Node local\+Root)
+\item 
+void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_binary_tree_a67e6503c3f9315c0c5b6d700b7d772c3}{bfs}} (Node local\+Root)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This entire class is used to build a Binary Tree data structure. There is the Node Class and the Tree Class, both explained below. A binary tree is a data structure in which an element has two successors(children). The left child is usually smaller than the parent, and the right child is usually bigger.
+
+\begin{DoxyAuthor}{Author}
+Unknown 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_binary_tree_a69436a3b2e53ebd3e3f0665f6d234c0e}\label{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_binary_tree_a69436a3b2e53ebd3e3f0665f6d234c0e}} 
+\index{com.thealgorithms.datastructures.trees.BinaryTree@{com.thealgorithms.datastructures.trees.BinaryTree}!BinaryTree@{BinaryTree}}
+\index{BinaryTree@{BinaryTree}!com.thealgorithms.datastructures.trees.BinaryTree@{com.thealgorithms.datastructures.trees.BinaryTree}}
+\doxysubsubsection{\texorpdfstring{BinaryTree()}{BinaryTree()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily com.\+thealgorithms.\+datastructures.\+trees.\+Binary\+Tree.\+Binary\+Tree (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Constructor \mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_binary_tree_ab9e487807f721354aa13bbb38e99ef5f}\label{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_binary_tree_ab9e487807f721354aa13bbb38e99ef5f}} 
+\index{com.thealgorithms.datastructures.trees.BinaryTree@{com.thealgorithms.datastructures.trees.BinaryTree}!BinaryTree@{BinaryTree}}
+\index{BinaryTree@{BinaryTree}!com.thealgorithms.datastructures.trees.BinaryTree@{com.thealgorithms.datastructures.trees.BinaryTree}}
+\doxysubsubsection{\texorpdfstring{BinaryTree()}{BinaryTree()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily com.\+thealgorithms.\+datastructures.\+trees.\+Binary\+Tree.\+Binary\+Tree (\begin{DoxyParamCaption}\item[{Node}]{root }\end{DoxyParamCaption})}
+
+Parameterized Constructor 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_binary_tree_a67e6503c3f9315c0c5b6d700b7d772c3}\label{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_binary_tree_a67e6503c3f9315c0c5b6d700b7d772c3}} 
+\index{com.thealgorithms.datastructures.trees.BinaryTree@{com.thealgorithms.datastructures.trees.BinaryTree}!bfs@{bfs}}
+\index{bfs@{bfs}!com.thealgorithms.datastructures.trees.BinaryTree@{com.thealgorithms.datastructures.trees.BinaryTree}}
+\doxysubsubsection{\texorpdfstring{bfs()}{bfs()}}
+{\footnotesize\ttfamily void com.\+thealgorithms.\+datastructures.\+trees.\+Binary\+Tree.\+bfs (\begin{DoxyParamCaption}\item[{Node}]{local\+Root }\end{DoxyParamCaption})}
+
+Prints the tree in a breadth first search order This is similar to pre-\/order traversal, but instead of being implemented with a stack (or recursion), it is implemented with a queue
+
+
+\begin{DoxyParams}{Parameters}
+{\em local\+Root} & The local root of the binary tree \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_binary_tree_a7dad30c4d35a9dd2e043e82bc5c551a3}\label{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_binary_tree_a7dad30c4d35a9dd2e043e82bc5c551a3}} 
+\index{com.thealgorithms.datastructures.trees.BinaryTree@{com.thealgorithms.datastructures.trees.BinaryTree}!find@{find}}
+\index{find@{find}!com.thealgorithms.datastructures.trees.BinaryTree@{com.thealgorithms.datastructures.trees.BinaryTree}}
+\doxysubsubsection{\texorpdfstring{find()}{find()}}
+{\footnotesize\ttfamily Node com.\+thealgorithms.\+datastructures.\+trees.\+Binary\+Tree.\+find (\begin{DoxyParamCaption}\item[{int}]{key }\end{DoxyParamCaption})}
+
+Method to find a Node with a certain value
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & Value being looked for \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The node if it finds it, otherwise returns the parent 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_binary_tree_a164f2bf990d857b9b20f1c74cbc02cca}\label{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_binary_tree_a164f2bf990d857b9b20f1c74cbc02cca}} 
+\index{com.thealgorithms.datastructures.trees.BinaryTree@{com.thealgorithms.datastructures.trees.BinaryTree}!findSuccessor@{findSuccessor}}
+\index{findSuccessor@{findSuccessor}!com.thealgorithms.datastructures.trees.BinaryTree@{com.thealgorithms.datastructures.trees.BinaryTree}}
+\doxysubsubsection{\texorpdfstring{findSuccessor()}{findSuccessor()}}
+{\footnotesize\ttfamily Node com.\+thealgorithms.\+datastructures.\+trees.\+Binary\+Tree.\+find\+Successor (\begin{DoxyParamCaption}\item[{Node}]{n }\end{DoxyParamCaption})}
+
+This method finds the Successor to the Node given. Move right once and go left down the tree as far as you can
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & Node that you want to find the Successor of \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The Successor of the node 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_binary_tree_ae8e289bab9eba4c36ff4239c732b4f60}\label{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_binary_tree_ae8e289bab9eba4c36ff4239c732b4f60}} 
+\index{com.thealgorithms.datastructures.trees.BinaryTree@{com.thealgorithms.datastructures.trees.BinaryTree}!getRoot@{getRoot}}
+\index{getRoot@{getRoot}!com.thealgorithms.datastructures.trees.BinaryTree@{com.thealgorithms.datastructures.trees.BinaryTree}}
+\doxysubsubsection{\texorpdfstring{getRoot()}{getRoot()}}
+{\footnotesize\ttfamily Node com.\+thealgorithms.\+datastructures.\+trees.\+Binary\+Tree.\+get\+Root (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the root of the Binary Tree
+
+\begin{DoxyReturn}{Returns}
+the root of the Binary Tree 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_binary_tree_aeda3f29c49b9666c6ecd633aefa73ddc}\label{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_binary_tree_aeda3f29c49b9666c6ecd633aefa73ddc}} 
+\index{com.thealgorithms.datastructures.trees.BinaryTree@{com.thealgorithms.datastructures.trees.BinaryTree}!inOrder@{inOrder}}
+\index{inOrder@{inOrder}!com.thealgorithms.datastructures.trees.BinaryTree@{com.thealgorithms.datastructures.trees.BinaryTree}}
+\doxysubsubsection{\texorpdfstring{inOrder()}{inOrder()}}
+{\footnotesize\ttfamily void com.\+thealgorithms.\+datastructures.\+trees.\+Binary\+Tree.\+in\+Order (\begin{DoxyParamCaption}\item[{Node}]{local\+Root }\end{DoxyParamCaption})}
+
+Prints left\+Child -\/ root -\/ right\+Child This is the equivalent of a depth first search
+
+
+\begin{DoxyParams}{Parameters}
+{\em local\+Root} & The local root of the binary tree \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_binary_tree_abeece5b22c43dae6bbc786cab6dc0a4a}\label{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_binary_tree_abeece5b22c43dae6bbc786cab6dc0a4a}} 
+\index{com.thealgorithms.datastructures.trees.BinaryTree@{com.thealgorithms.datastructures.trees.BinaryTree}!postOrder@{postOrder}}
+\index{postOrder@{postOrder}!com.thealgorithms.datastructures.trees.BinaryTree@{com.thealgorithms.datastructures.trees.BinaryTree}}
+\doxysubsubsection{\texorpdfstring{postOrder()}{postOrder()}}
+{\footnotesize\ttfamily void com.\+thealgorithms.\+datastructures.\+trees.\+Binary\+Tree.\+post\+Order (\begin{DoxyParamCaption}\item[{Node}]{local\+Root }\end{DoxyParamCaption})}
+
+Prints right\+Child -\/ left\+Child -\/ root
+
+
+\begin{DoxyParams}{Parameters}
+{\em local\+Root} & The local root of the binary tree \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_binary_tree_a08350b3a505eefa385697b1a6a8ed9e3}\label{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_binary_tree_a08350b3a505eefa385697b1a6a8ed9e3}} 
+\index{com.thealgorithms.datastructures.trees.BinaryTree@{com.thealgorithms.datastructures.trees.BinaryTree}!preOrder@{preOrder}}
+\index{preOrder@{preOrder}!com.thealgorithms.datastructures.trees.BinaryTree@{com.thealgorithms.datastructures.trees.BinaryTree}}
+\doxysubsubsection{\texorpdfstring{preOrder()}{preOrder()}}
+{\footnotesize\ttfamily void com.\+thealgorithms.\+datastructures.\+trees.\+Binary\+Tree.\+pre\+Order (\begin{DoxyParamCaption}\item[{Node}]{local\+Root }\end{DoxyParamCaption})}
+
+Prints root -\/ left\+Child -\/ right\+Child
+
+
+\begin{DoxyParams}{Parameters}
+{\em local\+Root} & The local root of the binary tree \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_binary_tree_a2891e2c21650c718c2afe854865d47c0}\label{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_binary_tree_a2891e2c21650c718c2afe854865d47c0}} 
+\index{com.thealgorithms.datastructures.trees.BinaryTree@{com.thealgorithms.datastructures.trees.BinaryTree}!put@{put}}
+\index{put@{put}!com.thealgorithms.datastructures.trees.BinaryTree@{com.thealgorithms.datastructures.trees.BinaryTree}}
+\doxysubsubsection{\texorpdfstring{put()}{put()}}
+{\footnotesize\ttfamily void com.\+thealgorithms.\+datastructures.\+trees.\+Binary\+Tree.\+put (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+Inserts certain value into the Binary Tree
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Value to be inserted \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_binary_tree_a56cef2f2f9553918cc05a9b1104eb39e}\label{classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_binary_tree_a56cef2f2f9553918cc05a9b1104eb39e}} 
+\index{com.thealgorithms.datastructures.trees.BinaryTree@{com.thealgorithms.datastructures.trees.BinaryTree}!remove@{remove}}
+\index{remove@{remove}!com.thealgorithms.datastructures.trees.BinaryTree@{com.thealgorithms.datastructures.trees.BinaryTree}}
+\doxysubsubsection{\texorpdfstring{remove()}{remove()}}
+{\footnotesize\ttfamily boolean com.\+thealgorithms.\+datastructures.\+trees.\+Binary\+Tree.\+remove (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+Deletes a given value from the Binary Tree
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Value to be deleted \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+If the value was deleted 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/thealgorithms/datastructures/trees/Binary\+Tree.\+java\end{DoxyCompactItemize}

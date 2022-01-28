@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1graphs_1_1_a___star" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.graphs.A_Star Class Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.graphs.A_Star</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1graphs_1_1_a___star_1aa1ac00a6f4283f184e20e6894e6639ab"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1graphs_1_1_a___star_1a1fd22d041baad95d707f7d9b9238716e"/>static PathAndDistance <emphasis role="strong">aStar</emphasis> (int from, int to, Graph graph, int[] heuristic)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/graphs/A_Star.java</section>

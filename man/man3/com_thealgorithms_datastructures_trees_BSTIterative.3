@@ -1,0 +1,83 @@
+.TH "com.thealgorithms.datastructures.trees.BSTIterative" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.datastructures.trees.BSTIterative
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBadd\fP (int data)"
+.br
+.ti -1c
+.RI "void \fBremove\fP (int data)"
+.br
+.ti -1c
+.RI "void \fBinorder\fP ()"
+.br
+.ti -1c
+.RI "void \fBpostorder\fP ()"
+.br
+.ti -1c
+.RI "void \fBpreorder\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBfind\fP (int data)"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBmain\fP (String[] args)"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "void com\&.thealgorithms\&.datastructures\&.trees\&.BSTIterative\&.add (int data)"
+A method to insert a new value in BST\&. If the given value is already present in BST the insertion is ignored\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIdata\fP the value to be inserted 
+.RE
+.PP
+
+.SS "boolean com\&.thealgorithms\&.datastructures\&.trees\&.BSTIterative\&.find (int data)"
+A method to check if given data exists in out Binary Search Tree\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIdata\fP the value that needs to be searched for 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+boolean representing if the value was find 
+.RE
+.PP
+
+.SS "void com\&.thealgorithms\&.datastructures\&.trees\&.BSTIterative\&.inorder ()"
+A method for inorder traversal of BST\&. 
+.SS "static void com\&.thealgorithms\&.datastructures\&.trees\&.BSTIterative\&.main (String[] args)\fC [static]\fP"
+main function for tests 
+.SS "void com\&.thealgorithms\&.datastructures\&.trees\&.BSTIterative\&.postorder ()"
+A method used to print postorder traversal of BST\&. 
+.SS "void com\&.thealgorithms\&.datastructures\&.trees\&.BSTIterative\&.preorder ()"
+Method used to display preorder traversal of BST\&. 
+.SS "void com\&.thealgorithms\&.datastructures\&.trees\&.BSTIterative\&.remove (int data)"
+A method to delete the node in BST\&. If node is present it will be deleted
+.PP
+\fBParameters\fP
+.RS 4
+\fIdata\fP the value that needs to be deleted 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

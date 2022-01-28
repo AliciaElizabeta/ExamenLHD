@@ -1,0 +1,61 @@
+.TH "com.thealgorithms.others.SieveOfEratosthenes" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.others.SieveOfEratosthenes
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static int[] \fBfindPrimesTill\fP (int n)"
+.br
+.ti -1c
+.RI "static void \fBmain\fP (String[] args)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Sieve of Eratosthenes is an ancient algorithm for finding all prime numbers up to any given limit\&. It does so by iteratively marking as composite (i\&.e\&., not prime) the multiples of each prime, starting with the first prime number,
+.IP "2." 4
+The multiples of a given prime are generated as a sequence of numbers starting from that prime, with constant difference between them that is equal to that prime\&. This is the sieve's key distinction from using trial division to sequentially test each candidate number for divisibility by each prime\&. Once all the multiples of each discovered prime have been marked as composites, the remaining unmarked numbers are primes\&. 
+.PP
+.PP
+Poetry about Sieve of Eratosthenes: 
+.PP
+\fISift the Two's and Sift the Three's:\fP
+.PP
+\fIThe Sieve of Eratosthenes\&.\fP
+.PP
+\fIWhen the multiples sublime,\fP
+.PP
+\fIThe numbers that remain are Prime\&.\fP
+.PP
+\fBSee also\fP
+.RS 4
+\fCWiki\fP 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "static int[] com\&.thealgorithms\&.others\&.SieveOfEratosthenes\&.findPrimesTill (int n)\fC [static]\fP"
+
+.PP
+\fBParameters\fP
+.RS 4
+\fIn\fP The number till which we have to check for prime Prints all the prime numbers till n\&. Should be more than 1\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+array of all prime numbers between 0 to n 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_longest_palindromic_subsequence" xml:lang="en-US">
+<title>com.thealgorithms.dynamicprogramming.LongestPalindromicSubsequence Class Reference</title>
+<indexterm><primary>com.thealgorithms.dynamicprogramming.LongestPalindromicSubsequence</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_longest_palindromic_subsequence_1a61a9853647c5862bc00ede8840984825"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_longest_palindromic_subsequence_1aa000901fb4d1e24369253a3059dfb406"/>static String <emphasis role="strong">LPS</emphasis> (String original)  throws IllegalArgumentException </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Algorithm explanation <link xlink:href="https://www.educative.io/edpresso/longest-palindromic-subsequence-algorithm">https://www.educative.io/edpresso/longest-palindromic-subsequence-algorithm</link> </para>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/dynamicprogramming/LongestPalindromicSubsequence.java</section>
+</section>

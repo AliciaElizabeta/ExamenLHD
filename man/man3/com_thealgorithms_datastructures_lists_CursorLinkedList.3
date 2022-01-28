@@ -1,0 +1,63 @@
+.TH "com.thealgorithms.datastructures.lists.CursorLinkedList< T >" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.datastructures.lists.CursorLinkedList< T >
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBprintList\fP ()"
+.br
+.ti -1c
+.RI "int \fBindexOf\fP (T element)"
+.br
+.ti -1c
+.RI "T \fBget\fP (int position)"
+.br
+.ti -1c
+.RI "void \fBremoveByIndex\fP (int index)"
+.br
+.ti -1c
+.RI "void \fBremove\fP (T element)"
+.br
+.ti -1c
+.RI "void \fBappend\fP (T element)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+This class implements a Cursor Linked List\&.
+.PP
+A \fBCursorLinkedList\fP is an array version of a Linked List\&. Essentially you have an array of list nodes but instead of each node containing a pointer to the next item in the linked list, each node element in the array contains the index for the next node element\&. 
+.SH "Member Function Documentation"
+.PP 
+.SS "T \fBcom\&.thealgorithms\&.datastructures\&.lists\&.CursorLinkedList\fP< T >\&.get (int position)"
+
+.PP
+\fBParameters\fP
+.RS 4
+\fIposition,the\fP logical index of the element , not the actual one within the [cursorSpace] array \&. this method should be used to get the index give by \fBindexOf()\fP method\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+.RE
+.PP
+
+.SS "int \fBcom\&.thealgorithms\&.datastructures\&.lists\&.CursorLinkedList\fP< T >\&.indexOf (T element)"
+
+.PP
+\fBReturns\fP
+.RS 4
+the logical index of the element within the list , not the actual index of the [cursorSpace] array 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

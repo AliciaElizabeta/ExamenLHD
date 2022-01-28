@@ -1,0 +1,184 @@
+.TH "com.thealgorithms.datastructures.heaps.HeapElement" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.datastructures.heaps.HeapElement
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBHeapElement\fP (double key, Object info)"
+.br
+.ti -1c
+.RI "\fBHeapElement\fP (int key, Object info)"
+.br
+.ti -1c
+.RI "\fBHeapElement\fP (Integer key, Object info)"
+.br
+.ti -1c
+.RI "\fBHeapElement\fP (Double key, Object info)"
+.br
+.ti -1c
+.RI "\fBHeapElement\fP (double key)"
+.br
+.ti -1c
+.RI "\fBHeapElement\fP (int key)"
+.br
+.ti -1c
+.RI "\fBHeapElement\fP (Integer key)"
+.br
+.ti -1c
+.RI "\fBHeapElement\fP (Double key)"
+.br
+.ti -1c
+.RI "Object \fBgetInfo\fP ()"
+.br
+.ti -1c
+.RI "double \fBgetKey\fP ()"
+.br
+.ti -1c
+.RI "String \fBtoString\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBequals\fP (Object o)"
+.br
+.ti -1c
+.RI "int \fBhashCode\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Class for heap elements\&.
+.br
+.PP
+A heap element contains two attributes: a key which will be used to build the tree (int or double, either primitive type or object) and any kind of IMMUTABLE object the user sees fit to carry any information he/she likes\&. Be aware that the use of a mutable object might jeopardize the integrity of this information\&.
+.PP
+\fBAuthor\fP
+.RS 4
+Nicolas Renard 
+.RE
+.PP
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "com\&.thealgorithms\&.datastructures\&.heaps\&.HeapElement\&.HeapElement (double key, Object info)"
+
+.PP
+\fBParameters\fP
+.RS 4
+\fIkey\fP : a number of primitive type 'double' 
+.br
+\fIinfo\fP : any kind of IMMUTABLE object\&. May be null, since the purpose is only to carry additional information of use for the user 
+.RE
+.PP
+
+.SS "com\&.thealgorithms\&.datastructures\&.heaps\&.HeapElement\&.HeapElement (int key, Object info)"
+
+.PP
+\fBParameters\fP
+.RS 4
+\fIkey\fP : a number of primitive type 'int' 
+.br
+\fIinfo\fP : any kind of IMMUTABLE object\&. May be null, since the purpose is only to carry additional information of use for the user 
+.RE
+.PP
+
+.SS "com\&.thealgorithms\&.datastructures\&.heaps\&.HeapElement\&.HeapElement (Integer key, Object info)"
+
+.PP
+\fBParameters\fP
+.RS 4
+\fIkey\fP : a number of object type 'Integer' 
+.br
+\fIinfo\fP : any kind of IMMUTABLE object\&. May be null, since the purpose is only to carry additional information of use for the user 
+.RE
+.PP
+
+.SS "com\&.thealgorithms\&.datastructures\&.heaps\&.HeapElement\&.HeapElement (Double key, Object info)"
+
+.PP
+\fBParameters\fP
+.RS 4
+\fIkey\fP : a number of object type 'Double' 
+.br
+\fIinfo\fP : any kind of IMMUTABLE object\&. May be null, since the purpose is only to carry additional information of use for the user 
+.RE
+.PP
+
+.SS "com\&.thealgorithms\&.datastructures\&.heaps\&.HeapElement\&.HeapElement (double key)"
+
+.PP
+\fBParameters\fP
+.RS 4
+\fIkey\fP : a number of primitive type 'double' 
+.RE
+.PP
+
+.SS "com\&.thealgorithms\&.datastructures\&.heaps\&.HeapElement\&.HeapElement (int key)"
+
+.PP
+\fBParameters\fP
+.RS 4
+\fIkey\fP : a number of primitive type 'int' 
+.RE
+.PP
+
+.SS "com\&.thealgorithms\&.datastructures\&.heaps\&.HeapElement\&.HeapElement (Integer key)"
+
+.PP
+\fBParameters\fP
+.RS 4
+\fIkey\fP : a number of object type 'Integer' 
+.RE
+.PP
+
+.SS "com\&.thealgorithms\&.datastructures\&.heaps\&.HeapElement\&.HeapElement (Double key)"
+
+.PP
+\fBParameters\fP
+.RS 4
+\fIkey\fP : a number of object type 'Double' 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "boolean com\&.thealgorithms\&.datastructures\&.heaps\&.HeapElement\&.equals (Object o)"
+
+.PP
+\fBParameters\fP
+.RS 4
+\fIotherHeapElement\fP 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true if the keys on both elements are identical and the additional info objects are identical\&. 
+.RE
+.PP
+
+.SS "Object com\&.thealgorithms\&.datastructures\&.heaps\&.HeapElement\&.getInfo ()"
+
+.PP
+\fBReturns\fP
+.RS 4
+the object containing the additional info provided by the user\&. 
+.RE
+.PP
+
+.SS "double com\&.thealgorithms\&.datastructures\&.heaps\&.HeapElement\&.getKey ()"
+
+.PP
+\fBReturns\fP
+.RS 4
+the key value of the element 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

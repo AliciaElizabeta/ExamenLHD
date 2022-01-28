@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1misc_1_1_inverse_of_matrix" xml:lang="en-US">
+<title>com.thealgorithms.misc.InverseOfMatrix Class Reference</title>
+<indexterm><primary>com.thealgorithms.misc.InverseOfMatrix</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1misc_1_1_inverse_of_matrix_1a5f83d30be47bf4518342f18906008de3"/>static void <emphasis role="strong">main</emphasis> (String argv[])</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1misc_1_1_inverse_of_matrix_1ad76eb3ef29511294d1e32cc7574ce189"/>static double[][] <emphasis role="strong">invert</emphasis> (double a[][])</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1misc_1_1_inverse_of_matrix_1ab96071d6f45261b2ac638e3c2861d551"/>static void <emphasis role="strong">gaussian</emphasis> (double a[][], int index[])</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/misc/InverseOfMatrix.java</section>

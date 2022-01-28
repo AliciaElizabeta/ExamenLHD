@@ -1,0 +1,306 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1dynamicarray_1_1_dynamic_array" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.dynamicarray.DynamicArray&lt; E &gt; Class Template Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.dynamicarray.DynamicArray&lt; E &gt;</primary></indexterm>
+<para>Inheritance diagram for com.thealgorithms.datastructures.dynamicarray.DynamicArray&lt; E &gt;:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcom_1_1thealgorithms_1_1datastructures_1_1dynamicarray_1_1_dynamic_array.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1dynamicarray_1_1_dynamic_array_1a26bc831f72379534ccf8e0fa02e6e995">DynamicArray</link> (final int capacity)</para>
+</listitem>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1dynamicarray_1_1_dynamic_array_1a3ac4aee5e3f37ab8b56867ec6dc53918">DynamicArray</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1dynamicarray_1_1_dynamic_array_1a12cf2577f8bb04cda43f97be3f6aeaed">add</link> (final E element)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1dynamicarray_1_1_dynamic_array_1a2925dfcf8f5afddc356a8a561151af39">put</link> (final int index, E element)</para>
+</listitem>
+            <listitem><para>E <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1dynamicarray_1_1_dynamic_array_1acce46f87fa3826b9269dfc602d44fc2b">get</link> (final int index)</para>
+</listitem>
+            <listitem><para>E <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1dynamicarray_1_1_dynamic_array_1a65f27000f429e9997aa04a7ba264fd9b">remove</link> (final int index)</para>
+</listitem>
+            <listitem><para>int <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1dynamicarray_1_1_dynamic_array_1a852b8a8c24ef10d64477f1904dda052c">getSize</link> ()</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1dynamicarray_1_1_dynamic_array_1a13299fae0ec749a81afe0132fba2cfb6">isEmpty</link> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1dynamicarray_1_1_dynamic_array_1a35e69c2bc09ce14a5c4445cf1da59c86"/>Stream&lt; E &gt; <emphasis role="strong">stream</emphasis> ()</para>
+</listitem>
+            <listitem><para>String <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1dynamicarray_1_1_dynamic_array_1afb1fa9c0325b824a5425930fbc63f74a">toString</link> ()</para>
+</listitem>
+            <listitem><para>Iterator <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1dynamicarray_1_1_dynamic_array_1acd41f51e5df2eba85903556286355c75">iterator</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1dynamicarray_1_1_dynamic_array_1a7e81db8d68f8d3cbe3c139beebedcd84">main</link> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>This class implements a dynamic array</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>&lt;E&gt;</entry><entry>
+<para>the type that each index of the array will hold </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1dynamicarray_1_1_dynamic_array_1a26bc831f72379534ccf8e0fa02e6e995"/><section>
+    <title>DynamicArray()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>DynamicArray</primary><secondary>com.thealgorithms.datastructures.dynamicarray.DynamicArray&lt; E &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.dynamicarray.DynamicArray&lt; E &gt;</primary><secondary>DynamicArray</secondary></indexterm>
+<para><computeroutput><link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1dynamicarray_1_1_dynamic_array">com.thealgorithms.datastructures.dynamicarray.DynamicArray</link>&lt; E &gt;.<link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1dynamicarray_1_1_dynamic_array">DynamicArray</link> (final int capacity)</computeroutput></para>
+<para>constructor</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>capacity</entry><entry>
+<para>the starting length of the desired array </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1dynamicarray_1_1_dynamic_array_1a3ac4aee5e3f37ab8b56867ec6dc53918"/><section>
+    <title>DynamicArray()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>DynamicArray</primary><secondary>com.thealgorithms.datastructures.dynamicarray.DynamicArray&lt; E &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.dynamicarray.DynamicArray&lt; E &gt;</primary><secondary>DynamicArray</secondary></indexterm>
+<para><computeroutput><link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1dynamicarray_1_1_dynamic_array">com.thealgorithms.datastructures.dynamicarray.DynamicArray</link>&lt; E &gt;.<link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1dynamicarray_1_1_dynamic_array">DynamicArray</link> ( )</computeroutput></para>
+<para>No-args constructor </para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1dynamicarray_1_1_dynamic_array_1a12cf2577f8bb04cda43f97be3f6aeaed"/><section>
+    <title>add()</title>
+<indexterm><primary>add</primary><secondary>com.thealgorithms.datastructures.dynamicarray.DynamicArray&lt; E &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.dynamicarray.DynamicArray&lt; E &gt;</primary><secondary>add</secondary></indexterm>
+<para><computeroutput>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1dynamicarray_1_1_dynamic_array">com.thealgorithms.datastructures.dynamicarray.DynamicArray</link>&lt; E &gt;.add (final E element)</computeroutput></para>
+<para>Adds an element to the array If full, creates a copy array twice the size of the current one</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>element</entry><entry>
+<para>the element of type &lt;E&gt; to be added to the array </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1dynamicarray_1_1_dynamic_array_1acce46f87fa3826b9269dfc602d44fc2b"/><section>
+    <title>get()</title>
+<indexterm><primary>get</primary><secondary>com.thealgorithms.datastructures.dynamicarray.DynamicArray&lt; E &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.dynamicarray.DynamicArray&lt; E &gt;</primary><secondary>get</secondary></indexterm>
+<para><computeroutput>E <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1dynamicarray_1_1_dynamic_array">com.thealgorithms.datastructures.dynamicarray.DynamicArray</link>&lt; E &gt;.get (final int index)</computeroutput></para>
+<para>get method for element at a given index returns null if the index is empty</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>index</entry><entry>
+<para>the desired index of the element </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>&lt;E&gt; the element at the specified index </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1dynamicarray_1_1_dynamic_array_1a852b8a8c24ef10d64477f1904dda052c"/><section>
+    <title>getSize()</title>
+<indexterm><primary>getSize</primary><secondary>com.thealgorithms.datastructures.dynamicarray.DynamicArray&lt; E &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.dynamicarray.DynamicArray&lt; E &gt;</primary><secondary>getSize</secondary></indexterm>
+<para><computeroutput>int <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1dynamicarray_1_1_dynamic_array">com.thealgorithms.datastructures.dynamicarray.DynamicArray</link>&lt; E &gt;.getSize ( )</computeroutput></para>
+<para>get method for size field</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>int size </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1dynamicarray_1_1_dynamic_array_1a13299fae0ec749a81afe0132fba2cfb6"/><section>
+    <title>isEmpty()</title>
+<indexterm><primary>isEmpty</primary><secondary>com.thealgorithms.datastructures.dynamicarray.DynamicArray&lt; E &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.dynamicarray.DynamicArray&lt; E &gt;</primary><secondary>isEmpty</secondary></indexterm>
+<para><computeroutput>boolean <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1dynamicarray_1_1_dynamic_array">com.thealgorithms.datastructures.dynamicarray.DynamicArray</link>&lt; E &gt;.isEmpty ( )</computeroutput></para>
+<para>isEmpty helper method</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>boolean true if the array contains no elements, false otherwise </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1dynamicarray_1_1_dynamic_array_1acd41f51e5df2eba85903556286355c75"/><section>
+    <title>iterator()</title>
+<indexterm><primary>iterator</primary><secondary>com.thealgorithms.datastructures.dynamicarray.DynamicArray&lt; E &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.dynamicarray.DynamicArray&lt; E &gt;</primary><secondary>iterator</secondary></indexterm>
+<para><computeroutput>Iterator <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1dynamicarray_1_1_dynamic_array">com.thealgorithms.datastructures.dynamicarray.DynamicArray</link>&lt; E &gt;.iterator ( )</computeroutput></para>
+<para>Creates and returns a new Dynamic Array Iterator</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>Iterator a Dynamic Array Iterator </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1dynamicarray_1_1_dynamic_array_1a7e81db8d68f8d3cbe3c139beebedcd84"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>com.thealgorithms.datastructures.dynamicarray.DynamicArray&lt; E &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.dynamicarray.DynamicArray&lt; E &gt;</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1dynamicarray_1_1_dynamic_array">com.thealgorithms.datastructures.dynamicarray.DynamicArray</link>&lt; E &gt;.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>This class is the driver for the DynamicArray&lt;E&gt; class it tests a variety of methods and prints the output </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1dynamicarray_1_1_dynamic_array_1a2925dfcf8f5afddc356a8a561151af39"/><section>
+    <title>put()</title>
+<indexterm><primary>put</primary><secondary>com.thealgorithms.datastructures.dynamicarray.DynamicArray&lt; E &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.dynamicarray.DynamicArray&lt; E &gt;</primary><secondary>put</secondary></indexterm>
+<para><computeroutput>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1dynamicarray_1_1_dynamic_array">com.thealgorithms.datastructures.dynamicarray.DynamicArray</link>&lt; E &gt;.put (final int index, E element)</computeroutput></para>
+<para>Places element of type &lt;E&gt; at the desired index</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>index</entry><entry>
+<para>the index for the element to be placed </para>
+</entry>
+                            </row>
+                            <row>
+<entry>element</entry><entry>
+<para>the element to be inserted </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1dynamicarray_1_1_dynamic_array_1a65f27000f429e9997aa04a7ba264fd9b"/><section>
+    <title>remove()</title>
+<indexterm><primary>remove</primary><secondary>com.thealgorithms.datastructures.dynamicarray.DynamicArray&lt; E &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.dynamicarray.DynamicArray&lt; E &gt;</primary><secondary>remove</secondary></indexterm>
+<para><computeroutput>E <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1dynamicarray_1_1_dynamic_array">com.thealgorithms.datastructures.dynamicarray.DynamicArray</link>&lt; E &gt;.remove (final int index)</computeroutput></para>
+<para>Removes an element from the array</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>index</entry><entry>
+<para>the index of the element to be removed </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>&lt;E&gt; the element removed </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1dynamicarray_1_1_dynamic_array_1afb1fa9c0325b824a5425930fbc63f74a"/><section>
+    <title>toString()</title>
+<indexterm><primary>toString</primary><secondary>com.thealgorithms.datastructures.dynamicarray.DynamicArray&lt; E &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.dynamicarray.DynamicArray&lt; E &gt;</primary><secondary>toString</secondary></indexterm>
+<para><computeroutput>String <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1dynamicarray_1_1_dynamic_array">com.thealgorithms.datastructures.dynamicarray.DynamicArray</link>&lt; E &gt;.toString ( )</computeroutput></para>
+<para>returns a String representation of this object</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>String a String representing the array </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/dynamicarray/DynamicArray.java</section>
+</section>

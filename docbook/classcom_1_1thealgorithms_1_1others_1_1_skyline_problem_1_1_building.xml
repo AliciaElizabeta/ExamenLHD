@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1others_1_1_skyline_problem_1_1_building" xml:lang="en-US">
+<title>com.thealgorithms.others.SkylineProblem.Building Class Reference</title>
+<indexterm><primary>com.thealgorithms.others.SkylineProblem.Building</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_skyline_problem_1_1_building_1a7203373b7f777c6de8fcf7212a657d3d"/><emphasis role="strong">Building</emphasis> (int left, int height, int right)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_skyline_problem_1_1_building_1a537842945572fc37907a31d0040a67c5"/>int <emphasis role="strong">left</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_skyline_problem_1_1_building_1a7e1494b49fe43fde8df82a28ebc41a38"/>int <emphasis role="strong">height</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_skyline_problem_1_1_building_1ab8343d8326d1a6502519d56b44ece5a8"/>int <emphasis role="strong">right</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/others/SkylineProblem.java</section>

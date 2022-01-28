@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_convolution" xml:lang="en-US">
+<title>com.thealgorithms.maths.Convolution Class Reference</title>
+<indexterm><primary>com.thealgorithms.maths.Convolution</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static double[] <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_convolution_1aa1041e8cd2225df1d25a8a348ef5e36d">convolution</link> (double[] A, double[] B)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Class for linear convolution of two discrete signals</para>
+
+<para><formalpara><title>Author</title>
+
+<para>Ioannis Karavitsis </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_convolution_1aa1041e8cd2225df1d25a8a348ef5e36d"/><section>
+    <title>convolution()</title>
+<indexterm><primary>convolution</primary><secondary>com.thealgorithms.maths.Convolution</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.Convolution</primary><secondary>convolution</secondary></indexterm>
+<para><computeroutput>static double[] com.thealgorithms.maths.Convolution.convolution (double[] A, double[] B)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Discrete linear convolution function. Both input signals and the output signal must start from 0. If you have a signal that has values before 0 then shift it to start from 0.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>A</entry><entry>
+<para>The first discrete signal </para>
+</entry>
+                            </row>
+                            <row>
+<entry>B</entry><entry>
+<para>The second discrete signal </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>The convolved signal </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/maths/Convolution.java</section>
+</section>

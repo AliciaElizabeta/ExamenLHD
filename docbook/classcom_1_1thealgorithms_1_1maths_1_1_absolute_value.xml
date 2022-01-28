@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_absolute_value" xml:lang="en-US">
+<title>com.thealgorithms.maths.AbsoluteValue Class Reference</title>
+<indexterm><primary>com.thealgorithms.maths.AbsoluteValue</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_absolute_value_1a9fd09a302ffb8d7bb39d5efb0d02c1d4"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+            <listitem><para>static int <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_absolute_value_1ac43a531c5da040f83a797852539da981">absVal</link> (int value)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_absolute_value_1ac43a531c5da040f83a797852539da981"/><section>
+    <title>absVal()</title>
+<indexterm><primary>absVal</primary><secondary>com.thealgorithms.maths.AbsoluteValue</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.AbsoluteValue</primary><secondary>absVal</secondary></indexterm>
+<para><computeroutput>static int com.thealgorithms.maths.AbsoluteValue.absVal (int value)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>If value is less than zero, make value positive.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>value</entry><entry>
+<para>a number </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>the absolute value of a number </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/maths/AbsoluteValue.java</section>
+</section>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_duplicate_brackets" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.stacks.DuplicateBrackets Class Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.stacks.DuplicateBrackets</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_duplicate_brackets_1a83be189b8b1c96ec9311065b40f18bbb"/>static boolean <emphasis role="strong">check</emphasis> (String str)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_duplicate_brackets_1a6a11184d54eb75c85a56573dc5f58355"/>static void <emphasis role="strong">main</emphasis> (String[] args)  throws Exception </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/stacks/DuplicateBrackets.java</section>

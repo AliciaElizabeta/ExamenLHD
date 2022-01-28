@@ -1,0 +1,48 @@
+\hypertarget{classcom_1_1thealgorithms_1_1maths_1_1_f_f_t}{}\doxysection{com.\+thealgorithms.\+maths.\+FFT Class Reference}
+\label{classcom_1_1thealgorithms_1_1maths_1_1_f_f_t}\index{com.thealgorithms.maths.FFT@{com.thealgorithms.maths.FFT}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Complex}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1maths_1_1_f_f_t_ab405bb7c7ddf13041b783df1b0c8a2ec}{fft}} (Array\+List$<$ Complex $>$ x, boolean inverse)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class for calculating the Fast Fourier Transform (\mbox{\hyperlink{classcom_1_1thealgorithms_1_1maths_1_1_f_f_t}{FFT}}) of a discrete signal using the Cooley-\/\+Tukey algorithm.
+
+\begin{DoxyAuthor}{Author}
+Ioannis Karavitsis 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1maths_1_1_f_f_t_ab405bb7c7ddf13041b783df1b0c8a2ec}\label{classcom_1_1thealgorithms_1_1maths_1_1_f_f_t_ab405bb7c7ddf13041b783df1b0c8a2ec}} 
+\index{com.thealgorithms.maths.FFT@{com.thealgorithms.maths.FFT}!fft@{fft}}
+\index{fft@{fft}!com.thealgorithms.maths.FFT@{com.thealgorithms.maths.FFT}}
+\doxysubsubsection{\texorpdfstring{fft()}{fft()}}
+{\footnotesize\ttfamily static void com.\+thealgorithms.\+maths.\+FFT.\+fft (\begin{DoxyParamCaption}\item[{Array\+List$<$ Complex $>$}]{x,  }\item[{boolean}]{inverse }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Iterative In-\/\+Place Radix-\/2 Cooley-\/\+Tukey Fast Fourier Transform Algorithm with Bit-\/\+Reversal. The size of the input signal must be a power of 2. If it isn\textquotesingle{}t then it is padded with zeros and the output \mbox{\hyperlink{classcom_1_1thealgorithms_1_1maths_1_1_f_f_t}{FFT}} will be bigger than the input signal.
+
+More info\+: \href{https://www.algorithm-archive.org/contents/cooley_tukey/cooley_tukey.html}{\texttt{ https\+://www.\+algorithm-\/archive.\+org/contents/cooley\+\_\+tukey/cooley\+\_\+tukey.\+html}} \href{https://www.geeksforgeeks.org/iterative-fast-fourier-transformation-polynomial-multiplication/}{\texttt{ https\+://www.\+geeksforgeeks.\+org/iterative-\/fast-\/fourier-\/transformation-\/polynomial-\/multiplication/}} \href{https://en.wikipedia.org/wiki/Cooley\%E2\%80\%93Tukey_FFT_algorithm}{\texttt{ https\+://en.\+wikipedia.\+org/wiki/\+Cooley\%\+E2\%80\%93\+Tukey\+\_\+\+FFT\+\_\+algorithm}} \href{https://cp-algorithms.com/algebra/fft.html}{\texttt{ https\+://cp-\/algorithms.\+com/algebra/fft.\+html}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & The discrete signal which is then converted to the \mbox{\hyperlink{classcom_1_1thealgorithms_1_1maths_1_1_f_f_t}{FFT}} or the IFFT of signal x. \\
+\hline
+{\em inverse} & True if you want to find the inverse \mbox{\hyperlink{classcom_1_1thealgorithms_1_1maths_1_1_f_f_t}{FFT}}. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/thealgorithms/maths/FFT.\+java\end{DoxyCompactItemize}

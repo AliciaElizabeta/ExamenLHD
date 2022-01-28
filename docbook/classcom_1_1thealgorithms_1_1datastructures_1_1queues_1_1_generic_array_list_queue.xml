@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_generic_array_list_queue" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.queues.GenericArrayListQueue&lt; T &gt; Class Template Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.queues.GenericArrayListQueue&lt; T &gt;</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>T <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_generic_array_list_queue_1a6de036ba1cc75dc119b804d476f20fee">peek</link> ()</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_generic_array_list_queue_1ad4f870814e1ccf102d69612f0ee22891">add</link> (T element)</para>
+</listitem>
+            <listitem><para>T <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_generic_array_list_queue_1aba9624aef474123e87d54ab4e2cf99dc">pull</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_generic_array_list_queue_1aa12dda0b58134e40efb1468fa36e3f02">main</link> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>This class implements a <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_generic_array_list_queue">GenericArrayListQueue</link>.</para>
+
+<para>A <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_generic_array_list_queue">GenericArrayListQueue</link> data structure functions the same as any specific-typed queue. The <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_generic_array_list_queue">GenericArrayListQueue</link> holds elements of types to-be-specified at runtime. The elements that are added first are the first to be removed (FIFO). New elements are added to the back/rear of the queue. </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_generic_array_list_queue_1ad4f870814e1ccf102d69612f0ee22891"/><section>
+    <title>add()</title>
+<indexterm><primary>add</primary><secondary>com.thealgorithms.datastructures.queues.GenericArrayListQueue&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.queues.GenericArrayListQueue&lt; T &gt;</primary><secondary>add</secondary></indexterm>
+<para><computeroutput>boolean <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_generic_array_list_queue">com.thealgorithms.datastructures.queues.GenericArrayListQueue</link>&lt; T &gt;.add (T element)</computeroutput></para>
+<para>Inserts an element of type T to the queue.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>element</entry><entry>
+<para>of type T to be added </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>True if the element was added successfully </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_generic_array_list_queue_1aa12dda0b58134e40efb1468fa36e3f02"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>com.thealgorithms.datastructures.queues.GenericArrayListQueue&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.queues.GenericArrayListQueue&lt; T &gt;</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_generic_array_list_queue">com.thealgorithms.datastructures.queues.GenericArrayListQueue</link>&lt; T &gt;.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Main method</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>args</entry><entry>
+<para>Command line arguments </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_generic_array_list_queue_1a6de036ba1cc75dc119b804d476f20fee"/><section>
+    <title>peek()</title>
+<indexterm><primary>peek</primary><secondary>com.thealgorithms.datastructures.queues.GenericArrayListQueue&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.queues.GenericArrayListQueue&lt; T &gt;</primary><secondary>peek</secondary></indexterm>
+<para><computeroutput>T <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_generic_array_list_queue">com.thealgorithms.datastructures.queues.GenericArrayListQueue</link>&lt; T &gt;.peek ( )</computeroutput></para>
+<para>Checks what&apos;s at the front of the queue.</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>If queue is not empty, element at the front of the queue. Otherwise, null </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_generic_array_list_queue_1aba9624aef474123e87d54ab4e2cf99dc"/><section>
+    <title>pull()</title>
+<indexterm><primary>pull</primary><secondary>com.thealgorithms.datastructures.queues.GenericArrayListQueue&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.queues.GenericArrayListQueue&lt; T &gt;</primary><secondary>pull</secondary></indexterm>
+<para><computeroutput>T <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_generic_array_list_queue">com.thealgorithms.datastructures.queues.GenericArrayListQueue</link>&lt; T &gt;.pull ( )</computeroutput></para>
+<para>Retrieve what&apos;s at the front of the queue</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>If queue is not empty, element retrieved. Otherwise, null </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/queues/GenericArrayListQueue.java</section>
+</section>

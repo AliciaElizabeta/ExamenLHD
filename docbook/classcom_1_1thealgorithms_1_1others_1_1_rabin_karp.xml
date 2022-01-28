@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1others_1_1_rabin_karp" xml:lang="en-US">
+<title>com.thealgorithms.others.RabinKarp Class Reference</title>
+<indexterm><primary>com.thealgorithms.others.RabinKarp</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_rabin_karp_1a4777d8b6898cc32e7a945654b751dd63"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_rabin_karp_1aa1e1625d558c4d3716bd5abc4bc0ba24"/>static Scanner <emphasis role="strong">scanner</emphasis> = null</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_rabin_karp_1a7f0e12b122ba7ec63f94ce14db87108b"/>static final int <emphasis role="strong">d</emphasis> = 256</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/others/RabinKarp.java</section>

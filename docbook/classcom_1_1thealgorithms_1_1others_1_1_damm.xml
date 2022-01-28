@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1others_1_1_damm" xml:lang="en-US">
+<title>com.thealgorithms.others.Damm Class Reference</title>
+<indexterm><primary>com.thealgorithms.others.Damm</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static boolean <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_damm_1a80a3cfef9e087bf1fa47967c18e5c85d">dammCheck</link> (String digits)</para>
+</listitem>
+            <listitem><para>static String <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_damm_1a4fae66ee3a05afd614ea0317a8daa841">addDammChecksum</link> (String initialDigits)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_damm_1a8f7be8519d9e12b1147f60115952e484"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_classcom_1_1thealgorithms_1_1others_1_1_damm">Damm</link> algorithm is a check digit algorithm that detects all single-digit errors and all adjacent transposition errors. It was presented by H. Michael <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_damm">Damm</link> in 2004. Essential part of the algorithm is a quasigroup of order 10 (i.e. having a 10 × 10 Latin square as the body of its operation table) with the special feature of being weakly totally anti-symmetric. <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_damm">Damm</link> revealed several methods to create totally anti-symmetric quasigroups of order 10 and gave some examples in his doctoral dissertation.</para>
+
+<para><formalpara><title>See also</title>
+
+<para><link xlink:href="https://en.wikipedia.org/wiki/Damm_algorithm">Wiki. Damm algorithm</link> </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_damm_1a4fae66ee3a05afd614ea0317a8daa841"/><section>
+    <title>addDammChecksum()</title>
+<indexterm><primary>addDammChecksum</primary><secondary>com.thealgorithms.others.Damm</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.others.Damm</primary><secondary>addDammChecksum</secondary></indexterm>
+<para><computeroutput>static String com.thealgorithms.others.Damm.addDammChecksum (String initialDigits)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Calculate check digit for initial digits and add it tho the last position.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>initialDigits</entry><entry>
+<para>initial value </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>digits with the checksum in the last position </para>
+</formalpara>
+
+                <formalpara>
+                    <title>
+Exceptions</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>IllegalArgumentException</entry><entry>
+<para>if input parameter contains not only digits </para>
+</entry>
+                            </row>
+                            <row>
+<entry>NullPointerException</entry><entry>
+<para>if input is null </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_damm_1a80a3cfef9e087bf1fa47967c18e5c85d"/><section>
+    <title>dammCheck()</title>
+<indexterm><primary>dammCheck</primary><secondary>com.thealgorithms.others.Damm</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.others.Damm</primary><secondary>dammCheck</secondary></indexterm>
+<para><computeroutput>static boolean com.thealgorithms.others.Damm.dammCheck (String digits)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Check input digits by <link linkend="_classcom_1_1thealgorithms_1_1others_1_1_damm">Damm</link> algorithm.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>digits</entry><entry>
+<para>input to check </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>true if check was successful, false otherwise </para>
+</formalpara>
+
+                <formalpara>
+                    <title>
+Exceptions</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>IllegalArgumentException</entry><entry>
+<para>if input parameter contains not only digits </para>
+</entry>
+                            </row>
+                            <row>
+<entry>NullPointerException</entry><entry>
+<para>if input is null </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/others/Damm.java</section>
+</section>

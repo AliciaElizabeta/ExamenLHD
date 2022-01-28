@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1graphs_1_1_matrix_graphs" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.graphs.MatrixGraphs Class Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.graphs.MatrixGraphs</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1graphs_1_1_matrix_graphs_1a206f57795deb41cce9759b1ad7349af3"/>static void <emphasis role="strong">main</emphasis> (String args[])</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Implementation of a graph in a matrix form Also known as an adjacency matrix representation <link xlink:href="https://en.wikipedia.org/wiki/Adjacency_matrix">Adjacency matrix - Wikipedia</link></para>
+
+<para><formalpara><title>Author</title>
+
+<para>Unknown </para>
+</formalpara>
+</para>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/graphs/MatrixGraphs.java</section>
+</section>

@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_max_value" xml:lang="en-US">
+<title>com.thealgorithms.maths.MaxValue Class Reference</title>
+<indexterm><primary>com.thealgorithms.maths.MaxValue</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_max_value_1a6b5628db2c9e1435a5b465ad8d8494a7">main</link> (String[] args)</para>
+</listitem>
+            <listitem><para>static int <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_max_value_1a43a91520eb3a95ee762cd753f050b0fd">max</link> (int a, int b)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_max_value_1a6b5628db2c9e1435a5b465ad8d8494a7"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>com.thealgorithms.maths.MaxValue</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.MaxValue</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void com.thealgorithms.maths.MaxValue.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Driver Code </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_max_value_1a43a91520eb3a95ee762cd753f050b0fd"/><section>
+    <title>max()</title>
+<indexterm><primary>max</primary><secondary>com.thealgorithms.maths.MaxValue</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.MaxValue</primary><secondary>max</secondary></indexterm>
+<para><computeroutput>static int com.thealgorithms.maths.MaxValue.max (int a, int b)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Returns the greater of two <literallayout><computeroutput><emphasis role="keywordtype">int</emphasis>&#32;
+</computeroutput></literallayout> values. That is, the result is the argument closer to the value of <link linkend="_">Integer#MAX_VALUE</link>. If the arguments have the same value, the result is that same value.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>a</entry><entry>
+<para>an argument. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>b</entry><entry>
+<para>another argument. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>the larger of <literallayout><computeroutput>a&#32;
+</computeroutput></literallayout> and <literallayout><computeroutput>b&#32;
+</computeroutput></literallayout> . </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/maths/MaxValue.java</section>
+</section>

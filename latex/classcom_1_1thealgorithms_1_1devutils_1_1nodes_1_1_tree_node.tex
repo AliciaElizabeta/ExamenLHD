@@ -1,0 +1,115 @@
+\hypertarget{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node}{}\doxysection{com.\+thealgorithms.\+devutils.\+nodes.\+Tree\+Node\texorpdfstring{$<$}{<} E \texorpdfstring{$>$}{>} Class Template Reference}
+\label{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node}\index{com.thealgorithms.devutils.nodes.TreeNode$<$ E $>$@{com.thealgorithms.devutils.nodes.TreeNode$<$ E $>$}}
+Inheritance diagram for com.\+thealgorithms.\+devutils.\+nodes.\+Tree\+Node\texorpdfstring{$<$}{<} E \texorpdfstring{$>$}{>}\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.507463cm]{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node_aa2e1bbf213c99b49ff567b273c2085fa}{Tree\+Node}} ()
+\item 
+\mbox{\hyperlink{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node_af4617144ec70765358a0c5e1aaf5ae82}{Tree\+Node}} (E data)
+\item 
+\mbox{\hyperlink{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node_ae1b8bd55dc39e8e45c3ba52cc0ed922d}{Tree\+Node}} (E data, \mbox{\hyperlink{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node}{Tree\+Node}}$<$ E $>$ parent\+Node)
+\item 
+abstract boolean \mbox{\hyperlink{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node_a4e74cbeef32d3428b894c7a6078d507c}{is\+Leaf\+Node}} ()
+\item 
+boolean \mbox{\hyperlink{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node_ada7946f44ff9e05cbbfd6ad28a6847c8}{is\+Root\+Node}} ()
+\item 
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node_a2654fd917fdda9ffd1e879d6b33e8b8c}\label{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node_a2654fd917fdda9ffd1e879d6b33e8b8c}} 
+\mbox{\hyperlink{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node}{Tree\+Node}}$<$ E $>$ {\bfseries get\+Parent} ()
+\item 
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node_a2763538a43484374614049b7b3a350b9}\label{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node_a2763538a43484374614049b7b3a350b9}} 
+void {\bfseries set\+Parent} (\mbox{\hyperlink{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node}{Tree\+Node}}$<$ E $>$ parent\+Node)
+\item 
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node_a88206da948d732141ab4bcfc1994f553}\label{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node_a88206da948d732141ab4bcfc1994f553}} 
+int {\bfseries get\+Depth} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Base class for any tree node which holds a reference to the parent node.
+
+All known subclasses\+: \mbox{\hyperlink{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_simple_tree_node}{Simple\+Tree\+Node}}, \mbox{\hyperlink{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_large_tree_node}{Large\+Tree\+Node}}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em $<$\+E$>$} & The type of the data held in the \mbox{\hyperlink{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_node}{Node}}.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyAuthor}{Author}
+\href{https://github.com/aitorfi}{\texttt{ aitorfi}} 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node_aa2e1bbf213c99b49ff567b273c2085fa}\label{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node_aa2e1bbf213c99b49ff567b273c2085fa}} 
+\index{com.thealgorithms.devutils.nodes.TreeNode$<$ E $>$@{com.thealgorithms.devutils.nodes.TreeNode$<$ E $>$}!TreeNode@{TreeNode}}
+\index{TreeNode@{TreeNode}!com.thealgorithms.devutils.nodes.TreeNode$<$ E $>$@{com.thealgorithms.devutils.nodes.TreeNode$<$ E $>$}}
+\doxysubsubsection{\texorpdfstring{TreeNode()}{TreeNode()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node}{com.\+thealgorithms.\+devutils.\+nodes.\+Tree\+Node}}$<$ E $>$.\mbox{\hyperlink{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node}{Tree\+Node}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Empty contructor. \mbox{\Hypertarget{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node_af4617144ec70765358a0c5e1aaf5ae82}\label{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node_af4617144ec70765358a0c5e1aaf5ae82}} 
+\index{com.thealgorithms.devutils.nodes.TreeNode$<$ E $>$@{com.thealgorithms.devutils.nodes.TreeNode$<$ E $>$}!TreeNode@{TreeNode}}
+\index{TreeNode@{TreeNode}!com.thealgorithms.devutils.nodes.TreeNode$<$ E $>$@{com.thealgorithms.devutils.nodes.TreeNode$<$ E $>$}}
+\doxysubsubsection{\texorpdfstring{TreeNode()}{TreeNode()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node}{com.\+thealgorithms.\+devutils.\+nodes.\+Tree\+Node}}$<$ E $>$.\mbox{\hyperlink{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node}{Tree\+Node}} (\begin{DoxyParamCaption}\item[{E}]{data }\end{DoxyParamCaption})}
+
+Initializes the Nodes\textquotesingle{} data.
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & Value to which data will be initialized. \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+Node\+::\+Node(\+Object) 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node_ae1b8bd55dc39e8e45c3ba52cc0ed922d}\label{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node_ae1b8bd55dc39e8e45c3ba52cc0ed922d}} 
+\index{com.thealgorithms.devutils.nodes.TreeNode$<$ E $>$@{com.thealgorithms.devutils.nodes.TreeNode$<$ E $>$}!TreeNode@{TreeNode}}
+\index{TreeNode@{TreeNode}!com.thealgorithms.devutils.nodes.TreeNode$<$ E $>$@{com.thealgorithms.devutils.nodes.TreeNode$<$ E $>$}}
+\doxysubsubsection{\texorpdfstring{TreeNode()}{TreeNode()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node}{com.\+thealgorithms.\+devutils.\+nodes.\+Tree\+Node}}$<$ E $>$.\mbox{\hyperlink{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node}{Tree\+Node}} (\begin{DoxyParamCaption}\item[{E}]{data,  }\item[{\mbox{\hyperlink{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node}{Tree\+Node}}$<$ E $>$}]{parent\+Node }\end{DoxyParamCaption})}
+
+Initializes the Nodes\textquotesingle{} data and parent node reference.
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & Value to which data will be initialized. \\
+\hline
+{\em parent\+Node} & Value to which the nodes\textquotesingle{} parent reference will be set. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node_a4e74cbeef32d3428b894c7a6078d507c}\label{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node_a4e74cbeef32d3428b894c7a6078d507c}} 
+\index{com.thealgorithms.devutils.nodes.TreeNode$<$ E $>$@{com.thealgorithms.devutils.nodes.TreeNode$<$ E $>$}!isLeafNode@{isLeafNode}}
+\index{isLeafNode@{isLeafNode}!com.thealgorithms.devutils.nodes.TreeNode$<$ E $>$@{com.thealgorithms.devutils.nodes.TreeNode$<$ E $>$}}
+\doxysubsubsection{\texorpdfstring{isLeafNode()}{isLeafNode()}}
+{\footnotesize\ttfamily abstract boolean \mbox{\hyperlink{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node}{com.\+thealgorithms.\+devutils.\+nodes.\+Tree\+Node}}$<$ E $>$.is\+Leaf\+Node (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+\begin{DoxyReturn}{Returns}
+True if the node is a leaf node, otherwise false. 
+\end{DoxyReturn}
+
+
+Reimplemented in \mbox{\hyperlink{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_large_tree_node_a89cfdfa8869e0ba29ea4cc09fbb11ed2}{com.\+thealgorithms.\+devutils.\+nodes.\+Large\+Tree\+Node$<$ E $>$}}, and \mbox{\hyperlink{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_simple_tree_node_a45be6d981244b01aedf6a6d5af2c1ba5}{com.\+thealgorithms.\+devutils.\+nodes.\+Simple\+Tree\+Node$<$ E $>$}}.
+
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node_ada7946f44ff9e05cbbfd6ad28a6847c8}\label{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node_ada7946f44ff9e05cbbfd6ad28a6847c8}} 
+\index{com.thealgorithms.devutils.nodes.TreeNode$<$ E $>$@{com.thealgorithms.devutils.nodes.TreeNode$<$ E $>$}!isRootNode@{isRootNode}}
+\index{isRootNode@{isRootNode}!com.thealgorithms.devutils.nodes.TreeNode$<$ E $>$@{com.thealgorithms.devutils.nodes.TreeNode$<$ E $>$}}
+\doxysubsubsection{\texorpdfstring{isRootNode()}{isRootNode()}}
+{\footnotesize\ttfamily boolean \mbox{\hyperlink{classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node}{com.\+thealgorithms.\+devutils.\+nodes.\+Tree\+Node}}$<$ E $>$.is\+Root\+Node (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+True if the node is the root node, otherwise false. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/thealgorithms/devutils/nodes/Tree\+Node.\+java\end{DoxyCompactItemize}

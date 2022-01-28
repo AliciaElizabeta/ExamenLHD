@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1others_1_1_c_r_c32" xml:lang="en-US">
+<title>com.thealgorithms.others.CRC32 Class Reference</title>
+<indexterm><primary>com.thealgorithms.others.CRC32</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_c_r_c32_1aea5e67c6772840d0c387e9506e68afda"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_c_r_c32_1adfd22d4b6fd09b5eb34564c8e982efa9"/>static int <emphasis role="strong">crc32</emphasis> (String str)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_c_r_c32_1abd718e5e019e75ba2b47ab3d5ced75c0"/>static int <emphasis role="strong">crc32</emphasis> (byte[] data)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Generates a crc32 checksum for a given string or byte array </para>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/others/CRC32.java</section>
+</section>

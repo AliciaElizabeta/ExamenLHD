@@ -1,0 +1,111 @@
+.TH "com.thealgorithms.datastructures.stacks.NodeStack< Item >" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.datastructures.stacks.NodeStack< Item >
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBNodeStack\fP ()"
+.br
+.ti -1c
+.RI "void \fBpush\fP (Item item)"
+.br
+.ti -1c
+.RI "Item \fBpop\fP ()"
+.br
+.ti -1c
+.RI "Item \fBpeek\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBisEmpty\fP ()"
+.br
+.ti -1c
+.RI "int \fBsize\fP ()"
+.br
+.ti -1c
+.RI "void \fBprint\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBmain\fP (String[] args)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Implementation of a stack using nodes\&. Unlimited size, no arraylist\&.
+.PP
+\fBAuthor\fP
+.RS 4
+Kyler Smith, 2017 
+.RE
+.PP
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "\fBcom\&.thealgorithms\&.datastructures\&.stacks\&.NodeStack\fP< Item >\&.\fBNodeStack\fP ()"
+Constructors for the \fBNodeStack\fP\&. 
+.SH "Member Function Documentation"
+.PP 
+.SS "boolean \fBcom\&.thealgorithms\&.datastructures\&.stacks\&.NodeStack\fP< Item >\&.isEmpty ()"
+If the stack is empty or there is a value in\&.
+.PP
+\fBReturns\fP
+.RS 4
+boolean : whether or not the stack has anything in it\&. 
+.RE
+.PP
+
+.SS "static void \fBcom\&.thealgorithms\&.datastructures\&.stacks\&.NodeStack\fP< Item >\&.main (String[] args)\fC [static]\fP"
+Entry point for the program\&. 
+.SS "Item \fBcom\&.thealgorithms\&.datastructures\&.stacks\&.NodeStack\fP< Item >\&.peek ()"
+Value that is next to be taken off the stack\&.
+.PP
+\fBReturns\fP
+.RS 4
+item : the next value that would be popped off the stack\&. 
+.RE
+.PP
+
+.SS "Item \fBcom\&.thealgorithms\&.datastructures\&.stacks\&.NodeStack\fP< Item >\&.pop ()"
+Value to be taken off the stack\&.
+.PP
+\fBReturns\fP
+.RS 4
+item : value that is returned\&. 
+.RE
+.PP
+
+.SS "void \fBcom\&.thealgorithms\&.datastructures\&.stacks\&.NodeStack\fP< Item >\&.print ()"
+Print the contents of the stack in the following format\&.
+.PP
+x <- head (next out) y z <- tail (first in) \&. \&. \&. 
+.SS "void \fBcom\&.thealgorithms\&.datastructures\&.stacks\&.NodeStack\fP< Item >\&.push (Item item)"
+Put a value onto the stack\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIitem\fP : value to be put on the stack\&. 
+.RE
+.PP
+
+.SS "int \fBcom\&.thealgorithms\&.datastructures\&.stacks\&.NodeStack\fP< Item >\&.size ()"
+Returns the size of the stack\&.
+.PP
+\fBReturns\fP
+.RS 4
+int : number of values in the stack\&. 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

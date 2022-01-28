@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1conversions_1_1_hexa_decimal_to_binary" xml:lang="en-US">
+<title>com.thealgorithms.conversions.HexaDecimalToBinary Class Reference</title>
+<indexterm><primary>com.thealgorithms.conversions.HexaDecimalToBinary</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1conversions_1_1_hexa_decimal_to_binary_1a1a51f2d13d935bc1cc2c66dbac7eb111"/>void <emphasis role="strong">convert</emphasis> (String numHex)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1conversions_1_1_hexa_decimal_to_binary_1aabba29a42762e3b03079add1437a7638"/>String <emphasis role="strong">completeDigits</emphasis> (String binNum)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1conversions_1_1_hexa_decimal_to_binary_1a724172e0253d11970e2818e0a086697e"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/conversions/HexaDecimalToBinary.java</section>

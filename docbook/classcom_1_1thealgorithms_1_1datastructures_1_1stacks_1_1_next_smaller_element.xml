@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_next_smaller_element" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.stacks.NextSmallerElement Class Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.stacks.NextSmallerElement</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_next_smaller_element_1a7391ee53c419fa72f4806061cbc37b8f"/>static int[] <emphasis role="strong">findNextSmallerElements</emphasis> (int[] array)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_next_smaller_element_1acc6d00b8b54bfb3f321244710827fa02"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/stacks/NextSmallerElement.java</section>

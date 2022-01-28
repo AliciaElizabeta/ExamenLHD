@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_sum___of___subset" xml:lang="en-US">
+<title>com.thealgorithms.dynamicprogramming.Sum_Of_Subset Class Reference</title>
+<indexterm><primary>com.thealgorithms.dynamicprogramming.Sum_Of_Subset</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_sum___of___subset_1ab56210245cfc000b48d82eb00717bdbc"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_sum___of___subset_1a9f2776717a5b9f547336e26320318221"/>static boolean <emphasis role="strong">subsetSum</emphasis> (int[] arr, int num, int Key)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/dynamicprogramming/Sum_Of_Subset.java</section>

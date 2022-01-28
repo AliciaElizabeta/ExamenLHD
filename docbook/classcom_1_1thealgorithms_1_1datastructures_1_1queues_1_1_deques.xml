@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_deques" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.queues.Deques&lt; T &gt; Class Template Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.queues.Deques&lt; T &gt;</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <emphasis role="strong">DequeNode</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_deques_1ae0b89e70cdeb4ee1c7e9fbe42bc9fdba">addFirst</link> (T val)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_deques_1ac3a19ac84ebd0845b5bb9cb16c5394df">addLast</link> (T val)</para>
+</listitem>
+            <listitem><para>T <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_deques_1a2e61b41260bbdb8377058cbd9dcf58ab">pollFirst</link> ()</para>
+</listitem>
+            <listitem><para>T <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_deques_1a6b69538f12cac3bf9c9233a315be30a8">pollLast</link> ()</para>
+</listitem>
+            <listitem><para>T <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_deques_1aca9b3ea0f7bf5c689a6b846d9ae87759">peekFirst</link> ()</para>
+</listitem>
+            <listitem><para>T <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_deques_1af69dab8fbb7e384e71d97bb0e5b382ef">peekLast</link> ()</para>
+</listitem>
+            <listitem><para>int <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_deques_1aa6f1f208997fe9b91f504fba118deafb">size</link> ()</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_deques_1a7621ebe1eea80dea487d195a66c12682">isEmpty</link> ()</para>
+</listitem>
+            <listitem><para>String <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_deques_1a5b75e1e97ab23c96c2dcc84adb99c4b8">toString</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_deques_1a801445527f5f997beba37e9bab88a3db"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>A <link xlink:href="https://en.wikipedia.org/wiki/Double-ended_queue">deque</link> is short for a double ended queue pronounced &quot;deck&quot; and sometimes referred to as a head-tail linked list. A deque is a data structure based on a doubly linked list, but only supports adding and removal of nodes from the beginning and the end of the list.</para>
+
+<para><formalpara><title>Author</title>
+
+<para><link xlink:href="https://github.com/iccowan">Ian Cowan</link> </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_deques_1ae0b89e70cdeb4ee1c7e9fbe42bc9fdba"/><section>
+    <title>addFirst()</title>
+<indexterm><primary>addFirst</primary><secondary>com.thealgorithms.datastructures.queues.Deques&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.queues.Deques&lt; T &gt;</primary><secondary>addFirst</secondary></indexterm>
+<para><computeroutput>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_deques">com.thealgorithms.datastructures.queues.Deques</link>&lt; T &gt;.addFirst (T val)</computeroutput></para>
+<para>Adds the specified value to the head of the deque</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>val</entry><entry>
+<para>Value to add to the deque </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_deques_1ac3a19ac84ebd0845b5bb9cb16c5394df"/><section>
+    <title>addLast()</title>
+<indexterm><primary>addLast</primary><secondary>com.thealgorithms.datastructures.queues.Deques&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.queues.Deques&lt; T &gt;</primary><secondary>addLast</secondary></indexterm>
+<para><computeroutput>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_deques">com.thealgorithms.datastructures.queues.Deques</link>&lt; T &gt;.addLast (T val)</computeroutput></para>
+<para>Adds the specified value to the tail of the deque</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>val</entry><entry>
+<para>Value to add to the deque </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_deques_1a7621ebe1eea80dea487d195a66c12682"/><section>
+    <title>isEmpty()</title>
+<indexterm><primary>isEmpty</primary><secondary>com.thealgorithms.datastructures.queues.Deques&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.queues.Deques&lt; T &gt;</primary><secondary>isEmpty</secondary></indexterm>
+<para><computeroutput>boolean <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_deques">com.thealgorithms.datastructures.queues.Deques</link>&lt; T &gt;.isEmpty ( )</computeroutput></para>
+<para>Returns whether or not the deque is empty</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>whether or not the deque is empty </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_deques_1aca9b3ea0f7bf5c689a6b846d9ae87759"/><section>
+    <title>peekFirst()</title>
+<indexterm><primary>peekFirst</primary><secondary>com.thealgorithms.datastructures.queues.Deques&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.queues.Deques&lt; T &gt;</primary><secondary>peekFirst</secondary></indexterm>
+<para><computeroutput>T <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_deques">com.thealgorithms.datastructures.queues.Deques</link>&lt; T &gt;.peekFirst ( )</computeroutput></para>
+<para>Returns the first (head) value of the deque WITHOUT removing</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>the value of the head of the deque </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_deques_1af69dab8fbb7e384e71d97bb0e5b382ef"/><section>
+    <title>peekLast()</title>
+<indexterm><primary>peekLast</primary><secondary>com.thealgorithms.datastructures.queues.Deques&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.queues.Deques&lt; T &gt;</primary><secondary>peekLast</secondary></indexterm>
+<para><computeroutput>T <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_deques">com.thealgorithms.datastructures.queues.Deques</link>&lt; T &gt;.peekLast ( )</computeroutput></para>
+<para>Returns the last (tail) value of the deque WITHOUT removing</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>the value of the tail of the deque </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_deques_1a2e61b41260bbdb8377058cbd9dcf58ab"/><section>
+    <title>pollFirst()</title>
+<indexterm><primary>pollFirst</primary><secondary>com.thealgorithms.datastructures.queues.Deques&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.queues.Deques&lt; T &gt;</primary><secondary>pollFirst</secondary></indexterm>
+<para><computeroutput>T <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_deques">com.thealgorithms.datastructures.queues.Deques</link>&lt; T &gt;.pollFirst ( )</computeroutput></para>
+<para>Removes and returns the first (head) value in the deque</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>the value of the head of the deque </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_deques_1a6b69538f12cac3bf9c9233a315be30a8"/><section>
+    <title>pollLast()</title>
+<indexterm><primary>pollLast</primary><secondary>com.thealgorithms.datastructures.queues.Deques&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.queues.Deques&lt; T &gt;</primary><secondary>pollLast</secondary></indexterm>
+<para><computeroutput>T <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_deques">com.thealgorithms.datastructures.queues.Deques</link>&lt; T &gt;.pollLast ( )</computeroutput></para>
+<para>Removes and returns the last (tail) value in the deque</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>the value of the tail of the deque </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_deques_1aa6f1f208997fe9b91f504fba118deafb"/><section>
+    <title>size()</title>
+<indexterm><primary>size</primary><secondary>com.thealgorithms.datastructures.queues.Deques&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.queues.Deques&lt; T &gt;</primary><secondary>size</secondary></indexterm>
+<para><computeroutput>int <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_deques">com.thealgorithms.datastructures.queues.Deques</link>&lt; T &gt;.size ( )</computeroutput></para>
+<para>Returns the size of the deque</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>the size of the deque </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_deques_1a5b75e1e97ab23c96c2dcc84adb99c4b8"/><section>
+    <title>toString()</title>
+<indexterm><primary>toString</primary><secondary>com.thealgorithms.datastructures.queues.Deques&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.queues.Deques&lt; T &gt;</primary><secondary>toString</secondary></indexterm>
+<para><computeroutput>String <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1queues_1_1_deques">com.thealgorithms.datastructures.queues.Deques</link>&lt; T &gt;.toString ( )</computeroutput></para>
+<para>Returns a stringified deque in a pretty form:</para>
+
+<para>Head -&gt; 1 &lt;-&gt; 2 &lt;-&gt; 3 &lt;- Tail</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>the stringified deque </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/queues/Deques.java</section>
+</section>

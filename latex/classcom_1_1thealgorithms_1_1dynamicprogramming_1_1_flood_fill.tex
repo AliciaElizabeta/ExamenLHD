@@ -1,0 +1,101 @@
+\hypertarget{classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_flood_fill}{}\doxysection{com.\+thealgorithms.\+dynamicprogramming.\+Flood\+Fill Class Reference}
+\label{classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_flood_fill}\index{com.thealgorithms.dynamicprogramming.FloodFill@{com.thealgorithms.dynamicprogramming.FloodFill}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \mbox{\hyperlink{classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_flood_fill_af6c0b3be805c7697d8e22fc861df993f}{get\+Pixel}} (int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} image, int x\+\_\+co\+\_\+ordinate, int y\+\_\+co\+\_\+ordinate)
+\item 
+static void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_flood_fill_a8156c90a2c90a2ee6f3326300381b475}{put\+Pixel}} (int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} image, int x\+\_\+co\+\_\+ordinate, int y\+\_\+co\+\_\+ordinate, int new\+\_\+color)
+\item 
+static void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_flood_fill_a4db6fb89fdafbb104482c5f5b2756503}{flood\+Fill}} (int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} image, int x\+\_\+co\+\_\+ordinate, int y\+\_\+co\+\_\+ordinate, int new\+\_\+color, int old\+\_\+color)
+\item 
+static void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_flood_fill_ad79fed7834789f896ee7f8f8fb93e116}{print\+Image\+Array}} (int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} image)
+\item 
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_flood_fill_a663d4ff4e2199bd38197dc361440171b}\label{classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_flood_fill_a663d4ff4e2199bd38197dc361440171b}} 
+static void {\bfseries main} (String\mbox{[}$\,$\mbox{]} args)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Java program for Flood fill algorithm. \begin{DoxyAuthor}{Author}
+Akshay Dubey (\href{https://github.com/itsAkshayDubey}{\texttt{ https\+://github.\+com/its\+Akshay\+Dubey}}) 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_flood_fill_a4db6fb89fdafbb104482c5f5b2756503}\label{classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_flood_fill_a4db6fb89fdafbb104482c5f5b2756503}} 
+\index{com.thealgorithms.dynamicprogramming.FloodFill@{com.thealgorithms.dynamicprogramming.FloodFill}!floodFill@{floodFill}}
+\index{floodFill@{floodFill}!com.thealgorithms.dynamicprogramming.FloodFill@{com.thealgorithms.dynamicprogramming.FloodFill}}
+\doxysubsubsection{\texorpdfstring{floodFill()}{floodFill()}}
+{\footnotesize\ttfamily static void com.\+thealgorithms.\+dynamicprogramming.\+Flood\+Fill.\+flood\+Fill (\begin{DoxyParamCaption}\item[{int}]{image\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]},  }\item[{int}]{x\+\_\+co\+\_\+ordinate,  }\item[{int}]{y\+\_\+co\+\_\+ordinate,  }\item[{int}]{new\+\_\+color,  }\item[{int}]{old\+\_\+color }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Fill the 2D image with new color
+
+
+\begin{DoxyParams}{Parameters}
+{\em image} & The image to be filed \\
+\hline
+{\em x\+\_\+co\+\_\+ordinate} & The x co-\/ordinate at which color is to be filled \\
+\hline
+{\em y\+\_\+co\+\_\+ordinate} & The y co-\/ordinate at which color is to be filled \\
+\hline
+{\em new\+\_\+color} & The new color which to be filled in the image \\
+\hline
+{\em old\+\_\+color} & The old color which is to be replaced in the image \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_flood_fill_af6c0b3be805c7697d8e22fc861df993f}\label{classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_flood_fill_af6c0b3be805c7697d8e22fc861df993f}} 
+\index{com.thealgorithms.dynamicprogramming.FloodFill@{com.thealgorithms.dynamicprogramming.FloodFill}!getPixel@{getPixel}}
+\index{getPixel@{getPixel}!com.thealgorithms.dynamicprogramming.FloodFill@{com.thealgorithms.dynamicprogramming.FloodFill}}
+\doxysubsubsection{\texorpdfstring{getPixel()}{getPixel()}}
+{\footnotesize\ttfamily static int com.\+thealgorithms.\+dynamicprogramming.\+Flood\+Fill.\+get\+Pixel (\begin{DoxyParamCaption}\item[{int}]{image\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]},  }\item[{int}]{x\+\_\+co\+\_\+ordinate,  }\item[{int}]{y\+\_\+co\+\_\+ordinate }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the color at the given co-\/odrinates of a 2D image
+
+
+\begin{DoxyParams}{Parameters}
+{\em image} & The image to be filled \\
+\hline
+{\em x\+\_\+co\+\_\+ordinate} & The x co-\/ordinate of which color is to be obtained \\
+\hline
+{\em y\+\_\+co\+\_\+ordinate} & The y co-\/ordinate of which color is to be obtained \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_flood_fill_ad79fed7834789f896ee7f8f8fb93e116}\label{classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_flood_fill_ad79fed7834789f896ee7f8f8fb93e116}} 
+\index{com.thealgorithms.dynamicprogramming.FloodFill@{com.thealgorithms.dynamicprogramming.FloodFill}!printImageArray@{printImageArray}}
+\index{printImageArray@{printImageArray}!com.thealgorithms.dynamicprogramming.FloodFill@{com.thealgorithms.dynamicprogramming.FloodFill}}
+\doxysubsubsection{\texorpdfstring{printImageArray()}{printImageArray()}}
+{\footnotesize\ttfamily static void com.\+thealgorithms.\+dynamicprogramming.\+Flood\+Fill.\+print\+Image\+Array (\begin{DoxyParamCaption}\item[{int}]{image\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+This method will print the 2D image matrix
+
+
+\begin{DoxyParams}{Parameters}
+{\em image} & The image to be printed on the console \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_flood_fill_a8156c90a2c90a2ee6f3326300381b475}\label{classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_flood_fill_a8156c90a2c90a2ee6f3326300381b475}} 
+\index{com.thealgorithms.dynamicprogramming.FloodFill@{com.thealgorithms.dynamicprogramming.FloodFill}!putPixel@{putPixel}}
+\index{putPixel@{putPixel}!com.thealgorithms.dynamicprogramming.FloodFill@{com.thealgorithms.dynamicprogramming.FloodFill}}
+\doxysubsubsection{\texorpdfstring{putPixel()}{putPixel()}}
+{\footnotesize\ttfamily static void com.\+thealgorithms.\+dynamicprogramming.\+Flood\+Fill.\+put\+Pixel (\begin{DoxyParamCaption}\item[{int}]{image\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]},  }\item[{int}]{x\+\_\+co\+\_\+ordinate,  }\item[{int}]{y\+\_\+co\+\_\+ordinate,  }\item[{int}]{new\+\_\+color }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Put the color at the given co-\/odrinates of a 2D image
+
+
+\begin{DoxyParams}{Parameters}
+{\em image} & The image to be filed \\
+\hline
+{\em x\+\_\+co\+\_\+ordinate} & The x co-\/ordinate at which color is to be filled \\
+\hline
+{\em y\+\_\+co\+\_\+ordinate} & The y co-\/ordinate at which color is to be filled \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/thealgorithms/dynamicprogramming/Flood\+Fill.\+java\end{DoxyCompactItemize}

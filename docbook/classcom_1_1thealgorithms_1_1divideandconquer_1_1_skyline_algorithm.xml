@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_skyline_algorithm" xml:lang="en-US">
+<title>com.thealgorithms.divideandconquer.SkylineAlgorithm Class Reference</title>
+<indexterm><primary>com.thealgorithms.divideandconquer.SkylineAlgorithm</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <emphasis role="strong">Point</emphasis></para>
+</listitem>
+            <listitem><para>class <emphasis role="strong">XComparator</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_skyline_algorithm_1aeddae7c61905d568aa9ed41f5d6def01">SkylineAlgorithm</link> ()</para>
+</listitem>
+            <listitem><para>ArrayList&lt; Point &gt; <link linkend="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_skyline_algorithm_1a3635a92e4f066c993a29b5c375897aaa">getPoints</link> ()</para>
+</listitem>
+            <listitem><para>ArrayList&lt; Point &gt; <link linkend="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_skyline_algorithm_1a27ab80d2553c147c3b288da811fca2cf">produceSubSkyLines</link> (ArrayList&lt; Point &gt; list)</para>
+</listitem>
+            <listitem><para>ArrayList&lt; Point &gt; <link linkend="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_skyline_algorithm_1a61b6d5df2085cfbf70f69ddd82435167">produceFinalSkyLine</link> (ArrayList&lt; Point &gt; left, ArrayList&lt; Point &gt; right)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><formalpara><title>Author</title>
+
+<para>dimgrichr </para>
+</formalpara>
+Space complexity: O(n) Time complexity: O(nlogn), because it is a divide and conquer algorithm </para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_skyline_algorithm_1aeddae7c61905d568aa9ed41f5d6def01"/><section>
+    <title>SkylineAlgorithm()</title>
+<indexterm><primary>SkylineAlgorithm</primary><secondary>com.thealgorithms.divideandconquer.SkylineAlgorithm</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.divideandconquer.SkylineAlgorithm</primary><secondary>SkylineAlgorithm</secondary></indexterm>
+<para><computeroutput>com.thealgorithms.divideandconquer.SkylineAlgorithm.SkylineAlgorithm ( )</computeroutput></para>
+<para>Main constructor of the application. ArrayList points gets created, which represents the sum of all edges. </para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_skyline_algorithm_1a3635a92e4f066c993a29b5c375897aaa"/><section>
+    <title>getPoints()</title>
+<indexterm><primary>getPoints</primary><secondary>com.thealgorithms.divideandconquer.SkylineAlgorithm</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.divideandconquer.SkylineAlgorithm</primary><secondary>getPoints</secondary></indexterm>
+<para><computeroutput>ArrayList&lt; Point &gt; com.thealgorithms.divideandconquer.SkylineAlgorithm.getPoints ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>points, the ArrayList that includes all points. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_skyline_algorithm_1a61b6d5df2085cfbf70f69ddd82435167"/><section>
+    <title>produceFinalSkyLine()</title>
+<indexterm><primary>produceFinalSkyLine</primary><secondary>com.thealgorithms.divideandconquer.SkylineAlgorithm</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.divideandconquer.SkylineAlgorithm</primary><secondary>produceFinalSkyLine</secondary></indexterm>
+<para><computeroutput>ArrayList&lt; Point &gt; com.thealgorithms.divideandconquer.SkylineAlgorithm.produceFinalSkyLine (ArrayList&lt; Point &gt; left, ArrayList&lt; Point &gt; right)</computeroutput></para>
+<para>The first half&apos;s skyline gets cleared from some points that are not part of the final skyline (Points with same x-value and different y=values. The point with the smallest y-value is kept). Then, the minimum y-value of the points of first half&apos;s skyline is found. That helps us to clear the second half&apos;s skyline, because, the points of second half&apos;s skyline that have greater y-value of the minimum y-value that we found before, are dominated, so they are not part of the final skyline. Finally, the &quot;cleaned&quot; first half&apos;s and second half&apos;s skylines, are combined, producing the final skyline, which is returned.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>left</entry><entry>
+<para>the skyline of the left part of points </para>
+</entry>
+                            </row>
+                            <row>
+<entry>right</entry><entry>
+<para>the skyline of the right part of points </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>left the final skyline </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_skyline_algorithm_1a27ab80d2553c147c3b288da811fca2cf"/><section>
+    <title>produceSubSkyLines()</title>
+<indexterm><primary>produceSubSkyLines</primary><secondary>com.thealgorithms.divideandconquer.SkylineAlgorithm</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.divideandconquer.SkylineAlgorithm</primary><secondary>produceSubSkyLines</secondary></indexterm>
+<para><computeroutput>ArrayList&lt; Point &gt; com.thealgorithms.divideandconquer.SkylineAlgorithm.produceSubSkyLines (ArrayList&lt; Point &gt; list)</computeroutput></para>
+<para>The main divide and conquer, and also recursive algorithm. It gets an ArrayList full of points as an argument. If the size of that ArrayList is 1 or 2, the ArrayList is returned as it is, or with one less point (if the initial size is 2 and one of it&apos;s points, is dominated by the other one). On the other hand, if the ArrayList&apos;s size is bigger than 2, the function is called again, twice, with arguments the corresponding half of the initial ArrayList each time. Once the flashback has ended, the function produceFinalSkyLine gets called, in order to produce the final skyline, and return it.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>list, the</entry><entry>
+<para>initial list of points </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>leftSkyLine, the combination of first half&apos;s and second half&apos;s skyline </para>
+</formalpara>
+<formalpara><title>See also</title>
+
+<para>Point </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/divideandconquer/SkylineAlgorithm.java</section>
+</section>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_segment_tree" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.trees.SegmentTree Class Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.trees.SegmentTree</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_segment_tree_1a0c8084414a26a4bcc8eb951ab686b443"/><emphasis role="strong">SegmentTree</emphasis> (int n, int arr[])</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_segment_tree_1a6246a95ca8835e1eb921bf82861f54f0"/>int <emphasis role="strong">constructTree</emphasis> (int[] arr, int start, int end, int index)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_segment_tree_1a854d9df38c3abd0ae123c35d3792721d"/>void <emphasis role="strong">update</emphasis> (int index, int value)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_segment_tree_1ab3c8edd6af7591608b4fa0730760abb2"/>int <emphasis role="strong">getSum</emphasis> (int start, int end)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/trees/SegmentTree.java</section>

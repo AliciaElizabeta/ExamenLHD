@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1searches_1_1_saddleback_search" xml:lang="en-US">
+<title>com.thealgorithms.searches.SaddlebackSearch Class Reference</title>
+<indexterm><primary>com.thealgorithms.searches.SaddlebackSearch</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classcom_1_1thealgorithms_1_1searches_1_1_saddleback_search_1ae851fc6e465aac499298086a19191765">main</link> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Program to perform Saddleback Search Given a sorted 2D array(elements are sorted across every row and column, assuming ascending order) of size n*m we can search a given element in O(n+m)</para>
+
+<para>we start from bottom left corner if the current element is greater than the given element then we move up else we move right Sample Input: 5 5 -&gt;Dimensions -10 -5 -3 4 9 -6 -2 0 5 10 -4 -1 1 6 12 2 3 7 8 13 100 120 130 140 150 140 -&gt;element to be searched output: 4 3 // first value is row, second one is column</para>
+
+<para><formalpara><title>Author</title>
+
+<para>Nishita Aggarwal </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1searches_1_1_saddleback_search_1ae851fc6e465aac499298086a19191765"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>com.thealgorithms.searches.SaddlebackSearch</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.searches.SaddlebackSearch</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void com.thealgorithms.searches.SaddlebackSearch.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Main method</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>args</entry><entry>
+<para>Command line arguments </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/searches/SaddlebackSearch.java</section>
+</section>

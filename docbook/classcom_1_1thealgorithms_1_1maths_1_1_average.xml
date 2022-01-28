@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_average" xml:lang="en-US">
+<title>com.thealgorithms.maths.Average Class Reference</title>
+<indexterm><primary>com.thealgorithms.maths.Average</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_average_1a9e3603262e9d54e581e40da0904cf3d6"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+            <listitem><para>static double <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_average_1aefa09f1d1f1beb5925421a86a3176dee">average</link> (double[] numbers)</para>
+</listitem>
+            <listitem><para>static int <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_average_1abba0425645373bda098d85fc71df66f6">average</link> (int[] array)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Calculate average of a list of numbers </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_average_1aefa09f1d1f1beb5925421a86a3176dee"/><section>
+    <title>average()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>average</primary><secondary>com.thealgorithms.maths.Average</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.Average</primary><secondary>average</secondary></indexterm>
+<para><computeroutput>static double com.thealgorithms.maths.Average.average (double[] numbers)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Calculate average of a list of numbers</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>numbers</entry><entry>
+<para>array to store numbers </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>mean of given numbers </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_average_1abba0425645373bda098d85fc71df66f6"/><section>
+    <title>average()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>average</primary><secondary>com.thealgorithms.maths.Average</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.Average</primary><secondary>average</secondary></indexterm>
+<para><computeroutput>static int com.thealgorithms.maths.Average.average (int[] array)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>find average value of int array</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>array</entry><entry>
+<para>the array contains element and the sum does not excess long value limit </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>average value </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/maths/Average.java</section>
+</section>

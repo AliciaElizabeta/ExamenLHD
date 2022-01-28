@@ -1,0 +1,103 @@
+\hypertarget{classcom_1_1thealgorithms_1_1misc_1_1_color_contrast_ratio}{}\doxysection{com.\+thealgorithms.\+misc.\+Color\+Contrast\+Ratio Class Reference}
+\label{classcom_1_1thealgorithms_1_1misc_1_1_color_contrast_ratio}\index{com.thealgorithms.misc.ColorContrastRatio@{com.thealgorithms.misc.ColorContrastRatio}}
+
+
+A Java implementation of the offcial W3 documented procedure to calculate contrast ratio between colors on the web. This is used to calculate the readability of a foreground color on top of a background color.  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+double \mbox{\hyperlink{classcom_1_1thealgorithms_1_1misc_1_1_color_contrast_ratio_a6c09f89d92c43ccb2bf35912fcde60eb}{get\+Contrast\+Ratio}} (Color a, Color b)
+\begin{DoxyCompactList}\small\item\em Calculates the contrast ratio between two given colors. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classcom_1_1thealgorithms_1_1misc_1_1_color_contrast_ratio_a2b41bee27e8dc75f06beaab3ca8ef23a}{get\+Relative\+Luminance}} (Color color)
+\begin{DoxyCompactList}\small\item\em Calculates the relative luminance of a given color. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classcom_1_1thealgorithms_1_1misc_1_1_color_contrast_ratio_ac5ccb729b2ed38e19e3e89ddf9435dd6}{get\+Color}} (int color8\+Bit)
+\begin{DoxyCompactList}\small\item\em Calculates the final value for a color to be used in the relative luminance formula as described in step 1. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1misc_1_1_color_contrast_ratio_a9be40edbdb86ef2eb00cae2985c305d9}\label{classcom_1_1thealgorithms_1_1misc_1_1_color_contrast_ratio_a9be40edbdb86ef2eb00cae2985c305d9}} 
+static void {\bfseries main} (String args\mbox{[}$\,$\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A Java implementation of the offcial W3 documented procedure to calculate contrast ratio between colors on the web. This is used to calculate the readability of a foreground color on top of a background color. 
+
+\begin{DoxySince}{Since}
+2020-\/10-\/15 
+\end{DoxySince}
+\begin{DoxySeeAlso}{See also}
+\href{https://www.w3.org/TR/WCAG20-TECHS/G17.html\#G17-procedure}{\texttt{ Color Contrast Ratio}} 
+\end{DoxySeeAlso}
+\begin{DoxyAuthor}{Author}
+\href{https://github.com/SethFalco}{\texttt{ Seth Falco}} 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1misc_1_1_color_contrast_ratio_ac5ccb729b2ed38e19e3e89ddf9435dd6}\label{classcom_1_1thealgorithms_1_1misc_1_1_color_contrast_ratio_ac5ccb729b2ed38e19e3e89ddf9435dd6}} 
+\index{com.thealgorithms.misc.ColorContrastRatio@{com.thealgorithms.misc.ColorContrastRatio}!getColor@{getColor}}
+\index{getColor@{getColor}!com.thealgorithms.misc.ColorContrastRatio@{com.thealgorithms.misc.ColorContrastRatio}}
+\doxysubsubsection{\texorpdfstring{getColor()}{getColor()}}
+{\footnotesize\ttfamily double com.\+thealgorithms.\+misc.\+Color\+Contrast\+Ratio.\+get\+Color (\begin{DoxyParamCaption}\item[{int}]{color8\+Bit }\end{DoxyParamCaption})}
+
+
+
+Calculates the final value for a color to be used in the relative luminance formula as described in step 1. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em color8\+Bit} & 8-\/bit representation of a color component value. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Value for the provided color component to be used in the relative luminance formula. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1misc_1_1_color_contrast_ratio_a6c09f89d92c43ccb2bf35912fcde60eb}\label{classcom_1_1thealgorithms_1_1misc_1_1_color_contrast_ratio_a6c09f89d92c43ccb2bf35912fcde60eb}} 
+\index{com.thealgorithms.misc.ColorContrastRatio@{com.thealgorithms.misc.ColorContrastRatio}!getContrastRatio@{getContrastRatio}}
+\index{getContrastRatio@{getContrastRatio}!com.thealgorithms.misc.ColorContrastRatio@{com.thealgorithms.misc.ColorContrastRatio}}
+\doxysubsubsection{\texorpdfstring{getContrastRatio()}{getContrastRatio()}}
+{\footnotesize\ttfamily double com.\+thealgorithms.\+misc.\+Color\+Contrast\+Ratio.\+get\+Contrast\+Ratio (\begin{DoxyParamCaption}\item[{Color}]{a,  }\item[{Color}]{b }\end{DoxyParamCaption})}
+
+
+
+Calculates the contrast ratio between two given colors. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & Any color, used to get the red, green, and blue values. \\
+\hline
+{\em b} & Another color, which will be compared against the first color. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The contrast ratio between the two colors. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1misc_1_1_color_contrast_ratio_a2b41bee27e8dc75f06beaab3ca8ef23a}\label{classcom_1_1thealgorithms_1_1misc_1_1_color_contrast_ratio_a2b41bee27e8dc75f06beaab3ca8ef23a}} 
+\index{com.thealgorithms.misc.ColorContrastRatio@{com.thealgorithms.misc.ColorContrastRatio}!getRelativeLuminance@{getRelativeLuminance}}
+\index{getRelativeLuminance@{getRelativeLuminance}!com.thealgorithms.misc.ColorContrastRatio@{com.thealgorithms.misc.ColorContrastRatio}}
+\doxysubsubsection{\texorpdfstring{getRelativeLuminance()}{getRelativeLuminance()}}
+{\footnotesize\ttfamily double com.\+thealgorithms.\+misc.\+Color\+Contrast\+Ratio.\+get\+Relative\+Luminance (\begin{DoxyParamCaption}\item[{Color}]{color }\end{DoxyParamCaption})}
+
+
+
+Calculates the relative luminance of a given color. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em color} & Any color, used to get the red, green, and blue values. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The relative luminance of the color. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\href{https://www.w3.org/TR/2008/REC-WCAG20-20081211/\#relativeluminancedef}{\texttt{ More info on relative luminance.}} 
+\end{DoxySeeAlso}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/thealgorithms/misc/Color\+Contrast\+Ratio.\+java\end{DoxyCompactItemize}

@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_maximum_minimum_window" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.stacks.MaximumMinimumWindow Class Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.stacks.MaximumMinimumWindow</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static int[] <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_maximum_minimum_window_1a1d6010c325e0e3c1111e463c5a16e7fa">calculateMaxOfMin</link> (int[] arr, int n)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_maximum_minimum_window_1ae5462ba04f436fa1cd55d7a4df1ae0b5"/>static void <emphasis role="strong">main</emphasis> (String args[])</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Given an integer array. The task is to find the maximum of the minimum of every window size in the array. Note: Window size varies from 1 to the size of the Array. </para>
+
+<para>For example, </para>
+
+<para>N = 7 arr[] = {10,20,30,50,10,70,30} </para>
+
+<para>So the answer for the above would be : 70 30 20 10 10 10 10 </para>
+
+<para>We need to consider window sizes from 1 to length of array in each iteration. So in the iteration 1 the windows would be [10], [20], [30], [50], [10], [70], [30]. Now we need to check the minimum value in each window. Since the window size is 1 here the minimum element would be the number itself. Now the maximum out of these is the result in iteration 1. In the second iteration we need to consider window size 2, so there would be [10,20], [20,30], [30,50], [50,10], [10,70], [70,30]. Now the minimum of each window size would be [10,20,30,10,10] and the maximum out of these is 30. Similarly we solve for other window sizes.</para>
+
+<para><formalpara><title>Author</title>
+
+<para>sahil </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_maximum_minimum_window_1a1d6010c325e0e3c1111e463c5a16e7fa"/><section>
+    <title>calculateMaxOfMin()</title>
+<indexterm><primary>calculateMaxOfMin</primary><secondary>com.thealgorithms.datastructures.stacks.MaximumMinimumWindow</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.stacks.MaximumMinimumWindow</primary><secondary>calculateMaxOfMin</secondary></indexterm>
+<para><computeroutput>static int[] com.thealgorithms.datastructures.stacks.MaximumMinimumWindow.calculateMaxOfMin (int[] arr, int n)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>This function contains the logic of finding maximum of minimum for every window size using Stack Data Structure.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>arr</entry><entry>
+<para>Array containing the numbers </para>
+</entry>
+                            </row>
+                            <row>
+<entry>n</entry><entry>
+<para>Length of the array </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>result array </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/stacks/MaximumMinimumWindow.java</section>
+</section>

@@ -1,0 +1,98 @@
+.TH "com.thealgorithms.conversions.AnyBaseToDecimal" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.conversions.AnyBaseToDecimal
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBmain\fP (String[] args)"
+.br
+.ti -1c
+.RI "static int \fBconvertToDecimal\fP (String s, int radix)"
+.br
+.ti -1c
+.RI "static int \fBvalOfChar\fP (char c)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.PP
+\fBAuthor\fP
+.RS 4
+Varun Upadhyay (https://github.com/varunu28) 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "static int com\&.thealgorithms\&.conversions\&.AnyBaseToDecimal\&.convertToDecimal (String s, int radix)\fC [static]\fP"
+Convert any radix to decimal number
+.PP
+\fBParameters\fP
+.RS 4
+\fIs\fP the string to be convert 
+.br
+\fIradix\fP the radix 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+decimal of bits 
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fINumberFormatException\fP if 
+.PP
+.nf
+bits 
+
+.fi
+.PP
+ or 
+.PP
+.nf
+radix 
+
+.fi
+.PP
+ is invalid 
+.RE
+.PP
+
+.SS "static int com\&.thealgorithms\&.conversions\&.AnyBaseToDecimal\&.valOfChar (char c)\fC [static]\fP"
+Convert character to integer
+.PP
+\fBParameters\fP
+.RS 4
+\fIc\fP the character 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+represented digit of given character 
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fINumberFormatException\fP if 
+.PP
+.nf
+ch 
+
+.fi
+.PP
+ is not UpperCase or Digit character\&. 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

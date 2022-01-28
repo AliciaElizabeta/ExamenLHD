@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1others_1_1_fibbonaci_series" xml:lang="en-US">
+<title>com.thealgorithms.others.FibbonaciSeries Class Reference</title>
+<indexterm><primary>com.thealgorithms.others.FibbonaciSeries</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_fibbonaci_series_1ae94dc1c51b05144e9d7f8a69386ab81f"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Fibonacci sequence, and characterized by the fact that every number after the first two is the sum of the two preceding ones.</para>
+
+<para>Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21,...</para>
+
+<para>Source for the explanation: <link xlink:href="https://en.wikipedia.org/wiki/Fibonacci_number">https://en.wikipedia.org/wiki/Fibonacci_number</link></para>
+
+<para>Problem Statement: print all Fibonacci numbers that are smaller than your given input N </para>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/others/FibbonaciSeries.java</section>
+</section>

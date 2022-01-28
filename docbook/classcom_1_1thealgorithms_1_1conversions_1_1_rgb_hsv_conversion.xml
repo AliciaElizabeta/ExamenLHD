@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1conversions_1_1_rgb_hsv_conversion" xml:lang="en-US">
+<title>com.thealgorithms.conversions.RgbHsvConversion Class Reference</title>
+<indexterm><primary>com.thealgorithms.conversions.RgbHsvConversion</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1conversions_1_1_rgb_hsv_conversion_1acd771046b24c0c46a8e52a844db0c8ee"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+            <listitem><para>static int[] <link linkend="_classcom_1_1thealgorithms_1_1conversions_1_1_rgb_hsv_conversion_1aac4b528ef0c09d2f68fc1ce8bc5cc332">hsvToRgb</link> (double hue, double saturation, double value)</para>
+</listitem>
+            <listitem><para>static double[] <link linkend="_classcom_1_1thealgorithms_1_1conversions_1_1_rgb_hsv_conversion_1ae8d76a0a1eb8e88686e2b74a7334805d">rgbToHsv</link> (int red, int green, int blue)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>The RGB color model is an additive color model in which red, green, and blue light are added together in various ways to reproduce a broad array of colors. The name of the model comes from the initials of the three additive primary colors, red, green, and blue. Meanwhile, the HSV representation models how colors appear under light. In it, colors are represented using three components: hue, saturation and (brightness-)value. This class provides methods for converting colors from one representation to the other. (description adapted from <link xlink:href="https://en.wikipedia.org/wiki/RGB_color_model">https://en.wikipedia.org/wiki/RGB_color_model</link> and <link xlink:href="https://en.wikipedia.org/wiki/HSL_and_HSV">https://en.wikipedia.org/wiki/HSL_and_HSV</link>). </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1conversions_1_1_rgb_hsv_conversion_1aac4b528ef0c09d2f68fc1ce8bc5cc332"/><section>
+    <title>hsvToRgb()</title>
+<indexterm><primary>hsvToRgb</primary><secondary>com.thealgorithms.conversions.RgbHsvConversion</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.conversions.RgbHsvConversion</primary><secondary>hsvToRgb</secondary></indexterm>
+<para><computeroutput>static int[] com.thealgorithms.conversions.RgbHsvConversion.hsvToRgb (double hue, double saturation, double value)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Conversion from the HSV-representation to the RGB-representation.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>hue</entry><entry>
+<para>Hue of the color. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>saturation</entry><entry>
+<para>Saturation of the color. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>value</entry><entry>
+<para>Brightness-value of the color. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>The tuple of RGB-components. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1conversions_1_1_rgb_hsv_conversion_1ae8d76a0a1eb8e88686e2b74a7334805d"/><section>
+    <title>rgbToHsv()</title>
+<indexterm><primary>rgbToHsv</primary><secondary>com.thealgorithms.conversions.RgbHsvConversion</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.conversions.RgbHsvConversion</primary><secondary>rgbToHsv</secondary></indexterm>
+<para><computeroutput>static double[] com.thealgorithms.conversions.RgbHsvConversion.rgbToHsv (int red, int green, int blue)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Conversion from the RGB-representation to the HSV-representation.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>red</entry><entry>
+<para>Red-component of the color. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>green</entry><entry>
+<para>Green-component of the color. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>blue</entry><entry>
+<para>Blue-component of the color. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>The tuple of HSV-components. </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/conversions/RgbHsvConversion.java</section>
+</section>

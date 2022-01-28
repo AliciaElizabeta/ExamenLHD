@@ -1,0 +1,354 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair" xml:lang="en-US">
+<title>com.thealgorithms.divideandconquer.ClosestPair Class Reference</title>
+<indexterm><primary>com.thealgorithms.divideandconquer.ClosestPair</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <emphasis role="strong">Location</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_1a94fe105d852fc6016be34bc9e5b93667"/>Location[] <emphasis role="strong">createLocation</emphasis> (int numberValues)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_1ad22ec71b7cfea867beb9df056b2f7979"/>Location <emphasis role="strong">buildLocation</emphasis> (double x, double y)</para>
+</listitem>
+            <listitem><para>int <link linkend="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_1ae8560227046a44c7f373aad86466e8f6">xPartition</link> (final Location[] a, final int first, final int last)</para>
+</listitem>
+            <listitem><para>int <link linkend="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_1a9c4249386a4a0356981c9e6c798b06bd">yPartition</link> (final Location[] a, final int first, final int last)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_1aa65b4eb632b5b8b0b4112b73c71107c5">xQuickSort</link> (final Location[] a, final int first, final int last)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_1a29cd06326527f2555b6fd7d43d05ec83">yQuickSort</link> (final Location[] a, final int first, final int last)</para>
+</listitem>
+            <listitem><para>double <link linkend="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_1adbf350383bc7bc7dd530f5793f3f1ffa">closestPair</link> (final Location[] a, final int indexNum)</para>
+</listitem>
+            <listitem><para>double <link linkend="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_1a9c4b95789cb0de22dd19efdca53e3166">bruteForce</link> (final Location[] arrayParam)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_1a8e95bdf125def98fa4201efdfde0aed8"/>static void <emphasis role="strong">setMinNum</emphasis> (double minNum)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_1aefe6d2509f89f66b409dc31fdaace953"/>static void <emphasis role="strong">setSecondCount</emphasis> (int secondCount)</para>
+</listitem>
+            <listitem><para>static void <link linkend="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_1ad22fe2491543ccb542d1c85733739b0f">main</link> (final String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>For a set of points in a coordinates system (10000 maximum), <link linkend="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair">ClosestPair</link> class calculates the two closest points. </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_1a9c4b95789cb0de22dd19efdca53e3166"/><section>
+    <title>bruteForce()</title>
+<indexterm><primary>bruteForce</primary><secondary>com.thealgorithms.divideandconquer.ClosestPair</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.divideandconquer.ClosestPair</primary><secondary>bruteForce</secondary></indexterm>
+<para><computeroutput>double com.thealgorithms.divideandconquer.ClosestPair.bruteForce (final Location[] arrayParam)</computeroutput></para>
+<para>bruteForce function: When the number of coordinates is less than 3.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>arrayParam</entry><entry>
+<para>(IN Parameter) array stored before divide 
+<literallayout>&#160;&#xa;</literallayout>
+ </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>
+<literallayout>&#160;&#xa;</literallayout>
+ </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_1adbf350383bc7bc7dd530f5793f3f1ffa"/><section>
+    <title>closestPair()</title>
+<indexterm><primary>closestPair</primary><secondary>com.thealgorithms.divideandconquer.ClosestPair</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.divideandconquer.ClosestPair</primary><secondary>closestPair</secondary></indexterm>
+<para><computeroutput>double com.thealgorithms.divideandconquer.ClosestPair.closestPair (final Location[] a, final int indexNum)</computeroutput></para>
+<para>closestPair function: find closest pair.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>a</entry><entry>
+<para>(IN Parameter) array stored before divide 
+<literallayout>&#160;&#xa;</literallayout>
+ </para>
+</entry>
+                            </row>
+                            <row>
+<entry>indexNum</entry><entry>
+<para>(IN Parameter) number coordinates divideArray 
+<literallayout>&#160;&#xa;</literallayout>
+ </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>minimum distance 
+<literallayout>&#160;&#xa;</literallayout>
+ </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_1ad22fe2491543ccb542d1c85733739b0f"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>com.thealgorithms.divideandconquer.ClosestPair</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.divideandconquer.ClosestPair</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void com.thealgorithms.divideandconquer.ClosestPair.main (final String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>main function: execute class.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>args</entry><entry>
+<para>(IN Parameter) 
+<literallayout>&#160;&#xa;</literallayout>
+ </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_1ae8560227046a44c7f373aad86466e8f6"/><section>
+    <title>xPartition()</title>
+<indexterm><primary>xPartition</primary><secondary>com.thealgorithms.divideandconquer.ClosestPair</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.divideandconquer.ClosestPair</primary><secondary>xPartition</secondary></indexterm>
+<para><computeroutput>int com.thealgorithms.divideandconquer.ClosestPair.xPartition (final Location[] a, final int first, final int last)</computeroutput></para>
+<para>xPartition function: arrange x-axis.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>a</entry><entry>
+<para>(IN Parameter) array of points 
+<literallayout>&#160;&#xa;</literallayout>
+ </para>
+</entry>
+                            </row>
+                            <row>
+<entry>first</entry><entry>
+<para>(IN Parameter) first point 
+<literallayout>&#160;&#xa;</literallayout>
+ </para>
+</entry>
+                            </row>
+                            <row>
+<entry>last</entry><entry>
+<para>(IN Parameter) last point 
+<literallayout>&#160;&#xa;</literallayout>
+ </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>pivot index </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_1aa65b4eb632b5b8b0b4112b73c71107c5"/><section>
+    <title>xQuickSort()</title>
+<indexterm><primary>xQuickSort</primary><secondary>com.thealgorithms.divideandconquer.ClosestPair</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.divideandconquer.ClosestPair</primary><secondary>xQuickSort</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.divideandconquer.ClosestPair.xQuickSort (final Location[] a, final int first, final int last)</computeroutput></para>
+<para>xQuickSort function: //x-axis Quick Sorting.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>a</entry><entry>
+<para>(IN Parameter) array of points 
+<literallayout>&#160;&#xa;</literallayout>
+ </para>
+</entry>
+                            </row>
+                            <row>
+<entry>first</entry><entry>
+<para>(IN Parameter) first point 
+<literallayout>&#160;&#xa;</literallayout>
+ </para>
+</entry>
+                            </row>
+                            <row>
+<entry>last</entry><entry>
+<para>(IN Parameter) last point 
+<literallayout>&#160;&#xa;</literallayout>
+ </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_1a9c4249386a4a0356981c9e6c798b06bd"/><section>
+    <title>yPartition()</title>
+<indexterm><primary>yPartition</primary><secondary>com.thealgorithms.divideandconquer.ClosestPair</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.divideandconquer.ClosestPair</primary><secondary>yPartition</secondary></indexterm>
+<para><computeroutput>int com.thealgorithms.divideandconquer.ClosestPair.yPartition (final Location[] a, final int first, final int last)</computeroutput></para>
+<para>yPartition function: arrange y-axis.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>a</entry><entry>
+<para>(IN Parameter) array of points 
+<literallayout>&#160;&#xa;</literallayout>
+ </para>
+</entry>
+                            </row>
+                            <row>
+<entry>first</entry><entry>
+<para>(IN Parameter) first point 
+<literallayout>&#160;&#xa;</literallayout>
+ </para>
+</entry>
+                            </row>
+                            <row>
+<entry>last</entry><entry>
+<para>(IN Parameter) last point 
+<literallayout>&#160;&#xa;</literallayout>
+ </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>pivot index </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_1a29cd06326527f2555b6fd7d43d05ec83"/><section>
+    <title>yQuickSort()</title>
+<indexterm><primary>yQuickSort</primary><secondary>com.thealgorithms.divideandconquer.ClosestPair</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.divideandconquer.ClosestPair</primary><secondary>yQuickSort</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.divideandconquer.ClosestPair.yQuickSort (final Location[] a, final int first, final int last)</computeroutput></para>
+<para>yQuickSort function: //y-axis Quick Sorting.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>a</entry><entry>
+<para>(IN Parameter) array of points 
+<literallayout>&#160;&#xa;</literallayout>
+ </para>
+</entry>
+                            </row>
+                            <row>
+<entry>first</entry><entry>
+<para>(IN Parameter) first point 
+<literallayout>&#160;&#xa;</literallayout>
+ </para>
+</entry>
+                            </row>
+                            <row>
+<entry>last</entry><entry>
+<para>(IN Parameter) last point 
+<literallayout>&#160;&#xa;</literallayout>
+ </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/divideandconquer/ClosestPair.java</section>
+</section>

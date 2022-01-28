@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1others_1_1_perlin_noise" xml:lang="en-US">
+<title>com.thealgorithms.others.PerlinNoise Class Reference</title>
+<indexterm><primary>com.thealgorithms.others.PerlinNoise</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1others_1_1_perlin_noise_1abf57916113eb71d2fc3a1577cc2b20fe"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>For detailed info and implementation see: <link xlink:href="http://devmag.org.za/2009/04/25/perlin-noise/">Perlin-Noise</link> </para>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/others/PerlinNoise.java</section>
+</section>

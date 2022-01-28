@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_rod_cutting" xml:lang="en-US">
+<title>com.thealgorithms.dynamicprogramming.RodCutting Class Reference</title>
+<indexterm><primary>com.thealgorithms.dynamicprogramming.RodCutting</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1dynamicprogramming_1_1_rod_cutting_1aeb106385931f9bc48e3cd3e9d949ca2c"/>static void <emphasis role="strong">main</emphasis> (String args[])</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>A DynamicProgramming solution for Rod cutting problem Returns the best obtainable price for a rod of length n and price[] as prices of different pieces </para>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/dynamicprogramming/RodCutting.java</section>
+</section>

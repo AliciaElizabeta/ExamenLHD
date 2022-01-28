@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1sorts_1_1_tree_sort" xml:lang="en-US">
+<title>com.thealgorithms.sorts.TreeSort Class Reference</title>
+<indexterm><primary>com.thealgorithms.sorts.TreeSort</primary></indexterm>
+<para>Inheritance diagram for com.thealgorithms.sorts.TreeSort:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcom_1_1thealgorithms_1_1sorts_1_1_tree_sort.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1sorts_1_1_tree_sort_1a3a3c78d9612e1381105e480b0c00d618"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><formalpara><title>Implementation of the Tree Sort algorithm</title></formalpara>
+</para>
+
+<para>Tree Sort: A sorting algorithm which constructs a Binary Search Tree using the unsorted data and then outputs the data by inorder traversal of the tree.</para>
+
+<para>Reference: <link xlink:href="https://en.wikipedia.org/wiki/Tree_sort">https://en.wikipedia.org/wiki/Tree_sort</link> </para>
+
+<para><formalpara><title>Author</title>
+
+<para>Madhur Panwar (<link xlink:href="https://github.com/mdrpanwar">https://github.com/mdrpanwar</link>) </para>
+</formalpara>
+</para>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/sorts/TreeSort.java</section>
+</section>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__gaussian_8java" xml:lang="en-US">
+<title>src/main/java/com/thealgorithms/maths/Gaussian.java File Reference</title>
+<indexterm><primary>src/main/java/com/thealgorithms/maths/Gaussian.java</primary></indexterm>
+<para>
+
+<para><link xlink:href="https://en.wikipedia.org/wiki/Gaussian_elimination">Gaussian elimination method</link> </para>
+ 
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_gaussian">com.thealgorithms.maths.Gaussian</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Packages    </title>
+        <itemizedlist>
+            <listitem><para>package <link linkend="_namespacecom_1_1thealgorithms_1_1maths">com.thealgorithms.maths</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link xlink:href="https://en.wikipedia.org/wiki/Gaussian_elimination">Gaussian elimination method</link> </para>
+
+<para><formalpara><title>Author</title>
+
+<para><link xlink:href="https://github.com/Sachwin-Kohli">Sachwin Kohli</link> </para>
+</formalpara>
+</para>
+</section>
+</section>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1sorts_1_1_merge_sort_no_extra_space" xml:lang="en-US">
+<title>com.thealgorithms.sorts.MergeSortNoExtraSpace Class Reference</title>
+<indexterm><primary>com.thealgorithms.sorts.MergeSortNoExtraSpace</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1sorts_1_1_merge_sort_no_extra_space_1a5a681d6e13f0dd95bcfb5755e0b63287"/>static void <emphasis role="strong">call_merge_sort</emphasis> (int a[], int n)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1sorts_1_1_merge_sort_no_extra_space_1a95eb98c4751cff257c14c6b6e12e1a17"/>static void <emphasis role="strong">merge_sort</emphasis> (int a[], int start, int end, int maxele)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1sorts_1_1_merge_sort_no_extra_space_1a9e0af90f595e4cab6eb56e95f9167fe3"/>static void <emphasis role="strong">implement_merge_sort</emphasis> (int a[], int start, int mid, int end, int maxele)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1sorts_1_1_merge_sort_no_extra_space_1afcb6ce910c20f41c83bed8771c661ffe"/>static void <emphasis role="strong">main</emphasis> (String args[])</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/sorts/MergeSortNoExtraSpace.java</section>

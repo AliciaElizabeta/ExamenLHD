@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_sum_of_digits" xml:lang="en-US">
+<title>com.thealgorithms.maths.SumOfDigits Class Reference</title>
+<indexterm><primary>com.thealgorithms.maths.SumOfDigits</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_sum_of_digits_1ad5eb0fd421448a46f630c500987ede06"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+            <listitem><para>static int <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_sum_of_digits_1a68cd533a3c8f6d0881630af2ac180215">sumOfDigits</link> (int number)</para>
+</listitem>
+            <listitem><para>static int <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_sum_of_digits_1acdb5bf48d2ed2dac069bbfcc673c2793">sumOfDigitsRecursion</link> (int number)</para>
+</listitem>
+            <listitem><para>static int <link linkend="_classcom_1_1thealgorithms_1_1maths_1_1_sum_of_digits_1a149e2e6950132e9c9e8c219c0dd6c160">sumOfDigitsFast</link> (int number)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_sum_of_digits_1a68cd533a3c8f6d0881630af2ac180215"/><section>
+    <title>sumOfDigits()</title>
+<indexterm><primary>sumOfDigits</primary><secondary>com.thealgorithms.maths.SumOfDigits</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.SumOfDigits</primary><secondary>sumOfDigits</secondary></indexterm>
+<para><computeroutput>static int com.thealgorithms.maths.SumOfDigits.sumOfDigits (int number)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Calculate the sum of digits of a number</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>number</entry><entry>
+<para>the number contains digits </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>sum of digits of given <literallayout><computeroutput>number&#32;
+</computeroutput></literallayout> </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_sum_of_digits_1a149e2e6950132e9c9e8c219c0dd6c160"/><section>
+    <title>sumOfDigitsFast()</title>
+<indexterm><primary>sumOfDigitsFast</primary><secondary>com.thealgorithms.maths.SumOfDigits</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.SumOfDigits</primary><secondary>sumOfDigitsFast</secondary></indexterm>
+<para><computeroutput>static int com.thealgorithms.maths.SumOfDigits.sumOfDigitsFast (int number)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Calculate the sum of digits of a number using char array</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>number</entry><entry>
+<para>the number contains digits </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>sum of digits of given <literallayout><computeroutput>number&#32;
+</computeroutput></literallayout> </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_sum_of_digits_1acdb5bf48d2ed2dac069bbfcc673c2793"/><section>
+    <title>sumOfDigitsRecursion()</title>
+<indexterm><primary>sumOfDigitsRecursion</primary><secondary>com.thealgorithms.maths.SumOfDigits</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.maths.SumOfDigits</primary><secondary>sumOfDigitsRecursion</secondary></indexterm>
+<para><computeroutput>static int com.thealgorithms.maths.SumOfDigits.sumOfDigitsRecursion (int number)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Calculate the sum of digits of a number using recursion</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>number</entry><entry>
+<para>the number contains digits </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>sum of digits of given <literallayout><computeroutput>number&#32;
+</computeroutput></literallayout> </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/maths/SumOfDigits.java</section>
+</section>

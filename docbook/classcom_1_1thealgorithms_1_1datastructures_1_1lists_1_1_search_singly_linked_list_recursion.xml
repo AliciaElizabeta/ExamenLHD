@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_search_singly_linked_list_recursion" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.lists.SearchSinglyLinkedListRecursion Class Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.lists.SearchSinglyLinkedListRecursion</primary></indexterm>
+<para>Inheritance diagram for com.thealgorithms.datastructures.lists.SearchSinglyLinkedListRecursion:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_search_singly_linked_list_recursion.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>boolean <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_search_singly_linked_list_recursion_1aa76ae49b1e7908935de1c7db4b3675c1">search</link> (int key)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_search_singly_linked_list_recursion_1acae34ca6d3afc4c827c8d12d5d9fec46">main</link> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_search_singly_linked_list_recursion_1acae34ca6d3afc4c827c8d12d5d9fec46"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>com.thealgorithms.datastructures.lists.SearchSinglyLinkedListRecursion</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.SearchSinglyLinkedListRecursion</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void com.thealgorithms.datastructures.lists.SearchSinglyLinkedListRecursion.main (String[] arg)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Driver Code </para>
+<para>
+Reimplemented from <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1a317c80fb3b6e62ac7a90c2c47b12d8b0">com.thealgorithms.datastructures.lists.SinglyLinkedList</link>.</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_search_singly_linked_list_recursion_1aa76ae49b1e7908935de1c7db4b3675c1"/><section>
+    <title>search()</title>
+<indexterm><primary>search</primary><secondary>com.thealgorithms.datastructures.lists.SearchSinglyLinkedListRecursion</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.lists.SearchSinglyLinkedListRecursion</primary><secondary>search</secondary></indexterm>
+<para><computeroutput>boolean com.thealgorithms.datastructures.lists.SearchSinglyLinkedListRecursion.search (int key)</computeroutput></para>
+<para>Test if the value key is present in the list.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>key</entry><entry>
+<para>the value to be searched. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para><literallayout><computeroutput><emphasis role="keyword">true</emphasis>&#32;
+</computeroutput></literallayout> if key is present in the list, otherwise <literallayout><computeroutput><emphasis role="keyword">false</emphasis>&#32;
+</computeroutput></literallayout> . </para>
+</formalpara>
+</para>
+<para>
+Reimplemented from <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_singly_linked_list_1ad473aecdff45e93862667754f7f7a210">com.thealgorithms.datastructures.lists.SinglyLinkedList</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/lists/SearchSinglyLinkedListRecursion.java</section>
+</section>

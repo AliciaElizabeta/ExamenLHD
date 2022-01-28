@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1conversions_1_1_octal_to_decimal" xml:lang="en-US">
+<title>com.thealgorithms.conversions.OctalToDecimal Class Reference</title>
+<indexterm><primary>com.thealgorithms.conversions.OctalToDecimal</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classcom_1_1thealgorithms_1_1conversions_1_1_octal_to_decimal_1a99c2abc13bab6d917976cded3bad275e">main</link> (String args[])</para>
+</listitem>
+            <listitem><para>static int <link linkend="_classcom_1_1thealgorithms_1_1conversions_1_1_octal_to_decimal_1a7d91a44993c0c7411ba3748b61f44459">convertOctalToDecimal</link> (String inputOctal)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Converts any Octal Number to a Decimal Number</para>
+
+<para><formalpara><title>Author</title>
+
+<para>Zachary Jones </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1conversions_1_1_octal_to_decimal_1a7d91a44993c0c7411ba3748b61f44459"/><section>
+    <title>convertOctalToDecimal()</title>
+<indexterm><primary>convertOctalToDecimal</primary><secondary>com.thealgorithms.conversions.OctalToDecimal</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.conversions.OctalToDecimal</primary><secondary>convertOctalToDecimal</secondary></indexterm>
+<para><computeroutput>static int com.thealgorithms.conversions.OctalToDecimal.convertOctalToDecimal (String inputOctal)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>This method converts an octal number to a decimal number.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>inputOctal</entry><entry>
+<para>The octal number </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>The decimal number </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1conversions_1_1_octal_to_decimal_1a99c2abc13bab6d917976cded3bad275e"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>com.thealgorithms.conversions.OctalToDecimal</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.conversions.OctalToDecimal</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void com.thealgorithms.conversions.OctalToDecimal.main (String args[])<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Main method</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>args</entry><entry>
+<para>Command line arguments </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/conversions/OctalToDecimal.java</section>
+</section>

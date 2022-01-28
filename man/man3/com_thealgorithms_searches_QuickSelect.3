@@ -1,0 +1,81 @@
+.TH "com.thealgorithms.searches.QuickSelect" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.searches.QuickSelect
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static< T extends Comparable< T > T \fBselect\fP (List< T > list, int n)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+An implementation of the Quickselect algorithm as described \fChere\fP\&. 
+.SH "Member Function Documentation"
+.PP 
+.SS "static< T extends Comparable< T > T com\&.thealgorithms\&.searches\&.QuickSelect\&.select (List< T > list, int n)\fC [static]\fP"
+Selects the 
+.PP
+.nf
+n 
+
+.fi
+.PP
+ -th largest element of 
+.PP
+.nf
+list 
+
+.fi
+.PP
+ , i\&.e\&. the element that would be at index n if the list was sorted\&. 
+.PP
+Calling this function might change the order of elements in 
+.PP
+.nf
+list 
+
+.fi
+.PP
+ \&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIlist\fP the list of elements 
+.br
+\fIn\fP the index 
+.br
+\fI<T>\fP the type of list elements 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+the n-th largest element in the list 
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIIndexOutOfBoundsException\fP if n is less than 0 or greater or equal to the number of elements in the list 
+.br
+\fIIllegalArgumentException\fP if the list is empty 
+.br
+\fINullPointerException\fP if 
+.PP
+.nf
+list 
+
+.fi
+.PP
+ is null 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

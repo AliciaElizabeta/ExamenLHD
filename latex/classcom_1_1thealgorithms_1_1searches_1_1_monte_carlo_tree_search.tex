@@ -1,0 +1,91 @@
+\hypertarget{classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search}{}\doxysection{com.\+thealgorithms.\+searches.\+Monte\+Carlo\+Tree\+Search Class Reference}
+\label{classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search}\index{com.thealgorithms.searches.MonteCarloTreeSearch@{com.thealgorithms.searches.MonteCarloTreeSearch}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1_1_node}{Node}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1_1_node}{Node}} \mbox{\hyperlink{classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_aa62842012db6ef9ce36f82ccc1810e4f}{monte\+Carlo\+Tree\+Search}} (\mbox{\hyperlink{classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1_1_node}{Node}} root\+Node)
+\item 
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_aef1aebf808221dd860146f4f35903960}\label{classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_aef1aebf808221dd860146f4f35903960}} 
+void {\bfseries add\+Child\+Nodes} (\mbox{\hyperlink{classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1_1_node}{Node}} node, int child\+Count)
+\item 
+\mbox{\hyperlink{classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1_1_node}{Node}} \mbox{\hyperlink{classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_aecb79e8088acafd2f67458b1a6e152c1}{get\+Promising\+Node}} (\mbox{\hyperlink{classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1_1_node}{Node}} root\+Node)
+\item 
+void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_a06074d86a46c220058b4e0ac1cc67f6d}{simulate\+Random\+Play}} (\mbox{\hyperlink{classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1_1_node}{Node}} promising\+Node)
+\item 
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_a1ba26bc473b89aaffa5acaee84eb30b6}\label{classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_a1ba26bc473b89aaffa5acaee84eb30b6}} 
+\mbox{\hyperlink{classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1_1_node}{Node}} {\bfseries get\+Winner\+Node} (\mbox{\hyperlink{classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1_1_node}{Node}} root\+Node)
+\item 
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_a76672d3126a72048f6ae3ab8ce3075f0}\label{classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_a76672d3126a72048f6ae3ab8ce3075f0}} 
+void {\bfseries print\+Scores} (\mbox{\hyperlink{classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1_1_node}{Node}} root\+Node)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_a208e2fb13686bebe48e0c3f3008ac768}\label{classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_a208e2fb13686bebe48e0c3f3008ac768}} 
+static void {\bfseries main} (String\mbox{[}$\,$\mbox{]} args)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Monte Carlo Tree Search (MCTS) is a heuristic search algorithm used in decition taking problems especially games.
+
+See more\+: \href{https://en.wikipedia.org/wiki/Monte_Carlo_tree_search}{\texttt{ https\+://en.\+wikipedia.\+org/wiki/\+Monte\+\_\+\+Carlo\+\_\+tree\+\_\+search}}, \href{https://www.baeldung.com/java-monte-carlo-tree-search}{\texttt{ https\+://www.\+baeldung.\+com/java-\/monte-\/carlo-\/tree-\/search}} 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_aecb79e8088acafd2f67458b1a6e152c1}\label{classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_aecb79e8088acafd2f67458b1a6e152c1}} 
+\index{com.thealgorithms.searches.MonteCarloTreeSearch@{com.thealgorithms.searches.MonteCarloTreeSearch}!getPromisingNode@{getPromisingNode}}
+\index{getPromisingNode@{getPromisingNode}!com.thealgorithms.searches.MonteCarloTreeSearch@{com.thealgorithms.searches.MonteCarloTreeSearch}}
+\doxysubsubsection{\texorpdfstring{getPromisingNode()}{getPromisingNode()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1_1_node}{Node}} com.\+thealgorithms.\+searches.\+Monte\+Carlo\+Tree\+Search.\+get\+Promising\+Node (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1_1_node}{Node}}}]{root\+Node }\end{DoxyParamCaption})}
+
+Uses UCT to find a promising child node to be explored.
+
+UCT\+: Upper Confidence bounds applied to Trees.
+
+
+\begin{DoxyParams}{Parameters}
+{\em root\+Node} & Root node of the tree. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The most promising node according to UCT. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_aa62842012db6ef9ce36f82ccc1810e4f}\label{classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_aa62842012db6ef9ce36f82ccc1810e4f}} 
+\index{com.thealgorithms.searches.MonteCarloTreeSearch@{com.thealgorithms.searches.MonteCarloTreeSearch}!monteCarloTreeSearch@{monteCarloTreeSearch}}
+\index{monteCarloTreeSearch@{monteCarloTreeSearch}!com.thealgorithms.searches.MonteCarloTreeSearch@{com.thealgorithms.searches.MonteCarloTreeSearch}}
+\doxysubsubsection{\texorpdfstring{monteCarloTreeSearch()}{monteCarloTreeSearch()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1_1_node}{Node}} com.\+thealgorithms.\+searches.\+Monte\+Carlo\+Tree\+Search.\+monte\+Carlo\+Tree\+Search (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1_1_node}{Node}}}]{root\+Node }\end{DoxyParamCaption})}
+
+Explores a game tree using Monte Carlo Tree Search (MCTS) and returns the most promising node.
+
+
+\begin{DoxyParams}{Parameters}
+{\em root\+Node} & Root node of the game tree. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The most promising child of the root node. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_a06074d86a46c220058b4e0ac1cc67f6d}\label{classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_a06074d86a46c220058b4e0ac1cc67f6d}} 
+\index{com.thealgorithms.searches.MonteCarloTreeSearch@{com.thealgorithms.searches.MonteCarloTreeSearch}!simulateRandomPlay@{simulateRandomPlay}}
+\index{simulateRandomPlay@{simulateRandomPlay}!com.thealgorithms.searches.MonteCarloTreeSearch@{com.thealgorithms.searches.MonteCarloTreeSearch}}
+\doxysubsubsection{\texorpdfstring{simulateRandomPlay()}{simulateRandomPlay()}}
+{\footnotesize\ttfamily void com.\+thealgorithms.\+searches.\+Monte\+Carlo\+Tree\+Search.\+simulate\+Random\+Play (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1_1_node}{Node}}}]{promising\+Node }\end{DoxyParamCaption})}
+
+Simulates a random play from a nodes current state and back propagates the result.
+
+
+\begin{DoxyParams}{Parameters}
+{\em promising\+Node} & \mbox{\hyperlink{classcom_1_1thealgorithms_1_1searches_1_1_monte_carlo_tree_search_1_1_node}{Node}} that will be simulated. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/thealgorithms/searches/Monte\+Carlo\+Tree\+Search.\+java\end{DoxyCompactItemize}

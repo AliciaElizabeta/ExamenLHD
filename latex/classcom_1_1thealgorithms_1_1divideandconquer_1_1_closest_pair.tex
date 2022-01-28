@@ -1,0 +1,189 @@
+\hypertarget{classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair}{}\doxysection{com.\+thealgorithms.\+divideandconquer.\+Closest\+Pair Class Reference}
+\label{classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair}\index{com.thealgorithms.divideandconquer.ClosestPair@{com.thealgorithms.divideandconquer.ClosestPair}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Location}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_a94fe105d852fc6016be34bc9e5b93667}\label{classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_a94fe105d852fc6016be34bc9e5b93667}} 
+Location\mbox{[}$\,$\mbox{]} {\bfseries create\+Location} (int number\+Values)
+\item 
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_ad22ec71b7cfea867beb9df056b2f7979}\label{classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_ad22ec71b7cfea867beb9df056b2f7979}} 
+Location {\bfseries build\+Location} (double x, double y)
+\item 
+int \mbox{\hyperlink{classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_ae8560227046a44c7f373aad86466e8f6}{x\+Partition}} (final Location\mbox{[}$\,$\mbox{]} a, final int first, final int last)
+\item 
+int \mbox{\hyperlink{classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_a9c4249386a4a0356981c9e6c798b06bd}{y\+Partition}} (final Location\mbox{[}$\,$\mbox{]} a, final int first, final int last)
+\item 
+void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_aa65b4eb632b5b8b0b4112b73c71107c5}{x\+Quick\+Sort}} (final Location\mbox{[}$\,$\mbox{]} a, final int first, final int last)
+\item 
+void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_a29cd06326527f2555b6fd7d43d05ec83}{y\+Quick\+Sort}} (final Location\mbox{[}$\,$\mbox{]} a, final int first, final int last)
+\item 
+double \mbox{\hyperlink{classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_adbf350383bc7bc7dd530f5793f3f1ffa}{closest\+Pair}} (final Location\mbox{[}$\,$\mbox{]} a, final int index\+Num)
+\item 
+double \mbox{\hyperlink{classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_a9c4b95789cb0de22dd19efdca53e3166}{brute\+Force}} (final Location\mbox{[}$\,$\mbox{]} array\+Param)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_a8e95bdf125def98fa4201efdfde0aed8}\label{classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_a8e95bdf125def98fa4201efdfde0aed8}} 
+static void {\bfseries set\+Min\+Num} (double min\+Num)
+\item 
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_aefe6d2509f89f66b409dc31fdaace953}\label{classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_aefe6d2509f89f66b409dc31fdaace953}} 
+static void {\bfseries set\+Second\+Count} (int second\+Count)
+\item 
+static void \mbox{\hyperlink{classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_ad22fe2491543ccb542d1c85733739b0f}{main}} (final String\mbox{[}$\,$\mbox{]} args)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+For a set of points in a coordinates system (10000 maximum), \mbox{\hyperlink{classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair}{Closest\+Pair}} class calculates the two closest points. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_a9c4b95789cb0de22dd19efdca53e3166}\label{classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_a9c4b95789cb0de22dd19efdca53e3166}} 
+\index{com.thealgorithms.divideandconquer.ClosestPair@{com.thealgorithms.divideandconquer.ClosestPair}!bruteForce@{bruteForce}}
+\index{bruteForce@{bruteForce}!com.thealgorithms.divideandconquer.ClosestPair@{com.thealgorithms.divideandconquer.ClosestPair}}
+\doxysubsubsection{\texorpdfstring{bruteForce()}{bruteForce()}}
+{\footnotesize\ttfamily double com.\+thealgorithms.\+divideandconquer.\+Closest\+Pair.\+brute\+Force (\begin{DoxyParamCaption}\item[{final Location\mbox{[}$\,$\mbox{]}}]{array\+Param }\end{DoxyParamCaption})}
+
+brute\+Force function\+: When the number of coordinates is less than 3.
+
+
+\begin{DoxyParams}{Parameters}
+{\em array\+Param} & (IN Parameter) array stored before divide ~\newline
+ \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+~\newline
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_adbf350383bc7bc7dd530f5793f3f1ffa}\label{classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_adbf350383bc7bc7dd530f5793f3f1ffa}} 
+\index{com.thealgorithms.divideandconquer.ClosestPair@{com.thealgorithms.divideandconquer.ClosestPair}!closestPair@{closestPair}}
+\index{closestPair@{closestPair}!com.thealgorithms.divideandconquer.ClosestPair@{com.thealgorithms.divideandconquer.ClosestPair}}
+\doxysubsubsection{\texorpdfstring{closestPair()}{closestPair()}}
+{\footnotesize\ttfamily double com.\+thealgorithms.\+divideandconquer.\+Closest\+Pair.\+closest\+Pair (\begin{DoxyParamCaption}\item[{final Location\mbox{[}$\,$\mbox{]}}]{a,  }\item[{final int}]{index\+Num }\end{DoxyParamCaption})}
+
+closest\+Pair function\+: find closest pair.
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & (IN Parameter) array stored before divide ~\newline
+ \\
+\hline
+{\em index\+Num} & (IN Parameter) number coordinates divide\+Array ~\newline
+ \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+minimum distance ~\newline
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_ad22fe2491543ccb542d1c85733739b0f}\label{classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_ad22fe2491543ccb542d1c85733739b0f}} 
+\index{com.thealgorithms.divideandconquer.ClosestPair@{com.thealgorithms.divideandconquer.ClosestPair}!main@{main}}
+\index{main@{main}!com.thealgorithms.divideandconquer.ClosestPair@{com.thealgorithms.divideandconquer.ClosestPair}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily static void com.\+thealgorithms.\+divideandconquer.\+Closest\+Pair.\+main (\begin{DoxyParamCaption}\item[{final String\mbox{[}$\,$\mbox{]}}]{args }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+main function\+: execute class.
+
+
+\begin{DoxyParams}{Parameters}
+{\em args} & (IN Parameter) ~\newline
+ \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_ae8560227046a44c7f373aad86466e8f6}\label{classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_ae8560227046a44c7f373aad86466e8f6}} 
+\index{com.thealgorithms.divideandconquer.ClosestPair@{com.thealgorithms.divideandconquer.ClosestPair}!xPartition@{xPartition}}
+\index{xPartition@{xPartition}!com.thealgorithms.divideandconquer.ClosestPair@{com.thealgorithms.divideandconquer.ClosestPair}}
+\doxysubsubsection{\texorpdfstring{xPartition()}{xPartition()}}
+{\footnotesize\ttfamily int com.\+thealgorithms.\+divideandconquer.\+Closest\+Pair.\+x\+Partition (\begin{DoxyParamCaption}\item[{final Location\mbox{[}$\,$\mbox{]}}]{a,  }\item[{final int}]{first,  }\item[{final int}]{last }\end{DoxyParamCaption})}
+
+x\+Partition function\+: arrange x-\/axis.
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & (IN Parameter) array of points ~\newline
+ \\
+\hline
+{\em first} & (IN Parameter) first point ~\newline
+ \\
+\hline
+{\em last} & (IN Parameter) last point ~\newline
+ \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+pivot index 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_aa65b4eb632b5b8b0b4112b73c71107c5}\label{classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_aa65b4eb632b5b8b0b4112b73c71107c5}} 
+\index{com.thealgorithms.divideandconquer.ClosestPair@{com.thealgorithms.divideandconquer.ClosestPair}!xQuickSort@{xQuickSort}}
+\index{xQuickSort@{xQuickSort}!com.thealgorithms.divideandconquer.ClosestPair@{com.thealgorithms.divideandconquer.ClosestPair}}
+\doxysubsubsection{\texorpdfstring{xQuickSort()}{xQuickSort()}}
+{\footnotesize\ttfamily void com.\+thealgorithms.\+divideandconquer.\+Closest\+Pair.\+x\+Quick\+Sort (\begin{DoxyParamCaption}\item[{final Location\mbox{[}$\,$\mbox{]}}]{a,  }\item[{final int}]{first,  }\item[{final int}]{last }\end{DoxyParamCaption})}
+
+x\+Quick\+Sort function\+: //x-\/axis Quick Sorting.
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & (IN Parameter) array of points ~\newline
+ \\
+\hline
+{\em first} & (IN Parameter) first point ~\newline
+ \\
+\hline
+{\em last} & (IN Parameter) last point ~\newline
+ \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_a9c4249386a4a0356981c9e6c798b06bd}\label{classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_a9c4249386a4a0356981c9e6c798b06bd}} 
+\index{com.thealgorithms.divideandconquer.ClosestPair@{com.thealgorithms.divideandconquer.ClosestPair}!yPartition@{yPartition}}
+\index{yPartition@{yPartition}!com.thealgorithms.divideandconquer.ClosestPair@{com.thealgorithms.divideandconquer.ClosestPair}}
+\doxysubsubsection{\texorpdfstring{yPartition()}{yPartition()}}
+{\footnotesize\ttfamily int com.\+thealgorithms.\+divideandconquer.\+Closest\+Pair.\+y\+Partition (\begin{DoxyParamCaption}\item[{final Location\mbox{[}$\,$\mbox{]}}]{a,  }\item[{final int}]{first,  }\item[{final int}]{last }\end{DoxyParamCaption})}
+
+y\+Partition function\+: arrange y-\/axis.
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & (IN Parameter) array of points ~\newline
+ \\
+\hline
+{\em first} & (IN Parameter) first point ~\newline
+ \\
+\hline
+{\em last} & (IN Parameter) last point ~\newline
+ \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+pivot index 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_a29cd06326527f2555b6fd7d43d05ec83}\label{classcom_1_1thealgorithms_1_1divideandconquer_1_1_closest_pair_a29cd06326527f2555b6fd7d43d05ec83}} 
+\index{com.thealgorithms.divideandconquer.ClosestPair@{com.thealgorithms.divideandconquer.ClosestPair}!yQuickSort@{yQuickSort}}
+\index{yQuickSort@{yQuickSort}!com.thealgorithms.divideandconquer.ClosestPair@{com.thealgorithms.divideandconquer.ClosestPair}}
+\doxysubsubsection{\texorpdfstring{yQuickSort()}{yQuickSort()}}
+{\footnotesize\ttfamily void com.\+thealgorithms.\+divideandconquer.\+Closest\+Pair.\+y\+Quick\+Sort (\begin{DoxyParamCaption}\item[{final Location\mbox{[}$\,$\mbox{]}}]{a,  }\item[{final int}]{first,  }\item[{final int}]{last }\end{DoxyParamCaption})}
+
+y\+Quick\+Sort function\+: //y-\/axis Quick Sorting.
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & (IN Parameter) array of points ~\newline
+ \\
+\hline
+{\em first} & (IN Parameter) first point ~\newline
+ \\
+\hline
+{\em last} & (IN Parameter) last point ~\newline
+ \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/thealgorithms/divideandconquer/Closest\+Pair.\+java\end{DoxyCompactItemize}

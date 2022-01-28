@@ -1,0 +1,95 @@
+.TH "com.thealgorithms.dynamicprogramming.BoundaryFill" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.dynamicprogramming.BoundaryFill
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static int \fBgetPixel\fP (int[][] image, int x_co_ordinate, int y_co_ordinate)"
+.br
+.ti -1c
+.RI "static void \fBputPixel\fP (int[][] image, int x_co_ordinate, int y_co_ordinate, int new_color)"
+.br
+.ti -1c
+.RI "static void \fBboundaryFill\fP (int[][] image, int x_co_ordinate, int y_co_ordinate, int new_color, int boundary_color)"
+.br
+.ti -1c
+.RI "static void \fBprintImageArray\fP (int[][] image)"
+.br
+.ti -1c
+.RI "static void \fBmain\fP (String[] args)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Java program for Boundary fill algorithm\&. 
+.PP
+\fBAuthor\fP
+.RS 4
+Akshay Dubey (https://github.com/itsAkshayDubey) 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "static void com\&.thealgorithms\&.dynamicprogramming\&.BoundaryFill\&.boundaryFill (int image[][], int x_co_ordinate, int y_co_ordinate, int new_color, int boundary_color)\fC [static]\fP"
+Fill the 2D image with new color
+.PP
+\fBParameters\fP
+.RS 4
+\fIimage\fP The image to be filed 
+.br
+\fIx_co_ordinate\fP The x co-ordinate at which color is to be filled 
+.br
+\fIy_co_ordinate\fP The y co-ordinate at which color is to be filled 
+.br
+\fInew_color\fP The new color which to be filled in the image 
+.br
+\fIboundary_color\fP The old color which is to be replaced in the image 
+.RE
+.PP
+
+.SS "static int com\&.thealgorithms\&.dynamicprogramming\&.BoundaryFill\&.getPixel (int image[][], int x_co_ordinate, int y_co_ordinate)\fC [static]\fP"
+Get the color at the given co-odrinates of a 2D image
+.PP
+\fBParameters\fP
+.RS 4
+\fIimage\fP The image to be filled 
+.br
+\fIx_co_ordinate\fP The x co-ordinate of which color is to be obtained 
+.br
+\fIy_co_ordinate\fP The y co-ordinate of which color is to be obtained 
+.RE
+.PP
+
+.SS "static void com\&.thealgorithms\&.dynamicprogramming\&.BoundaryFill\&.printImageArray (int image[][])\fC [static]\fP"
+This method will print the 2D image matrix
+.PP
+\fBParameters\fP
+.RS 4
+\fIimage\fP The image to be printed on the console 
+.RE
+.PP
+
+.SS "static void com\&.thealgorithms\&.dynamicprogramming\&.BoundaryFill\&.putPixel (int image[][], int x_co_ordinate, int y_co_ordinate, int new_color)\fC [static]\fP"
+Put the color at the given co-odrinates of a 2D image
+.PP
+\fBParameters\fP
+.RS 4
+\fIimage\fP The image to be filed 
+.br
+\fIx_co_ordinate\fP The x co-ordinate at which color is to be filled 
+.br
+\fIy_co_ordinate\fP The y co-ordinate at which color is to be filled 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

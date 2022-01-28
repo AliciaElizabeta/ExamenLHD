@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_min_priority_queue" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.heaps.MinPriorityQueue Class Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.heaps.MinPriorityQueue</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_min_priority_queue_1addd8b3f66326b6b75f144d3b30679627"/>void <emphasis role="strong">insert</emphasis> (int key)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_min_priority_queue_1ab5fd311444685408c0b9bf7f0fafe848"/>int <emphasis role="strong">peek</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_min_priority_queue_1a7414832c472e474f5590f7a72915ebfe"/>boolean <emphasis role="strong">isEmpty</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_min_priority_queue_1a0a66d48605e9e14fc4fc1ea1195d6d91"/>boolean <emphasis role="strong">isFull</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_min_priority_queue_1a1e9b505f99d29d6ec9bf898e63e35a8d"/>void <emphasis role="strong">print</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_min_priority_queue_1a085e215f860ae0acb8161a76d0d5b1a6"/>void <emphasis role="strong">heapSort</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_min_priority_queue_1a3d9260d733abe7ec5a532ef85045f149"/>int <emphasis role="strong">delete</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1heaps_1_1_min_priority_queue_1ad3036a446ff99d5f3cb0391689761b09"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Minimum Priority Queue It is a part of heap data structure A heap is a specific tree based data structure in which all the nodes of tree are in a specific order. that is the children are arranged in some respect of their parents, can either be greater or less than the parent. This makes it a min priority queue or max priority queue.</para>
+
+<para>Functions: insert, delete, peek, isEmpty, print, heapSort, sink </para>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/heaps/MinPriorityQueue.java</section>
+</section>

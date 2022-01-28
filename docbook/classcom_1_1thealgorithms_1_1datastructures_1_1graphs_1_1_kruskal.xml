@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1graphs_1_1_kruskal" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.graphs.Kruskal Class Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.graphs.Kruskal</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1graphs_1_1_kruskal_1ae43c9765e95cdb53fb9095f6a3ea4e1e"/>HashSet&lt; Edge &gt;[] <emphasis role="strong">kruskal</emphasis> (HashSet&lt; Edge &gt;[] graph)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1graphs_1_1_kruskal_1a3b22ae809c76cacdd3cf32e599766cfa"/>static void <emphasis role="strong">main</emphasis> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/graphs/Kruskal.java</section>

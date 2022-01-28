@@ -1,0 +1,52 @@
+\hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_maximum_minimum_window}{}\doxysection{com.\+thealgorithms.\+datastructures.\+stacks.\+Maximum\+Minimum\+Window Class Reference}
+\label{classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_maximum_minimum_window}\index{com.thealgorithms.datastructures.stacks.MaximumMinimumWindow@{com.thealgorithms.datastructures.stacks.MaximumMinimumWindow}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_maximum_minimum_window_a1d6010c325e0e3c1111e463c5a16e7fa}{calculate\+Max\+Of\+Min}} (int\mbox{[}$\,$\mbox{]} arr, int n)
+\item 
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_maximum_minimum_window_ae5462ba04f436fa1cd55d7a4df1ae0b5}\label{classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_maximum_minimum_window_ae5462ba04f436fa1cd55d7a4df1ae0b5}} 
+static void {\bfseries main} (String args\mbox{[}$\,$\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Given an integer array. The task is to find the maximum of the minimum of every window size in the array. Note\+: Window size varies from 1 to the size of the Array. 
+
+For example, 
+
+N = 7 arr\mbox{[}\mbox{]} = \{10,20,30,50,10,70,30\} 
+
+So the answer for the above would be \+: 70 30 20 10 10 10 10 
+
+We need to consider window sizes from 1 to length of array in each iteration. So in the iteration 1 the windows would be \mbox{[}10\mbox{]}, \mbox{[}20\mbox{]}, \mbox{[}30\mbox{]}, \mbox{[}50\mbox{]}, \mbox{[}10\mbox{]}, \mbox{[}70\mbox{]}, \mbox{[}30\mbox{]}. Now we need to check the minimum value in each window. Since the window size is 1 here the minimum element would be the number itself. Now the maximum out of these is the result in iteration 1. In the second iteration we need to consider window size 2, so there would be \mbox{[}10,20\mbox{]}, \mbox{[}20,30\mbox{]}, \mbox{[}30,50\mbox{]}, \mbox{[}50,10\mbox{]}, \mbox{[}10,70\mbox{]}, \mbox{[}70,30\mbox{]}. Now the minimum of each window size would be \mbox{[}10,20,30,10,10\mbox{]} and the maximum out of these is 30. Similarly we solve for other window sizes.
+
+\begin{DoxyAuthor}{Author}
+sahil 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_maximum_minimum_window_a1d6010c325e0e3c1111e463c5a16e7fa}\label{classcom_1_1thealgorithms_1_1datastructures_1_1stacks_1_1_maximum_minimum_window_a1d6010c325e0e3c1111e463c5a16e7fa}} 
+\index{com.thealgorithms.datastructures.stacks.MaximumMinimumWindow@{com.thealgorithms.datastructures.stacks.MaximumMinimumWindow}!calculateMaxOfMin@{calculateMaxOfMin}}
+\index{calculateMaxOfMin@{calculateMaxOfMin}!com.thealgorithms.datastructures.stacks.MaximumMinimumWindow@{com.thealgorithms.datastructures.stacks.MaximumMinimumWindow}}
+\doxysubsubsection{\texorpdfstring{calculateMaxOfMin()}{calculateMaxOfMin()}}
+{\footnotesize\ttfamily static int\mbox{[}$\,$\mbox{]} com.\+thealgorithms.\+datastructures.\+stacks.\+Maximum\+Minimum\+Window.\+calculate\+Max\+Of\+Min (\begin{DoxyParamCaption}\item[{int\mbox{[}$\,$\mbox{]}}]{arr,  }\item[{int}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+This function contains the logic of finding maximum of minimum for every window size using Stack Data Structure.
+
+
+\begin{DoxyParams}{Parameters}
+{\em arr} & Array containing the numbers \\
+\hline
+{\em n} & Length of the array \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+result array 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/thealgorithms/datastructures/stacks/Maximum\+Minimum\+Window.\+java\end{DoxyCompactItemize}

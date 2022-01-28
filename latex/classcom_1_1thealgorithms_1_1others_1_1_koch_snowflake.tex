@@ -1,0 +1,59 @@
+\hypertarget{classcom_1_1thealgorithms_1_1others_1_1_koch_snowflake}{}\doxysection{com.\+thealgorithms.\+others.\+Koch\+Snowflake Class Reference}
+\label{classcom_1_1thealgorithms_1_1others_1_1_koch_snowflake}\index{com.thealgorithms.others.KochSnowflake@{com.thealgorithms.others.KochSnowflake}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1others_1_1_koch_snowflake_a1cba1bebf327e092dbeb3887108fea90}\label{classcom_1_1thealgorithms_1_1others_1_1_koch_snowflake_a1cba1bebf327e092dbeb3887108fea90}} 
+static void {\bfseries main} (String\mbox{[}$\,$\mbox{]} args)
+\item 
+static Array\+List$<$ Vector2 $>$ \mbox{\hyperlink{classcom_1_1thealgorithms_1_1others_1_1_koch_snowflake_a1dec7a182e35c4078f0d3c31314c32c6}{Iterate}} (Array\+List$<$ Vector2 $>$ initial\+Vectors, int steps)
+\item 
+static Buffered\+Image \mbox{\hyperlink{classcom_1_1thealgorithms_1_1others_1_1_koch_snowflake_a3d381975e922024db6b0c9a99444d799}{Get\+Koch\+Snowflake}} (int image\+Width, int steps)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The Koch snowflake is a fractal curve and one of the earliest fractals to have been described. The Koch snowflake can be built up iteratively, in a sequence of stages. The first stage is an equilateral triangle, and each successive stage is formed by adding outward bends to each side of the previous stage, making smaller equilateral triangles. This can be achieved through the following steps for each line\+: 1. divide the line segment into three segments of equal length. 2. draw an equilateral triangle that has the middle segment from step 1 as its base and points outward. 3. remove the line segment that is the base of the triangle from step 2. (description adapted from \href{https://en.wikipedia.org/wiki/Koch_snowflake}{\texttt{ https\+://en.\+wikipedia.\+org/wiki/\+Koch\+\_\+snowflake}} ) (for a more detailed explanation and an implementation in the Processing language, see \href{https://natureofcode.com/book/chapter-8-fractals/}{\texttt{ https\+://natureofcode.\+com/book/chapter-\/8-\/fractals/}} \#84-\/the-\/koch-\/curve-\/and-\/the-\/arraylist-\/technique ). 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1others_1_1_koch_snowflake_a3d381975e922024db6b0c9a99444d799}\label{classcom_1_1thealgorithms_1_1others_1_1_koch_snowflake_a3d381975e922024db6b0c9a99444d799}} 
+\index{com.thealgorithms.others.KochSnowflake@{com.thealgorithms.others.KochSnowflake}!GetKochSnowflake@{GetKochSnowflake}}
+\index{GetKochSnowflake@{GetKochSnowflake}!com.thealgorithms.others.KochSnowflake@{com.thealgorithms.others.KochSnowflake}}
+\doxysubsubsection{\texorpdfstring{GetKochSnowflake()}{GetKochSnowflake()}}
+{\footnotesize\ttfamily static Buffered\+Image com.\+thealgorithms.\+others.\+Koch\+Snowflake.\+Get\+Koch\+Snowflake (\begin{DoxyParamCaption}\item[{int}]{image\+Width,  }\item[{int}]{steps }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Method to render the Koch snowflake to a image.
+
+
+\begin{DoxyParams}{Parameters}
+{\em image\+Width} & The width of the rendered image. \\
+\hline
+{\em steps} & The number of iterations. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The image of the rendered Koch snowflake. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1thealgorithms_1_1others_1_1_koch_snowflake_a1dec7a182e35c4078f0d3c31314c32c6}\label{classcom_1_1thealgorithms_1_1others_1_1_koch_snowflake_a1dec7a182e35c4078f0d3c31314c32c6}} 
+\index{com.thealgorithms.others.KochSnowflake@{com.thealgorithms.others.KochSnowflake}!Iterate@{Iterate}}
+\index{Iterate@{Iterate}!com.thealgorithms.others.KochSnowflake@{com.thealgorithms.others.KochSnowflake}}
+\doxysubsubsection{\texorpdfstring{Iterate()}{Iterate()}}
+{\footnotesize\ttfamily static Array\+List$<$ Vector2 $>$ com.\+thealgorithms.\+others.\+Koch\+Snowflake.\+Iterate (\begin{DoxyParamCaption}\item[{Array\+List$<$ Vector2 $>$}]{initial\+Vectors,  }\item[{int}]{steps }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Go through the number of iterations determined by the argument \char`\"{}steps\char`\"{}. Be careful with high values (above 5) since the time to calculate increases exponentially.
+
+
+\begin{DoxyParams}{Parameters}
+{\em initial\+Vectors} & The vectors composing the shape to which the algorithm is applied. \\
+\hline
+{\em steps} & The number of iterations. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The transformed vectors after the iteration-\/steps. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/thealgorithms/others/Koch\+Snowflake.\+java\end{DoxyCompactItemize}

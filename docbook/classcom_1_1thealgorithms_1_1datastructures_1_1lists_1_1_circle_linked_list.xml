@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_circle_linked_list" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.lists.CircleLinkedList&lt; E &gt; Class Template Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.lists.CircleLinkedList&lt; E &gt;</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_circle_linked_list_1a41111a023d018f8b3778d817d47858e6"/>int <emphasis role="strong">getSize</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_circle_linked_list_1a3bf275effafee93ea2ddac39cdf34434"/>void <emphasis role="strong">append</emphasis> (E value)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_circle_linked_list_1ac497a12d540436b22a1f11cc4308fa7f"/>String <emphasis role="strong">toString</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_circle_linked_list_1ad9f9169aeb99b5f654648c0a2fb96454"/>E <emphasis role="strong">remove</emphasis> (int pos)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1lists_1_1_circle_linked_list_1af0306414b650a292c92bdecdd12a1700"/>static void <emphasis role="strong">main</emphasis> (String args[])</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/lists/CircleLinkedList.java</section>

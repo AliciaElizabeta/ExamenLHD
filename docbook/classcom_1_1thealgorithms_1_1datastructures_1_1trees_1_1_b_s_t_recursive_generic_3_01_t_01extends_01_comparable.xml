@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive_generic_3_01_t_01extends_01_comparable" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.trees.BSTRecursiveGeneric&lt; T extends Comparable Class Template Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.trees.BSTRecursiveGeneric&lt; T extends Comparable</primary></indexterm>
+<section>
+<title>Detailed Description</title>
+
+<para><formalpara><title>Binary Search Tree (Recursive) Generic Type Implementation</title></formalpara>
+</para>
+
+<para>A recursive implementation of generic type BST.</para>
+
+<para>Reference: <link xlink:href="https://en.wikipedia.org/wiki/Binary_search_tree">https://en.wikipedia.org/wiki/Binary_search_tree</link> </para>
+
+<para><formalpara><title>Author</title>
+
+<para><link xlink:href="https://github.com/mdrpanwar">Madhur Panwar</link> </para>
+</formalpara>
+</para>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/trees/BSTRecursiveGeneric.java</section>
+</section>

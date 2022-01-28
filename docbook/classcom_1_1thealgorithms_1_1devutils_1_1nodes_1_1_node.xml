@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_node" xml:lang="en-US">
+<title>com.thealgorithms.devutils.nodes.Node&lt; E &gt; Class Template Reference</title>
+<indexterm><primary>com.thealgorithms.devutils.nodes.Node&lt; E &gt;</primary></indexterm>
+<para>Inheritance diagram for com.thealgorithms.devutils.nodes.Node&lt; E &gt;:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_node.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_node_1ac75c6b3173dff7e2c7e2cdc53504e072">Node</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_node_1a0dbb240753360cfa87678fee3d8576fb">Node</link> (E data)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_node_1aea953850c19f0b474af2e65bce116a47"/>E <emphasis role="strong">getData</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_node_1a7c238db5bf3fc8198f6beb8a656b4438"/>void <emphasis role="strong">setData</emphasis> (E data)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Base class for any node implementation which contains a generic type variable.</para>
+
+<para>All known subclasses: <link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_tree_node">TreeNode</link>, <link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_simple_node">SimpleNode</link>.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>&lt;E&gt;</entry><entry>
+<para>The type of the data held in the <link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_node">Node</link>.</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Author</title>
+
+<para><link xlink:href="https://github.com/aitorfi">aitorfi</link> </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_node_1ac75c6b3173dff7e2c7e2cdc53504e072"/><section>
+    <title>Node()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>Node</primary><secondary>com.thealgorithms.devutils.nodes.Node&lt; E &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.devutils.nodes.Node&lt; E &gt;</primary><secondary>Node</secondary></indexterm>
+<para><computeroutput><link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_node">com.thealgorithms.devutils.nodes.Node</link>&lt; E &gt;.<link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_node">Node</link> ( )</computeroutput></para>
+<para>Empty constructor. </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_node_1a0dbb240753360cfa87678fee3d8576fb"/><section>
+    <title>Node()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>Node</primary><secondary>com.thealgorithms.devutils.nodes.Node&lt; E &gt;</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.devutils.nodes.Node&lt; E &gt;</primary><secondary>Node</secondary></indexterm>
+<para><computeroutput><link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_node">com.thealgorithms.devutils.nodes.Node</link>&lt; E &gt;.<link linkend="_classcom_1_1thealgorithms_1_1devutils_1_1nodes_1_1_node">Node</link> (E data)</computeroutput></para>
+<para>Initializes the Nodes&apos; data.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>data</entry><entry>
+<para>Value to which data will be initialized. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/devutils/nodes/Node.java</section>
+</section>

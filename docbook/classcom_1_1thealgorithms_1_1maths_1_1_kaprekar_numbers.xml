@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_kaprekar_numbers" xml:lang="en-US">
+<title>com.thealgorithms.maths.KaprekarNumbers Class Reference</title>
+<indexterm><primary>com.thealgorithms.maths.KaprekarNumbers</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_kaprekar_numbers_1a5761063f49f243412a81cd61398b4fd5"/>static ArrayList&lt; Long &gt; <emphasis role="strong">kaprekarNumberInRange</emphasis> (long start, long end)  throws Exception </para>
+</listitem>
+            <listitem><para><anchor xml:id="_classcom_1_1thealgorithms_1_1maths_1_1_kaprekar_numbers_1a824a2ac3f41b42e8d7105f9253ede4a8"/>static boolean <emphasis role="strong">isKaprekarNumber</emphasis> (long num)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/maths/KaprekarNumbers.java</section>

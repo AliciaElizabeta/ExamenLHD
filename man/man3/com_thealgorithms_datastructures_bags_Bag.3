@@ -1,0 +1,111 @@
+.TH "com.thealgorithms.datastructures.bags.Bag< Element >" 3 "Fri Jan 28 2022" "Examen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.thealgorithms.datastructures.bags.Bag< Element >
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Iterable< Element >\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBBag\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBisEmpty\fP ()"
+.br
+.ti -1c
+.RI "int \fBsize\fP ()"
+.br
+.ti -1c
+.RI "void \fBadd\fP (Element element)"
+.br
+.ti -1c
+.RI "boolean \fBcontains\fP (Element element)"
+.br
+.ti -1c
+.RI "Iterator< Element > \fBiterator\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBmain\fP (String[] args)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Collection which does not allow removing elements (only collect and iterate)
+.PP
+\fBParameters\fP
+.RS 4
+\fI<Element>\fP - the generic type of an element in this bag 
+.RE
+.PP
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "\fBcom\&.thealgorithms\&.datastructures\&.bags\&.Bag\fP< Element >\&.\fBBag\fP ()"
+Create an empty bag 
+.SH "Member Function Documentation"
+.PP 
+.SS "void \fBcom\&.thealgorithms\&.datastructures\&.bags\&.Bag\fP< Element >\&.add (Element element)"
+
+.PP
+\fBParameters\fP
+.RS 4
+\fIelement\fP - the element to add 
+.RE
+.PP
+
+.SS "boolean \fBcom\&.thealgorithms\&.datastructures\&.bags\&.Bag\fP< Element >\&.contains (Element element)"
+Checks if the bag contains a specific element
+.PP
+\fBParameters\fP
+.RS 4
+\fIelement\fP which you want to look for 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true if bag contains element, otherwise false 
+.RE
+.PP
+
+.SS "boolean \fBcom\&.thealgorithms\&.datastructures\&.bags\&.Bag\fP< Element >\&.isEmpty ()"
+
+.PP
+\fBReturns\fP
+.RS 4
+true if this bag is empty, false otherwise 
+.RE
+.PP
+
+.SS "Iterator< Element > \fBcom\&.thealgorithms\&.datastructures\&.bags\&.Bag\fP< Element >\&.iterator ()"
+
+.PP
+\fBReturns\fP
+.RS 4
+an iterator that iterates over the elements in this bag in arbitrary order 
+.RE
+.PP
+
+.SS "static void \fBcom\&.thealgorithms\&.datastructures\&.bags\&.Bag\fP< Element >\&.main (String[] args)\fC [static]\fP"
+main-method for testing 
+.SS "int \fBcom\&.thealgorithms\&.datastructures\&.bags\&.Bag\fP< Element >\&.size ()"
+
+.PP
+\fBReturns\fP
+.RS 4
+the number of elements 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Examen from the source code\&.

@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive" xml:lang="en-US">
+<title>com.thealgorithms.datastructures.trees.BSTRecursive Class Reference</title>
+<indexterm><primary>com.thealgorithms.datastructures.trees.BSTRecursive</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive_1a45d343e1c124de2ab0487c400a6ddc21">add</link> (int data)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive_1afb3da58b49f29fb2c632b81912fd306f">remove</link> (int data)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive_1a7e85b8dc86695098c7dd389f51b49617">inorder</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive_1ae8d305882544429d3361db2e28ac8803">postorder</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive_1a53c733a1312d9e4c5590d276c0a1932c">preorder</link> ()</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive_1a3be5b6750633a175cf1c6387e3f77f5e">find</link> (int data)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive_1ab053c716e2c9be6fbe7ae6a4c3c22e12">main</link> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><formalpara><title>Binary Search Tree (Recursive)</title></formalpara>
+</para>
+
+<para>An implementation of BST recursively. In recursive implementation the checks are down the tree First root is checked if not found then its childs are checked Binary Search Tree is a binary tree which satisfies three properties: left child is less than root node, right child is grater than root node, both left and right childs must themselves be a BST.</para>
+
+<para>I have made public functions as methods and to actually implement recursive approach I have used private methods</para>
+
+<para><formalpara><title>Author</title>
+
+<para><link xlink:href="https://github.com/Lakhan-Nad">Lakhan Nad</link> </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive_1a45d343e1c124de2ab0487c400a6ddc21"/><section>
+    <title>add()</title>
+<indexterm><primary>add</primary><secondary>com.thealgorithms.datastructures.trees.BSTRecursive</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.trees.BSTRecursive</primary><secondary>add</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.trees.BSTRecursive.add (int data)</computeroutput></para>
+<para>add in BST. if the value is not already present it is inserted or else no change takes place.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>data</entry><entry>
+<para>the value to be inserted </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive_1a3be5b6750633a175cf1c6387e3f77f5e"/><section>
+    <title>find()</title>
+<indexterm><primary>find</primary><secondary>com.thealgorithms.datastructures.trees.BSTRecursive</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.trees.BSTRecursive</primary><secondary>find</secondary></indexterm>
+<para><computeroutput>boolean com.thealgorithms.datastructures.trees.BSTRecursive.find (int data)</computeroutput></para>
+<para>To check if given value is present in tree or not.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>data</entry><entry>
+<para>the data to be found for </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive_1a7e85b8dc86695098c7dd389f51b49617"/><section>
+    <title>inorder()</title>
+<indexterm><primary>inorder</primary><secondary>com.thealgorithms.datastructures.trees.BSTRecursive</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.trees.BSTRecursive</primary><secondary>inorder</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.trees.BSTRecursive.inorder ( )</computeroutput></para>
+<para>To call inorder traversal on tree </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive_1ab053c716e2c9be6fbe7ae6a4c3c22e12"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>com.thealgorithms.datastructures.trees.BSTRecursive</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.trees.BSTRecursive</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void com.thealgorithms.datastructures.trees.BSTRecursive.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>main function for tests </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive_1ae8d305882544429d3361db2e28ac8803"/><section>
+    <title>postorder()</title>
+<indexterm><primary>postorder</primary><secondary>com.thealgorithms.datastructures.trees.BSTRecursive</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.trees.BSTRecursive</primary><secondary>postorder</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.trees.BSTRecursive.postorder ( )</computeroutput></para>
+<para>To call postorder traversal on tree </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive_1a53c733a1312d9e4c5590d276c0a1932c"/><section>
+    <title>preorder()</title>
+<indexterm><primary>preorder</primary><secondary>com.thealgorithms.datastructures.trees.BSTRecursive</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.trees.BSTRecursive</primary><secondary>preorder</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.trees.BSTRecursive.preorder ( )</computeroutput></para>
+<para>To call preorder traversal on tree. </para>
+</section>
+<anchor xml:id="_classcom_1_1thealgorithms_1_1datastructures_1_1trees_1_1_b_s_t_recursive_1afb3da58b49f29fb2c632b81912fd306f"/><section>
+    <title>remove()</title>
+<indexterm><primary>remove</primary><secondary>com.thealgorithms.datastructures.trees.BSTRecursive</secondary></indexterm>
+<indexterm><primary>com.thealgorithms.datastructures.trees.BSTRecursive</primary><secondary>remove</secondary></indexterm>
+<para><computeroutput>void com.thealgorithms.datastructures.trees.BSTRecursive.remove (int data)</computeroutput></para>
+<para>If data is present in BST delete it else do nothing.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>data</entry><entry>
+<para>the value to be removed </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/thealgorithms/datastructures/trees/BSTRecursive.java</section>
+</section>
