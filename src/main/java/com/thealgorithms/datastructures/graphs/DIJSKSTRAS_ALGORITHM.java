@@ -5,11 +5,13 @@ for better understanding
 package com.thealgorithms.datastructures.graphs;
 import java.util.Random;
 
-class dijkstras {
-    Random r = null;
+public class DIJSKSTRAS_ALGORITHM {
+    private static Random r;
     int k = 9;
 
-    int minDist(int dist[], Boolean Set[]) {
+    public int getK(){ return k; }
+
+    public int minDist(int dist[], Boolean Set[]) {
         int min = Integer.MAX_VALUE, min_index = -1;
 
         for (int r = 0; r < k; r++) {
@@ -22,14 +24,17 @@ class dijkstras {
         return min_index;
     }
 
-    void print(int dist[]) {
+    public String print(int dist[]) {
         System.out.println("Vertex \t\t Distance");
-        for (int i = 0; i < k; i++) {
+        String toReturn = "Vertex \t\t Distance";
+        for (int i = 0; i < k && i < dist.length; i++) {
             System.out.println(i + " \t " + dist[i]);
+            toReturn.concat("\ni + \" \\t \" + dist[i]");
         }
+        return toReturn;
     }
 	
-    int aleatorySelectionRCL(int maxTRCL) {
+    public int aleatorySelectionRCL(int maxTRCL) {
        r = new Random();
        int low = 0;
        int high = maxTRCL;
@@ -74,7 +79,7 @@ class dijkstras {
         {0, 0, 0, 0, 0, 2, 0, 1, 6},
         {8, 11, 0, 0, 0, 0, 1, 0, 7},
         {0, 0, 2, 0, 0, 0, 6, 7, 0}};
-        dijkstras t = new dijkstras();
+        DIJSKSTRAS_ALGORITHM t = new DIJSKSTRAS_ALGORITHM();
         t.dijkstra(graph, 0);
     }//main
 
