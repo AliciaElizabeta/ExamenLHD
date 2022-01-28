@@ -35,7 +35,7 @@ public class HarshadNumber {
             c++;
         }
 
-        if (a % sum == 0) {
+        if (a % sum == 0 && (sum != 0)) {
             System.out.println(a + " is a Harshad Number");
 
             // For you better explanation how is that a Harshad Number
