@@ -14,6 +14,8 @@ import java.util.Random;
  */
 public class MonteCarloTreeSearch {
 
+    private Random rand = null;
+
     public class Node {
 
         Node parent;
@@ -140,7 +142,7 @@ public class MonteCarloTreeSearch {
      * @param promisingNode Node that will be simulated.
      */
     public void simulateRandomPlay(Node promisingNode) {
-        Random rand = new Random();
+        rand = new Random();
         Node tempNode = promisingNode;
         boolean isPlayerWinner;
 
